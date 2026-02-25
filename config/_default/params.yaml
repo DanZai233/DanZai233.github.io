@@ -1,0 +1,61 @@
+mainSections:
+  - post
+
+featuredImageField: "image"
+rssFullContent: true
+
+favicon: "img/avatar.png"
+
+footer:
+  since: 2025
+  customText: ""
+
+dateFormat:
+  published: "2006-01-02"
+  lastUpdated: "2006-01-02"
+
+sidebar:
+  emoji: "🌸"
+  subtitle: "记录生活，分享技术"
+  avatar: "img/avatar.png"
+  compact: false
+
+article:
+  headingAnchor: true
+  math: false
+  toc: true
+  readingTime: true
+  list:
+    showTags: true
+  license:
+    enabled: true
+    default: "Licensed under CC BY-NC-SA 4.0"
+
+widgets:
+  homepage:
+    - type: search
+    - type: archives
+      params:
+        limit: 5
+    - type: categories
+      params:
+        limit: 10
+    - type: tag-cloud
+      params:
+        limit: 10
+  page:
+    - type: toc
+
+colorScheme:
+  toggle: true
+  default: "auto"
+
+imageProcessing:
+  cover:
+    enabled: true
+  content:
+    enabled: true
+
+comments:
+  enabled: false
+  provider: ""
