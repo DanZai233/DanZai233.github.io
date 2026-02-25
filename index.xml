@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dan_Zai</title><link>https://danzai233.github.io/</link><description>Recent content on Dan_Zai</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://danzai233.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>你好，世界！</title><link>https://danzai233.github.io/p/hello-world/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://danzai233.github.io/p/hello-world/</guid><description>&lt;p&gt;欢迎来到 &lt;strong&gt;一只小羊羔的窝&lt;/strong&gt; 🐑！&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dan_Zai</title><link>https://danzai233.github.io/</link><description>Recent content on Dan_Zai</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://danzai233.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>你好，世界！</title><link>https://danzai233.github.io/p/hello-world/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://danzai233.github.io/p/hello-world/</guid><description>&lt;p&gt;欢迎来到 &lt;strong&gt;一只小羊羔的窝&lt;/strong&gt; 🐑！&lt;/p&gt;
 &lt;p&gt;这是我的第一篇博客文章。这个博客使用 &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
  &gt;Hugo&lt;/a&gt; 构建，采用了美观的 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
  &gt;Stack&lt;/a&gt; 主题，并通过 GitHub Actions 自动部署到 GitHub Pages。&lt;/p&gt;
@@ -20,4 +20,137 @@
 &lt;li&gt;生活随笔&lt;/li&gt;
 &lt;li&gt;读书心得&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;感谢你的来访，希望你在这里能有所收获！ 🎉&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;感谢你的来访，希望你在这里能有所收获！ 🎉&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://danzai233.github.io/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://danzai233.github.io/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
+&lt;h2 id="认真打磨的项目"&gt;&lt;a href="#%e8%ae%a4%e7%9c%9f%e6%89%93%e7%a3%a8%e7%9a%84%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;认真打磨的项目
+&lt;/h2&gt;&lt;h3 id="-mygallery--个人照片墙系统"&gt;&lt;a href="#-mygallery--%e4%b8%aa%e4%ba%ba%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery —— 个人照片墙系统
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/MYGallery" target="_blank" rel="noopener"
+ &gt;DanZai233/MYGallery&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;这是投入精力最多的一个项目。用 Go 写的后端，前端是瀑布流画廊布局，支持暗色/亮色主题切换、EXIF 信息展示、GPS 迷你地图定位拍摄位置。&lt;/p&gt;
+&lt;p&gt;做这个的初衷是想要一个属于自己的照片展示空间，而不是依赖各种平台。现在它就跑在 &lt;a class="link" href="https://photo.danzaii.cn" target="_blank" rel="noopener"
+ &gt;photo.danzaii.cn&lt;/a&gt; 上。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;技术亮点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go 后端 + 瀑布流前端&lt;/li&gt;
+&lt;li&gt;ChronoFrame 风格全屏灯箱查看器&lt;/li&gt;
+&lt;li&gt;Leaflet 集成，拍摄位置自动展示&lt;/li&gt;
+&lt;li&gt;支持自部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-chromatopoetry--灵韵配色"&gt;&lt;a href="#-chromatopoetry--%e7%81%b5%e9%9f%b5%e9%85%8d%e8%89%b2" class="header-anchor"&gt;&lt;/a&gt;🎨 Chromatopoetry —— 灵韵配色
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Chromatopoetry" target="_blank" rel="noopener"
+ &gt;DanZai233/Chromatopoetry&lt;/a&gt; | &lt;a class="link" href="https://chromatopoetry.vercel.app" target="_blank" rel="noopener"
+ &gt;在线体验&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;一款 AI 驱动的色彩美学应用。输入一段文字描述，AI 会生成富有诗意的配色方案；也可以上传图片，智能提取色彩。支持 Gemini、OpenAI、DeepSeek 等多家模型。&lt;/p&gt;
+&lt;p&gt;最喜欢的功能是实时预览——生成的配色方案可以直接套用到诗意、电商、博客等不同风格的模板上，直观感受配色效果。&lt;/p&gt;
+&lt;h3 id="-pixelbead--拼豆设计工具"&gt;&lt;a href="#-pixelbead--%e6%8b%bc%e8%b1%86%e8%ae%be%e8%ae%a1%e5%b7%a5%e5%85%b7" class="header-anchor"&gt;&lt;/a&gt;🟣 PixelBead —— 拼豆设计工具
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/PixelBead" target="_blank" rel="noopener"
+ &gt;DanZai233/PixelBead&lt;/a&gt; | &lt;a class="link" href="https://pixel-bead.vercel.app" target="_blank" rel="noopener"
+ &gt;在线体验&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;一个功能挺全的拼豆像素画设计工具。支持画笔、橡皮擦、填充、直线、矩形、圆形等绘图工具，还能用 AI 生成像素画，或者上传图片自动转换。&lt;/p&gt;
+&lt;p&gt;做这个纯粹是因为女朋友喜欢拼豆，想给她做个方便设计图纸的工具。支持导出 JSON 图纸和自动统计每种颜色需要的珠子数量。&lt;/p&gt;
+&lt;h3 id="-pixelchat--像素风匿名聊天室"&gt;&lt;a href="#-pixelchat--%e5%83%8f%e7%b4%a0%e9%a3%8e%e5%8c%bf%e5%90%8d%e8%81%8a%e5%a4%a9%e5%ae%a4" class="header-anchor"&gt;&lt;/a&gt;💬 PixelChat —— 像素风匿名聊天室
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/PixelChat" target="_blank" rel="noopener"
+ &gt;DanZai233/PixelChat&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;前后端分离的匿名聊天室，像素艺术风格 UI。前端 React + TypeScript，后端 Go + WebSocket 实时通信。支持 Docker 部署。&lt;/p&gt;
+&lt;p&gt;这个项目让我学到了不少 WebSocket 和实时通信的知识。&lt;/p&gt;
+&lt;h2 id="ai-驱动的小工具"&gt;&lt;a href="#ai-%e9%a9%b1%e5%8a%a8%e7%9a%84%e5%b0%8f%e5%b7%a5%e5%85%b7" class="header-anchor"&gt;&lt;/a&gt;AI 驱动的小工具
+&lt;/h2&gt;&lt;p&gt;去年底到今年初，Google AI Studio 让快速构建 AI 应用变得特别方便，我借这个平台做了一系列小工具：&lt;/p&gt;
+&lt;h3 id="-moodcard--心情卡片"&gt;&lt;a href="#-moodcard--%e5%bf%83%e6%83%85%e5%8d%a1%e7%89%87" class="header-anchor"&gt;&lt;/a&gt;🎭 MoodCard —— 心情卡片
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/MoodCard" target="_blank" rel="noopener"
+ &gt;DanZai233/MoodCard&lt;/a&gt; | &lt;a class="link" href="https://mood-card.vercel.app" target="_blank" rel="noopener"
+ &gt;在线体验&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;用 AI 生成心情卡片，支持 OpenAI、Claude、智谱 AI 等多个模型。最近的项目，2 月份刚做的。&lt;/p&gt;
+&lt;h3 id="-record-me--记录我"&gt;&lt;a href="#-record-me--%e8%ae%b0%e5%bd%95%e6%88%91" class="header-anchor"&gt;&lt;/a&gt;✍️ Record-ME —— 记录&amp;quot;我&amp;quot;
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Record-ME" target="_blank" rel="noopener"
+ &gt;DanZai233/Record-ME&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;中英双语的创意写作环境，AI 辅助续写。界面做了好几套主题（Serene、Dark、Forest、Sepia、Cyberpunk），追求沉浸式的写作体验。&lt;/p&gt;
+&lt;h3 id="-whattoeat--今天吃什么"&gt;&lt;a href="#-whattoeat--%e4%bb%8a%e5%a4%a9%e5%90%83%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;🍔 WhatToEat —— 今天吃什么
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/WhatToEat" target="_blank" rel="noopener"
+ &gt;DanZai233/WhatToEat&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;经典难题的 AI 解决方案。不知道吃什么的时候问问 AI，虽然最后可能还是选不出来 😂&lt;/p&gt;
+&lt;h3 id="-newschronicle-ai--ai-新闻编年"&gt;&lt;a href="#-newschronicle-ai--ai-%e6%96%b0%e9%97%bb%e7%bc%96%e5%b9%b4" class="header-anchor"&gt;&lt;/a&gt;📰 NewsChronicle-AI —— AI 新闻编年
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/NewsChronicle-AI" target="_blank" rel="noopener"
+ &gt;DanZai233/NewsChronicle-AI&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;AI 驱动的新闻聚合和摘要工具。&lt;/p&gt;
+&lt;h3 id="-genmanga--ai-漫画生成"&gt;&lt;a href="#-genmanga--ai-%e6%bc%ab%e7%94%bb%e7%94%9f%e6%88%90" class="header-anchor"&gt;&lt;/a&gt;📖 GenManga —— AI 漫画生成
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/GenManga" target="_blank" rel="noopener"
+ &gt;DanZai233/GenManga&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;用 AI 生成漫画，也是基于 Google AI Studio 构建的实验项目。&lt;/p&gt;
+&lt;h2 id="有趣的小实验"&gt;&lt;a href="#%e6%9c%89%e8%b6%a3%e7%9a%84%e5%b0%8f%e5%ae%9e%e9%aa%8c" class="header-anchor"&gt;&lt;/a&gt;有趣的小实验
+&lt;/h2&gt;&lt;h3 id="-termix--终端调酒游戏"&gt;&lt;a href="#-termix--%e7%bb%88%e7%ab%af%e8%b0%83%e9%85%92%e6%b8%b8%e6%88%8f" class="header-anchor"&gt;&lt;/a&gt;🍸 Termix —— 终端调酒游戏
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Termix" target="_blank" rel="noopener"
+ &gt;DanZai233/Termix&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;Python 写的终端调酒小游戏，有可爱的 ASCII 兔女郎角色、30+ 调酒材料、18 个配方。全键盘操作，在终端里就能体验调酒的乐趣。&lt;/p&gt;
+&lt;p&gt;这个项目纯粹是好玩，但做的过程中学到了不少终端 UI 的技巧。&lt;/p&gt;
+&lt;h3 id="-toiletime"&gt;&lt;a href="#-toiletime" class="header-anchor"&gt;&lt;/a&gt;🚽 Toiletime
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Toiletime" target="_blank" rel="noopener"
+ &gt;DanZai233/Toiletime&lt;/a&gt; | &lt;a class="link" href="https://toiletime.vercel.app" target="_blank" rel="noopener"
+ &gt;在线体验&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;离开工位时添加一条说明——灵感来源是办公室里同事总问&amp;quot;XX 人呢？&amp;quot;，于是做了这个小工具。&lt;/p&gt;
+&lt;h3 id="-keyboard"&gt;&lt;a href="#-keyboard" class="header-anchor"&gt;&lt;/a&gt;⌨️ Keyboard
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/keyboard" target="_blank" rel="noopener"
+ &gt;DanZai233/keyboard&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;一个键盘相关的 TypeScript 项目。&lt;/p&gt;
+&lt;h2 id="技术栈总结"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e6%a0%88%e6%80%bb%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;技术栈总结
+&lt;/h2&gt;&lt;p&gt;回顾这些项目，能看出我这几个月的技术路线：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;主力语言&lt;/strong&gt;：TypeScript 占了绝大多数，Go 用在需要性能的后端&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 集成&lt;/strong&gt;：大量项目集成了 AI 能力（Gemini、OpenAI、DeepSeek、Claude）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署方式&lt;/strong&gt;：Vercel 是首选，Docker 作为备选&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前端框架&lt;/strong&gt;：React 为主&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;偶尔跨界&lt;/strong&gt;：Python（Termix）、Swift（MixLife）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="一些感想"&gt;&lt;a href="#%e4%b8%80%e4%ba%9b%e6%84%9f%e6%83%b3" class="header-anchor"&gt;&lt;/a&gt;一些感想
+&lt;/h2&gt;&lt;p&gt;这几个月密集产出的体验很特别。每个项目从想法到上线通常就几天时间，虽然不是每个都打磨得很精致，但每个项目都让我学到了新东西。&lt;/p&gt;
+&lt;p&gt;AI 工具确实大幅降低了开发门槛。以前做一个完整的应用需要很长时间，现在从想法到 MVP 可能只需要一个晚上。这让&amp;quot;做点什么&amp;quot;变得前所未有的容易。&lt;/p&gt;
+&lt;p&gt;接下来打算放慢节奏，挑几个有潜力的项目深入打磨，而不是继续铺量。质量比数量重要。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;如果你对这些项目感兴趣，欢迎去 &lt;a class="link" href="https://github.com/DanZai233" target="_blank" rel="noopener"
+ &gt;我的 GitHub&lt;/a&gt; 逛逛，Star ⭐ 和 Issue 都欢迎！&lt;/p&gt;</description></item></channel></rss>

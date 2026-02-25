@@ -1,26 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dan_Zai</title><link>https://danzai233.github.io/post/</link><description>Recent content in Posts on Dan_Zai</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://danzai233.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>你好，世界！</title><link>https://danzai233.github.io/p/hello-world/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://danzai233.github.io/p/hello-world/</guid><description>&lt;p&gt;欢迎来到 &lt;strong&gt;一只小羊羔的窝&lt;/strong&gt; 🐑！&lt;/p&gt;
-&lt;p&gt;这是我的第一篇博客文章。这个博客使用 &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
- &gt;Hugo&lt;/a&gt; 构建，采用了美观的 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
- &gt;Stack&lt;/a&gt; 主题，并通过 GitHub Actions 自动部署到 GitHub Pages。&lt;/p&gt;
-&lt;h2 id="为什么要写博客"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%86%99%e5%8d%9a%e5%ae%a2" class="header-anchor"&gt;&lt;/a&gt;为什么要写博客？
-&lt;/h2&gt;&lt;p&gt;写博客是一种很好的学习方式。通过将所学知识整理成文字，不仅能加深自己的理解，还能帮助到其他人。&lt;/p&gt;
-&lt;h2 id="技术栈"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e6%a0%88" class="header-anchor"&gt;&lt;/a&gt;技术栈
-&lt;/h2&gt;&lt;p&gt;本博客使用了以下技术：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; — 快速的静态网站生成器&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stack 主题&lt;/strong&gt; — 卡片式设计，简洁优雅&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt; — 自动构建和部署&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; — 免费的静态网站托管&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="未来计划"&gt;&lt;a href="#%e6%9c%aa%e6%9d%a5%e8%ae%a1%e5%88%92" class="header-anchor"&gt;&lt;/a&gt;未来计划
-&lt;/h2&gt;&lt;p&gt;我计划在这里分享：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;技术学习笔记&lt;/li&gt;
-&lt;li&gt;项目开发经验&lt;/li&gt;
-&lt;li&gt;生活随笔&lt;/li&gt;
-&lt;li&gt;读书心得&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;感谢你的来访，希望你在这里能有所收获！ 🎉&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://danzai233.github.io/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://danzai233.github.io/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Dan_Zai</title><link>https://danzai233.github.io/tags/ai/</link><description>Recent content in AI on Dan_Zai</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://danzai233.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://danzai233.github.io/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://danzai233.github.io/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
 &lt;h2 id="认真打磨的项目"&gt;&lt;a href="#%e8%ae%a4%e7%9c%9f%e6%89%93%e7%a3%a8%e7%9a%84%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;认真打磨的项目
 &lt;/h2&gt;&lt;h3 id="-mygallery--个人照片墙系统"&gt;&lt;a href="#-mygallery--%e4%b8%aa%e4%ba%ba%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery —— 个人照片墙系统
 &lt;/h3&gt;
