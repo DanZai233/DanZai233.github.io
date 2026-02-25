@@ -4,7 +4,7 @@ mainSections:
 featuredImageField: "image"
 rssFullContent: true
 
-favicon: ""
+favicon: "img/avatar.png"
 
 footer:
   since: 2025
@@ -15,8 +15,9 @@ dateFormat:
   lastUpdated: "2006-01-02"
 
 sidebar:
-  emoji: "🐑"
+  emoji: "🌸"
   subtitle: "记录生活，分享技术"
+  avatar: "img/avatar.png"
   compact: false
 
 article:

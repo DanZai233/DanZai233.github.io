@@ -4,3 +4,25 @@ social:
     url: "https://github.com/DanZai233"
     params:
       icon: brand-github
+
+  - identifier: qq
+    name: "QQ: 932351233"
+    url: "https://wpa.qq.com/msgrd?v=3&uin=932351233&site=qq&menu=yes"
+    params:
+      icon: brand-qq
+
+  - identifier: gallery
+    name: 画廊
+    url: "https://photo.danzaii.cn"
+    params:
+      icon: photo
+      newTab: true
+
+main:
+  - identifier: travellings
+    name: 开往
+    url: "https://www.travellings.cn/go.html"
+    weight: 40
+    params:
+      icon: train
+      newTab: true
