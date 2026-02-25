@@ -43,7 +43,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://danzai233.github.io/"
+            --baseURL "https://danzaii.cn/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
