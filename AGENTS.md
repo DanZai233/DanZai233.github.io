@@ -38,3 +38,5 @@ This repository (`DanZai233.github.io`) is a Hugo static blog using the [Stack](
 - The dev server uses `--disableFastRender` to avoid stale content issues.
 - Custom styles in `assets/scss/custom.scss` override theme defaults — the site uses `assets/icons/` for custom SVG icons (brand-qq, photo, train) that Hugo resolves before the theme's `assets/icons/`.
 - Background image is referenced via CSS `url('/img/background.jpg')` from `static/img/` — if replacing, update both `assets/img/` and `static/img/`.
+- **Deployment**: workflow uses `peaceiris/actions-gh-pages@v4` to push built site to `gh-pages` branch. Pages source must be set to `gh-pages` branch (not `main`).
+- **Comments**: Giscus is enabled (GitHub Discussions based). Config is in `params.yaml` under `comments.giscus`. The Giscus GitHub App must be installed on this repo for it to work.
