@@ -1,0 +1,6 @@
+social:
+  - identifier: github
+    name: GitHub
+    url: "https://github.com/DanZai233"
+    params:
+      icon: brand-github
