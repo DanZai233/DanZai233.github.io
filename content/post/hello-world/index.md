@@ -1,7 +1,7 @@
 ---
 title: "你好，世界！"
 description: "这是我的第一篇博客文章，欢迎来到一只小羊羔的窝。"
-date: 2025-02-25
+date: 2026-02-25
 slug: "hello-world"
 tags:
     - 随笔
