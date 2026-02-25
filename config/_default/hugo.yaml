@@ -1,6 +1,6 @@
 baseURL: "https://DanZai233.github.io/"
 languageCode: "zh-cn"
-title: "一只小羊羔的窝"
+title: "Dan_Zai"
 theme: "hugo-theme-stack"
 
 defaultContentLanguage: "zh-cn"
