@@ -2,7 +2,7 @@
 
 基于 [Hugo](https://gohugo.io/) + [Stack 主题](https://github.com/CaiJimmy/hugo-theme-stack) 的个人博客，通过 GitHub Actions 自动部署到 GitHub Pages。
 
-**在线访问**: [https://danzai233.github.io/](https://danzai233.github.io/)
+**在线访问**: [https://blog.danzaii.cn/](https://blog.danzaii.cn/)
 
 ---
 
@@ -255,7 +255,7 @@ git commit -m "发布新文章：my-article"
 git push origin main
 
 # 5. 等待 1-2 分钟，GitHub Actions 自动构建部署
-#    访问 https://danzai233.github.io/ 查看
+#    访问 https://blog.danzaii.cn/ 查看
 ```
 
 ---
