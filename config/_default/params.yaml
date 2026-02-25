@@ -57,5 +57,20 @@ imageProcessing:
     enabled: true
 
 comments:
-  enabled: false
-  provider: ""
+  enabled: true
+  provider: "giscus"
+
+  giscus:
+    repo: "DanZai233/DanZai233.github.io"
+    repoID: "R_kgDOK0SZtw"
+    category: "General"
+    categoryID: ""
+    mapping: "pathname"
+    lightTheme: "light"
+    darkTheme: "dark_dimmed"
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: "top"
+    lang: "zh-CN"
+    strict: 0
+    loading: "lazy"
