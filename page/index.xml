@@ -1,11 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/page/</link><description>Recent content in Pages on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/page/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://blog.danzaii.cn/%E5%85%B3%E4%BA%8E/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/%E5%85%B3%E4%BA%8E/</guid><description>&lt;h2 id="关于本站"&gt;&lt;a href="#%e5%85%b3%e4%ba%8e%e6%9c%ac%e7%ab%99" class="header-anchor"&gt;&lt;/a&gt;关于本站
-&lt;/h2&gt;&lt;p&gt;欢迎来到 &lt;strong&gt;一只小羊羔的窝&lt;/strong&gt; 🐑&lt;/p&gt;
-&lt;p&gt;这是我的个人博客，用来记录生活和分享技术。&lt;/p&gt;
-&lt;h2 id="关于我"&gt;&lt;a href="#%e5%85%b3%e4%ba%8e%e6%88%91" class="header-anchor"&gt;&lt;/a&gt;关于我
-&lt;/h2&gt;&lt;p&gt;一个热爱技术的开发者，喜欢探索新事物，乐于分享所学所得。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/page/</link><description>Recent content in Pages on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/page/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://blog.danzaii.cn/about/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/about/</guid><description>&lt;div class="about-hero"&gt;
+&lt;h2 id="-你好我是-dan_zai"&gt;&lt;a href="#-%e4%bd%a0%e5%a5%bd%e6%88%91%e6%98%af-dan_zai" class="header-anchor"&gt;&lt;/a&gt;👋 你好，我是 Dan_Zai
+&lt;/h2&gt;&lt;p&gt;一个热爱技术、热爱生活、热爱二次元的开发者。&lt;/p&gt;
+&lt;p&gt;从 2021 年开始写博客，记录自己成长路上的点点滴滴。这里有技术笔记、生活随笔、项目心得，偶尔还有来自爱莉希雅的问候 🌸&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class="about-cards"&gt;
+&lt;div class="about-card"&gt;
+&lt;h3&gt;💻 技术栈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;前端&lt;/strong&gt;：React / TypeScript / Vue&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;后端&lt;/strong&gt;：Go / Node.js / Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;：Vercel / Docker / GitHub Actions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据库&lt;/strong&gt;：MongoDB / MySQL / Redis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具&lt;/strong&gt;：Git / VSCode / Obsidian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="about-card"&gt;
+&lt;h3&gt;🎮 兴趣爱好&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🎮 崩坏3 / 明日方舟 / 原神&lt;/li&gt;
+&lt;li&gt;🐱 猫猫爱好者（团宝！锘宝！）&lt;/li&gt;
+&lt;li&gt;📷 摄影 &amp;amp; 照片墙搭建&lt;/li&gt;
+&lt;li&gt;🍸 调酒（虽然只会在终端里调）&lt;/li&gt;
+&lt;li&gt;🎵 听音乐 / 看动漫&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="about-card"&gt;
+&lt;h3&gt;🚀 近期项目&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MYGallery&lt;/strong&gt; — 个人照片墙系统（Go）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chromatopoetry&lt;/strong&gt; — AI 配色美学应用&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PixelBead&lt;/strong&gt; — 拼豆像素画设计工具&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PixelChat&lt;/strong&gt; — 像素风匿名聊天室&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Termix&lt;/strong&gt; — 终端调酒小游戏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="about-card"&gt;
+&lt;h3&gt;📝 博客历程&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2021&lt;/strong&gt; — 搭建第一个博客，Typecho 起步&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2022&lt;/strong&gt; — 疯狂写博客，开原神私服，搭 MC 服务器&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2023&lt;/strong&gt; — 毕业、工作、数据抢救大作战&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2024&lt;/strong&gt; — 沉淀学习，探索新技术&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025&lt;/strong&gt; — 密集输出 15+ 开源项目&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026&lt;/strong&gt; — 博客迁移到 Hugo + Stack，重新出发 🌱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class="about-card about-card-wide"&gt;
+&lt;h3&gt;📮 联系我&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;方式&lt;/th&gt;
+ &lt;th&gt;信息&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a class="link" href="https://github.com/DanZai233" target="_blank" rel="noopener"
+ &gt;DanZai233&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;QQ&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;932351233&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;邮箱&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a class="link" href="mailto:danzai233@qq.com" &gt;danzai233@qq.com&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;画廊&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a class="link" href="https://photo.danzaii.cn" target="_blank" rel="noopener"
+ &gt;photo.danzaii.cn&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
 &lt;hr&gt;
 
  &lt;blockquote&gt;
- &lt;p&gt;&amp;ldquo;追逐繁星。&amp;rdquo;&lt;/p&gt;
+ &lt;p&gt;&lt;em&gt;&amp;ldquo;人类最闪耀的地方，就是那份不断前进的勇气。&amp;rdquo;&lt;/em&gt;
+— 爱莉希雅 🌸&lt;/p&gt;
 
  &lt;/blockquote&gt;</description></item><item><title>归档</title><link>https://blog.danzaii.cn/archives/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/archives/</guid><description/></item><item><title>搜索</title><link>https://blog.danzaii.cn/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/search/</guid><description/></item><item><title>统计</title><link>https://blog.danzaii.cn/stats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/stats/</guid><description/></item><item><title>友链</title><link>https://blog.danzaii.cn/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/links/</guid><description>&lt;p&gt;欢迎交换友链！请在评论区或通过 QQ 联系我～&lt;/p&gt;</description></item></channel></rss>
