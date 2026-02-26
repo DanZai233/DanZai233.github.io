@@ -1,6 +1,6 @@
 ---
 title: "关于"
-date: 2026-01-01
+date: 2026-02-26
 slug: "about"
 layout: "page"
 links:
@@ -8,7 +8,7 @@ links:
     description: 我的开源项目都在这里
     website: https://github.com/DanZai233
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: 画廊
+  - title: 所见，所闻
     description: 我的个人照片墙
     website: https://photo.danzaii.cn
     image: https://cdn-icons-png.flaticon.com/512/2659/2659360.png
@@ -30,7 +30,9 @@ comments: true
 
 一个热爱技术、热爱生活、热爱二次元的开发者。
 
-从 2021 年开始写博客，记录自己成长路上的点点滴滴。这里有技术笔记、生活随笔、项目心得，偶尔还有来自爱莉希雅的问候 🌸
+从 2021 年开始写博客，记录自己成长路上的点点滴滴。这里有技术笔记、生活随笔、项目心得，偶尔还有来自爱莉的问候 🌸
+
+✝ 爱门 ✝
 
 </div>
 
@@ -52,11 +54,12 @@ comments: true
 <div class="about-card">
 <h3>🎮 兴趣爱好</h3>
 
-- 🎮 崩坏3 / 明日方舟 / 原神
-- 🐱 猫猫爱好者（团宝！锘宝！）
-- 📷 摄影 & 照片墙搭建
-- 🍸 调酒（虽然只会在终端里调）
+- 🎮 崩坏3 / 明日方舟 / 崩铁 / 绝区零 / 终末地 / 酸角粥
+- 🐱 猫猫爱好者（拥有三只小猫）
+- 📷 摄影 & Cosplay
+- 🍸 调酒（虽然上班了只会在终端里调 但是在家周末偶尔也练练手）
 - 🎵 听音乐 / 看动漫
+- 🏃 篮球 / 羽毛球
 
 </div>
 
@@ -101,5 +104,5 @@ comments: true
 
 ---
 
-> *"人类最闪耀的地方，就是那份不断前进的勇气。"*
+> *"此后，将有群星闪耀，因为我如今来过。此后，将有百花绽放，因为我从未离去。"*
 > — 爱莉希雅 🌸
