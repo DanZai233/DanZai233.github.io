@@ -328,3 +328,65 @@ blockquote {
         grid-template-columns: 1fr;
     }
 }
+
+.about-hero {
+    background: linear-gradient(135deg, rgba(212, 97, 155, 0.08), rgba(244, 143, 177, 0.12));
+    border-radius: var(--card-border-radius);
+    padding: 25px 30px;
+    margin-bottom: 10px;
+
+    h2 {
+        margin-top: 0;
+        &::before { display: none; }
+    }
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 20px 0;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.about-card {
+    background: var(--card-background);
+    border: 1px solid var(--card-separator-color);
+    border-radius: var(--card-border-radius);
+    padding: 20px 24px;
+
+    h3 {
+        margin: 0 0 12px 0;
+        font-size: 1.5rem;
+        color: var(--accent-color);
+        &::before { display: none; }
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+
+        li {
+            padding: 3px 0;
+            font-size: 1.4rem;
+            color: var(--card-text-color-secondary);
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    table {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    &-wide {
+        grid-column: 1 / -1;
+    }
+}
