@@ -1,6 +1,6 @@
 baseURL: "https://blog.danzaii.cn/"
 languageCode: "zh-cn"
-title: "Dan_Zai"
+title: "一只小羊羔的窝"
 theme: "hugo-theme-stack"
 
 defaultContentLanguage: "zh-cn"

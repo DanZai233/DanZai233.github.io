@@ -11,6 +11,12 @@ social:
     params:
       icon: brand-qq
 
+  - identifier: email
+    name: "邮箱: danzai233@qq.com"
+    url: "mailto:danzai233@qq.com"
+    params:
+      icon: mail
+
   - identifier: gallery
     name: 画廊
     url: "https://photo.danzaii.cn"
