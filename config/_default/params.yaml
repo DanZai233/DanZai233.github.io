@@ -7,7 +7,7 @@ rssFullContent: true
 favicon: "img/avatar.png"
 
 footer:
-  since: 2025
+  since: 2021
   customText: "Powered by <a href=\"https://gohugo.io/\" target=\"_blank\">Hugo</a> & <a href=\"https://github.com/CaiJimmy/hugo-theme-stack\" target=\"_blank\">Stack</a>"
 
 dateFormat:
