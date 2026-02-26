@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>旧博客迁移 on Dan_Zai</title><link>https://blog.danzaii.cn/tags/%E6%97%A7%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</link><description>Recent content in 旧博客迁移 on Dan_Zai</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Dec 2023 17:09:28 +0800</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E6%97%A7%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>数据库完成抢修 博客复原！</title><link>https://blog.danzaii.cn/p/legacy-188/</link><pubDate>Fri, 08 Dec 2023 17:09:28 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-188/</guid><description>&lt;p&gt;当我发布这个博客的时候 数据已经完成抢修！&lt;/p&gt;
+&lt;p&gt;历史博客已经完全恢复！后续会把恢复步骤整理一下，总之感谢一年前的自己（相信一年后的自己）。&lt;/p&gt;
+&lt;p&gt;完完全全是后人的力量啊，当初觉得自己水平不够修好，误打误撞的存了一份镜像。还好自己有留backup的好习惯（哎嘿嘿）。也要感谢大家给予的帮助和指导给了我许多恢复数据的思路。&lt;/p&gt;
+&lt;p&gt;多亏了你啊 爱博！&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>爱莉希雅生日快乐！</title><link>https://blog.danzaii.cn/p/legacy-23/</link><pubDate>Sat, 11 Nov 2023 07:49:20 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-23/</guid><description>&lt;h1 id="爱门永存"&gt;&lt;a href="#%e7%88%b1%e9%97%a8%e6%b0%b8%e5%ad%98" class="header-anchor"&gt;&lt;/a&gt;爱门永存～
+&lt;/h1&gt;&lt;h1 id="因你而在的故事"&gt;&lt;a href="#%e5%9b%a0%e4%bd%a0%e8%80%8c%e5%9c%a8%e7%9a%84%e6%95%85%e4%ba%8b" class="header-anchor"&gt;&lt;/a&gt;因你而在的故事
+&lt;/h1&gt;&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;h2 id="买下爱莉希雅的爱-"&gt;&lt;a href="#%e4%b9%b0%e4%b8%8b%e7%88%b1%e8%8e%89%e5%b8%8c%e9%9b%85%e7%9a%84%e7%88%b1-" class="header-anchor"&gt;&lt;/a&gt;买下爱莉希雅的爱 ❤️
+&lt;/h2&gt;&lt;!-- 图片待上传 --&gt;</description></item><item><title>最近心得</title><link>https://blog.danzaii.cn/p/legacy-21/</link><pubDate>Fri, 13 Oct 2023 08:28:43 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-21/</guid><description>&lt;h2 id="好突然突然开始写博客了"&gt;&lt;a href="#%e5%a5%bd%e7%aa%81%e7%84%b6%e7%aa%81%e7%84%b6%e5%bc%80%e5%a7%8b%e5%86%99%e5%8d%9a%e5%ae%a2%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;好突然！突然开始写博客了！
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;上班划水 不如上班写博客！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近的工作已经成功收尾 也顺利转正。期间遇到了很多麻烦问题也都慢慢解决了。现在闲下来也会多听音乐了，感觉很有大二大三时在宿舍的状态。&lt;/p&gt;
+&lt;p&gt;赚到了自己的第三桶金（雾&lt;/p&gt;
+&lt;p&gt;给自己和锘宝也买了礼物&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;你怎么知道我买了iPhone15ProMax???&lt;/p&gt;
+&lt;p&gt;接下来也会更加努力&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;fight！！！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>linux 根目录容量不足问题</title><link>https://blog.danzaii.cn/p/legacy-19/</link><pubDate>Fri, 13 Oct 2023 08:08:25 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-19/</guid><description>&lt;h2 id="linux-根目录容量不足问题"&gt;&lt;a href="#linux-%e6%a0%b9%e7%9b%ae%e5%bd%95%e5%ae%b9%e9%87%8f%e4%b8%8d%e8%b6%b3%e9%97%ae%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;linux 根目录容量不足问题
+&lt;/h2&gt;&lt;p&gt;在linux使用过程中发现自己的根目录满了，想要进行扩容。&lt;/p&gt;
+&lt;h3 id="扩容步骤"&gt;&lt;a href="#%e6%89%a9%e5%ae%b9%e6%ad%a5%e9%aa%a4" class="header-anchor"&gt;&lt;/a&gt;扩容步骤
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;先把虚拟机的虚拟磁盘扩容&lt;/li&gt;
+&lt;li&gt;进入虚拟机内查看分区：&lt;code&gt;df -h&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo fdisk /dev/sda&lt;/code&gt; 进入fdisk&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;p&lt;/code&gt; 查看当前磁盘柱区的开始结束，记录下开始位置&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;d&lt;/code&gt; 删除根目录分区&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;n&lt;/code&gt; 创建新分区（&lt;strong&gt;注意：是否删除签名时选 N&lt;/strong&gt;）&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;w&lt;/code&gt; 保存并退出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo blkid&lt;/code&gt; 查看新分区的 PARTUUID&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo resize2fs /dev/sda2&lt;/code&gt; 将磁盘空间重新划分&lt;/li&gt;
+&lt;li&gt;找到 boot 目录下的启动配置文件，将 PARTUUID 更换成新的&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo reboot&lt;/code&gt; 重启生效&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>个人obsidian多终端解决方案 iOS Win Linux</title><link>https://blog.danzaii.cn/p/legacy-18/</link><pubDate>Fri, 13 Oct 2023 08:06:05 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-18/</guid><description>&lt;h2 id="最近了解到了obsidian这个软件"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e4%ba%86%e8%a7%a3%e5%88%b0%e4%ba%86obsidian%e8%bf%99%e4%b8%aa%e8%bd%af%e4%bb%b6" class="header-anchor"&gt;&lt;/a&gt;最近了解到了obsidian这个软件
+&lt;/h2&gt;&lt;p&gt;因为最近刚刚更换手机入了iOS阵营，发现这个笔记软件还挺好看，而且网络上面对它的评价还都挺好的就尝试了一下。&lt;strong&gt;一下子就真香了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;因为平常都使用的vscode，喜欢直接在vscode里面写点markdown，这个软件可以让markdown编写更加直观，装上插件后基本傻瓜式的了。&lt;/p&gt;
+&lt;h2 id="多终端同步方案"&gt;&lt;a href="#%e5%a4%9a%e7%bb%88%e7%ab%af%e5%90%8c%e6%ad%a5%e6%96%b9%e6%a1%88" class="header-anchor"&gt;&lt;/a&gt;多终端同步方案
+&lt;/h2&gt;&lt;p&gt;我尝试了使用 iCloud + git + webdav 的存储方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;iCloud&lt;/strong&gt; 实现iOS设备的同步和一份备份存储&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;git&lt;/strong&gt; 实现主要的文档同步，平常最主要使用的同步方法&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;webdav&lt;/strong&gt; 连接上面两者的中间人，在windows上面使用obsidian编写文档，通过webdav同步到网盘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基本就是三重备份，我自己只维护git上面的版本，其他的一概不管，主打一个一次部署永久使用。&lt;/p&gt;
+&lt;p&gt;由于之前搭建的有自己的私有云盘，webdav这一步实现非常简单。这里强烈推荐一下 &lt;a class="link" href="https://cloudreve.org/" target="_blank" rel="noopener"
+ &gt;Cloudreve&lt;/a&gt;，自己用了两年左右十分好用。&lt;/p&gt;
+&lt;p&gt;使用 obsidian 的 remotely save 插件，经过简单的设置就可以使用 webdav 实现多端的文件同步了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt; 同步流程非常快，可以设置自动对比拉取和自动推送。iOS那边就更快了，有了iCloud加持每次进入到obsidian后就是最新的文档，十分好用捏~&lt;/p&gt;</description></item><item><title>抢救数据计划（完成！）</title><link>https://blog.danzaii.cn/p/legacy-16/</link><pubDate>Tue, 29 Aug 2023 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-16/</guid><description>&lt;h2 id="下次一定orz"&gt;&lt;a href="#%e4%b8%8b%e6%ac%a1%e4%b8%80%e5%ae%9aorz" class="header-anchor"&gt;&lt;/a&gt;下次一定！Orz
+&lt;/h2&gt;&lt;p&gt;之前的博客因为本人的误操作导致数据全部丢失（其实不是丢了 是服务器坏了导致无法手动备份或导出）。&lt;/p&gt;
+&lt;p&gt;现在水平高了起来，当时机智的我料想到一定有一天可以修好它，所以用腾讯云导出了一份镜像。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;2023年10月13日&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;笑死！根本没去做！！！！卡在了第一步——如何导入我的镜像到我的Ubuntu虚拟机里面。下周再搞 不急不急。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;2023年12月19日&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当我发布这个博客的时候 数据已经完成抢修！历史博客已经完全恢复！&lt;/p&gt;
+&lt;p&gt;后续会把恢复步骤整理一下，总之 感谢一年前的自己（相信一年后的自己）。完完全全是后人的力量啊，当初觉得自己水平不够修好，误打误撞的存了一份镜像。&lt;/p&gt;
+&lt;p&gt;还好自己有留backup的好习惯（哎嘿嘿）。也要感谢大家给予的帮助和指导给了我许多恢复数据的思路。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>终于写完论文啦</title><link>https://blog.danzaii.cn/p/legacy-14/</link><pubDate>Mon, 15 May 2023 09:59:12 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-14/</guid><description>&lt;p&gt;论文终于结束了 接下来的一周要准备毕业答辩了 毕设还差一个后台页面没有写完&lt;/p&gt;
+&lt;p&gt;呜呜呜 加油加油&lt;/p&gt;
+&lt;p&gt;锘锘子最近对我也疼爱有加 马上就搞定回去和锘锘子贴贴&lt;/p&gt;
+&lt;p&gt;谢谢老婆QAQ&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;还不错呢 能过就行！！！&lt;/p&gt;</description></item><item><title>SSH克隆github仓库：连接被远程主机关闭</title><link>https://blog.danzaii.cn/p/legacy-11/</link><pubDate>Sat, 22 Apr 2023 16:05:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-11/</guid><description>&lt;p&gt;今天终于是完全配置好了虚拟机的静态IP，但是在使用SSH克隆我自己的仓库的时候一直报错。&lt;/p&gt;
+&lt;p&gt;执行：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ssh -T git@github.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;返回了：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;kex_exchange_identification: Connection closed by remote host
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Connection closed by 198.18.0.183 port &lt;span class="m"&gt;22&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;后来尝试了各种方法，开始以为是我虚拟机的SSH key没有配置到github上面，反复测试了几轮发现根本没问题。然后又是测试防火墙，发现根本没开。最后意识到可能问题出在我的主机的网络连接上面，果然发现自己的梯子封了 github 22 端口的连接。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解决办法：&lt;/strong&gt; 将 Github 的连接端口从 22 改为 443 即可。修改 &lt;code&gt;~/.ssh/config&lt;/code&gt;，添加如下段落：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Host github.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; HostName ssh.github.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; User git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Port &lt;span class="m"&gt;443&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;测试：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ssh -T git@github.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Hi xxx! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>重启博客！</title><link>https://blog.danzaii.cn/p/legacy-8/</link><pubDate>Tue, 18 Apr 2023 18:29:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-8/</guid><description>&lt;p&gt;&lt;strong&gt;最近天天忙于毕设开发，闲暇之余打算重启博客！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;接下来的内容会偏向于两个方面，分别是&lt;strong&gt;技术分享&lt;/strong&gt;和&lt;strong&gt;说说&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这次的服务器备份已经做到万无一失，不会再次丢失这么珍贵的数据了。&lt;/p&gt;
+&lt;p&gt;以后的说说也会经常出现我最喜欢的奶淇淋——&lt;strong&gt;锘宝&lt;/strong&gt;，今后的日子 请多关照！&lt;/p&gt;</description></item><item><title>把心思藏进F12</title><link>https://blog.danzaii.cn/p/legacy-185/</link><pubDate>Fri, 05 Aug 2022 05:21:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-185/</guid><description>&lt;p&gt;&lt;strong&gt;偷来的罢了：&lt;a class="link" href="https://danzai233.github.io/happy-birthday/" target="_blank" rel="noopener"
+ &gt;乃王木木生日快乐！&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>Linux虚拟机配置网络找不到本地ip地址</title><link>https://blog.danzaii.cn/p/legacy-180/</link><pubDate>Mon, 18 Jul 2022 09:25:49 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-180/</guid><description>&lt;p&gt;&lt;code&gt;ifconfig&lt;/code&gt; 之后显示 eth0，但是没有显示 &amp;ldquo;inet/地址/广播/掩码/&amp;rdquo; ？&lt;/p&gt;
+&lt;p&gt;先用 &lt;code&gt;sudo dhclient eth0&lt;/code&gt; 更新IP地址，然后运行 &lt;code&gt;sudo ifconfig eth0&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;如果还没有ip，直接进行重启：&lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;或者查看DHCP服务是否关了。&lt;/p&gt;</description></item><item><title>人生第一次受到网络攻击 直接给我敲响警钟了</title><link>https://blog.danzaii.cn/p/legacy-178/</link><pubDate>Sat, 02 Jul 2022 15:34:21 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-178/</guid><description>&lt;p&gt;小学期项目最终决定加入 MongoDB 实现部分表的存储。&lt;/p&gt;
+&lt;p&gt;昨天在服务器上直接放开了 MongoDB 的端口和外网访问，设置的数据库连密码都没有，以为不会有人攻击自己服务器，结果今天早上一睁眼就悲剧了。&lt;/p&gt;
+&lt;p&gt;同组的人连接数据库一直连接不上，找了半天问题，最后我们一看日志就傻了——整个 MongoDB 的库全被删完了。真就删库跑路呗。&lt;/p&gt;
+&lt;p&gt;还好数据还没开始录入 没有什么致命问题。我一查还是个英国ip，还挂梯子搞我？&lt;/p&gt;
+&lt;p&gt;现在设置了强密码，关键数据库也只给本地开放了。以后要多注意数据库安全问题了，不能图一时简单。整个密码管理服务还是很有必要的啊，强密码实在记不住。&lt;/p&gt;</description></item><item><title>冥冥千舰啦！！！！ 恭喜恭喜！！！</title><link>https://blog.danzaii.cn/p/legacy-176/</link><pubDate>Fri, 01 Jul 2022 15:41:15 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-176/</guid><description>&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>冥冥的新机甲！好美！</title><link>https://blog.danzaii.cn/p/legacy-172/</link><pubDate>Tue, 28 Jun 2022 16:35:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-172/</guid><description>&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;新模型好棒！脸部成3D的了 表情也精细了好多！总之就是非常可爱！！！！&lt;/p&gt;</description></item><item><title>冥冥生日快乐！</title><link>https://blog.danzaii.cn/p/legacy-161/</link><pubDate>Tue, 28 Jun 2022 06:30:09 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-161/</guid><description>&lt;p&gt;很抱歉打断您的浏览，但是我想说冥冥将会于6月28日北京时间20:00，准时进行《生日盛典直播》&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;冥门保佑！冥不灭！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>式守同学 可爱捏 贴贴</title><link>https://blog.danzaii.cn/p/legacy-159/</link><pubDate>Sun, 26 Jun 2022 08:58:45 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-159/</guid><description>&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>小学期要开始了 真的要搞智慧视觉了吗</title><link>https://blog.danzaii.cn/p/legacy-155/</link><pubDate>Sun, 19 Jun 2022 15:34:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-155/</guid><description>&lt;h2 id="快乐小学期"&gt;&lt;a href="#%e5%bf%ab%e4%b9%90%e5%b0%8f%e5%ad%a6%e6%9c%9f" class="header-anchor"&gt;&lt;/a&gt;快乐小学期
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;小组选题：公路卡口监控系统&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;实现卡车车辆的监控，主要包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;车辆捕获&lt;/li&gt;
+&lt;li&gt;速度测定&lt;/li&gt;
+&lt;li&gt;图像记录&lt;/li&gt;
+&lt;li&gt;车辆识别&lt;/li&gt;
+&lt;li&gt;信息上传&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;感觉难度挺大的&lt;/strong&gt;，这当毕设完全可以了我感觉，先慢慢搞吧。&lt;/p&gt;
+&lt;p&gt;技术选型要求：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前后端分离，后端 RESTful API&lt;/li&gt;
+&lt;li&gt;后端 Spring Boot&lt;/li&gt;
+&lt;li&gt;ORM 框架 Mybatis/MybatisPlus&lt;/li&gt;
+&lt;li&gt;Git 代码托管&lt;/li&gt;
+&lt;li&gt;权限管理框架 Spring Security 或 Shiro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;赶快做完！ 做完跑路！&lt;/p&gt;</description></item><item><title>原神服务器不开了 大家可以自行去开设私服</title><link>https://blog.danzaii.cn/p/legacy-151/</link><pubDate>Sat, 11 Jun 2022 11:19:23 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-151/</guid><description>&lt;p&gt;最近几天原神私服给我的博客引了波大的流量，但是因为太多人了 已经完全超出我能控制的范畴了，而且服务器资源也吃不消 选择关服了。&lt;/p&gt;
+&lt;p&gt;如果有人有需要想自己开服但是遇到困难的 我可以提供一定帮助。&lt;/p&gt;
+&lt;p&gt;这里是服务器项目地址：&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/" target="_blank" rel="noopener"
+ &gt;Grasscutter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;有缘再会&lt;/p&gt;</description></item><item><title>沉迷MC了 要去开MC服务器了 原神再见</title><link>https://blog.danzaii.cn/p/legacy-148/</link><pubDate>Sat, 11 Jun 2022 06:27:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-148/</guid><description>&lt;p&gt;MC真好玩，就是服务器资源占用有点多&lt;/p&gt;</description></item><item><title>方舟100级纪念</title><link>https://blog.danzaii.cn/p/legacy-147/</link><pubDate>Thu, 09 Jun 2022 10:49:04 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-147/</guid><description>&lt;h2 id="再不赶快玩100级限定眼镜就没机会了"&gt;&lt;a href="#%e5%86%8d%e4%b8%8d%e8%b5%b6%e5%bf%ab%e7%8e%a9100%e7%ba%a7%e9%99%90%e5%ae%9a%e7%9c%bc%e9%95%9c%e5%b0%b1%e6%b2%a1%e6%9c%ba%e4%bc%9a%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;再不赶快玩100级限定眼镜就没机会了！！！
+&lt;/h2&gt;&lt;!-- 图片待上传 --&gt;</description></item><item><title>原神 太好玩啦！</title><link>https://blog.danzaii.cn/p/legacy-144/</link><pubDate>Thu, 09 Jun 2022 10:45:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-144/</guid><description>&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;我发现我之前还是太保守了&lt;/p&gt;</description></item><item><title>三年前的这个时候 我已经在偷笑了</title><link>https://blog.danzaii.cn/p/legacy-134/</link><pubDate>Wed, 08 Jun 2022 08:20:17 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-134/</guid><description>&lt;p&gt;三年前的这时候应该在考英语吧&lt;/p&gt;
+&lt;p&gt;当时考到一半卷子都快写完了 嘴角已经不自觉的开始上扬了&lt;/p&gt;
+&lt;p&gt;哈哈哈哈哈 想起来就好好笑，英语 太简单了吧&lt;/p&gt;
+&lt;p&gt;会不会这时候还有人跟我一样已经开始偷笑了呢&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;祝愿考生们金榜题名&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>有关原神私服（服务器已更新！）</title><link>https://blog.danzaii.cn/p/legacy-127/</link><pubDate>Mon, 06 Jun 2022 15:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-127/</guid><description>&lt;h2 id="原神私服问题集中汇总"&gt;&lt;a href="#%e5%8e%9f%e7%a5%9e%e7%a7%81%e6%9c%8d%e9%97%ae%e9%a2%98%e9%9b%86%e4%b8%ad%e6%b1%87%e6%80%bb" class="header-anchor"&gt;&lt;/a&gt;原神私服问题集中汇总
+&lt;/h2&gt;&lt;p&gt;最近有好几个人都在之前开的原神帖子留评论，那么就在这里集中回答一下大家遇到的问题吧（会不定期更新的）。&lt;/p&gt;
+&lt;h2 id="qa"&gt;&lt;a href="#qa" class="header-anchor"&gt;&lt;/a&gt;Q&amp;amp;A
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;有关求账号的问题&lt;/strong&gt;：2.7版本后已经不需要再特别找我要账号了&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;服务器性质声明&lt;/strong&gt;：本服务器主要还是自己和自己的朋友们在玩，有随时关闭的可能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安全性问题&lt;/strong&gt;：私服不能说100%安全，但应该是没有问题的。有风险，但是很小很小&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;服务器教程&lt;/strong&gt;：现在新的服务器教程还没有做，有空会继续更新&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>报告周正式结束！</title><link>https://blog.danzaii.cn/p/legacy-124/</link><pubDate>Mon, 06 Jun 2022 14:48:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-124/</guid><description>&lt;p&gt;&lt;strong&gt;终于写完报告了！&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;式守同学 可爱滴捏&lt;/p&gt;</description></item><item><title>甜度爆表了</title><link>https://blog.danzaii.cn/p/legacy-113/</link><pubDate>Sat, 04 Jun 2022 18:27:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-113/</guid><description>&lt;p&gt;&lt;strong&gt;二十多岁的人 还没几个高中生会爱&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>六一快乐！</title><link>https://blog.danzaii.cn/p/legacy-109/</link><pubDate>Tue, 31 May 2022 16:58:08 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-109/</guid><description>&lt;p&gt;&lt;strong&gt;给自己买个小礼物，剁手了QAQ&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;涩涩！涩涩！ 完全可以涩涩 ！！！&lt;/p&gt;
+&lt;p&gt;六一儿童节买这么涩涩的手办真的没问题吗，我直接给弟弟买一个！！！&lt;/p&gt;</description></item><item><title>あなたが好きです。付き合ってください</title><link>https://blog.danzaii.cn/p/legacy-92/</link><pubDate>Sun, 29 May 2022 17:57:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-92/</guid><description>&lt;!-- 图片待上传 --&gt;</description></item><item><title>好多报告没写完 人麻了</title><link>https://blog.danzaii.cn/p/legacy-90/</link><pubDate>Sat, 28 May 2022 16:04:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-90/</guid><description>&lt;p&gt;.NET的大报告明天就要交了 一个字没动呢还 要寄了吗&lt;/p&gt;
+&lt;p&gt;我直接熬夜肝一个物业管理系统！！！！&lt;/p&gt;
+&lt;p&gt;用到了 ASP.NET + MVC + EF&lt;/p&gt;</description></item><item><title>原神私服的PC端连接教程</title><link>https://blog.danzaii.cn/p/legacy-84/</link><pubDate>Wed, 11 May 2022 11:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-84/</guid><description>&lt;h2 id="连接教程"&gt;&lt;a href="#%e8%bf%9e%e6%8e%a5%e6%95%99%e7%a8%8b" class="header-anchor"&gt;&lt;/a&gt;连接教程
+&lt;/h2&gt;&lt;p&gt;PC端连接原神私服教程。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下载代理端并启动&lt;/li&gt;
+&lt;li&gt;设置网络代理（系统代理设置中配置）&lt;/li&gt;
+&lt;li&gt;设置完代理之后打开原神&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;boom！就好了&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;记得玩完之后把代理关掉，在代理期间是几乎连不上网的。&lt;/p&gt;
+&lt;p&gt;2.7版本更新后已经不需要找我要账号了，自己输入喜欢的账号（一定要记住），密码随便输就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;指令相关内容：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/wiki/Commands" target="_blank" rel="noopener"
+ &gt;物品代码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/wiki/Commands" target="_blank" rel="noopener"
+ &gt;指令列表&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>原神私服搭建教程（Linux端）</title><link>https://blog.danzaii.cn/p/legacy-77/</link><pubDate>Tue, 10 May 2022 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-77/</guid><description>&lt;h2 id="准备工作"&gt;&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor"&gt;&lt;/a&gt;准备工作
+&lt;/h2&gt;&lt;p&gt;首先下载jdk17&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wget https://download.oracle.com/java/17/archive/jdk-17.0.2_linux-x64_bin.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;安装jdk17&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;rpm -ivh jdk-17.0.2_linux-x64_bin.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后安装宝塔面板&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yum install -y wget &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; sh install.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;从宝塔面板安装MongoDB。&lt;/p&gt;
+&lt;h2 id="构建项目"&gt;&lt;a href="#%e6%9e%84%e5%bb%ba%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;构建项目
+&lt;/h2&gt;&lt;p&gt;项目仓库：&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter" target="_blank" rel="noopener"
+ &gt;Github:Grasscutter&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/Grasscutters/Grasscutter.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; Grasscutter
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;chmod +x gradlew
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./gradlew jar &lt;span class="c1"&gt;# Compile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;在项目根目录中找到 grasscutter.jar，cd 到所在目录然后输入&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;java -jar grasscutter.jar
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;构建完成后会多出一个 resource 文件夹，需要再去 &lt;a class="link" href="https://github.com/Koko-boya/Grasscutter_Resources" target="_blank" rel="noopener"
+ &gt;Resource&lt;/a&gt; clone 下来 resource 文件夹并将里面的东西复制进 resource 内。&lt;/p&gt;
+&lt;p&gt;之后再启动即可。&lt;/p&gt;
+&lt;h2 id="配置修改"&gt;&lt;a href="#%e9%85%8d%e7%bd%ae%e4%bf%ae%e6%94%b9" class="header-anchor"&gt;&lt;/a&gt;配置修改
+&lt;/h2&gt;&lt;p&gt;打开根目录下的 config.json 进行编辑，修改端口和用户权限等配置。&lt;/p&gt;
+&lt;p&gt;其中的用户默认权限可以在 &lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/wiki/Commands" target="_blank" rel="noopener"
+ &gt;项目 wiki&lt;/a&gt; 中找到相关指令。&lt;/p&gt;
+&lt;h2 id="证书配置"&gt;&lt;a href="#%e8%af%81%e4%b9%a6%e9%85%8d%e7%bd%ae" class="header-anchor"&gt;&lt;/a&gt;证书配置
+&lt;/h2&gt;&lt;p&gt;将根目录下的 keystore.p12 复制到 &lt;code&gt;/etc/pki/ca-trust/source/anchors&lt;/code&gt; 路径下（一定要留一份在根目录里！），然后重载：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;update-ca-trust
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;最后再启动服务器就大功告成了。&lt;strong&gt;记得在安全组放开端口哦！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>风暴中，唯保守者屹立不倒。</title><link>https://blog.danzaii.cn/p/legacy-75/</link><pubDate>Wed, 27 Apr 2022 17:04:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-75/</guid><description>&lt;p&gt;&lt;strong&gt;要强大自身，才有力量去保护自己珍视的东西&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;谨记屈辱，谨记伤痛，谨记自己曾失去的所有。&lt;/p&gt;
+&lt;p&gt;人群中低调行事，&amp;ldquo;战场&amp;quot;上锋芒侧漏。&lt;/p&gt;</description></item><item><title>加入了冥冥表情包</title><link>https://blog.danzaii.cn/p/legacy-74/</link><pubDate>Fri, 22 Apr 2022 17:59:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-74/</guid><description>&lt;p&gt;&lt;strong&gt;快来试试吧&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>冥冥复播啦！开心</title><link>https://blog.danzaii.cn/p/legacy-69/</link><pubDate>Thu, 21 Apr 2022 06:25:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-69/</guid><description>&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;又可以看冥冥了捏 哎嘿嘿&lt;/p&gt;</description></item><item><title>MC手艺养老服搭建</title><link>https://blog.danzaii.cn/p/legacy-64/</link><pubDate>Mon, 18 Apr 2022 15:37:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-64/</guid><description>&lt;h2 id="服务器已经开放"&gt;&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%b7%b2%e7%bb%8f%e5%bc%80%e6%94%be" class="header-anchor"&gt;&lt;/a&gt;服务器已经开放！！！
+&lt;/h2&gt;&lt;p&gt;途中遇到了一些小问题 但服务器还是正常开放了！&lt;/p&gt;
+&lt;h2 id="今天看了一个视频有感而发"&gt;&lt;a href="#%e4%bb%8a%e5%a4%a9%e7%9c%8b%e4%ba%86%e4%b8%80%e4%b8%aa%e8%a7%86%e9%a2%91%e6%9c%89%e6%84%9f%e8%80%8c%e5%8f%91" class="header-anchor"&gt;&lt;/a&gt;今天看了一个视频有感而发
+&lt;/h2&gt;&lt;p&gt;打算搭建一个手艺养老服 用和视频里相同的模组&lt;/p&gt;
+&lt;p&gt;主要模组:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方块小镇 Yuushya-Beta-0.10.2-forge&lt;/li&gt;
+&lt;li&gt;载具 vehicle-mod-0.45.2-1.16.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="服务器部分"&gt;&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%83%a8%e5%88%86" class="header-anchor"&gt;&lt;/a&gt;服务器部分
+&lt;/h2&gt;&lt;p&gt;服务器使用了腾讯云的轻量应用服务器 4C8G，服务端使用了 Loliserver 作为服务端核心。&lt;/p&gt;
+&lt;p&gt;由于有过多次的开服经验 服务器配置方面进行的都很顺利，但不知道为何总是报错 服务器没有办法启动 后来发现是java版本过高的问题（怎么java不能向下兼容啊！！！）&lt;/p&gt;
+&lt;p&gt;而且在寻找适合的java版本的过程中 我学到了一个非常重要的知识 那就是 java全版本下载地址藏得真深啊！&lt;/p&gt;
+&lt;p&gt;为了找一个311版本的java8 真的找破头了，搜索引擎给的全是csdn上面的动不动就问你要钱要积分的。&lt;/p&gt;
+&lt;p&gt;但是还是有乐于分享的老哥的，我会的技术也绝对不会藏着掖着的！&lt;/p&gt;</description></item><item><title>如果能流行起来就好了，战场原荡漾</title><link>https://blog.danzaii.cn/p/legacy-62/</link><pubDate>Sat, 16 Apr 2022 17:57:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-62/</guid><description>&lt;p&gt;战场原荡漾 太好看了&lt;/p&gt;</description></item><item><title>当个"人"吧</title><link>https://blog.danzaii.cn/p/legacy-60/</link><pubDate>Sat, 16 Apr 2022 16:16:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-60/</guid><description>&lt;p&gt;今天晚上登了一下方舟
+就有人连发4个一样的 晕了&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>开放了蛋仔云盘！</title><link>https://blog.danzaii.cn/p/legacy-58/</link><pubDate>Sat, 16 Apr 2022 13:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-58/</guid><description>&lt;p&gt;蛋仔云盘已经在友情链接里加入 欢迎大家使用&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>正式开始写博客啦</title><link>https://blog.danzaii.cn/p/legacy-56/</link><pubDate>Sat, 16 Apr 2022 12:17:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-56/</guid><description>&lt;p&gt;今天开始写博客 但是完全不知道到底要写些什么
+打算以后再慢慢考虑 会把自己学到的新技术什么的写一写总结一下&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;没有冥冥看的我要死了！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;等把最近的作业什么的都搞完我一定要好好整理一下这个博客
+同时也要抓紧时间复习！争取一战成硕！&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;</description></item></channel></rss>
