@@ -1,0 +1,168 @@
+{{ define "main" }}
+{{ $posts := where .Site.RegularPages "Type" "post" }}
+{{ $totalWords := 0 }}
+{{ range $posts }}
+    {{ $totalWords = add $totalWords .WordCount }}
+{{ end }}
+
+{{ $firstDate := now }}
+{{ range last 1 (sort $posts "Date" "asc") }}
+    {{ $firstDate = .Date }}
+{{ end }}
+{{ $runDays := div (sub now.Unix $firstDate.Unix) 86400 }}
+
+<article class="stats-page">
+    <header class="article-header">
+        <h1 class="article-title">📊 统计</h1>
+        <p class="article-subtitle">记录我的创作点滴</p>
+    </header>
+
+    <div class="stats-cards">
+        <div class="stats-card">
+            <div class="stats-card-icon" style="background: linear-gradient(135deg, #f48fb1, #f06292);">📝</div>
+            <div class="stats-card-info">
+                <span class="stats-card-number">{{ len $posts }}</span>
+                <span class="stats-card-label">篇文章</span>
+            </div>
+        </div>
+        <div class="stats-card">
+            <div class="stats-card-icon" style="background: linear-gradient(135deg, #ce93d8, #ab47bc);">✏️</div>
+            <div class="stats-card-info">
+                {{ if ge $totalWords 1000 }}
+                <span class="stats-card-number">{{ div $totalWords 1000 }}.{{ mod (div $totalWords 100) 10 }}k</span>
+                {{ else }}
+                <span class="stats-card-number">{{ $totalWords }}</span>
+                {{ end }}
+                <span class="stats-card-label">总字数</span>
+            </div>
+        </div>
+        <div class="stats-card">
+            <div class="stats-card-icon" style="background: linear-gradient(135deg, #90caf9, #42a5f5);">⏱️</div>
+            <div class="stats-card-info">
+                <span class="stats-card-number">{{ $runDays }}</span>
+                <span class="stats-card-label">天</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stats-section">
+            <h2>📂 分类分布</h2>
+            <div class="stats-bars">
+                {{ range .Site.Taxonomies.categories }}
+                {{ $count := .Count }}
+                {{ $pct := mul (div (float $count) (float (len $posts))) 100 }}
+                <div class="stats-bar-item">
+                    <div class="stats-bar-label">
+                        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                        <span>{{ $count }}</span>
+                    </div>
+                    <div class="stats-bar-track">
+                        <div class="stats-bar-fill" style="width: {{ $pct }}%"></div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2>🏷️ 热门标签</h2>
+            <div class="stats-tags">
+                {{ range .Site.Taxonomies.tags }}
+                <a href="{{ .Page.RelPermalink }}" class="stats-tag">
+                    {{ .Page.Title }} <sup>{{ .Count }}</sup>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stats-section">
+            <h2>📅 周发布活跃度</h2>
+            {{ $weekdays := dict "Sunday" 0 "Monday" 0 "Tuesday" 0 "Wednesday" 0 "Thursday" 0 "Friday" 0 "Saturday" 0 }}
+            {{ $weekdayMax := 1 }}
+            {{ range $posts }}
+                {{ $day := .Date.Weekday.String }}
+                {{ $cur := index $weekdays $day }}
+                {{ $weekdays = merge $weekdays (dict $day (add $cur 1)) }}
+                {{ if gt (add $cur 1) $weekdayMax }}{{ $weekdayMax = add $cur 1 }}{{ end }}
+            {{ end }}
+            <div class="stats-bars">
+                {{ $dayNames := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday" }}
+                {{ $dayCN := dict "Monday" "周一" "Tuesday" "周二" "Wednesday" "周三" "Thursday" "周四" "Friday" "周五" "Saturday" "周六" "Sunday" "周日" }}
+                {{ range $dayNames }}
+                {{ $count := index $weekdays . }}
+                {{ $pct := mul (div (float $count) (float $weekdayMax)) 100 }}
+                <div class="stats-bar-item">
+                    <div class="stats-bar-label">
+                        <span>{{ index $dayCN . }}</span>
+                        <span>{{ $count }}</span>
+                    </div>
+                    <div class="stats-bar-track">
+                        <div class="stats-bar-fill" style="width: {{ $pct }}%"></div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2>🕐 时段发布活跃度</h2>
+            {{ $hours := dict }}
+            {{ $hourMax := 1 }}
+            {{ range $posts }}
+                {{ $h := string .Date.Hour }}
+                {{ $cur := default 0 (index $hours $h) }}
+                {{ $hours = merge $hours (dict $h (add $cur 1)) }}
+                {{ if gt (add $cur 1) $hourMax }}{{ $hourMax = add $cur 1 }}{{ end }}
+            {{ end }}
+            <div class="stats-bars stats-hours">
+                {{ range $i := seq 0 23 }}
+                {{ $h := string $i }}
+                {{ $count := default 0 (index $hours $h) }}
+                {{ $pct := mul (div (float $count) (float $hourMax)) 100 }}
+                <div class="stats-bar-item stats-hour-item">
+                    <div class="stats-bar-label">
+                        <span>{{ printf "%02d:00" $i }}</span>
+                        <span>{{ $count }}</span>
+                    </div>
+                    <div class="stats-bar-track">
+                        <div class="stats-bar-fill" style="width: {{ $pct }}%"></div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-section stats-full">
+        <h2>📊 年度文章分布</h2>
+        {{ $years := dict }}
+        {{ $yearMax := 1 }}
+        {{ range $posts }}
+            {{ $y := string .Date.Year }}
+            {{ $cur := default 0 (index $years $y) }}
+            {{ $years = merge $years (dict $y (add $cur 1)) }}
+            {{ if gt (add $cur 1) $yearMax }}{{ $yearMax = add $cur 1 }}{{ end }}
+        {{ end }}
+        <div class="stats-bars">
+            {{ $yearList := slice }}
+            {{ range $k, $v := $years }}{{ $yearList = $yearList | append $k }}{{ end }}
+            {{ range $y := sort $yearList }}
+            {{ $count := index $years $y }}
+            {{ $pct := mul (div (float $count) (float $yearMax)) 100 }}
+            <div class="stats-bar-item">
+                <div class="stats-bar-label">
+                    <span>{{ $y }} 年</span>
+                    <span>{{ $count }} 篇</span>
+                </div>
+                <div class="stats-bar-track">
+                    <div class="stats-bar-fill" style="width: {{ $pct }}%"></div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</article>
+{{ end }}
