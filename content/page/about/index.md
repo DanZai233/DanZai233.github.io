@@ -1,6 +1,6 @@
 ---
 title: "关于"
-date: 2026-01-01
+date: 2026-02-26
 menu:
     main:
         weight: -50
@@ -20,5 +20,4 @@ menu:
 
 ---
 
-> "Stay hungry, stay foolish."
-> — *Steve Jobs*
+> "追逐繁星。"
