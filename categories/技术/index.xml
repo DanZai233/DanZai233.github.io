@@ -1,4 +1,256 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新</title><link>https://blog.danzaii.cn/p/recent-updates-feb-2026/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-updates-feb-2026/</guid><description>&lt;p&gt;上一篇项目回顾的墨迹还没干，这几天又搞了两个大活。一个全新项目，一个大版本更新，简单记录一下。&lt;/p&gt;
+&lt;h2 id="-aim-trainer-pro--网页端瞄准训练器"&gt;&lt;a href="#-aim-trainer-pro--%e7%bd%91%e9%a1%b5%e7%ab%af%e7%9e%84%e5%87%86%e8%ae%ad%e7%bb%83%e5%99%a8" class="header-anchor"&gt;&lt;/a&gt;🎯 Aim Trainer Pro —— 网页端瞄准训练器
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/AIMBOT" target="_blank" rel="noopener"
+ &gt;DanZai233/AIMBOT&lt;/a&gt; | &lt;a class="link" href="https://aimbot-umber.vercel.app" target="_blank" rel="noopener"
+ &gt;在线体验&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;一款高性能、高度可定制的网页端鼠标瞄准训练器。用来练甩枪、练追踪、练微调，FPS 玩家应该都懂这种工具。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/main-menu_11828802321187966773.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="主菜单"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="四种训练模式"&gt;&lt;a href="#%e5%9b%9b%e7%a7%8d%e8%ae%ad%e7%bb%83%e6%a8%a1%e5%bc%8f" class="header-anchor"&gt;&lt;/a&gt;四种训练模式
+&lt;/h3&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;模式&lt;/th&gt;
+ &lt;th&gt;说明&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Gridshot&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;经典甩枪训练，命中网格上出现的 3 个目标&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Spidershot&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;从中心目标甩向随机外围目标再返回&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Microflick&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;小目标出现在屏幕中心附近，训练微调精度&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Tracking&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;追踪移动目标，按住鼠标左键持续得分&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="丰富的自定义"&gt;&lt;a href="#%e4%b8%b0%e5%af%8c%e7%9a%84%e8%87%aa%e5%ae%9a%e4%b9%89" class="header-anchor"&gt;&lt;/a&gt;丰富的自定义
+&lt;/h3&gt;&lt;p&gt;这个项目我在自定义上下了不少功夫。右侧滑出的设置面板可以调整几乎所有参数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;训练时间：15 / 30 / 60 / 120 秒&lt;/li&gt;
+&lt;li&gt;目标大小和速度&lt;/li&gt;
+&lt;li&gt;目标形状：圆形 / 菱形 / 星形 / 六边形 / 三角形&lt;/li&gt;
+&lt;li&gt;光标样式：十字线 / 圆点 / 圆环 / 精确十字&lt;/li&gt;
+&lt;li&gt;5 种主题配色 + 4 种背景主题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/settings-panel_1731121834424847475.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="设置面板"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="实际游戏画面"&gt;&lt;a href="#%e5%ae%9e%e9%99%85%e6%b8%b8%e6%88%8f%e7%94%bb%e9%9d%a2" class="header-anchor"&gt;&lt;/a&gt;实际游戏画面
+&lt;/h3&gt;&lt;p&gt;不同配色和目标形状的效果：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/gameplay-gridshot_8859895247221042249.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="青色圆形目标"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/gameplay-purple-stars_11946528974811410744.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="紫色星形目标"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="成绩统计"&gt;&lt;a href="#%e6%88%90%e7%bb%a9%e7%bb%9f%e8%ae%a1" class="header-anchor"&gt;&lt;/a&gt;成绩统计
+&lt;/h3&gt;&lt;p&gt;每局结束会给出 S/A/B/C/D 等级评定，还有精准度、命中/失误次数等详细统计，数字还有递增动画效果。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/results-screen_14775739345626784425.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="结果界面"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="技术亮点"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e4%ba%ae%e7%82%b9" class="header-anchor"&gt;&lt;/a&gt;技术亮点
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;零延迟光标&lt;/strong&gt;：用 CSS SVG 自定义光标，操作系统原生渲染，完全零延迟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DPI 感知&lt;/strong&gt;：适配 Retina 高分屏&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Canvas 渲染&lt;/strong&gt;：优化的渲染管线，稳定 60fps&lt;/li&gt;
+&lt;li&gt;命中粒子爆炸、得分浮动弹出、失误红色闪光……动效细节拉满&lt;/li&gt;
+&lt;li&gt;技术栈：React 19 + TypeScript + Vite 6 + Tailwind CSS v4 + Canvas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-mygallery-大更新--照片墙系统"&gt;&lt;a href="#-mygallery-%e5%a4%a7%e6%9b%b4%e6%96%b0--%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery 大更新 —— 照片墙系统
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/MYGallery" target="_blank" rel="noopener"
+ &gt;DanZai233/MYGallery&lt;/a&gt; | 在线：&lt;a class="link" href="https://photo.danzaii.cn" target="_blank" rel="noopener"
+ &gt;photo.danzaii.cn&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;MYGallery 这次迎来了一波大更新，新增了好几个重量级功能。&lt;/p&gt;
+&lt;h3 id="全新灯箱查看器"&gt;&lt;a href="#%e5%85%a8%e6%96%b0%e7%81%af%e7%ae%b1%e6%9f%a5%e7%9c%8b%e5%99%a8" class="header-anchor"&gt;&lt;/a&gt;全新灯箱查看器
+&lt;/h3&gt;&lt;p&gt;ChronoFrame 风格的全屏查看器，右侧信息面板分区展示 EXIF 元数据，底部缩略图条可以快速跳转。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/lightbox-info_3774503301997307783.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="灯箱查看器"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="gps-迷你地图"&gt;&lt;a href="#gps-%e8%bf%b7%e4%bd%a0%e5%9c%b0%e5%9b%be" class="header-anchor"&gt;&lt;/a&gt;GPS 迷你地图
+&lt;/h3&gt;&lt;p&gt;当照片包含 GPS 坐标时，信息面板顶部会嵌入 Leaflet 迷你地图，实时显示拍摄位置。每张照片在哪里拍的一目了然。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/lightbox-minimap_4898736845973442066.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="GPS 迷你地图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="照片地图"&gt;&lt;a href="#%e7%85%a7%e7%89%87%e5%9c%b0%e5%9b%be" class="header-anchor"&gt;&lt;/a&gt;照片地图
+&lt;/h3&gt;&lt;p&gt;全新的地图页面，基于 Leaflet + OpenStreetMap，所有带 GPS 坐标的照片都会标记在地图上，支持聚合标记。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/map-markers_9731593396455599630.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="地图标记"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="表态系统"&gt;&lt;a href="#%e8%a1%a8%e6%80%81%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;表态系统
+&lt;/h3&gt;&lt;p&gt;访客可以对照片进行 emoji 表态（👍❤️😍😂😮😢🔥✨），不需要登录，基于指纹识别。终于可以知道大家喜欢哪些照片了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/reactions_10369662974421664543.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="表态系统"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="暗色--亮色主题"&gt;&lt;a href="#%e6%9a%97%e8%89%b2--%e4%ba%ae%e8%89%b2%e4%b8%bb%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;暗色 / 亮色主题
+&lt;/h3&gt;&lt;p&gt;默认暗色主题，5 列紧凑瀑布流布局。也可以一键切换亮色模式，偏好会自动记忆。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/gallery-dark_14055740400297949512.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="暗色模式"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/gallery-light_11451636069537204349.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="亮色模式"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;h3 id="后台管理"&gt;&lt;a href="#%e5%90%8e%e5%8f%b0%e7%ae%a1%e7%90%86" class="header-anchor"&gt;&lt;/a&gt;后台管理
+&lt;/h3&gt;&lt;p&gt;ChronoFrame 风格侧栏导航，仪表盘统计，拖拽上传，照片和分类管理一站搞定。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/admin_18103774074018052856.webp"
+	width="1280"
+	height="800"
+	loading="lazy"
+	
+		alt="后台管理"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="小结"&gt;&lt;a href="#%e5%b0%8f%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;小结
+&lt;/h2&gt;&lt;p&gt;AIMBOT 从零到上线大概花了两天，MYGallery 的更新则是断断续续改了一周。两个项目方向完全不同——一个是 Canvas 游戏，一个是全栈应用——但都很有成就感。&lt;/p&gt;
+&lt;p&gt;接下来 MYGallery 还打算加视频支持和更多的社交功能。AIMBOT 如果有时间的话想加排行榜和自定义地图编辑器。&lt;/p&gt;
+&lt;p&gt;不过说实话……做完这些我应该休息两天了 😂&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
 &lt;h2 id="认真打磨的项目"&gt;&lt;a href="#%e8%ae%a4%e7%9c%9f%e6%89%93%e7%a3%a8%e7%9a%84%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;认真打磨的项目
 &lt;/h2&gt;&lt;h3 id="-mygallery--个人照片墙系统"&gt;&lt;a href="#-mygallery--%e4%b8%aa%e4%ba%ba%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery —— 个人照片墙系统
 &lt;/h3&gt;
