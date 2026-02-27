@@ -36,7 +36,7 @@
 
  &lt;/blockquote&gt;
 &lt;p&gt;一个功能挺全的拼豆像素画设计工具。支持画笔、橡皮擦、填充、直线、矩形、圆形等绘图工具，还能用 AI 生成像素画，或者上传图片自动转换。&lt;/p&gt;
-&lt;p&gt;做这个纯粹是因为女朋友喜欢拼豆，想给她做个方便设计图纸的工具。支持导出 JSON 图纸和自动统计每种颜色需要的珠子数量。&lt;/p&gt;
+&lt;p&gt;做这个是因为朋友最近在玩拼豆，看到她们设计图纸挺麻烦的，就有了灵感做一个方便的设计工具。支持导出 JSON 图纸和自动统计每种颜色需要的珠子数量。&lt;/p&gt;
 &lt;h3 id="-pixelchat--像素风匿名聊天室"&gt;&lt;a href="#-pixelchat--%e5%83%8f%e7%b4%a0%e9%a3%8e%e5%8c%bf%e5%90%8d%e8%81%8a%e5%a4%a9%e5%ae%a4" class="header-anchor"&gt;&lt;/a&gt;💬 PixelChat —— 像素风匿名聊天室
 &lt;/h3&gt;
  &lt;blockquote&gt;
