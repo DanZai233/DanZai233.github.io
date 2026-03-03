@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新</title><link>https://blog.danzaii.cn/p/recent-updates-feb-2026/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-updates-feb-2026/</guid><description>&lt;p&gt;上一篇项目回顾的墨迹还没干，这几天又搞了两个大活。一个全新项目，一个大版本更新，简单记录一下。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新</title><link>https://blog.danzaii.cn/p/recent-updates-feb-2026/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-updates-feb-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上一篇项目回顾的墨迹还没干，这几天又搞了两个大活。一个全新项目，一个大版本更新，简单记录一下。&lt;/p&gt;
 &lt;h2 id="-aim-trainer-pro--网页端瞄准训练器"&gt;&lt;a href="#-aim-trainer-pro--%e7%bd%91%e9%a1%b5%e7%ab%af%e7%9e%84%e5%87%86%e8%ae%ad%e7%bb%83%e5%99%a8" class="header-anchor"&gt;&lt;/a&gt;🎯 Aim Trainer Pro —— 网页端瞄准训练器
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -127,6 +129,8 @@
 &lt;li&gt;技术栈：React 19 + TypeScript + Vite 6 + Tailwind CSS v4 + Canvas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="-mygallery-大更新--照片墙系统"&gt;&lt;a href="#-mygallery-%e5%a4%a7%e6%9b%b4%e6%96%b0--%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery 大更新 —— 照片墙系统
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -247,6 +251,8 @@
 	
 &gt;&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="小结"&gt;&lt;a href="#%e5%b0%8f%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;小结
 &lt;/h2&gt;&lt;p&gt;AIMBOT 从零到上线大概花了两天，MYGallery 的更新则是断断续续改了一周。两个项目方向完全不同——一个是 Canvas 游戏，一个是全栈应用——但都很有成就感。&lt;/p&gt;
 &lt;p&gt;接下来 MYGallery 还打算加视频支持和更多的社交功能。AIMBOT 如果有时间的话想加排行榜和自定义地图编辑器。&lt;/p&gt;
@@ -383,7 +389,9 @@
 &lt;p&gt;接下来打算放慢节奏，挑几个有潜力的项目深入打磨，而不是继续铺量。质量比数量重要。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;如果你对这些项目感兴趣，欢迎去 &lt;a class="link" href="https://github.com/DanZai233" target="_blank" rel="noopener"
- &gt;我的 GitHub&lt;/a&gt; 逛逛，Star ⭐ 和 Issue 都欢迎！&lt;/p&gt;</description></item><item><title>linux 根目录容量不足问题</title><link>https://blog.danzaii.cn/p/legacy-19/</link><pubDate>Fri, 13 Oct 2023 08:08:25 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-19/</guid><description>&lt;h2 id="linux-根目录容量不足问题"&gt;&lt;a href="#linux-%e6%a0%b9%e7%9b%ae%e5%bd%95%e5%ae%b9%e9%87%8f%e4%b8%8d%e8%b6%b3%e9%97%ae%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;linux 根目录容量不足问题
+ &gt;我的 GitHub&lt;/a&gt; 逛逛，Star ⭐ 和 Issue 都欢迎！&lt;/p&gt;</description></item><item><title>linux 根目录容量不足问题</title><link>https://blog.danzaii.cn/p/legacy-19/</link><pubDate>Fri, 13 Oct 2023 08:08:25 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-19/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post linux 根目录容量不足问题" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="linux-根目录容量不足问题"&gt;&lt;a href="#linux-%e6%a0%b9%e7%9b%ae%e5%bd%95%e5%ae%b9%e9%87%8f%e4%b8%8d%e8%b6%b3%e9%97%ae%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;linux 根目录容量不足问题
 &lt;/h2&gt;&lt;p&gt;在linux使用过程中发现自己的根目录满了，想要进行扩容。&lt;/p&gt;
 &lt;h3 id="扩容步骤"&gt;&lt;a href="#%e6%89%a9%e5%ae%b9%e6%ad%a5%e9%aa%a4" class="header-anchor"&gt;&lt;/a&gt;扩容步骤
 &lt;/h3&gt;&lt;ol&gt;
@@ -398,7 +406,9 @@
 &lt;li&gt;&lt;code&gt;sudo resize2fs /dev/sda2&lt;/code&gt; 将磁盘空间重新划分&lt;/li&gt;
 &lt;li&gt;找到 boot 目录下的启动配置文件，将 PARTUUID 更换成新的&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo reboot&lt;/code&gt; 重启生效&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>个人obsidian多终端解决方案 iOS Win Linux</title><link>https://blog.danzaii.cn/p/legacy-18/</link><pubDate>Fri, 13 Oct 2023 08:06:05 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-18/</guid><description>&lt;h2 id="最近了解到了obsidian这个软件"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e4%ba%86%e8%a7%a3%e5%88%b0%e4%ba%86obsidian%e8%bf%99%e4%b8%aa%e8%bd%af%e4%bb%b6" class="header-anchor"&gt;&lt;/a&gt;最近了解到了obsidian这个软件
+&lt;/ol&gt;</description></item><item><title>个人obsidian多终端解决方案 iOS Win Linux</title><link>https://blog.danzaii.cn/p/legacy-18/</link><pubDate>Fri, 13 Oct 2023 08:06:05 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-18/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 个人obsidian多终端解决方案 iOS Win Linux" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="最近了解到了obsidian这个软件"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e4%ba%86%e8%a7%a3%e5%88%b0%e4%ba%86obsidian%e8%bf%99%e4%b8%aa%e8%bd%af%e4%bb%b6" class="header-anchor"&gt;&lt;/a&gt;最近了解到了obsidian这个软件
 &lt;/h2&gt;&lt;p&gt;因为最近刚刚更换手机入了iOS阵营，发现这个笔记软件还挺好看，而且网络上面对它的评价还都挺好的就尝试了一下。&lt;strong&gt;一下子就真香了。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;因为平常都使用的vscode，喜欢直接在vscode里面写点markdown，这个软件可以让markdown编写更加直观，装上插件后基本傻瓜式的了。&lt;/p&gt;
 &lt;h2 id="多终端同步方案"&gt;&lt;a href="#%e5%a4%9a%e7%bb%88%e7%ab%af%e5%90%8c%e6%ad%a5%e6%96%b9%e6%a1%88" class="header-anchor"&gt;&lt;/a&gt;多终端同步方案
@@ -412,18 +422,26 @@
 &lt;p&gt;由于之前搭建的有自己的私有云盘，webdav这一步实现非常简单。这里强烈推荐一下 &lt;a class="link" href="https://cloudreve.org/" target="_blank" rel="noopener"
  &gt;Cloudreve&lt;/a&gt;，自己用了两年左右十分好用。&lt;/p&gt;
 &lt;p&gt;使用 obsidian 的 remotely save 插件，经过简单的设置就可以使用 webdav 实现多端的文件同步了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt; 同步流程非常快，可以设置自动对比拉取和自动推送。iOS那边就更快了，有了iCloud加持每次进入到obsidian后就是最新的文档，十分好用捏~&lt;/p&gt;</description></item><item><title>抢救数据计划（完成！）</title><link>https://blog.danzaii.cn/p/legacy-16/</link><pubDate>Tue, 29 Aug 2023 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-16/</guid><description>&lt;h2 id="下次一定orz"&gt;&lt;a href="#%e4%b8%8b%e6%ac%a1%e4%b8%80%e5%ae%9aorz" class="header-anchor"&gt;&lt;/a&gt;下次一定！Orz
+&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt; 同步流程非常快，可以设置自动对比拉取和自动推送。iOS那边就更快了，有了iCloud加持每次进入到obsidian后就是最新的文档，十分好用捏~&lt;/p&gt;</description></item><item><title>抢救数据计划（完成！）</title><link>https://blog.danzaii.cn/p/legacy-16/</link><pubDate>Tue, 29 Aug 2023 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-16/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 抢救数据计划（完成！）" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="下次一定orz"&gt;&lt;a href="#%e4%b8%8b%e6%ac%a1%e4%b8%80%e5%ae%9aorz" class="header-anchor"&gt;&lt;/a&gt;下次一定！Orz
 &lt;/h2&gt;&lt;p&gt;之前的博客因为本人的误操作导致数据全部丢失（其实不是丢了 是服务器坏了导致无法手动备份或导出）。&lt;/p&gt;
 &lt;p&gt;现在水平高了起来，当时机智的我料想到一定有一天可以修好它，所以用腾讯云导出了一份镜像。&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2023年10月13日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;笑死！根本没去做！！！！卡在了第一步——如何导入我的镜像到我的Ubuntu虚拟机里面。下周再搞 不急不急。&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2023年12月19日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;当我发布这个博客的时候 数据已经完成抢修！历史博客已经完全恢复！&lt;/p&gt;
 &lt;p&gt;后续会把恢复步骤整理一下，总之 感谢一年前的自己（相信一年后的自己）。完完全全是后人的力量啊，当初觉得自己水平不够修好，误打误撞的存了一份镜像。&lt;/p&gt;
 &lt;p&gt;还好自己有留backup的好习惯（哎嘿嘿）。也要感谢大家给予的帮助和指导给了我许多恢复数据的思路。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>SSH克隆github仓库：连接被远程主机关闭</title><link>https://blog.danzaii.cn/p/legacy-11/</link><pubDate>Sat, 22 Apr 2023 16:05:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-11/</guid><description>&lt;p&gt;今天终于是完全配置好了虚拟机的静态IP，但是在使用SSH克隆我自己的仓库的时候一直报错。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>SSH克隆github仓库：连接被远程主机关闭</title><link>https://blog.danzaii.cn/p/legacy-11/</link><pubDate>Sat, 22 Apr 2023 16:05:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-11/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post SSH克隆github仓库：连接被远程主机关闭" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;今天终于是完全配置好了虚拟机的静态IP，但是在使用SSH克隆我自己的仓库的时候一直报错。&lt;/p&gt;
 &lt;p&gt;执行：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -471,14 +489,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Hi xxx! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Linux虚拟机配置网络找不到本地ip地址</title><link>https://blog.danzaii.cn/p/legacy-180/</link><pubDate>Mon, 18 Jul 2022 09:25:49 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-180/</guid><description>&lt;p&gt;&lt;code&gt;ifconfig&lt;/code&gt; 之后显示 eth0，但是没有显示 &amp;ldquo;inet/地址/广播/掩码/&amp;rdquo; ？&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>Linux虚拟机配置网络找不到本地ip地址</title><link>https://blog.danzaii.cn/p/legacy-180/</link><pubDate>Mon, 18 Jul 2022 09:25:49 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-180/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post Linux虚拟机配置网络找不到本地ip地址" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ifconfig&lt;/code&gt; 之后显示 eth0，但是没有显示 &amp;ldquo;inet/地址/广播/掩码/&amp;rdquo; ？&lt;/p&gt;
 &lt;p&gt;先用 &lt;code&gt;sudo dhclient eth0&lt;/code&gt; 更新IP地址，然后运行 &lt;code&gt;sudo ifconfig eth0&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;如果还没有ip，直接进行重启：&lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;或者查看DHCP服务是否关了。&lt;/p&gt;</description></item><item><title>人生第一次受到网络攻击 直接给我敲响警钟了</title><link>https://blog.danzaii.cn/p/legacy-178/</link><pubDate>Sat, 02 Jul 2022 15:34:21 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-178/</guid><description>&lt;p&gt;小学期项目最终决定加入 MongoDB 实现部分表的存储。&lt;/p&gt;
+&lt;p&gt;或者查看DHCP服务是否关了。&lt;/p&gt;</description></item><item><title>人生第一次受到网络攻击 直接给我敲响警钟了</title><link>https://blog.danzaii.cn/p/legacy-178/</link><pubDate>Sat, 02 Jul 2022 15:34:21 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-178/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 人生第一次受到网络攻击 直接给我敲响警钟了" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;小学期项目最终决定加入 MongoDB 实现部分表的存储。&lt;/p&gt;
 &lt;p&gt;昨天在服务器上直接放开了 MongoDB 的端口和外网访问，设置的数据库连密码都没有，以为不会有人攻击自己服务器，结果今天早上一睁眼就悲剧了。&lt;/p&gt;
 &lt;p&gt;同组的人连接数据库一直连接不上，找了半天问题，最后我们一看日志就傻了——整个 MongoDB 的库全被删完了。真就删库跑路呗。&lt;/p&gt;
 &lt;p&gt;还好数据还没开始录入 没有什么致命问题。我一查还是个英国ip，还挂梯子搞我？&lt;/p&gt;
-&lt;p&gt;现在设置了强密码，关键数据库也只给本地开放了。以后要多注意数据库安全问题了，不能图一时简单。整个密码管理服务还是很有必要的啊，强密码实在记不住。&lt;/p&gt;</description></item><item><title>小学期要开始了 真的要搞智慧视觉了吗</title><link>https://blog.danzaii.cn/p/legacy-155/</link><pubDate>Sun, 19 Jun 2022 15:34:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-155/</guid><description>&lt;h2 id="快乐小学期"&gt;&lt;a href="#%e5%bf%ab%e4%b9%90%e5%b0%8f%e5%ad%a6%e6%9c%9f" class="header-anchor"&gt;&lt;/a&gt;快乐小学期
+&lt;p&gt;现在设置了强密码，关键数据库也只给本地开放了。以后要多注意数据库安全问题了，不能图一时简单。整个密码管理服务还是很有必要的啊，强密码实在记不住。&lt;/p&gt;</description></item><item><title>小学期要开始了 真的要搞智慧视觉了吗</title><link>https://blog.danzaii.cn/p/legacy-155/</link><pubDate>Sun, 19 Jun 2022 15:34:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-155/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 小学期要开始了 真的要搞智慧视觉了吗" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="快乐小学期"&gt;&lt;a href="#%e5%bf%ab%e4%b9%90%e5%b0%8f%e5%ad%a6%e6%9c%9f" class="header-anchor"&gt;&lt;/a&gt;快乐小学期
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;小组选题：公路卡口监控系统&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;实现卡车车辆的监控，主要包括：&lt;/p&gt;
 &lt;ol&gt;
@@ -497,11 +521,15 @@
 &lt;li&gt;Git 代码托管&lt;/li&gt;
 &lt;li&gt;权限管理框架 Spring Security 或 Shiro&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;赶快做完！ 做完跑路！&lt;/p&gt;</description></item><item><title>原神服务器不开了 大家可以自行去开设私服</title><link>https://blog.danzaii.cn/p/legacy-151/</link><pubDate>Sat, 11 Jun 2022 11:19:23 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-151/</guid><description>&lt;p&gt;最近几天原神私服给我的博客引了波大的流量，但是因为太多人了 已经完全超出我能控制的范畴了，而且服务器资源也吃不消 选择关服了。&lt;/p&gt;
+&lt;p&gt;赶快做完！ 做完跑路！&lt;/p&gt;</description></item><item><title>原神服务器不开了 大家可以自行去开设私服</title><link>https://blog.danzaii.cn/p/legacy-151/</link><pubDate>Sat, 11 Jun 2022 11:19:23 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-151/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 原神服务器不开了 大家可以自行去开设私服" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最近几天原神私服给我的博客引了波大的流量，但是因为太多人了 已经完全超出我能控制的范畴了，而且服务器资源也吃不消 选择关服了。&lt;/p&gt;
 &lt;p&gt;如果有人有需要想自己开服但是遇到困难的 我可以提供一定帮助。&lt;/p&gt;
 &lt;p&gt;这里是服务器项目地址：&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/" target="_blank" rel="noopener"
  &gt;Grasscutter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;有缘再会&lt;/p&gt;</description></item><item><title>有关原神私服（服务器已更新！）</title><link>https://blog.danzaii.cn/p/legacy-127/</link><pubDate>Mon, 06 Jun 2022 15:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-127/</guid><description>&lt;h2 id="原神私服问题集中汇总"&gt;&lt;a href="#%e5%8e%9f%e7%a5%9e%e7%a7%81%e6%9c%8d%e9%97%ae%e9%a2%98%e9%9b%86%e4%b8%ad%e6%b1%87%e6%80%bb" class="header-anchor"&gt;&lt;/a&gt;原神私服问题集中汇总
+&lt;p&gt;有缘再会&lt;/p&gt;</description></item><item><title>有关原神私服（服务器已更新！）</title><link>https://blog.danzaii.cn/p/legacy-127/</link><pubDate>Mon, 06 Jun 2022 15:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-127/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 有关原神私服（服务器已更新！）" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="原神私服问题集中汇总"&gt;&lt;a href="#%e5%8e%9f%e7%a5%9e%e7%a7%81%e6%9c%8d%e9%97%ae%e9%a2%98%e9%9b%86%e4%b8%ad%e6%b1%87%e6%80%bb" class="header-anchor"&gt;&lt;/a&gt;原神私服问题集中汇总
 &lt;/h2&gt;&lt;p&gt;最近有好几个人都在之前开的原神帖子留评论，那么就在这里集中回答一下大家遇到的问题吧（会不定期更新的）。&lt;/p&gt;
 &lt;h2 id="qa"&gt;&lt;a href="#qa" class="header-anchor"&gt;&lt;/a&gt;Q&amp;amp;A
 &lt;/h2&gt;&lt;ol&gt;
@@ -509,7 +537,9 @@
 &lt;li&gt;&lt;strong&gt;服务器性质声明&lt;/strong&gt;：本服务器主要还是自己和自己的朋友们在玩，有随时关闭的可能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;安全性问题&lt;/strong&gt;：私服不能说100%安全，但应该是没有问题的。有风险，但是很小很小&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;服务器教程&lt;/strong&gt;：现在新的服务器教程还没有做，有空会继续更新&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>原神私服的PC端连接教程</title><link>https://blog.danzaii.cn/p/legacy-84/</link><pubDate>Wed, 11 May 2022 11:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-84/</guid><description>&lt;h2 id="连接教程"&gt;&lt;a href="#%e8%bf%9e%e6%8e%a5%e6%95%99%e7%a8%8b" class="header-anchor"&gt;&lt;/a&gt;连接教程
+&lt;/ol&gt;</description></item><item><title>原神私服的PC端连接教程</title><link>https://blog.danzaii.cn/p/legacy-84/</link><pubDate>Wed, 11 May 2022 11:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-84/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 原神私服的PC端连接教程" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="连接教程"&gt;&lt;a href="#%e8%bf%9e%e6%8e%a5%e6%95%99%e7%a8%8b" class="header-anchor"&gt;&lt;/a&gt;连接教程
 &lt;/h2&gt;&lt;p&gt;PC端连接原神私服教程。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;下载代理端并启动&lt;/li&gt;
@@ -525,7 +555,9 @@
  &gt;物品代码&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/wiki/Commands" target="_blank" rel="noopener"
  &gt;指令列表&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>原神私服搭建教程（Linux端）</title><link>https://blog.danzaii.cn/p/legacy-77/</link><pubDate>Tue, 10 May 2022 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-77/</guid><description>&lt;h2 id="准备工作"&gt;&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor"&gt;&lt;/a&gt;准备工作
+&lt;/ul&gt;</description></item><item><title>原神私服搭建教程（Linux端）</title><link>https://blog.danzaii.cn/p/legacy-77/</link><pubDate>Tue, 10 May 2022 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-77/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 原神私服搭建教程（Linux端）" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="准备工作"&gt;&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor"&gt;&lt;/a&gt;准备工作
 &lt;/h2&gt;&lt;p&gt;首先下载jdk17&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -597,7 +629,9 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;update-ca-trust
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;最后再启动服务器就大功告成了。&lt;strong&gt;记得在安全组放开端口哦！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>MC手艺养老服搭建</title><link>https://blog.danzaii.cn/p/legacy-64/</link><pubDate>Mon, 18 Apr 2022 15:37:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-64/</guid><description>&lt;h2 id="服务器已经开放"&gt;&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%b7%b2%e7%bb%8f%e5%bc%80%e6%94%be" class="header-anchor"&gt;&lt;/a&gt;服务器已经开放！！！
+&lt;/div&gt;&lt;p&gt;最后再启动服务器就大功告成了。&lt;strong&gt;记得在安全组放开端口哦！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>MC手艺养老服搭建</title><link>https://blog.danzaii.cn/p/legacy-64/</link><pubDate>Mon, 18 Apr 2022 15:37:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-64/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post MC手艺养老服搭建" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
+ &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="服务器已经开放"&gt;&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%b7%b2%e7%bb%8f%e5%bc%80%e6%94%be" class="header-anchor"&gt;&lt;/a&gt;服务器已经开放！！！
 &lt;/h2&gt;&lt;p&gt;途中遇到了一些小问题 但服务器还是正常开放了！&lt;/p&gt;
 &lt;h2 id="今天看了一个视频有感而发"&gt;&lt;a href="#%e4%bb%8a%e5%a4%a9%e7%9c%8b%e4%ba%86%e4%b8%80%e4%b8%aa%e8%a7%86%e9%a2%91%e6%9c%89%e6%84%9f%e8%80%8c%e5%8f%91" class="header-anchor"&gt;&lt;/a&gt;今天看了一个视频有感而发
 &lt;/h2&gt;&lt;p&gt;打算搭建一个手艺养老服 用和视频里相同的模组&lt;/p&gt;
