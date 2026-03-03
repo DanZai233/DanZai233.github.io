@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "六一快乐！"
+image: "https://www.loliapi.com/acg/?id=4628/"\ntitle: "六一快乐！"
 date: 2022-05-31T16:58:08+08:00
 slug: "legacy-109"
 categories:

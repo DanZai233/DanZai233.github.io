@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "把心思藏进F12"
+image: "https://www.loliapi.com/acg/?id=1761/"\ntitle: "把心思藏进F12"
 date: 2022-08-05T05:21:00+08:00
 slug: "legacy-185"
 categories:

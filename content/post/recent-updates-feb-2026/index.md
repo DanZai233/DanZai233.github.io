@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "最近又搞了些什么：Aim Trainer Pro & MYGallery 大更新"
+image: "https://www.loliapi.com/acg/?id=4068/"\ntitle: "最近又搞了些什么：Aim Trainer Pro & MYGallery 大更新"
 description: "做了一个高性能瞄准训练器，还给照片墙系统加了一大堆新功能。"
 date: 2026-02-27
 slug: "recent-updates-feb-2026"

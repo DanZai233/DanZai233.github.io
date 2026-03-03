@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "方舟100级纪念"
+image: "https://www.loliapi.com/acg/?id=5650/"\ntitle: "方舟100级纪念"
 date: 2022-06-09T10:49:04+08:00
 slug: "legacy-147"
 categories:

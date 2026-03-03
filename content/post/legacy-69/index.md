@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "冥冥复播啦！开心"
+image: "https://www.loliapi.com/acg/?id=3439/"\ntitle: "冥冥复播啦！开心"
 date: 2022-04-21T06:25:00+08:00
 slug: "legacy-69"
 categories:

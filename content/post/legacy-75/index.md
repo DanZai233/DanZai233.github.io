@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "风暴中，唯保守者屹立不倒。"
+image: "https://www.loliapi.com/acg/?id=2656/"\ntitle: "风暴中，唯保守者屹立不倒。"
 date: 2022-04-27T17:04:00+08:00
 slug: "legacy-75"
 categories:

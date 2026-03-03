@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "人生第一次受到网络攻击 直接给我敲响警钟了"
+image: "https://www.loliapi.com/acg/?id=6634/"\ntitle: "人生第一次受到网络攻击 直接给我敲响警钟了"
 date: 2022-07-02T15:34:21+08:00
 slug: "legacy-178"
 categories:

@@ -1,6 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/"
-title: "当个\"人\"吧"
+image: "https://www.loliapi.com/acg/?id=7758/"\ntitle: "当个\"人\"吧"
 date: 2022-04-16T16:16:00+08:00
 slug: "legacy-60"
 categories:
