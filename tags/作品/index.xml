@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>作品 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/%E4%BD%9C%E5%93%81/</link><description>Recent content in 作品 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml"/><item><title>所作，所为 - 我的个人作品集</title><link>https://blog.danzaii.cn/p/works-portfolio/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/works-portfolio/</guid><description>&lt;h2 id="-作品集导航页上线"&gt;&lt;a href="#-%e4%bd%9c%e5%93%81%e9%9b%86%e5%af%bc%e8%88%aa%e9%a1%b5%e4%b8%8a%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;📚 作品集导航页上线
+&lt;/h2&gt;&lt;p&gt;整理完这么多开源项目后，我意识到需要一个统一的地方来展示它们。于是有了「&lt;strong&gt;所作，所为&lt;/strong&gt;」这个作品集导航站。&lt;/p&gt;
+&lt;h2 id="-关于这个网站"&gt;&lt;a href="#-%e5%85%b3%e4%ba%8e%e8%bf%99%e4%b8%aa%e7%bd%91%e7%ab%99" class="header-anchor"&gt;&lt;/a&gt;✨ 关于这个网站
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;所作，所为&lt;/strong&gt;（&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
+ &gt;works.danzaii.cn&lt;/a&gt;）是一个简约优雅的个人主页，专门用来展示我的开源项目和奇思妙想。&lt;/p&gt;
+&lt;h3 id="技术栈"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e6%a0%88" class="header-anchor"&gt;&lt;/a&gt;技术栈
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;React 19 + TypeScript&lt;/li&gt;
+&lt;li&gt;Vite 6&lt;/li&gt;
+&lt;li&gt;Tailwind CSS v4&lt;/li&gt;
+&lt;li&gt;Motion (动画)&lt;/li&gt;
+&lt;li&gt;Lucide React (图标)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="设计理念"&gt;&lt;a href="#%e8%ae%be%e8%ae%a1%e7%90%86%e5%bf%b5" class="header-anchor"&gt;&lt;/a&gt;设计理念
+&lt;/h3&gt;&lt;p&gt;整体采用现代化设计风格，结合粒子背景动画和卡片式布局，让项目展示既美观又直观。&lt;/p&gt;
+&lt;h2 id="-包含的项目"&gt;&lt;a href="#-%e5%8c%85%e5%90%ab%e7%9a%84%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;🚀 包含的项目
+&lt;/h2&gt;&lt;p&gt;目前收录了 8 个开源项目：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;项目&lt;/th&gt;
+ &lt;th&gt;简介&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;MYGallery&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;个人照片墙系统，支持瀑布流、灯箱、地图&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Aim Trainer Pro&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;网页端鼠标瞄准训练器，支持 2D/3D FPS 模式&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;MoodCard&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;心情卡片记录工具&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Chromatopoetry&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;色彩与诗歌艺术应用&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Toiletime&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;碎片时间管理工具&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;NewsChronicle-AI&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;AI 新闻纪事本&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;PixelBead&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;像素拼豆生成器&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Record-ME&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;轻量级记录工具&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="-为什么做这个"&gt;&lt;a href="#-%e4%b8%ba%e4%bb%80%e4%b9%88%e5%81%9a%e8%bf%99%e4%b8%aa" class="header-anchor"&gt;&lt;/a&gt;💡 为什么做这个？
+&lt;/h2&gt;&lt;p&gt;2025年我密集输出了 15+ 个开源项目，项目分散在不同的平台和仓库里。没有一个统一的入口，访问和查找都比较麻烦。&lt;/p&gt;
+&lt;p&gt;这个作品集网站解决了这个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;统一入口&lt;/strong&gt; — 所有项目在一个地方展示&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;快速访问&lt;/strong&gt; — 点击卡片直达项目网站或 GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视觉展示&lt;/strong&gt; — 卡片式布局，一目了然&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;美观动效&lt;/strong&gt; — 粒子背景 + 卡片动画&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-未来计划"&gt;&lt;a href="#-%e6%9c%aa%e6%9d%a5%e8%ae%a1%e5%88%92" class="header-anchor"&gt;&lt;/a&gt;🎯 未来计划
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;继续添加新项目&lt;/li&gt;
+&lt;li&gt;优化移动端体验&lt;/li&gt;
+&lt;li&gt;添加项目分类标签&lt;/li&gt;
+&lt;li&gt;支持深色/浅色主题切换&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-相关链接"&gt;&lt;a href="#-%e7%9b%b8%e5%85%b3%e9%93%be%e6%8e%a5" class="header-anchor"&gt;&lt;/a&gt;🔗 相关链接
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作品集网站&lt;/strong&gt;: &lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
+ &gt;works.danzaii.cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub 仓库&lt;/strong&gt;: &lt;a class="link" href="https://github.com/DanZai233/works" target="_blank" rel="noopener"
+ &gt;github.com/DanZai233/works&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;em&gt;&amp;ldquo;所作，皆为热爱；所为，皆有所成。&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;欢迎访问我的作品集，看看我都在做什么！ 🎉&lt;/p&gt;</description></item></channel></rss>
