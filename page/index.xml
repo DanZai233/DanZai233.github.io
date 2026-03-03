@@ -5,9 +5,6 @@
 &lt;hr&gt;
 &lt;div class="projects-cards"&gt;
 &lt;div class="project-card" onclick="window.open('https://pindou.danzaii.cn', '_blank')"&gt;
- &lt;div class="project-icon"&gt;
- &lt;img src="https://cdn-icons-png.flaticon.com/512/2991/2991108.png" alt="PixelBead" /&gt;
- &lt;/div&gt;
  &lt;div class="project-info"&gt;
  &lt;h3 class="project-title"&gt;PixelBead&lt;/h3&gt;
  &lt;p class="project-desc"&gt;拼豆像素画设计工具，支持AI生成和图片转换&lt;/p&gt;
@@ -22,9 +19,6 @@
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="project-card" onclick="window.open('https://tianji.danzaii.cn', '_blank')"&gt;
- &lt;div class="project-icon"&gt;
- &lt;img src="https://cdn-icons-png.flaticon.com/512/2364/2364510.png" alt="Tianji" /&gt;
- &lt;/div&gt;
  &lt;div class="project-info"&gt;
  &lt;h3 class="project-title"&gt;天机 (Tianji)&lt;/h3&gt;
  &lt;p class="project-desc"&gt;多模型AI占卜应用，支持星象、塔罗、奇门、周易&lt;/p&gt;
@@ -39,9 +33,6 @@
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="project-card" onclick="window.open('https://aim.danzaii.cn', '_blank')"&gt;
- &lt;div class="project-icon"&gt;
- &lt;img src="https://cdn-icons-png.flaticon.com/512/1045/1045493.png" alt="AIMBOT" /&gt;
- &lt;/div&gt;
  &lt;div class="project-info"&gt;
  &lt;h3 class="project-title"&gt;AIMBOT&lt;/h3&gt;
  &lt;p class="project-desc"&gt;高性能网页端鼠标瞄准训练器，支持2D和3D FPS模式&lt;/p&gt;
@@ -56,9 +47,6 @@
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="project-card" onclick="window.open('https://github.com/DanZai233/Termix', '_blank')"&gt;
- &lt;div class="project-icon"&gt;
- &lt;img src="https://cdn-icons-png.flaticon.com/512/2997/2997322.png" alt="Termix" /&gt;
- &lt;/div&gt;
  &lt;div class="project-info"&gt;
  &lt;h3 class="project-title"&gt;Termix&lt;/h3&gt;
  &lt;p class="project-desc"&gt;终端调酒小游戏，30+材料和18个配方&lt;/p&gt;
@@ -72,9 +60,6 @@
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="project-card" onclick="window.open('https://github.com/DanZai233/MYGallery', '_blank')"&gt;
- &lt;div class="project-icon"&gt;
- &lt;img src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png" alt="MYGallery" /&gt;
- &lt;/div&gt;
  &lt;div class="project-info"&gt;
  &lt;h3 class="project-title"&gt;MYGallery&lt;/h3&gt;
  &lt;p class="project-desc"&gt;个人照片墙系统，支持瀑布流、灯箱、地图&lt;/p&gt;
@@ -88,9 +73,6 @@
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="project-card" onclick="window.open('https://color.danzaii.cn', '_blank')"&gt;
- &lt;div class="project-icon"&gt;
- &lt;img src="https://cdn-icons-png.flaticon.com/512/2811/2811806.png" alt="Chromatopoetry" /&gt;
- &lt;/div&gt;
  &lt;div class="project-info"&gt;
  &lt;h3 class="project-title"&gt;灵韵配色 (Chromatopoetry)&lt;/h3&gt;
  &lt;p class="project-desc"&gt;AI驱动的色彩美学应用，支持灵感和图片提取&lt;/p&gt;
@@ -105,9 +87,6 @@
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="project-card" onclick="window.open('https://github.com/DanZai233/Toiletime', '_blank')"&gt;
- &lt;div class="project-icon"&gt;
- &lt;img src="https://cdn-icons-png.flaticon.com/512/3081/3081159.png" alt="Toiletime" /&gt;
- &lt;/div&gt;
  &lt;div class="project-info"&gt;
  &lt;h3 class="project-title"&gt;Toiletime&lt;/h3&gt;
  &lt;p class="project-desc"&gt;时间管理工具&lt;/p&gt;
