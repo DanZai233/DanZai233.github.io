@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "小学期要开始了 真的要搞智慧视觉了吗"
 date: 2022-06-19T15:34:00+08:00
 slug: "legacy-155"
@@ -7,6 +8,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 ## 快乐小学期
 

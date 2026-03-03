@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "式守同学 可爱捏 贴贴"
 date: 2022-06-26T08:58:45+08:00
 slug: "legacy-159"
@@ -7,6 +8,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 <!-- 图片待上传 -->
 <!-- 图片待上传 -->

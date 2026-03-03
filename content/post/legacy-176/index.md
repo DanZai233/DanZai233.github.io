@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "冥冥千舰啦！！！！ 恭喜恭喜！！！"
 date: 2022-07-01T15:41:15+08:00
 slug: "legacy-176"
@@ -7,6 +8,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 <!-- 图片待上传 -->
 <!-- 图片待上传 -->

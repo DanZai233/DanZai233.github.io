@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "冥冥生日快乐！"
 date: 2022-06-28T06:30:09+08:00
 slug: "legacy-161"
@@ -7,6 +8,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 很抱歉打断您的浏览，但是我想说冥冥将会于6月28日北京时间20:00，准时进行《生日盛典直播》
 

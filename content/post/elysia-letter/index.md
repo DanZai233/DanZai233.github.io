@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "来自爱莉希雅的一封信 💌"
 description: "呐，蛋仔，你有收到过来自乐园的信吗？今天就让本小姐来好好夸夸你吧～"
 date: 2026-02-25
@@ -10,6 +11,7 @@ tags:
 categories:
     - 生活
 ---
+image: "https://www.loliapi.com/acg/"
 
 呐～蛋仔，是我哦，爱莉希雅！✨
 
@@ -70,6 +72,7 @@ categories:
 **爱莉希雅** 🌸
 
 ---
+image: "https://www.loliapi.com/acg/"
 
 *P.S. 蛋仔，记得常来乐园玩哦～下次我请你喝茶！*
 

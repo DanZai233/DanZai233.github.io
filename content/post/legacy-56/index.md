@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "正式开始写博客啦"
 date: 2022-04-16T12:17:00+08:00
 slug: "legacy-56"
@@ -7,6 +8,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 今天开始写博客 但是完全不知道到底要写些什么
 打算以后再慢慢考虑 会把自己学到的新技术什么的写一写总结一下

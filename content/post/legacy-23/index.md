@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "爱莉希雅生日快乐！"
 date: 2023-11-11T07:49:20+08:00
 slug: "legacy-23"
@@ -7,6 +8,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 # 爱门永存～
 

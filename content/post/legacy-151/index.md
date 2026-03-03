@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "原神服务器不开了 大家可以自行去开设私服"
 date: 2022-06-11T11:19:23+08:00
 slug: "legacy-151"
@@ -7,6 +8,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 最近几天原神私服给我的博客引了波大的流量，但是因为太多人了 已经完全超出我能控制的范畴了，而且服务器资源也吃不消 选择关服了。
 

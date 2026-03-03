@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/"
 title: "沉迷MC了 要去开MC服务器了 原神再见"
 date: 2022-06-11T06:27:00+08:00
 slug: "legacy-148"
@@ -7,5 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 MC真好玩，就是服务器资源占用有点多
