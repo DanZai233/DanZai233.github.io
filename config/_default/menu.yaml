@@ -32,6 +32,14 @@ social:
       newTab: true
 
 main:
+  - identifier: works
+    name: 所作，所为
+    url: "https://works.danzaii.cn"
+    weight: 30
+    params:
+      icon: compass
+      newTab: true
+
   - identifier: travellings
     name: 开往
     url: "https://www.travellings.cn/go.html"
