@@ -295,7 +295,7 @@
 &lt;h2 id="小结"&gt;&lt;a href="#%e5%b0%8f%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;小结
 &lt;/h2&gt;&lt;p&gt;AIMBOT 从零到上线大概花了两天，MYGallery 的更新则是断断续续改了一周。两个项目方向完全不同——一个是 Canvas 游戏，一个是全栈应用——但都很有成就感。&lt;/p&gt;
 &lt;p&gt;接下来 MYGallery 还打算加视频支持和更多的社交功能。AIMBOT 如果有时间的话想加排行榜和自定义地图编辑器。&lt;/p&gt;
-&lt;p&gt;不过说实话……做完这些我应该休息两天了 😂&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
+&lt;p&gt;不过说实话……做完这些我应该休息两天了 😂&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 这几个月我都做了些什么——我的开源项目回顾" /&gt;&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
 &lt;h2 id="认真打磨的项目"&gt;&lt;a href="#%e8%ae%a4%e7%9c%9f%e6%89%93%e7%a3%a8%e7%9a%84%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;认真打磨的项目
 &lt;/h2&gt;&lt;h3 id="-mygallery--个人照片墙系统"&gt;&lt;a href="#-mygallery--%e4%b8%aa%e4%ba%ba%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery —— 个人照片墙系统
 &lt;/h3&gt;
