@@ -24,9 +24,6 @@ comments: false
 <div class="projects-cards">
 
 <div class="project-card" onclick="window.open('https://pindou.danzaii.cn', '_blank')">
-  <div class="project-icon">
-    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991108.png" alt="PixelBead" />
-  </div>
   <div class="project-info">
     <h3 class="project-title">PixelBead</h3>
     <p class="project-desc">拼豆像素画设计工具，支持AI生成和图片转换</p>
@@ -42,9 +39,6 @@ comments: false
 </div>
 
 <div class="project-card" onclick="window.open('https://tianji.danzaii.cn', '_blank')">
-  <div class="project-icon">
-    <img src="https://cdn-icons-png.flaticon.com/512/2364/2364510.png" alt="Tianji" />
-  </div>
   <div class="project-info">
     <h3 class="project-title">天机 (Tianji)</h3>
     <p class="project-desc">多模型AI占卜应用，支持星象、塔罗、奇门、周易</p>
@@ -60,9 +54,6 @@ comments: false
 </div>
 
 <div class="project-card" onclick="window.open('https://aim.danzaii.cn', '_blank')">
-  <div class="project-icon">
-    <img src="https://cdn-icons-png.flaticon.com/512/1045/1045493.png" alt="AIMBOT" />
-  </div>
   <div class="project-info">
     <h3 class="project-title">AIMBOT</h3>
     <p class="project-desc">高性能网页端鼠标瞄准训练器，支持2D和3D FPS模式</p>
@@ -78,9 +69,6 @@ comments: false
 </div>
 
 <div class="project-card" onclick="window.open('https://github.com/DanZai233/Termix', '_blank')">
-  <div class="project-icon">
-    <img src="https://cdn-icons-png.flaticon.com/512/2997/2997322.png" alt="Termix" />
-  </div>
   <div class="project-info">
     <h3 class="project-title">Termix</h3>
     <p class="project-desc">终端调酒小游戏，30+材料和18个配方</p>
@@ -95,9 +83,6 @@ comments: false
 </div>
 
 <div class="project-card" onclick="window.open('https://github.com/DanZai233/MYGallery', '_blank')">
-  <div class="project-icon">
-    <img src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png" alt="MYGallery" />
-  </div>
   <div class="project-info">
     <h3 class="project-title">MYGallery</h3>
     <p class="project-desc">个人照片墙系统，支持瀑布流、灯箱、地图</p>
@@ -112,9 +97,6 @@ comments: false
 </div>
 
 <div class="project-card" onclick="window.open('https://color.danzaii.cn', '_blank')">
-  <div class="project-icon">
-    <img src="https://cdn-icons-png.flaticon.com/512/2811/2811806.png" alt="Chromatopoetry" />
-  </div>
   <div class="project-info">
     <h3 class="project-title">灵韵配色 (Chromatopoetry)</h3>
     <p class="project-desc">AI驱动的色彩美学应用，支持灵感和图片提取</p>
@@ -130,9 +112,6 @@ comments: false
 </div>
 
 <div class="project-card" onclick="window.open('https://github.com/DanZai233/Toiletime', '_blank')">
-  <div class="project-icon">
-    <img src="https://cdn-icons-png.flaticon.com/512/3081/3081159.png" alt="Toiletime" />
-  </div>
   <div class="project-info">
     <h3 class="project-title">Toiletime</h3>
     <p class="project-desc">时间管理工具</p>
