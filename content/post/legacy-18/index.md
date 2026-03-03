@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=3637/"title: "个人obsidian多终端解决方案 iOS Win Linux"
+image: "https://www.loliapi.com/acg/?id=3637/"
+
+title: "个人obsidian多终端解决方案 iOS Win Linux"
 date: 2023-10-13T08:06:05+08:00
 slug: "legacy-18"
 categories:

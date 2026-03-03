@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=7609/"title: "加入了冥冥表情包"
+image: "https://www.loliapi.com/acg/?id=7609/"
+
+title: "加入了冥冥表情包"
 date: 2022-04-22T17:59:00+08:00
 slug: "legacy-74"
 categories:

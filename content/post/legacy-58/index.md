@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=2936/"title: "开放了蛋仔云盘！"
+image: "https://www.loliapi.com/acg/?id=2936/"
+
+title: "开放了蛋仔云盘！"
 date: 2022-04-16T13:03:00+08:00
 slug: "legacy-58"
 categories:

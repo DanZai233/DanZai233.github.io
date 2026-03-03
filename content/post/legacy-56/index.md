@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=214/"title: "正式开始写博客啦"
+image: "https://www.loliapi.com/acg/?id=214/"
+
+title: "正式开始写博客啦"
 date: 2022-04-16T12:17:00+08:00
 slug: "legacy-56"
 categories:

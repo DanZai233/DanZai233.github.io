@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=1907/"title: "抢救数据计划（完成！）"
+image: "https://www.loliapi.com/acg/?id=1907/"
+
+title: "抢救数据计划（完成！）"
 date: 2023-08-29T12:56:00+08:00
 slug: "legacy-16"
 categories:

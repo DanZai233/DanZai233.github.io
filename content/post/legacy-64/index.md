@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=4370/"title: "MC手艺养老服搭建"
+image: "https://www.loliapi.com/acg/?id=4370/"
+
+title: "MC手艺养老服搭建"
 date: 2022-04-18T15:37:00+08:00
 slug: "legacy-64"
 categories:

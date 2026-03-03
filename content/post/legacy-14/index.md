@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8877/"title: "终于写完论文啦"
+image: "https://www.loliapi.com/acg/?id=8877/"
+
+title: "终于写完论文啦"
 date: 2023-05-15T09:59:12+08:00
 slug: "legacy-14"
 categories:

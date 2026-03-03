@@ -1,5 +1,7 @@
 ---
-image: "https://www.loliapi.com/acg/?id=6097/"title: "冥冥千舰啦！！！！ 恭喜恭喜！！！"
+image: "https://www.loliapi.com/acg/?id=6097/"
+
+title: "冥冥千舰啦！！！！ 恭喜恭喜！！！"
 date: 2022-07-01T15:41:15+08:00
 slug: "legacy-176"
 categories:
