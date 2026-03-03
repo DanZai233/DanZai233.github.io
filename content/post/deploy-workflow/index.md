@@ -123,7 +123,7 @@ cursor your-repo
 
 ### 关联 GitHub 仓库
 
-![Vercel 导入仓库](https://vercel.com/docs/assets/deployments/deployments-overview.png)
+**Vercel 导入仓库示意图**：在 Vercel Dashboard 点击 "Add New"，选择 GitHub 仓库即可
 
 1. 选择你的 GitHub 仓库
 2. Vercel 会自动检测框架（React、Next.js、Hugo 等）
