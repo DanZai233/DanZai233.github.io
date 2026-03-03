@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=3741/"\ntitle: "原神 太好玩啦！"
+image: "https://www.loliapi.com/acg/?id=3741/"title: "原神 太好玩啦！"
 date: 2022-06-09T10:45:00+08:00
 slug: "legacy-144"
 categories:

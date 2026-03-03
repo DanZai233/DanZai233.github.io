@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8090/"\ntitle: "Linux虚拟机配置网络找不到本地ip地址"
+image: "https://www.loliapi.com/acg/?id=8090/"title: "Linux虚拟机配置网络找不到本地ip地址"
 date: 2022-07-18T09:25:49+08:00
 slug: "legacy-180"
 categories:

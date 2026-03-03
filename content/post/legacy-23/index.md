@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=6072/"\ntitle: "爱莉希雅生日快乐！"
+image: "https://www.loliapi.com/acg/?id=6072/"title: "爱莉希雅生日快乐！"
 date: 2023-11-11T07:49:20+08:00
 slug: "legacy-23"
 categories:

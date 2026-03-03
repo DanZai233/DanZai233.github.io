@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=1779/"\ntitle: "式守同学 可爱捏 贴贴"
+image: "https://www.loliapi.com/acg/?id=1779/"title: "式守同学 可爱捏 贴贴"
 date: 2022-06-26T08:58:45+08:00
 slug: "legacy-159"
 categories:

@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=1098/"\ntitle: "数据库完成抢修 博客复原！"
+image: "https://www.loliapi.com/acg/?id=1098/"title: "数据库完成抢修 博客复原！"
 date: 2023-12-08T17:09:28+08:00
 slug: "legacy-188"
 categories:

@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=899/"\ntitle: "冥冥的新机甲！好美！"
+image: "https://www.loliapi.com/acg/?id=899/"title: "冥冥的新机甲！好美！"
 date: 2022-06-28T16:35:00+08:00
 slug: "legacy-172"
 categories:

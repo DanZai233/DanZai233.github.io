@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=6227/"\ntitle: "冥冥生日快乐！"
+image: "https://www.loliapi.com/acg/?id=6227/"title: "冥冥生日快乐！"
 date: 2022-06-28T06:30:09+08:00
 slug: "legacy-161"
 categories:

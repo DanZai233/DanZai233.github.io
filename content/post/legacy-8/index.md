@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=7916/"\ntitle: "重启博客！"
+image: "https://www.loliapi.com/acg/?id=7916/"title: "重启博客！"
 date: 2023-04-18T18:29:00+08:00
 slug: "legacy-8"
 categories:
