@@ -6,6 +6,9 @@ rssFullContent: true
 
 favicon: "img/avatar.png"
 
+# 网站描述
+description: "Dan_Zai 的个人博客，分享技术笔记、开源项目、生活随笔和 AI 开发心得"
+
 footer:
   since: 2021
   customText: "Powered by <a href=\"https://gohugo.io/\" target=\"_blank\">Hugo</a> & <a href=\"https://github.com/CaiJimmy/hugo-theme-stack\" target=\"_blank\">Stack</a>"

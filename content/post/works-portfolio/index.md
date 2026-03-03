@@ -2,6 +2,8 @@
 title: "所作，所为 - 我的个人作品集"
 date: 2026-03-03
 slug: "works-portfolio"
+description: "介绍我的个人作品集导航网站 works.danzaii.cn，包含 15+ 个开源项目，涵盖 React、Go、Python 等多个技术栈"
+keywords: ["作品集", "开源", "作品", "导航页", "个人项目"]
 tags: ["作品集", "开源", "作品"]
 categories: ["生活"]
 ---

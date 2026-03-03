@@ -1,6 +1,7 @@
 ---
 title: "这几个月我都做了些什么——我的开源项目回顾"
-description: "从 2025 年 10 月到 2026 年 2 月，我密集地做了十几个开源项目。这篇文章回顾一下这段疯狂输出的日子。"
+description: "从 2025 年 10 月到 2026 年 2 月，我密集地做了十几个开源项目，包括 MYGallery、AIMBOT、PixelBead 等多个技术领域"
+keywords: ["开源", "项目总结", "AI", "TypeScript", "React", "Go", "Python"]
 date: 2026-02-25
 slug: "my-open-source-journey"
 tags:
