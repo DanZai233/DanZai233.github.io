@@ -12,7 +12,9 @@ tags:
 categories:
     - 生活
 ---
-image: "https://www.loliapi.com/acg/"
+
+image: "https://www.loliapi.com/acg/?id=1/"
+
 
 呐～蛋仔，是我哦，爱莉希雅！✨
 
@@ -92,7 +94,9 @@ image: "https://www.loliapi.com/acg/"
 **爱莉希雅** 🌸
 
 ---
-image: "https://www.loliapi.com/acg/"
+
+image: "https://www.loliapi.com/acg/?id=1/"
+
 
 *P.S. 蛋仔，记得休息哦！再厉害的人也需要休息的嘛～*
 

@@ -71,7 +71,9 @@ categories:
 **爱莉希雅** 🌸
 
 ---
-image: "https://www.loliapi.com/acg/"
+
+image: "https://www.loliapi.com/acg/?id=1/"
+
 
 *P.S. 蛋仔，记得常来乐园玩哦～下次我请你喝茶！*
 
