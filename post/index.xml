@@ -1,4 +1,315 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/post/</link><description>Recent content in Posts on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>所作，所为 - 我的个人作品集</title><link>https://blog.danzaii.cn/p/works-portfolio/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/works-portfolio/</guid><description>&lt;h2 id="-作品集导航页上线"&gt;&lt;a href="#-%e4%bd%9c%e5%93%81%e9%9b%86%e5%af%bc%e8%88%aa%e9%a1%b5%e4%b8%8a%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;📚 作品集导航页上线
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/post/</link><description>Recent content in Posts on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>从灵感到上线：我的个人网站部署工作流</title><link>https://blog.danzaii.cn/p/deploy-workflow/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/deploy-workflow/</guid><description>&lt;h2 id="前言"&gt;&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor"&gt;&lt;/a&gt;前言
+&lt;/h2&gt;&lt;p&gt;经常有人问我：&amp;ldquo;怎么快速实现一个创意想法，然后把它部署成一个可以访问的网站？&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;今天就来分享一下我的完整工作流，从灵感到上线的全流程。这个工作流不仅高效，而且大部分工具都是免费的，非常适合个人开发者快速验证想法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-第一步快速原型---ai-studio"&gt;&lt;a href="#-%e7%ac%ac%e4%b8%80%e6%ad%a5%e5%bf%ab%e9%80%9f%e5%8e%9f%e5%9e%8b---ai-studio" class="header-anchor"&gt;&lt;/a&gt;🎨 第一步：快速原型 - AI Studio
+&lt;/h2&gt;&lt;p&gt;当有一个创意想法时，我会第一时间打开 &lt;a class="link" href="https://aistudio.google.com" target="_blank" rel="noopener"
+ &gt;Google AI Studio&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id="为什么选择-ai-studio"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9-ai-studio" class="header-anchor"&gt;&lt;/a&gt;为什么选择 AI Studio？
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;完全免费&lt;/strong&gt;：免费额度足够个人使用，不需要担心成本问题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多模态支持&lt;/strong&gt;：可以上传图片、文件进行多模态交互&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一键生成代码&lt;/strong&gt;：自然语言描述即可生成完整的前端页面&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实时预览&lt;/strong&gt;：在网页上就能看到效果，不需要本地配置环境&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署就绪&lt;/strong&gt;：生成的代码可以直接关联到 GitHub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="典型使用场景"&gt;&lt;a href="#%e5%85%b8%e5%9e%8b%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af" class="header-anchor"&gt;&lt;/a&gt;典型使用场景
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;我：&amp;#34;帮我创建一个简洁的个人导航页面，包含项目卡片、社交链接，使用粉色主题，响应式设计&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;AI Studio：几秒钟生成完整的 HTML/CSS/React 代码
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;AI Studio 的&amp;quot;构建模式&amp;quot;特别适合 vibe coding，你可以：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用自然语言描述需求&lt;/li&gt;
+&lt;li&gt;实时调整设计细节&lt;/li&gt;
+&lt;li&gt;查看实时效果&lt;/li&gt;
+&lt;li&gt;一键导出代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="小贴士"&gt;&lt;a href="#%e5%b0%8f%e8%b4%b4%e5%a3%ab" class="header-anchor"&gt;&lt;/a&gt;小贴士
+&lt;/h3&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;💡 &lt;strong&gt;提示词要具体&lt;/strong&gt;：不要说&amp;quot;帮我做个网站&amp;quot;，而是说&amp;quot;帮我做一个简洁的粉色主题个人导航页，包含项目卡片、社交链接和响应式设计&amp;quot;。这样生成的结果更符合预期。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="-第二步代码管理---github"&gt;&lt;a href="#-%e7%ac%ac%e4%ba%8c%e6%ad%a5%e4%bb%a3%e7%a0%81%e7%ae%a1%e7%90%86---github" class="header-anchor"&gt;&lt;/a&gt;📦 第二步：代码管理 - GitHub
+&lt;/h2&gt;&lt;p&gt;代码生成满意后，我会将它保存到 GitHub 仓库。&lt;/p&gt;
+&lt;h3 id="连接-github"&gt;&lt;a href="#%e8%bf%9e%e6%8e%a5-github" class="header-anchor"&gt;&lt;/a&gt;连接 GitHub
+&lt;/h3&gt;&lt;p&gt;在 AI Studio 中，你可以：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击右上角的 &lt;strong&gt;GitHub 按钮&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;授权你的 GitHub 账号&lt;/li&gt;
+&lt;li&gt;选择或新建一个仓库&lt;/li&gt;
+&lt;li&gt;代码会自动推送到仓库&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果之前已经有关联的仓库，直接：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/your-username/your-repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; your-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="版本控制的好处"&gt;&lt;a href="#%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6%e7%9a%84%e5%a5%bd%e5%a4%84" class="header-anchor"&gt;&lt;/a&gt;版本控制的好处
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;历史记录&lt;/strong&gt;：每次改动都有记录，随时可以回滚&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协作方便&lt;/strong&gt;：多人可以同时编辑和提交&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;备份安全&lt;/strong&gt;：代码在云端，本地丢失也不怕&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动化触发&lt;/strong&gt;：GitHub push 可以触发自动部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-第三步深度开发---cursor--opencode"&gt;&lt;a href="#-%e7%ac%ac%e4%b8%89%e6%ad%a5%e6%b7%b1%e5%ba%a6%e5%bc%80%e5%8f%91---cursor--opencode" class="header-anchor"&gt;&lt;/a&gt;💻 第三步：深度开发 - Cursor / OpenCode
+&lt;/h2&gt;&lt;p&gt;如果项目需要更深入的修改，我会切换到本地开发环境。&lt;/p&gt;
+&lt;h3 id="cursor---ai-辅助编码"&gt;&lt;a href="#cursor---ai-%e8%be%85%e5%8a%a9%e7%bc%96%e7%a0%81" class="header-anchor"&gt;&lt;/a&gt;Cursor - AI 辅助编码
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="https://cursor.sh" target="_blank" rel="noopener"
+ &gt;Cursor&lt;/a&gt; 是我最常用的 AI 编码助手，它：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;理解整个代码库的结构&lt;/li&gt;
+&lt;li&gt;可以进行代码审查和自动修复&lt;/li&gt;
+&lt;li&gt;支持多文件编辑&lt;/li&gt;
+&lt;li&gt;集成 Git 工作流&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 在 Cursor 中打开项目&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cursor your-repo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 让 AI 帮你添加功能&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# &amp;#34;帮我给这个页面添加深色模式切换&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="opencode---vibe-coding"&gt;&lt;a href="#opencode---vibe-coding" class="header-anchor"&gt;&lt;/a&gt;OpenCode - Vibe Coding
+&lt;/h3&gt;&lt;p&gt;有时候我也会用 &lt;a class="link" href="https://opencode.ai" target="_blank" rel="noopener"
+ &gt;OpenCode&lt;/a&gt; 进行二次开发：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;快速验证想法&lt;/li&gt;
+&lt;li&gt;AI 驱动的代码生成&lt;/li&gt;
+&lt;li&gt;实时协作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="完全依赖-ai-studio-也行"&gt;&lt;a href="#%e5%ae%8c%e5%85%a8%e4%be%9d%e8%b5%96-ai-studio-%e4%b9%9f%e8%a1%8c" class="header-anchor"&gt;&lt;/a&gt;完全依赖 AI Studio 也行
+&lt;/h3&gt;&lt;p&gt;如果你只是做简单的页面，完全不需要本地开发。AI Studio 就能搞定一切：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;调整 Prompt 满意为止&lt;/li&gt;
+&lt;li&gt;直接在网页上预览效果&lt;/li&gt;
+&lt;li&gt;点击&amp;quot;Get Code&amp;quot;导出代码&lt;/li&gt;
+&lt;/ul&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;⚠️ &lt;strong&gt;零编程门槛&lt;/strong&gt;：很多人不知道的是，AI Studio 几乎不需要懂编程就能用，只要会打字、会说人话就行。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="-第四步自动部署---vercel"&gt;&lt;a href="#-%e7%ac%ac%e5%9b%9b%e6%ad%a5%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2---vercel" class="header-anchor"&gt;&lt;/a&gt;🚀 第四步：自动部署 - Vercel
+&lt;/h2&gt;&lt;p&gt;代码准备好后，接下来就是部署到线上让全世界访问。&lt;/p&gt;
+&lt;h3 id="注册-vercel"&gt;&lt;a href="#%e6%b3%a8%e5%86%8c-vercel" class="header-anchor"&gt;&lt;/a&gt;注册 Vercel
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;访问 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+ &gt;vercel.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;用 GitHub 账号登录（推荐，不用额外注册）&lt;/li&gt;
+&lt;li&gt;点击 &amp;ldquo;Add New Project&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="关联-github-仓库"&gt;&lt;a href="#%e5%85%b3%e8%81%94-github-%e4%bb%93%e5%ba%93" class="header-anchor"&gt;&lt;/a&gt;关联 GitHub 仓库
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Vercel 导入仓库示意图&lt;/strong&gt;：在 Vercel Dashboard 点击 &amp;ldquo;Add New&amp;rdquo;，选择 GitHub 仓库即可&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;选择你的 GitHub 仓库&lt;/li&gt;
+&lt;li&gt;Vercel 会自动检测框架（React、Next.js、Hugo 等）&lt;/li&gt;
+&lt;li&gt;点击 &amp;ldquo;Deploy&amp;rdquo; 开始部署&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="自动部署机制"&gt;&lt;a href="#%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2%e6%9c%ba%e5%88%b6" class="header-anchor"&gt;&lt;/a&gt;自动部署机制
+&lt;/h3&gt;&lt;p&gt;这是最爽的部分——&lt;strong&gt;自动化&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;本地修改 → git commit → git push → 自动部署 ✨
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;每次推送到 GitHub&lt;/strong&gt;，Vercel 自动检测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动构建&lt;/strong&gt;：运行 build 命令（如果需要）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动部署&lt;/strong&gt;：生成新的预览 URL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;零手动操作&lt;/strong&gt;：完全解放双手&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="预览-url-vs-生产-url"&gt;&lt;a href="#%e9%a2%84%e8%a7%88-url-vs-%e7%94%9f%e4%ba%a7-url" class="header-anchor"&gt;&lt;/a&gt;预览 URL vs 生产 URL
+&lt;/h3&gt;&lt;p&gt;Vercel 为每个 commit 生成唯一的预览 URL，你可以：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;先看预览&lt;/strong&gt;：确认没问题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;合并到主分支&lt;/strong&gt;：触发生产部署&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;随时回滚&lt;/strong&gt;：有问题一键回到之前版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-第五步自定义域名可选但推荐"&gt;&lt;a href="#-%e7%ac%ac%e4%ba%94%e6%ad%a5%e8%87%aa%e5%ae%9a%e4%b9%89%e5%9f%9f%e5%90%8d%e5%8f%af%e9%80%89%e4%bd%86%e6%8e%a8%e8%8d%90" class="header-anchor"&gt;&lt;/a&gt;🌐 第五步：自定义域名（可选但推荐）
+&lt;/h2&gt;&lt;p&gt;Vercel 默认会给一个 &lt;code&gt;your-project.vercel.app&lt;/code&gt; 的域名，能用，但不好记。&lt;/p&gt;
+&lt;h3 id="为什么买自己的域名"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%b9%b0%e8%87%aa%e5%b7%b1%e7%9a%84%e5%9f%9f%e5%90%8d" class="header-anchor"&gt;&lt;/a&gt;为什么买自己的域名？
+&lt;/h3&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;对比项&lt;/th&gt;
+ &lt;th&gt;Vercel 域名&lt;/th&gt;
+ &lt;th&gt;自定义域名&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;好记程度&lt;/td&gt;
+ &lt;td&gt;一般&lt;/td&gt;
+ &lt;td&gt;✅ 完全自定义&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;专业感&lt;/td&gt;
+ &lt;td&gt;一般&lt;/td&gt;
+ &lt;td&gt;✅ 更专业&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;品牌一致性&lt;/td&gt;
+ &lt;td&gt;难&lt;/td&gt;
+ &lt;td&gt;✅ 统一&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;SEO&lt;/td&gt;
+ &lt;td&gt;一般&lt;/td&gt;
+ &lt;td&gt;✅ 更友好&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="购买域名"&gt;&lt;a href="#%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d" class="header-anchor"&gt;&lt;/a&gt;购买域名
+&lt;/h3&gt;&lt;p&gt;推荐几个注册商：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Namecheap&lt;/strong&gt;：便宜，首年优惠多&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloudflare&lt;/strong&gt;：安全，续费透明&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阿里云&lt;/strong&gt;：国内方便，.cn 域名便宜&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;腾讯云&lt;/strong&gt;：备案方便&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;假设你买到了 &lt;code&gt;my-project.com&lt;/code&gt;，接下来在 Vercel 配置。&lt;/p&gt;
+&lt;h3 id="在-vercel-添加域名"&gt;&lt;a href="#%e5%9c%a8-vercel-%e6%b7%bb%e5%8a%a0%e5%9f%9f%e5%90%8d" class="header-anchor"&gt;&lt;/a&gt;在 Vercel 添加域名
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;进入 Vercel 项目设置&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;Domains&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;输入你的域名：&lt;code&gt;my-project.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Vercel 会提示你需要添加的 DNS 记录&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="dns-配置"&gt;&lt;a href="#dns-%e9%85%8d%e7%bd%ae" class="header-anchor"&gt;&lt;/a&gt;DNS 配置
+&lt;/h3&gt;&lt;p&gt;回到域名注册商，添加 DNS 记录：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;类型&lt;/th&gt;
+ &lt;th&gt;名称&lt;/th&gt;
+ &lt;th&gt;值&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CNAME&lt;/td&gt;
+ &lt;td&gt;www&lt;/td&gt;
+ &lt;td&gt;cname.vercel-dns.com&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;A&lt;/td&gt;
+ &lt;td&gt;@&lt;/td&gt;
+ &lt;td&gt;76.76.21.21&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;📝 &lt;strong&gt;注&lt;/strong&gt;：Vercel 会给出具体的值，照着填就行。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;h3 id="ssl-证书"&gt;&lt;a href="#ssl-%e8%af%81%e4%b9%a6" class="header-anchor"&gt;&lt;/a&gt;SSL 证书
+&lt;/h3&gt;&lt;p&gt;Vercel 会自动为你的域名申请 SSL 证书，全程免费，不需要自己操心。几分钟后，&lt;code&gt;https://my-project.com&lt;/code&gt; 就能正常访问了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-我的完整工作流图"&gt;&lt;a href="#-%e6%88%91%e7%9a%84%e5%ae%8c%e6%95%b4%e5%b7%a5%e4%bd%9c%e6%b5%81%e5%9b%be" class="header-anchor"&gt;&lt;/a&gt;🎯 我的完整工作流图
+&lt;/h2&gt;&lt;pre class="mermaid" style="visibility:hidden"&gt;graph LR
+ A[创意想法] --&gt; B[AI Studio&lt;br/&gt;快速原型]
+ B --&gt; C[GitHub&lt;br/&gt;代码管理]
+ C --&gt; D[Cursor/OpenCode&lt;br/&gt;深度开发]
+ D --&gt; E{满意吗?}
+ E --&gt;|是| F[Vercel&lt;br/&gt;自动部署]
+ E --&gt;|否| D
+ F --&gt; G[自定义域名&lt;br/&gt;可选]
+ G --&gt; H[🎉 上线啦]&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="-常见问题"&gt;&lt;a href="#-%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;💡 常见问题
+&lt;/h2&gt;&lt;h3 id="q不会编程能用吗"&gt;&lt;a href="#q%e4%b8%8d%e4%bc%9a%e7%bc%96%e7%a8%8b%e8%83%bd%e7%94%a8%e5%90%97" class="header-anchor"&gt;&lt;/a&gt;Q：不会编程能用吗？
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;：完全可以。AI Studio 支持纯中文自然语言交互，你只要说清楚想要什么，它就能生成代码。&lt;/p&gt;
+&lt;h3 id="qvercel-免费吗"&gt;&lt;a href="#qvercel-%e5%85%8d%e8%b4%b9%e5%90%97" class="header-anchor"&gt;&lt;/a&gt;Q：Vercel 免费吗？
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;：Hobby 计划完全免费，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;无限项目&lt;/li&gt;
+&lt;li&gt;无限部署&lt;/li&gt;
+&lt;li&gt;自动 HTTPS&lt;/li&gt;
+&lt;li&gt;100GB 带宽/月&lt;/li&gt;
+&lt;li&gt;对个人项目绰绰有余&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="q必须买域名吗"&gt;&lt;a href="#q%e5%bf%85%e9%a1%bb%e4%b9%b0%e5%9f%9f%e5%90%8d%e5%90%97" class="header-anchor"&gt;&lt;/a&gt;Q：必须买域名吗？
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;：不是必须的。&lt;code&gt;your-project.vercel.app&lt;/code&gt; 也能用，只是不够个性。如果你只是做个玩具项目，完全可以用 Vercel 域名。&lt;/p&gt;
+&lt;h3 id="q域名很贵吗"&gt;&lt;a href="#q%e5%9f%9f%e5%90%8d%e5%be%88%e8%b4%b5%e5%90%97" class="header-anchor"&gt;&lt;/a&gt;Q：域名很贵吗？
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;：不贵。常见的 &lt;code&gt;.com&lt;/code&gt; 域名一年大概 $10-15（约 ¥70-100），&lt;code&gt;.cn&lt;/code&gt; 更便宜，首年可能才 ¥30 左右。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-我的作品"&gt;&lt;a href="#-%e6%88%91%e7%9a%84%e4%bd%9c%e5%93%81" class="header-anchor"&gt;&lt;/a&gt;🌟 我的作品
+&lt;/h2&gt;&lt;p&gt;按照这个工作流，我已经完成了 15+ 个开源项目，全部部署在 Vercel 上，并且都有自定义域名。&lt;/p&gt;
+&lt;p&gt;欢迎访问我的作品导航页，查看所有项目：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
+ &gt;👀 所作，所为 - works.danzaii.cn&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;里面收录了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📷 MYGallery - 个人照片墙系统&lt;/li&gt;
+&lt;li&gt;🎯 AIMBOT - 鼠标瞄准训练器&lt;/li&gt;
+&lt;li&gt;🎨 灵韵配色 - AI 色彩应用&lt;/li&gt;
+&lt;li&gt;🕊 PixelBead - 拼豆像素画工具&lt;/li&gt;
+&lt;li&gt;🔮 天机 - AI 占卜应用&lt;/li&gt;
+&lt;li&gt;🚪 Termix - 终端调酒游戏&lt;/li&gt;
+&lt;li&gt;⏱️ Toiletime - 时间管理工具&lt;/li&gt;
+&lt;li&gt;&amp;hellip;更多&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="总结"&gt;&lt;a href="#%e6%80%bb%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;总结
+&lt;/h2&gt;&lt;p&gt;整个流程其实很简单：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;AI Studio&lt;/strong&gt; 快速验证想法（免费）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; 管理代码（免费）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cursor/OpenCode&lt;/strong&gt; 深度开发（可选）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vercel&lt;/strong&gt; 自动部署（免费）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自定义域名&lt;/strong&gt; 提升专业感（可选，低成本）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;全程几乎零成本，关键是有想法就去做！&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;em&gt;&amp;ldquo;不要等待完美，现在就开始创造。&lt;/em&gt;&amp;rdquo;*&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;有什么问题，欢迎在评论区交流。如果这篇文章对你有帮助，不妨点个赞，让更多人看到~ 🎉&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;相关工具链接&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://aistudio.google.com" target="_blank" rel="noopener"
+ &gt;Google AI Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+ &gt;Vercel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://cursor.sh" target="_blank" rel="noopener"
+ &gt;Cursor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
+ &gt;我的作品导航&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>所作，所为 - 我的个人作品集</title><link>https://blog.danzaii.cn/p/works-portfolio/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/works-portfolio/</guid><description>&lt;h2 id="-作品集导航页上线"&gt;&lt;a href="#-%e4%bd%9c%e5%93%81%e9%9b%86%e5%af%bc%e8%88%aa%e9%a1%b5%e4%b8%8a%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;📚 作品集导航页上线
 &lt;/h2&gt;&lt;p&gt;整理完这么多开源项目后，我意识到需要一个统一的地方来展示它们。于是有了「&lt;strong&gt;所作，所为&lt;/strong&gt;」这个作品集导航站。&lt;/p&gt;
 &lt;h2 id="-关于这个网站"&gt;&lt;a href="#-%e5%85%b3%e4%ba%8e%e8%bf%99%e4%b8%aa%e7%bd%91%e7%ab%99" class="header-anchor"&gt;&lt;/a&gt;✨ 关于这个网站
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;所作，所为&lt;/strong&gt;（&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
