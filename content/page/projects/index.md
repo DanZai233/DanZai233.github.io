@@ -34,7 +34,7 @@ comments: false
     </div>
   </div>
   <div class="project-thumb">
-    <img src="" alt="PixelBead Preview" />
+    <img src="https://github.com/DanZai233/PixelBead/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-04%20112130.png" alt="PixelBead Preview" />
   </div>
 </div>
 
@@ -49,7 +49,7 @@ comments: false
     </div>
   </div>
   <div class="project-thumb">
-    <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" alt="Tianji Preview" />
+    <img src="https://github.com/DanZai233/Tianji/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-04%20103058.png" alt="Tianji Preview" />
   </div>
 </div>
 
@@ -65,20 +65,6 @@ comments: false
   </div>
   <div class="project-thumb">
     <img src="https://github.com/DanZai233/AIMBOT/raw/main/docs/screenshots/main-menu.webp" alt="AIMBOT Preview" />
-  </div>
-</div>
-
-<div class="project-card" onclick="window.open('https://github.com/DanZai233/Termix', '_blank')">
-  <div class="project-info">
-    <h3 class="project-title">Termix</h3>
-    <p class="project-desc">终端调酒小游戏，30+材料和18个配方</p>
-    <p class="project-tech">Python / Terminal</p>
-    <div class="project-links">
-      <a href="https://github.com/DanZai233/Termix" target="_blank" rel="noopener">💻 GitHub</a>
-    </div>
-  </div>
-  <div class="project-thumb">
-    <img src="" alt="Termix Preview" />
   </div>
 </div>
 
@@ -107,7 +93,7 @@ comments: false
     </div>
   </div>
   <div class="project-thumb">
-    <img src="" alt="Chromatopoetry Preview" />
+    <img src="https://github.com/DanZai233/Chromatopoetry/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-04%20103024.png" alt="Chromatopoetry Preview" />
   </div>
 </div>
 
@@ -122,7 +108,7 @@ comments: false
     </div>
   </div>
   <div class="project-thumb">
-    <img src="" alt="Toiletime Preview" />
+    <img src="https://github.com/DanZai233/Toiletime/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-04%20103131.png" alt="Toiletime Preview" />
   </div>
 </div>
 
