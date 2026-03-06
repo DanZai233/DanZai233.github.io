@@ -6,8 +6,12 @@
 {{ end }}
 
 {{ $firstDate := now }}
-{{ range last 1 (sort $posts "Date" "asc") }}
-    {{ $firstDate = .Date }}
+{{ if .Site.Params.blogStartDate }}
+    {{ $firstDate = time .Site.Params.blogStartDate }}
+{{ else }}
+    {{ range first 1 (sort $posts "Date" "asc") }}
+        {{ $firstDate = .Date }}
+    {{ end }}
 {{ end }}
 {{ $runDays := div (sub now.Unix $firstDate.Unix) 86400 }}
 
