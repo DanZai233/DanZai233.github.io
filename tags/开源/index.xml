@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/%E5%BC%80%E6%BA%90/</link><description>Recent content in 开源 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml"/><item><title>所作，所为 - 我的个人作品集</title><link>https://blog.danzaii.cn/p/works-portfolio/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/works-portfolio/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 所作，所为 - 我的个人作品集" /&gt;&lt;h2 id="-作品集导航页上线"&gt;&lt;a href="#-%e4%bd%9c%e5%93%81%e9%9b%86%e5%af%bc%e8%88%aa%e9%a1%b5%e4%b8%8a%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;📚 作品集导航页上线
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/%E5%BC%80%E6%BA%90/</link><description>Recent content in 开源 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml"/><item><title>所作，所为 - 我的个人作品集</title><link>https://blog.danzaii.cn/p/works-portfolio/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/works-portfolio/</guid><description>&lt;h2 id="-作品集导航页上线"&gt;&lt;a href="#-%e4%bd%9c%e5%93%81%e9%9b%86%e5%af%bc%e8%88%aa%e9%a1%b5%e4%b8%8a%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;📚 作品集导航页上线
 &lt;/h2&gt;&lt;p&gt;整理完这么多开源项目后，我意识到需要一个统一的地方来展示它们。于是有了「&lt;strong&gt;所作，所为&lt;/strong&gt;」这个作品集导航站。&lt;/p&gt;
 &lt;h2 id="-关于这个网站"&gt;&lt;a href="#-%e5%85%b3%e4%ba%8e%e8%bf%99%e4%b8%aa%e7%bd%91%e7%ab%99" class="header-anchor"&gt;&lt;/a&gt;✨ 关于这个网站
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;所作，所为&lt;/strong&gt;（&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
@@ -86,9 +86,7 @@
  &lt;p&gt;&lt;em&gt;&amp;ldquo;所作，皆为热爱；所为，皆有所成。&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
  &lt;/blockquote&gt;
-&lt;p&gt;欢迎访问我的作品集，看看我都在做什么！ 🎉&lt;/p&gt;</description></item><item><title>最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新</title><link>https://blog.danzaii.cn/p/recent-updates-feb-2026/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-updates-feb-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;上一篇项目回顾的墨迹还没干，这几天又搞了两个大活。一个全新项目，一个大版本更新，简单记录一下。&lt;/p&gt;
+&lt;p&gt;欢迎访问我的作品集，看看我都在做什么！ 🎉&lt;/p&gt;</description></item><item><title>最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新</title><link>https://blog.danzaii.cn/p/recent-updates-feb-2026/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-updates-feb-2026/</guid><description>&lt;p&gt;上一篇项目回顾的墨迹还没干，这几天又搞了两个大活。一个全新项目，一个大版本更新，简单记录一下。&lt;/p&gt;
 &lt;h2 id="-aim-trainer-pro--网页端瞄准训练器"&gt;&lt;a href="#-aim-trainer-pro--%e7%bd%91%e9%a1%b5%e7%ab%af%e7%9e%84%e5%87%86%e8%ae%ad%e7%bb%83%e5%99%a8" class="header-anchor"&gt;&lt;/a&gt;🎯 Aim Trainer Pro —— 网页端瞄准训练器
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -217,8 +215,6 @@
 &lt;li&gt;技术栈：React 19 + TypeScript + Vite 6 + Tailwind CSS v4 + Canvas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="-mygallery-大更新--照片墙系统"&gt;&lt;a href="#-mygallery-%e5%a4%a7%e6%9b%b4%e6%96%b0--%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery 大更新 —— 照片墙系统
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -339,12 +335,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="小结"&gt;&lt;a href="#%e5%b0%8f%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;小结
 &lt;/h2&gt;&lt;p&gt;AIMBOT 从零到上线大概花了两天，MYGallery 的更新则是断断续续改了一周。两个项目方向完全不同——一个是 Canvas 游戏，一个是全栈应用——但都很有成就感。&lt;/p&gt;
 &lt;p&gt;接下来 MYGallery 还打算加视频支持和更多的社交功能。AIMBOT 如果有时间的话想加排行榜和自定义地图编辑器。&lt;/p&gt;
-&lt;p&gt;不过说实话……做完这些我应该休息两天了 😂&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 这几个月我都做了些什么——我的开源项目回顾" /&gt;&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
+&lt;p&gt;不过说实话……做完这些我应该休息两天了 😂&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
 &lt;h2 id="认真打磨的项目"&gt;&lt;a href="#%e8%ae%a4%e7%9c%9f%e6%89%93%e7%a3%a8%e7%9a%84%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;认真打磨的项目
 &lt;/h2&gt;&lt;h3 id="-mygallery--个人照片墙系统"&gt;&lt;a href="#-mygallery--%e4%b8%aa%e4%ba%ba%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery —— 个人照片墙系统
 &lt;/h3&gt;
