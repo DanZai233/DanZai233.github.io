@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=7916/"
+image: "/img/posts/post_7916.webp"
 
 title: "重启博客！"
 date: 2023-04-18T18:29:00+08:00

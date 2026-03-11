@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "原神私服的PC端连接教程"
 date: 2022-05-11T11:56:00+08:00

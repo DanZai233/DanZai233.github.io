@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "加入了冥冥表情包"
 date: 2022-04-22T17:59:00+08:00

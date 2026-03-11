@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "正式开始写博客啦"
 date: 2022-04-16T12:17:00+08:00

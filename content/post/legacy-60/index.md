@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "当个\"人\"吧"
 date: 2022-04-16T16:16:00+08:00

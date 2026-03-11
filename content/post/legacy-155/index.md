@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "小学期要开始了 真的要搞智慧视觉了吗"
 date: 2022-06-19T15:34:00+08:00

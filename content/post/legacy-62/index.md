@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "如果能流行起来就好了，战场原荡漾"
 date: 2022-04-16T17:57:00+08:00

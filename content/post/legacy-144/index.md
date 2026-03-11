@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=3741/"
+image: "/img/posts/post_3741.webp"
 
 title: "原神 太好玩啦！"
 date: 2022-06-09T10:45:00+08:00

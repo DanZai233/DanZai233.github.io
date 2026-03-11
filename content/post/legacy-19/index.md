@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=9844/"
+image: "/img/posts/post_9844.webp"
 
 title: "linux 根目录容量不足问题"
 date: 2023-10-13T08:08:25+08:00

@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=4569/"
+image: "/img/posts/post_4569.webp"
 
 title: "报告周正式结束！"
 date: 2022-06-06T14:48:00+08:00

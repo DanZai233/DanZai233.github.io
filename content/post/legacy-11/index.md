@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=3332/"
+image: "/img/posts/post_3332.webp"
 
 title: "SSH克隆github仓库：连接被远程主机关闭"
 date: 2023-04-22T16:05:00+08:00

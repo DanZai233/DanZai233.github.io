@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "开放了蛋仔云盘！"
 date: 2022-04-16T13:03:00+08:00

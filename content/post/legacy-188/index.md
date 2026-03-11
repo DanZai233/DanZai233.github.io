@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=1098/"
+image: "/img/posts/post_1098.webp"
 
 title: "数据库完成抢修 博客复原！"
 date: 2023-12-08T17:09:28+08:00

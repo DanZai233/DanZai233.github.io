@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=7663/"
+image: "/img/posts/post_7663.webp"
 
 title: "有关原神私服（服务器已更新！）"
 date: 2022-06-06T15:03:00+08:00

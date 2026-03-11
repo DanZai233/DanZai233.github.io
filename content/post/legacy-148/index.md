@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "沉迷MC了 要去开MC服务器了 原神再见"
 date: 2022-06-11T06:27:00+08:00

@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "好多报告没写完 人麻了"
 date: 2022-05-28T16:04:00+08:00

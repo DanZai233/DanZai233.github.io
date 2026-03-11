@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "冥冥生日快乐！"
 date: 2022-06-28T06:30:09+08:00

@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "方舟100级纪念"
 date: 2022-06-09T10:49:04+08:00

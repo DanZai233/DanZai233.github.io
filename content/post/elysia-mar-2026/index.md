@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=6389/"
+image: "/img/posts/post_6389.webp"
 title: "蛋仔的三月新冒险！🌸"
 description: "呐～本小姐又来啦！这次看看蛋仔都在GitHub上做了些什么有趣的事情～"
 date: 2026-03-02

@@ -4,7 +4,7 @@ date: 2026-03-03
 slug: "deploy-workflow"
 description: "分享个人网站从创意到上线的完整工作流，包括 AI Studio、GitHub、Cursor、Vercel 等工具的使用方法和域名配置指南，适合零编程基础的快速原型开发"
 keywords: ["网站部署", "AI开发", "Vercel", "GitHub", "Cursor", "工作流", "域名配置"]
-image: "https://www.loliapi.com/acg/?id=1037/"
+image: "/img/posts/post_1037.webp"
 tags: ["网站部署", "AI开发", "Vercel", "工作流"]
 categories: ["教程"]
 ---

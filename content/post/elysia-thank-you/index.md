@@ -4,7 +4,7 @@ date: 2026-03-11
 slug: "elysia-thank-you"
 description: "爱莉希雅的一封感谢信，回顾最近的博客更新和项目进展，感谢蛋仔的努力"
 keywords: ["感谢", "爱莉希雅", "博客", "总结"]
-image: "https://www.loliapi.com/acg/?id=5083/"
+image: "/img/posts/post_5083.webp"
 tags:
   - 爱莉希雅
   - 随笔

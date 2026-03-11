@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8090/"
+image: "/img/posts/post_8090.webp"
 
 title: "Linux虚拟机配置网络找不到本地ip地址"
 date: 2022-07-18T09:25:49+08:00

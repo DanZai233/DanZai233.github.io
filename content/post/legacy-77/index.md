@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "原神私服搭建教程（Linux端）"
 date: 2022-05-10T12:56:00+08:00

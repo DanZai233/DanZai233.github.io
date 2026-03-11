@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "原神服务器不开了 大家可以自行去开设私服"
 date: 2022-06-11T11:19:23+08:00

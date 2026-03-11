@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=8261/"
+image: "/img/posts/post_8261.webp"
 
 title: "冥冥复播啦！开心"
 date: 2022-04-21T06:25:00+08:00
