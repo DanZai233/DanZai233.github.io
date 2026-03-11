@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=6634/"
 
 title: "人生第一次受到网络攻击 直接给我敲响警钟了"
 date: 2022-07-02T15:34:21+08:00
@@ -8,6 +9,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 小学期项目最终决定加入 MongoDB 实现部分表的存储。
 

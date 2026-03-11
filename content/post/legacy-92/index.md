@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=3667/"
 
 title: "あなたが好きです。付き合ってください"
 date: 2022-05-29T17:57:00+08:00
@@ -8,5 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 <!-- 图片待上传 -->

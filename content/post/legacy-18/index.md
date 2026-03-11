@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=3637/"
 
 title: "个人obsidian多终端解决方案 iOS Win Linux"
 date: 2023-10-13T08:06:05+08:00
@@ -8,6 +9,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 ## 最近了解到了obsidian这个软件
 

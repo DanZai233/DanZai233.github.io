@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=4628/"
 
 title: "六一快乐！"
 date: 2022-05-31T16:58:08+08:00
@@ -8,6 +9,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 **给自己买个小礼物，剁手了QAQ**
 

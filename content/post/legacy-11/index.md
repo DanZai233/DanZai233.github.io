@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=3332/"
 
 title: "SSH克隆github仓库：连接被远程主机关闭"
 date: 2023-04-22T16:05:00+08:00
@@ -8,6 +9,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 今天终于是完全配置好了虚拟机的静态IP，但是在使用SSH克隆我自己的仓库的时候一直报错。
 

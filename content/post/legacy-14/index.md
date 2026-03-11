@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=8877/"
 
 title: "终于写完论文啦"
 date: 2023-05-15T09:59:12+08:00
@@ -8,6 +9,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 论文终于结束了 接下来的一周要准备毕业答辩了 毕设还差一个后台页面没有写完
 

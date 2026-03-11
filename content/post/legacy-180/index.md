@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=8090/"
 
 title: "Linux虚拟机配置网络找不到本地ip地址"
 date: 2022-07-18T09:25:49+08:00
@@ -8,6 +9,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 `ifconfig` 之后显示 eth0，但是没有显示 "inet/地址/广播/掩码/" ？
 

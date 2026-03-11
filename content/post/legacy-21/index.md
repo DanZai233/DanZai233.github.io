@@ -1,4 +1,5 @@
 ---
+image: "https://www.loliapi.com/acg/?id=3957/"
 
 title: "最近心得"
 date: 2023-10-13T08:28:43+08:00
@@ -8,6 +9,7 @@ categories:
 tags:
     - 旧博客迁移
 ---
+image: "https://www.loliapi.com/acg/"
 
 ## 好突然！突然开始写博客了！
 
