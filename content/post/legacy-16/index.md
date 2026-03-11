@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 ## 下次一定！Orz
 
@@ -18,14 +17,12 @@ image: "https://www.loliapi.com/acg/"
 现在水平高了起来，当时机智的我料想到一定有一天可以修好它，所以用腾讯云导出了一份镜像。
 
 ---
-image: "https://www.loliapi.com/acg/"
 
 **2023年10月13日**
 
 笑死！根本没去做！！！！卡在了第一步——如何导入我的镜像到我的Ubuntu虚拟机里面。下周再搞 不急不急。
 
 ---
-image: "https://www.loliapi.com/acg/"
 
 **2023年12月19日**
 

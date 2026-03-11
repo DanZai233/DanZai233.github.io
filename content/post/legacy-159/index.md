@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=1779/"
+image: "https://www.loliapi.com/acg/?id=8261/"
 
 title: "式守同学 可爱捏 贴贴"
 date: 2022-06-26T08:58:45+08:00
@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 <!-- 图片待上传 -->
 <!-- 图片待上传 -->

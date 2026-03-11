@@ -6,6 +6,8 @@ theme: "hugo-theme-stack"
 defaultContentLanguage: "zh-cn"
 hasCJKLanguage: true
 
+buildFuture: true
+
 pagination:
   pagerSize: 10
 

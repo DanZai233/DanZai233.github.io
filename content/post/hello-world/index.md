@@ -10,7 +10,6 @@ tags:
 categories:
     - 生活
 ---
-image: "https://www.loliapi.com/acg/"
 
 欢迎来到 **一只小羊羔的窝** 🐑！
 

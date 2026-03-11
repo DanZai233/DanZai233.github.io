@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 **终于写完报告了！**
 

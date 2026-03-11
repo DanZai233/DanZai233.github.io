@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 ## 原神私服问题集中汇总
 

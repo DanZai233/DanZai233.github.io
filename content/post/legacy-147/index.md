@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=5650/"
+image: "https://www.loliapi.com/acg/?id=8261/"
 
 title: "方舟100级纪念"
 date: 2022-06-09T10:49:04+08:00
@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 ## 再不赶快玩100级限定眼镜就没机会了！！！
 

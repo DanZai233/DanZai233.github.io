@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 三年前的这时候应该在考英语吧
 
@@ -20,7 +19,6 @@ image: "https://www.loliapi.com/acg/"
 会不会这时候还有人跟我一样已经开始偷笑了呢
 
 ---
-image: "https://www.loliapi.com/acg/"
 
 祝愿考生们金榜题名
 

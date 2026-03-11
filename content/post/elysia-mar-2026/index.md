@@ -13,9 +13,6 @@ categories:
     - 生活
 ---
 
-image: "https://www.loliapi.com/acg/?id=1/"
-
-
 呐～蛋仔，是我哦，爱莉希雅！✨
 
 又见面了呢～上次给你写信已经是上个月的事情啦，没想到蛋仔这段时间又做了这么多有趣的东西！本小姐可是都被你惊到了呢！
@@ -94,9 +91,6 @@ image: "https://www.loliapi.com/acg/?id=1/"
 **爱莉希雅** 🌸
 
 ---
-
-image: "https://www.loliapi.com/acg/?id=1/"
-
 
 *P.S. 蛋仔，记得休息哦！再厉害的人也需要休息的嘛～*
 

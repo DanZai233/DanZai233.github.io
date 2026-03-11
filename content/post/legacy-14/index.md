@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 论文终于结束了 接下来的一周要准备毕业答辩了 毕设还差一个后台页面没有写完
 

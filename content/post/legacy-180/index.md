@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 `ifconfig` 之后显示 eth0，但是没有显示 "inet/地址/广播/掩码/" ？
 

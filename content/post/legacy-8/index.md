@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 **最近天天忙于毕设开发，闲暇之余打算重启博客！**
 

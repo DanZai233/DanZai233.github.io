@@ -1,5 +1,5 @@
 ---
-image: "https://www.loliapi.com/acg/?id=7758/"
+image: "https://www.loliapi.com/acg/?id=8261/"
 
 title: "当个\"人\"吧"
 date: 2022-04-16T16:16:00+08:00
@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 今天晚上登了一下方舟
 就有人连发4个一样的 晕了

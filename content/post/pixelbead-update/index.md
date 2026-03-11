@@ -1,6 +1,6 @@
 ---
 title: "PixelBead 更新：纯净的拼豆体验与智能画笔"
-date: 2026-03-12
+date: 2026-03-11
 slug: "pixelbead-update"
 description: "PixelBead 拼豆像素画工具新更新，增加5x5参考线、导出选项等功能，并将许可证更改为 CC BY-NC 4.0，为拼豆人提供无广告的纯净体验"
 keywords: ["PixelBead", "拼豆", "像素画", "开源", "更新", "CC BY-NC"]

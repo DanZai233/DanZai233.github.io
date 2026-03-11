@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 小学期项目最终决定加入 MongoDB 实现部分表的存储。
 

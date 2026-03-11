@@ -9,7 +9,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 **偷来的罢了：[乃王木木生日快乐！](https://danzai233.github.io/happy-birthday/)**
 
