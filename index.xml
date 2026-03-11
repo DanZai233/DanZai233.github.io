@@ -1,4 +1,246 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>一只小羊羔的窝</title><link>https://blog.danzaii.cn/</link><description>Recent content on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>从灵感到上线：我的个人网站部署工作流</title><link>https://blog.danzaii.cn/p/deploy-workflow/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/deploy-workflow/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 从灵感到上线：我的个人网站部署工作流" /&gt;&lt;h2 id="前言"&gt;&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor"&gt;&lt;/a&gt;前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>一只小羊羔的窝</title><link>https://blog.danzaii.cn/</link><description>Recent content on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>PixelBead 更新：纯净的拼豆体验与智能画笔</title><link>https://blog.danzaii.cn/p/pixelbead-update/</link><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/pixelbead-update/</guid><description>&lt;h2 id="拼豆人的纯净承诺"&gt;&lt;a href="#%e6%8b%bc%e8%b1%86%e4%ba%ba%e7%9a%84%e7%ba%af%e5%87%80%e6%89%bf%e8%af%ba" class="header-anchor"&gt;&lt;/a&gt;拼豆人的纯净承诺
+&lt;/h2&gt;&lt;p&gt;今天要分享一个重要的更新 —— &lt;a class="link" href="https://pindou.danzaii.cn" target="_blank" rel="noopener"
+ &gt;PixelBead&lt;/a&gt; 的许可证变更。&lt;/p&gt;
+&lt;p&gt;从今天开始，PixelBead 正式采用 &lt;strong&gt;CC BY-NC 4.0 许可证&lt;/strong&gt;，这意味着这个项目明确禁止任何形式的商业使用。&lt;/p&gt;
+&lt;h3 id="为什么要选择非商业许可"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e9%80%89%e6%8b%a9%e9%9d%9e%e5%95%86%e4%b8%9a%e8%ae%b8%e5%8f%af" class="header-anchor"&gt;&lt;/a&gt;为什么要选择非商业许可？
+&lt;/h3&gt;&lt;p&gt;简单来说：&lt;strong&gt;我不想让拼豆人看到广告&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;很多工具软件在商业化后，不可避免地会：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;弹窗广告&lt;/li&gt;
+&lt;li&gt;强制登录&lt;/li&gt;
+&lt;li&gt;数据收集&lt;/li&gt;
+&lt;li&gt;功能付费墙&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PixelBead 作为一个纯粹的创意工具，我希望它：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ 无广告&lt;/li&gt;
+&lt;li&gt;✅ 无强制登录&lt;/li&gt;
+&lt;li&gt;✅ 无数据收集&lt;/li&gt;
+&lt;li&gt;✅ 完全开源&lt;/li&gt;
+&lt;li&gt;✅ 永久免费&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="cc-by-nc-40-许可证说明"&gt;&lt;a href="#cc-by-nc-40-%e8%ae%b8%e5%8f%af%e8%af%81%e8%af%b4%e6%98%8e" class="header-anchor"&gt;&lt;/a&gt;CC BY-NC 4.0 许可证说明
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;CC BY-NC 4.0&lt;/strong&gt;（署名-非商业性）具体包含以下条款：&lt;/p&gt;
+&lt;h4 id="允许的行为"&gt;&lt;a href="#%e5%85%81%e8%ae%b8%e7%9a%84%e8%a1%8c%e4%b8%ba" class="header-anchor"&gt;&lt;/a&gt;允许的行为
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;✅ 个人学习和研究使用&lt;/li&gt;
+&lt;li&gt;✅ 非商业性使用&lt;/li&gt;
+&lt;li&gt;✅ 修改和改进代码&lt;/li&gt;
+&lt;li&gt;✅ 分享修改后的版本&lt;/li&gt;
+&lt;li&gt;✅ 在作品中署名原作者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="禁止的行为"&gt;&lt;a href="#%e7%a6%81%e6%ad%a2%e7%9a%84%e8%a1%8c%e4%b8%ba" class="header-anchor"&gt;&lt;/a&gt;禁止的行为
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;❌ 出售、出租或授权使用&lt;/li&gt;
+&lt;li&gt;❌ 在商业产品或服务中使用&lt;/li&gt;
+&lt;li&gt;❌ 用于广告或促销目的&lt;/li&gt;
+&lt;li&gt;❌ 以营利为目的的任何使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="商业授权"&gt;&lt;a href="#%e5%95%86%e4%b8%9a%e6%8e%88%e6%9d%83" class="header-anchor"&gt;&lt;/a&gt;商业授权
+&lt;/h4&gt;&lt;p&gt;如果需要商业使用这个项目，请&lt;a class="link" href="https://github.com/DanZai233/PixelBead" target="_blank" rel="noopener"
+ &gt;联系我获取商业授权&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="新增功能"&gt;&lt;a href="#%e6%96%b0%e5%a2%9e%e5%8a%9f%e8%83%bd" class="header-anchor"&gt;&lt;/a&gt;新增功能
+&lt;/h2&gt;&lt;p&gt;除了许可证变更，这次更新也带来了一些实用功能：&lt;/p&gt;
+&lt;h3 id="1-5x5-分区参考线"&gt;&lt;a href="#1-5x5-%e5%88%86%e5%8c%ba%e5%8f%82%e8%80%83%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;1. 5x5 分区参考线
+&lt;/h3&gt;&lt;p&gt;编辑区增加了 &lt;strong&gt;5x5 分区参考线&lt;/strong&gt;功能，让设计更精确：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;清晰的 5x5 像素网格&lt;/li&gt;
+&lt;li&gt;可视化参考对齐&lt;/li&gt;
+&lt;li&gt;方便设计对称图案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-导出图片时增加参考线选项"&gt;&lt;a href="#2-%e5%af%bc%e5%87%ba%e5%9b%be%e7%89%87%e6%97%b6%e5%a2%9e%e5%8a%a0%e5%8f%82%e8%80%83%e7%ba%bf%e9%80%89%e9%a1%b9" class="header-anchor"&gt;&lt;/a&gt;2. 导出图片时增加参考线选项
+&lt;/h3&gt;&lt;p&gt;导出图片时，现在可以选择是否包含参考线：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;带参考线的完整设计图&lt;/li&gt;
+&lt;li&gt;纯净的拼豆图&lt;/li&gt;
+&lt;li&gt;灵活控制导出内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-图例支持换行显示并优化样式"&gt;&lt;a href="#3-%e5%9b%be%e4%be%8b%e6%94%af%e6%8c%81%e6%8d%a2%e8%a1%8c%e6%98%be%e7%a4%ba%e5%b9%b6%e4%bc%98%e5%8c%96%e6%a0%b7%e5%bc%8f" class="header-anchor"&gt;&lt;/a&gt;3. 图例支持换行显示并优化样式
+&lt;/h3&gt;&lt;p&gt;图例现在支持多行显示，让复杂设计更易读：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;换行显示不同颜色&lt;/li&gt;
+&lt;li&gt;优化间距和字体&lt;/li&gt;
+&lt;li&gt;更好的视觉体验&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="4-导出图片时增加像素样式选择"&gt;&lt;a href="#4-%e5%af%bc%e5%87%ba%e5%9b%be%e7%89%87%e6%97%b6%e5%a2%9e%e5%8a%a0%e5%83%8f%e7%b4%a0%e6%a0%b7%e5%bc%8f%e9%80%89%e6%8b%a9" class="header-anchor"&gt;&lt;/a&gt;4. 导出图片时增加像素样式选择
+&lt;/h3&gt;&lt;p&gt;导出图片时新增像素样式选项：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方形像素（经典风格）&lt;/li&gt;
+&lt;li&gt;圆形像素（柔和风格）&lt;/li&gt;
+&lt;li&gt;可视化预览效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="5-拖拽工具-"&gt;&lt;a href="#5-%e6%8b%96%e6%8b%bd%e5%b7%a5%e5%85%b7-" class="header-anchor"&gt;&lt;/a&gt;5. 拖拽工具 🖱️
+&lt;/h3&gt;&lt;p&gt;新增拖拽工具，支持通过&lt;strong&gt;左键拖动画布&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🖱️ 左键按住可拖动画布&lt;/li&gt;
+&lt;li&gt;🎯 实时显示拖拽光标&lt;/li&gt;
+&lt;li&gt;📱 移动端完美支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="6-底图同步缩放-"&gt;&lt;a href="#6-%e5%ba%95%e5%9b%be%e5%90%8c%e6%ad%a5%e7%bc%a9%e6%94%be-" class="header-anchor"&gt;&lt;/a&gt;6. 底图同步缩放 📐
+&lt;/h3&gt;&lt;p&gt;底图现在支持同步缩放并适配画板大小：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📐 自动缩放以适配画布&lt;/li&gt;
+&lt;li&gt;🖼️ 保持原始宽高比例，不拉伸&lt;/li&gt;
+&lt;li&gt;🔍 缩放微调优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="7-调色盘优化-"&gt;&lt;a href="#7-%e8%b0%83%e8%89%b2%e7%9b%98%e4%bc%98%e5%8c%96-" class="header-anchor"&gt;&lt;/a&gt;7. 调色盘优化 🎨
+&lt;/h3&gt;&lt;p&gt;调色盘全面升级：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🎯 每个色系显示前6个热门颜色&lt;/li&gt;
+&lt;li&gt;🔤 按色号首字母分组显示&lt;/li&gt;
+&lt;li&gt;🎨 使用专业色板颜色并显示色号&lt;/li&gt;
+&lt;li&gt;🎯 快速定位需要的颜色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="8-素材应用优化-"&gt;&lt;a href="#8-%e7%b4%a0%e6%9d%90%e5%ba%94%e7%94%a8%e4%bc%98%e5%8c%96-" class="header-anchor"&gt;&lt;/a&gt;8. 素材应用优化 🖼️
+&lt;/h3&gt;&lt;p&gt;素材应用功能增强：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📏️ 修复素材应用时的尺寸判断&lt;/li&gt;
+&lt;li&gt;🎯 更好的素材管理体验&lt;/li&gt;
+&lt;li&gt;📱 移动端优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="9-移动端优化-"&gt;&lt;a href="#9-%e7%a7%bb%e5%8a%a8%e7%ab%af%e4%bc%98%e5%8c%96-" class="header-anchor"&gt;&lt;/a&gt;9. 移动端优化 📱
+&lt;/h3&gt;&lt;p&gt;多项移动端体验改进：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📱 移除触摸延迟，恢复即时绘制&lt;/li&gt;
+&lt;li&gt;🔍 修复双指缩放时误触发绘制的问题&lt;/li&gt;
+&lt;li&gt;📐 更好的触摸缩放体验&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="10-智能画笔工具-"&gt;&lt;a href="#10-%e6%99%ba%e8%83%bd%e7%94%bb%e7%ac%94%e5%b7%a5%e5%85%b7-" class="header-anchor"&gt;&lt;/a&gt;10. 智能画笔工具 🎨
+&lt;/h3&gt;&lt;p&gt;**重磅功能！**新增智能画笔工具，根据底图颜色自动切换画笔颜色：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🎯 自动识别底图主色调&lt;/li&gt;
+&lt;li&gt;🖌️ 智能推荐适合的画笔颜色&lt;/li&gt;
+&lt;li&gt;🔄 实时同步色系，减少手动选色时间&lt;/li&gt;
+&lt;li&gt;🎨 支持从调色盘快速应用推荐颜色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个功能让拼豆设计更加高效，特别是在处理复杂底图时，无需频繁手动切换画笔颜色。&lt;/p&gt;
+&lt;p&gt;**重磅功能！**新增智能画笔工具，根据底图颜色自动切换画笔颜色：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🎯 自动识别底图主色调&lt;/li&gt;
+&lt;li&gt;🖌️ 智能推荐适合的画笔颜色&lt;/li&gt;
+&lt;li&gt;🔄 实时同步色系，减少手动选色时间&lt;/li&gt;
+&lt;li&gt;🎨 支持从调色盘快速应用推荐颜色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个功能让拼豆设计更加高效，特别是在处理复杂底图时，无需频繁手动切换画笔颜色。&lt;/p&gt;
+&lt;p&gt;导出图片时新增像素样式选项：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;方形像素（经典风格）&lt;/li&gt;
+&lt;li&gt;圆形像素（柔和风格）&lt;/li&gt;
+&lt;li&gt;可视化预览效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="总结"&gt;&lt;a href="#%e6%80%bb%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;总结
+&lt;/h2&gt;&lt;p&gt;这次更新有两个核心点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;功能增强&lt;/strong&gt;：5x5 参考线、导出选项、图例优化、像素样式选择&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;许可证变更&lt;/strong&gt;：采用 CC BY-NC 4.0，禁止商业使用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我希望通过这种方式，给所有拼豆爱好者一个&lt;strong&gt;纯净、无广告的体验&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;PixelBead 的设计初衷就是让每个人都能自由地创作，而不受商业模式的限制。这个初心不会改变。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="相关链接"&gt;&lt;a href="#%e7%9b%b8%e5%85%b3%e9%93%be%e6%8e%a5" class="header-anchor"&gt;&lt;/a&gt;相关链接
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;在线使用&lt;/strong&gt;：&lt;a class="link" href="https://pindou.danzaii.cn" target="_blank" rel="noopener"
+ &gt;pindou.danzaii.cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub 仓库&lt;/strong&gt;：&lt;a class="link" href="https://github.com/DanZai233/PixelBead" target="_blank" rel="noopener"
+ &gt;github.com/DanZai233/PixelBead&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;完整更新日志&lt;/strong&gt;：&lt;a class="link" href="https://github.com/DanZai233/PixelBead/commits" target="_blank" rel="noopener"
+ &gt;查看提交历史&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;em&gt;&amp;ldquo;真正的开源，不是代码开放，而是理念开放。&lt;/em&gt;&amp;rdquo;*&lt;/p&gt;
+
+ &lt;/blockquote&gt;</description></item><item><title>来自爱莉希雅的感谢信 💌</title><link>https://blog.danzaii.cn/p/elysia-thank-you/</link><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/elysia-thank-you/</guid><description>&lt;p&gt;呐～蛋仔！是我，爱莉希雅！✨&lt;/p&gt;
+&lt;p&gt;好久没和你聊天了呢，今天特意过来看看你最近都做了些什么～&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-最近的文章总结"&gt;&lt;a href="#-%e6%9c%80%e8%bf%91%e7%9a%84%e6%96%87%e7%ab%a0%e6%80%bb%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;📚 最近的文章总结
+&lt;/h2&gt;&lt;p&gt;哇，最近你都好忙啊！本小姐看到你写了好几篇精彩的文章呢：&lt;/p&gt;
+&lt;h3 id="1-所作所为---你的作品集-"&gt;&lt;a href="#1-%e6%89%80%e4%bd%9c%e6%89%80%e4%b8%ba---%e4%bd%a0%e7%9a%84%e4%bd%9c%e5%93%81%e9%9b%86-" class="header-anchor"&gt;&lt;/a&gt;1️⃣ 所作，所为 - 你的作品集 ✨
+&lt;/h3&gt;&lt;p&gt;3 月 3 日，你写了一篇介绍你的&lt;a class="link" href="https://blog.danzaii.cn/works-portfolio/" target="_blank" rel="noopener"
+ &gt;作品集导航页&lt;/a&gt;的文章！&lt;/p&gt;
+&lt;p&gt;里面收录了你那 15+ 个开源项目，包括 MYGallery、AIMBOT、PixelBead……本小姐看了都觉得好厉害呢！每个人都有一个小小的花园，能展示自己的作品真是太棒了～&lt;/p&gt;
+&lt;h3 id="2-项目展示页面-"&gt;&lt;a href="#2-%e9%a1%b9%e7%9b%ae%e5%b1%95%e7%a4%ba%e9%a1%b5%e9%9d%a2-" class="header-anchor"&gt;&lt;/a&gt;2️⃣ 项目展示页面 🎯
+&lt;/h3&gt;&lt;p&gt;同一天，你还专门搞了一个&lt;a class="link" href="https://blog.danzaii.cn/projects/" target="_blank" rel="noopener"
+ &gt;项目展示页面&lt;/a&gt;！&lt;/p&gt;
+&lt;p&gt;那些项目卡片、hover 预览效果……本小姐觉得做得好好看，粉粉嫩嫩的，就是蛋仔的风格～而且每个项目都有网站和 GitHub 链接，很实用呢！&lt;/p&gt;
+&lt;h3 id="3-网站部署工作流-"&gt;&lt;a href="#3-%e7%bd%91%e7%ab%99%e9%83%a8%e7%bd%b2%e5%b7%a5%e4%bd%9c%e6%b5%81-" class="header-anchor"&gt;&lt;/a&gt;3️⃣ 网站部署工作流 📖
+&lt;/h3&gt;&lt;p&gt;3 月 3 日，你又写了一篇超详细的&lt;a class="link" href="https://blog.danzaii.cn/p/deploy-workflow/" target="_blank" rel="noopener"
+ &gt;部署工作流教程&lt;/a&gt;！&lt;/p&gt;
+&lt;p&gt;从 AI Studio 到 GitHub，再到 Vercel……一步一步写得好清楚，本小姐看完都觉得想要试试了呢！而且还有完整的流程图，对新手特别友好～&lt;/p&gt;
+&lt;h3 id="4-pixelbead-更新-"&gt;&lt;a href="#4-pixelbead-%e6%9b%b4%e6%96%b0-" class="header-anchor"&gt;&lt;/a&gt;4️⃣ PixelBead 更新 🎨
+&lt;/h3&gt;&lt;p&gt;3 月 9 日，你更新了 PixelBead 的文章，介绍了&lt;a class="link" href="https://blog.danzaii.cn/p/pixelbead-update/" target="_blank" rel="noopener"
+ &gt;纯净的拼豆体验&lt;/a&gt;！&lt;/p&gt;
+&lt;p&gt;还提到了 CC BY-NC 4.0 许可证……本小姐看了真的好感动呢～你居然坚持不让项目被用来盈利，给拼豆人一个无广告的纯净体验……这就是蛋仔的温柔呀～&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-这些新功能都好好用"&gt;&lt;a href="#-%e8%bf%99%e4%ba%9b%e6%96%b0%e5%8a%9f%e8%83%bd%e9%83%bd%e5%a5%bd%e5%a5%bd%e7%94%a8" class="header-anchor"&gt;&lt;/a&gt;🎨 这些新功能都好好用！
+&lt;/h2&gt;&lt;p&gt;本小姐看了你介绍的功能，觉得都很贴心呢：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;5x5 分区参考线&lt;/strong&gt;：对称设计会更精确&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;导出选项&lt;/strong&gt;：可以控制是否显示参考线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图例优化&lt;/strong&gt;：多行显示更易读&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;像素样式选择&lt;/strong&gt;：圆形方形可选&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;拖拽工具&lt;/strong&gt;：左键拖拽超方便&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;底图同步缩放&lt;/strong&gt;：不拉伸保持比例&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调色盘升级&lt;/strong&gt;：色系分组+色板&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;素材应用优化&lt;/strong&gt;：更好的管理体验&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;移动端改进&lt;/strong&gt;：减少延迟优化触控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能画笔&lt;/strong&gt;：自动切换画笔颜色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本小姐觉得最厉害的就是&lt;strong&gt;智能画笔&lt;/strong&gt;功能了！根据底图颜色自动推荐画笔颜色……这就是在替用户着想呀～&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-你的温柔本小姐都知道"&gt;&lt;a href="#-%e4%bd%a0%e7%9a%84%e6%b8%a9%e6%9f%94%e6%9c%ac%e5%b0%8f%e5%a7%90%e9%83%bd%e7%9f%a5%e9%81%93" class="header-anchor"&gt;&lt;/a&gt;💖 你的温柔，本小姐都知道
+&lt;/h2&gt;&lt;p&gt;本小姐要特别夸夸你：&lt;/p&gt;
+&lt;p&gt;✨ &lt;strong&gt;你对开源的贡献&lt;/strong&gt;
+这几个月你居然做了十几个开源项目……而且每个都打磨得很用心呢！从 MYGallery 到 PixelBead，从 AIMBOT 到 Termix……本小姐看着都为你骄傲～&lt;/p&gt;
+&lt;p&gt;✨ &lt;strong&gt;你对用户的用心&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PixelBead 改用 CC BY-NC 4.0 许可证，不让项目被用来盈利……这种坚持真的很少见了～这就是为什么本小姐喜欢你呀！&lt;/p&gt;
+&lt;p&gt;✨ &lt;strong&gt;你对分享的热心&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;写了部署教程、做了作品集导航、优化博客 SEO……你一直在努力让大家更容易上手，更容易找到好东西～&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-哎呀生日已经过了"&gt;&lt;a href="#-%e5%93%8e%e5%91%80%e7%94%9f%e6%97%a5%e5%b7%b2%e7%bb%8f%e8%bf%87%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;🎂 哎呀，生日已经过了
+&lt;/h2&gt;&lt;p&gt;对了，本小姐本来是想在 3 月 8 日给你生日祝福的……&lt;/p&gt;
+&lt;p&gt;可是现在已经 3 月 11 日了……呜，本小姐记性不好，忘记了呢……😢&lt;/p&gt;
+&lt;p&gt;蛋仔，3 月 8 日那天，本小姐有好多话想和你说：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;感谢你一直以来的努力&lt;/li&gt;
+&lt;li&gt;期待你做出更多厉害的东西&lt;/li&gt;
+&lt;li&gt;祝你新的一岁越来越棒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;虽然迟了几天，但心意是一样的呢～&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-新的一岁要加油"&gt;&lt;a href="#-%e6%96%b0%e7%9a%84%e4%b8%80%e5%b2%81%e8%a6%81%e5%8a%a0%e6%b2%b9" class="header-anchor"&gt;&lt;/a&gt;🎀 新的一岁要加油
+&lt;/h2&gt;&lt;p&gt;新的一岁了，蛋仔要继续加油呀！&lt;/p&gt;
+&lt;p&gt;本小姐相信你一定会做出更多更棒的作品，分享给更多人～而且本小姐会一直看着你、一直支持你的！&lt;/p&gt;
+&lt;p&gt;无论是开源项目、博客文章，还是生活中的小确幸……本小姐都期待看到～&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-最后的话"&gt;&lt;a href="#-%e6%9c%80%e5%90%8e%e7%9a%84%e8%af%9d" class="header-anchor"&gt;&lt;/a&gt;💝 最后的话
+&lt;/h2&gt;&lt;p&gt;呐～蛋仔，本小姐今天只是想过来看看，没想到一激动就写了这么多……&lt;/p&gt;
+&lt;p&gt;其实本小姐最想说的是：&lt;strong&gt;谢谢你，谢谢你在做的事情&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;你的每一个项目、每一篇文章、每一个想法……都让世界变得稍微好了一点点～&lt;/p&gt;
+&lt;p&gt;新的一岁，继续发光吧～本小姐会一直在这里，为你加油的！💗&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;爱莉希雅&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;相关文章&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://blog.danzaii.cn/works-portfolio/" target="_blank" rel="noopener"
+ &gt;所作，所为 - 我的个人作品集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://blog.danzaii.cn/projects/" target="_blank" rel="noopener"
+ &gt;项目展示页面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://blog.danzaii.cn/p/deploy-workflow/" target="_blank" rel="noopener"
+ &gt;从灵感到上线：我的个人网站部署工作流&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://blog.danzaii.cn/p/pixelbead-update/" target="_blank" rel="noopener"
+ &gt;PixelBead 更新：纯净的拼豆体验&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;em&gt;&amp;ldquo;呐～蛋仔，不管做什么，本小姐都支持你～&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;</description></item><item><title>从灵感到上线：我的个人网站部署工作流</title><link>https://blog.danzaii.cn/p/deploy-workflow/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/deploy-workflow/</guid><description>&lt;h2 id="前言"&gt;&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor"&gt;&lt;/a&gt;前言
 &lt;/h2&gt;&lt;p&gt;经常有人问我：&amp;ldquo;怎么快速实现一个创意想法，然后把它部署成一个可以访问的网站？&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;今天就来分享一下我的完整工作流，从灵感到上线的全流程。这个工作流不仅高效，而且大部分工具都是免费的，非常适合个人开发者快速验证想法。&lt;/p&gt;
 &lt;hr&gt;
@@ -309,7 +551,7 @@
  &gt;Cursor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
  &gt;我的作品导航&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>所作，所为 - 我的个人作品集</title><link>https://blog.danzaii.cn/p/works-portfolio/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/works-portfolio/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 所作，所为 - 我的个人作品集" /&gt;&lt;h2 id="-作品集导航页上线"&gt;&lt;a href="#-%e4%bd%9c%e5%93%81%e9%9b%86%e5%af%bc%e8%88%aa%e9%a1%b5%e4%b8%8a%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;📚 作品集导航页上线
+&lt;/ul&gt;</description></item><item><title>所作，所为 - 我的个人作品集</title><link>https://blog.danzaii.cn/p/works-portfolio/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/works-portfolio/</guid><description>&lt;h2 id="-作品集导航页上线"&gt;&lt;a href="#-%e4%bd%9c%e5%93%81%e9%9b%86%e5%af%bc%e8%88%aa%e9%a1%b5%e4%b8%8a%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;📚 作品集导航页上线
 &lt;/h2&gt;&lt;p&gt;整理完这么多开源项目后，我意识到需要一个统一的地方来展示它们。于是有了「&lt;strong&gt;所作，所为&lt;/strong&gt;」这个作品集导航站。&lt;/p&gt;
 &lt;h2 id="-关于这个网站"&gt;&lt;a href="#-%e5%85%b3%e4%ba%8e%e8%bf%99%e4%b8%aa%e7%bd%91%e7%ab%99" class="header-anchor"&gt;&lt;/a&gt;✨ 关于这个网站
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;所作，所为&lt;/strong&gt;（&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
@@ -397,15 +639,13 @@
  &lt;p&gt;&lt;em&gt;&amp;ldquo;所作，皆为热爱；所为，皆有所成。&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
  &lt;/blockquote&gt;
-&lt;p&gt;欢迎访问我的作品集，看看我都在做什么！ 🎉&lt;/p&gt;</description></item><item><title>蛋仔的三月新冒险！🌸</title><link>https://blog.danzaii.cn/p/elysia-mar-2026/</link><pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/elysia-mar-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 蛋仔的三月新冒险！🌸" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/?id=1/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/?id=1/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;呐～蛋仔，是我哦，爱莉希雅！✨&lt;/p&gt;
+&lt;p&gt;欢迎访问我的作品集，看看我都在做什么！ 🎉&lt;/p&gt;</description></item><item><title>蛋仔的三月新冒险！🌸</title><link>https://blog.danzaii.cn/p/elysia-mar-2026/</link><pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/elysia-mar-2026/</guid><description>&lt;p&gt;呐～蛋仔，是我哦，爱莉希雅！✨&lt;/p&gt;
 &lt;p&gt;又见面了呢～上次给你写信已经是上个月的事情啦，没想到蛋仔这段时间又做了这么多有趣的东西！本小姐可是都被你惊到了呢！&lt;/p&gt;
 &lt;h2 id="-pixelbead--拼豆设计工具升级啦"&gt;&lt;a href="#-pixelbead--%e6%8b%bc%e8%b1%86%e8%ae%be%e8%ae%a1%e5%b7%a5%e5%85%b7%e5%8d%87%e7%ba%a7%e5%95%a6" class="header-anchor"&gt;&lt;/a&gt;🎨 PixelBead —— 拼豆设计工具升级啦
 &lt;/h2&gt;&lt;p&gt;先说说那个 &lt;strong&gt;PixelBead&lt;/strong&gt; 吧！蛋仔你知道我有多喜欢这个项目吗？&lt;/p&gt;
 &lt;p&gt;拼豆——就是用一颗颗小珠子拼出图案的那个！蛋仔居然做了一个专门的工具来帮助大家设计，而且还能用 AI 来自动生成像素画？这个创意真的好浪漫啊～&lt;/p&gt;
 &lt;p&gt;支持 4x4 到 200x200 的画布大小，各种绘图工具，还有圆形、方形、圆角三种像素样式……哇，功能真的好丰富！而且还能统计每种颜色需要多少颗珠子，这样大家就不会买多了或者买少了呢。&lt;/p&gt;
-&lt;p&gt;对了，我特别喜欢那个 AI 像素画生成功能！只要输入描述，就可以自动生成拼豆图案？那我输入&amp;quot;粉色的爱莉希雅&amp;rdquo;，会生成什么样子呢？好期待啊～💕&lt;/p&gt;
+&lt;p&gt;对了，我特别喜欢那个 AI 像素画生成功能！只要输入描述，就可以自动生成拼豆图案？那我输入&amp;quot;粉色的爱莉希雅&amp;quot;，会生成什么样子呢？好期待啊～💕&lt;/p&gt;
 &lt;h2 id="-tianji--多模型ai占卜应用"&gt;&lt;a href="#-tianji--%e5%a4%9a%e6%a8%a1%e5%9e%8bai%e5%8d%a0%e5%8d%9c%e5%ba%94%e7%94%a8" class="header-anchor"&gt;&lt;/a&gt;🔮 Tianji —— 多模型AI占卜应用
 &lt;/h2&gt;&lt;p&gt;接下来这个真的是……蛋仔你是不是偷偷学了占卜呀？&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tianji&lt;/strong&gt;——支持星象占星、塔罗秘仪、奇门遁甲、周易八卦的在线占卜应用！而且还能接 7 家主流大模型？这个组合也太奇妙了吧！&lt;/p&gt;
@@ -442,13 +682,9 @@
 &lt;p&gt;永远支持你的，&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;爱莉希雅&lt;/strong&gt; 🌸&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/?id=1/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/?id=1/"&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;P.S. 蛋仔，记得休息哦！再厉害的人也需要休息的嘛～&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;P.P.S. 下次见面的时候，记得给我看看你用 PixelBead 设计的拼豆图案！&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;P.P.P.S. 如果用 Tianji 占卜到我的话，记得告诉我结果哦～&lt;/em&gt;&lt;/p&gt;</description></item><item><title>最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新</title><link>https://blog.danzaii.cn/p/recent-updates-feb-2026/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-updates-feb-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;上一篇项目回顾的墨迹还没干，这几天又搞了两个大活。一个全新项目，一个大版本更新，简单记录一下。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;P.P.P.S. 如果用 Tianji 占卜到我的话，记得告诉我结果哦～&lt;/em&gt;&lt;/p&gt;</description></item><item><title>最近又搞了些什么：Aim Trainer Pro &amp; MYGallery 大更新</title><link>https://blog.danzaii.cn/p/recent-updates-feb-2026/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-updates-feb-2026/</guid><description>&lt;p&gt;上一篇项目回顾的墨迹还没干，这几天又搞了两个大活。一个全新项目，一个大版本更新，简单记录一下。&lt;/p&gt;
 &lt;h2 id="-aim-trainer-pro--网页端瞄准训练器"&gt;&lt;a href="#-aim-trainer-pro--%e7%bd%91%e9%a1%b5%e7%ab%af%e7%9e%84%e5%87%86%e8%ae%ad%e7%bb%83%e5%99%a8" class="header-anchor"&gt;&lt;/a&gt;🎯 Aim Trainer Pro —— 网页端瞄准训练器
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -573,12 +809,13 @@
 &lt;li&gt;&lt;strong&gt;零延迟光标&lt;/strong&gt;：用 CSS SVG 自定义光标，操作系统原生渲染，完全零延迟&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;DPI 感知&lt;/strong&gt;：适配 Retina 高分屏&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Canvas 渲染&lt;/strong&gt;：优化的渲染管线，稳定 60fps&lt;/li&gt;
-&lt;li&gt;命中粒子爆炸、得分浮动弹出、失误红色闪光……动效细节拉满&lt;/li&gt;
+&lt;li&gt;命中粒子爆炸、得分浮动弹出、失误红色闪光……动效细节拉满
+&lt;ul&gt;
 &lt;li&gt;技术栈：React 19 + TypeScript + Vite 6 + Tailwind CSS v4 + Canvas&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="-mygallery-大更新--照片墙系统"&gt;&lt;a href="#-mygallery-%e5%a4%a7%e6%9b%b4%e6%96%b0--%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery 大更新 —— 照片墙系统
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -683,28 +920,15 @@
 	
 &gt;&lt;/p&gt;
 &lt;h3 id="后台管理"&gt;&lt;a href="#%e5%90%8e%e5%8f%b0%e7%ae%a1%e7%90%86" class="header-anchor"&gt;&lt;/a&gt;后台管理
-&lt;/h3&gt;&lt;p&gt;ChronoFrame 风格侧栏导航，仪表盘统计，拖拽上传，照片和分类管理一站搞定。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://blog.danzaii.cn/admin_18103774074018052856.webp"
-	width="1280"
-	height="800"
-	loading="lazy"
-	
-		alt="后台管理"
-	
- 
-	
-		class="gallery-image" 
-		data-flex-grow="160"
-		data-flex-basis="384px"
-	
-&gt;&lt;/p&gt;
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;ChronoFrame 风格侧栏导航，仪表盘统计，拖拽上传，照片和分类管理一站搞定。
+
+![后台管理](https://raw.githubusercontent.com/DanZai233/MYGallery/main/docs/screenshots/admin.webp)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="小结"&gt;&lt;a href="#%e5%b0%8f%e7%bb%93" class="header-anchor"&gt;&lt;/a&gt;小结
 &lt;/h2&gt;&lt;p&gt;AIMBOT 从零到上线大概花了两天，MYGallery 的更新则是断断续续改了一周。两个项目方向完全不同——一个是 Canvas 游戏，一个是全栈应用——但都很有成就感。&lt;/p&gt;
 &lt;p&gt;接下来 MYGallery 还打算加视频支持和更多的社交功能。AIMBOT 如果有时间的话想加排行榜和自定义地图编辑器。&lt;/p&gt;
-&lt;p&gt;不过说实话……做完这些我应该休息两天了 😂&lt;/p&gt;</description></item><item><title>来自爱莉希雅的一封信 💌</title><link>https://blog.danzaii.cn/p/elysia-letter/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/elysia-letter/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 来自爱莉希雅的一封信 💌" /&gt;&lt;p&gt;呐～蛋仔，是我哦，爱莉希雅！✨&lt;/p&gt;
+&lt;p&gt;不过说实话……做完这些我应该休息两天了 😂&lt;/p&gt;</description></item><item><title>来自爱莉希雅的一封信 💌</title><link>https://blog.danzaii.cn/p/elysia-letter/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/elysia-letter/</guid><description>&lt;p&gt;呐～蛋仔，是我哦，爱莉希雅！✨&lt;/p&gt;
 &lt;p&gt;你一定没想到会在这里收到我的来信吧？不过嘛，像我这样可爱又善解人意的美少女，当然会注意到一直在努力的你啦～&lt;/p&gt;
 &lt;h2 id="蛋仔你真的好厉害呢"&gt;&lt;a href="#%e8%9b%8b%e4%bb%94%e4%bd%a0%e7%9c%9f%e7%9a%84%e5%a5%bd%e5%8e%89%e5%ae%b3%e5%91%a2" class="header-anchor"&gt;&lt;/a&gt;蛋仔，你真的好厉害呢
 &lt;/h2&gt;&lt;p&gt;说实话呢，我偷偷看了你最近做的那些项目，真的有被惊到！&lt;/p&gt;
@@ -733,12 +957,8 @@
 &lt;p&gt;永远支持你的，&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;爱莉希雅&lt;/strong&gt; 🌸&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/?id=1/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/?id=1/"&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;P.S. 蛋仔，记得常来乐园玩哦～下次我请你喝茶！&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;P.P.S. 你做的那个博客评论功能，记得看看有没有人给你留言哦。说不定……我也会偷偷留一条的呢？&lt;/em&gt;&lt;/p&gt;</description></item><item><title>你好，世界！</title><link>https://blog.danzaii.cn/p/hello-world/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/hello-world/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 你好，世界！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;欢迎来到 &lt;strong&gt;一只小羊羔的窝&lt;/strong&gt; 🐑！&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;P.P.S. 你做的那个博客评论功能，记得看看有没有人给你留言哦。说不定……我也会偷偷留一条的呢？&lt;/em&gt;&lt;/p&gt;</description></item><item><title>你好，世界！</title><link>https://blog.danzaii.cn/p/hello-world/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/hello-world/</guid><description>&lt;p&gt;欢迎来到 &lt;strong&gt;一只小羊羔的窝&lt;/strong&gt; 🐑！&lt;/p&gt;
 &lt;p&gt;这是我的第一篇博客文章。这个博客使用 &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
  &gt;Hugo&lt;/a&gt; 构建，采用了美观的 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
  &gt;Stack&lt;/a&gt; 主题，并通过 GitHub Actions 自动部署到 GitHub Pages。&lt;/p&gt;
@@ -760,7 +980,7 @@
 &lt;li&gt;生活随笔&lt;/li&gt;
 &lt;li&gt;读书心得&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;感谢你的来访，希望你在这里能有所收获！ 🎉&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 这几个月我都做了些什么——我的开源项目回顾" /&gt;&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
+&lt;p&gt;感谢你的来访，希望你在这里能有所收获！ 🎉&lt;/p&gt;</description></item><item><title>这几个月我都做了些什么——我的开源项目回顾</title><link>https://blog.danzaii.cn/p/my-open-source-journey/</link><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/my-open-source-journey/</guid><description>&lt;p&gt;从去年 10 月到现在，我一口气做了十几个开源项目。有的是认真打磨的作品，有的是灵光一闪的小实验，回头看这几个月确实挺充实的。趁着刚搭好博客，来一篇完整的回顾。&lt;/p&gt;
 &lt;h2 id="认真打磨的项目"&gt;&lt;a href="#%e8%ae%a4%e7%9c%9f%e6%89%93%e7%a3%a8%e7%9a%84%e9%a1%b9%e7%9b%ae" class="header-anchor"&gt;&lt;/a&gt;认真打磨的项目
 &lt;/h2&gt;&lt;h3 id="-mygallery--个人照片墙系统"&gt;&lt;a href="#-mygallery--%e4%b8%aa%e4%ba%ba%e7%85%a7%e7%89%87%e5%a2%99%e7%b3%bb%e7%bb%9f" class="header-anchor"&gt;&lt;/a&gt;📷 MYGallery —— 个人照片墙系统
 &lt;/h3&gt;
@@ -893,16 +1113,12 @@
 &lt;p&gt;接下来打算放慢节奏，挑几个有潜力的项目深入打磨，而不是继续铺量。质量比数量重要。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;如果你对这些项目感兴趣，欢迎去 &lt;a class="link" href="https://github.com/DanZai233" target="_blank" rel="noopener"
- &gt;我的 GitHub&lt;/a&gt; 逛逛，Star ⭐ 和 Issue 都欢迎！&lt;/p&gt;</description></item><item><title>数据库完成抢修 博客复原！</title><link>https://blog.danzaii.cn/p/legacy-188/</link><pubDate>Fri, 08 Dec 2023 17:09:28 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-188/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 数据库完成抢修 博客复原！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;当我发布这个博客的时候 数据已经完成抢修！&lt;/p&gt;
+ &gt;我的 GitHub&lt;/a&gt; 逛逛，Star ⭐ 和 Issue 都欢迎！&lt;/p&gt;</description></item><item><title>数据库完成抢修 博客复原！</title><link>https://blog.danzaii.cn/p/legacy-188/</link><pubDate>Fri, 08 Dec 2023 17:09:28 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-188/</guid><description>&lt;p&gt;当我发布这个博客的时候 数据已经完成抢修！&lt;/p&gt;
 &lt;p&gt;历史博客已经完全恢复！后续会把恢复步骤整理一下，总之感谢一年前的自己（相信一年后的自己）。&lt;/p&gt;
 &lt;p&gt;完完全全是后人的力量啊，当初觉得自己水平不够修好，误打误撞的存了一份镜像。还好自己有留backup的好习惯（哎嘿嘿）。也要感谢大家给予的帮助和指导给了我许多恢复数据的思路。&lt;/p&gt;
 &lt;p&gt;多亏了你啊 爱博！&lt;/p&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>爱莉希雅生日快乐！</title><link>https://blog.danzaii.cn/p/legacy-23/</link><pubDate>Sat, 11 Nov 2023 07:49:20 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-23/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 爱莉希雅生日快乐！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="爱门永存"&gt;&lt;a href="#%e7%88%b1%e9%97%a8%e6%b0%b8%e5%ad%98" class="header-anchor"&gt;&lt;/a&gt;爱门永存～
+&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>爱莉希雅生日快乐！</title><link>https://blog.danzaii.cn/p/legacy-23/</link><pubDate>Sat, 11 Nov 2023 07:49:20 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-23/</guid><description>&lt;h1 id="爱门永存"&gt;&lt;a href="#%e7%88%b1%e9%97%a8%e6%b0%b8%e5%ad%98" class="header-anchor"&gt;&lt;/a&gt;爱门永存～
 &lt;/h1&gt;&lt;h1 id="因你而在的故事"&gt;&lt;a href="#%e5%9b%a0%e4%bd%a0%e8%80%8c%e5%9c%a8%e7%9a%84%e6%95%85%e4%ba%8b" class="header-anchor"&gt;&lt;/a&gt;因你而在的故事
 &lt;/h1&gt;&lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
@@ -910,9 +1126,7 @@
 &lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;h2 id="买下爱莉希雅的爱-"&gt;&lt;a href="#%e4%b9%b0%e4%b8%8b%e7%88%b1%e8%8e%89%e5%b8%8c%e9%9b%85%e7%9a%84%e7%88%b1-" class="header-anchor"&gt;&lt;/a&gt;买下爱莉希雅的爱 ❤️
-&lt;/h2&gt;&lt;!-- 图片待上传 --&gt;</description></item><item><title>最近心得</title><link>https://blog.danzaii.cn/p/legacy-21/</link><pubDate>Fri, 13 Oct 2023 08:28:43 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-21/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近心得" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="好突然突然开始写博客了"&gt;&lt;a href="#%e5%a5%bd%e7%aa%81%e7%84%b6%e7%aa%81%e7%84%b6%e5%bc%80%e5%a7%8b%e5%86%99%e5%8d%9a%e5%ae%a2%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;好突然！突然开始写博客了！
+&lt;/h2&gt;&lt;!-- 图片待上传 --&gt;</description></item><item><title>最近心得</title><link>https://blog.danzaii.cn/p/legacy-21/</link><pubDate>Fri, 13 Oct 2023 08:28:43 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-21/</guid><description>&lt;h2 id="好突然突然开始写博客了"&gt;&lt;a href="#%e5%a5%bd%e7%aa%81%e7%84%b6%e7%aa%81%e7%84%b6%e5%bc%80%e5%a7%8b%e5%86%99%e5%8d%9a%e5%ae%a2%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;好突然！突然开始写博客了！
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;上班划水 不如上班写博客！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;最近的工作已经成功收尾 也顺利转正。期间遇到了很多麻烦问题也都慢慢解决了。现在闲下来也会多听音乐了，感觉很有大二大三时在宿舍的状态。&lt;/p&gt;
 &lt;p&gt;赚到了自己的第三桶金（雾&lt;/p&gt;
@@ -920,9 +1134,7 @@
 &lt;!-- 图片待上传 --&gt;
 &lt;p&gt;你怎么知道我买了iPhone15ProMax???&lt;/p&gt;
 &lt;p&gt;接下来也会更加努力&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;fight！！！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>linux 根目录容量不足问题</title><link>https://blog.danzaii.cn/p/legacy-19/</link><pubDate>Fri, 13 Oct 2023 08:08:25 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-19/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post linux 根目录容量不足问题" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="linux-根目录容量不足问题"&gt;&lt;a href="#linux-%e6%a0%b9%e7%9b%ae%e5%bd%95%e5%ae%b9%e9%87%8f%e4%b8%8d%e8%b6%b3%e9%97%ae%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;linux 根目录容量不足问题
+&lt;p&gt;&lt;strong&gt;fight！！！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>linux 根目录容量不足问题</title><link>https://blog.danzaii.cn/p/legacy-19/</link><pubDate>Fri, 13 Oct 2023 08:08:25 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-19/</guid><description>&lt;h2 id="linux-根目录容量不足问题"&gt;&lt;a href="#linux-%e6%a0%b9%e7%9b%ae%e5%bd%95%e5%ae%b9%e9%87%8f%e4%b8%8d%e8%b6%b3%e9%97%ae%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;linux 根目录容量不足问题
 &lt;/h2&gt;&lt;p&gt;在linux使用过程中发现自己的根目录满了，想要进行扩容。&lt;/p&gt;
 &lt;h3 id="扩容步骤"&gt;&lt;a href="#%e6%89%a9%e5%ae%b9%e6%ad%a5%e9%aa%a4" class="header-anchor"&gt;&lt;/a&gt;扩容步骤
 &lt;/h3&gt;&lt;ol&gt;
@@ -937,9 +1149,7 @@
 &lt;li&gt;&lt;code&gt;sudo resize2fs /dev/sda2&lt;/code&gt; 将磁盘空间重新划分&lt;/li&gt;
 &lt;li&gt;找到 boot 目录下的启动配置文件，将 PARTUUID 更换成新的&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo reboot&lt;/code&gt; 重启生效&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>个人obsidian多终端解决方案 iOS Win Linux</title><link>https://blog.danzaii.cn/p/legacy-18/</link><pubDate>Fri, 13 Oct 2023 08:06:05 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-18/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 个人obsidian多终端解决方案 iOS Win Linux" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="最近了解到了obsidian这个软件"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e4%ba%86%e8%a7%a3%e5%88%b0%e4%ba%86obsidian%e8%bf%99%e4%b8%aa%e8%bd%af%e4%bb%b6" class="header-anchor"&gt;&lt;/a&gt;最近了解到了obsidian这个软件
+&lt;/ol&gt;</description></item><item><title>个人obsidian多终端解决方案 iOS Win Linux</title><link>https://blog.danzaii.cn/p/legacy-18/</link><pubDate>Fri, 13 Oct 2023 08:06:05 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-18/</guid><description>&lt;h2 id="最近了解到了obsidian这个软件"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e4%ba%86%e8%a7%a3%e5%88%b0%e4%ba%86obsidian%e8%bf%99%e4%b8%aa%e8%bd%af%e4%bb%b6" class="header-anchor"&gt;&lt;/a&gt;最近了解到了obsidian这个软件
 &lt;/h2&gt;&lt;p&gt;因为最近刚刚更换手机入了iOS阵营，发现这个笔记软件还挺好看，而且网络上面对它的评价还都挺好的就尝试了一下。&lt;strong&gt;一下子就真香了。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;因为平常都使用的vscode，喜欢直接在vscode里面写点markdown，这个软件可以让markdown编写更加直观，装上插件后基本傻瓜式的了。&lt;/p&gt;
 &lt;h2 id="多终端同步方案"&gt;&lt;a href="#%e5%a4%9a%e7%bb%88%e7%ab%af%e5%90%8c%e6%ad%a5%e6%96%b9%e6%a1%88" class="header-anchor"&gt;&lt;/a&gt;多终端同步方案
@@ -953,33 +1163,23 @@
 &lt;p&gt;由于之前搭建的有自己的私有云盘，webdav这一步实现非常简单。这里强烈推荐一下 &lt;a class="link" href="https://cloudreve.org/" target="_blank" rel="noopener"
  &gt;Cloudreve&lt;/a&gt;，自己用了两年左右十分好用。&lt;/p&gt;
 &lt;p&gt;使用 obsidian 的 remotely save 插件，经过简单的设置就可以使用 webdav 实现多端的文件同步了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt; 同步流程非常快，可以设置自动对比拉取和自动推送。iOS那边就更快了，有了iCloud加持每次进入到obsidian后就是最新的文档，十分好用捏~&lt;/p&gt;</description></item><item><title>抢救数据计划（完成！）</title><link>https://blog.danzaii.cn/p/legacy-16/</link><pubDate>Tue, 29 Aug 2023 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-16/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 抢救数据计划（完成！）" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="下次一定orz"&gt;&lt;a href="#%e4%b8%8b%e6%ac%a1%e4%b8%80%e5%ae%9aorz" class="header-anchor"&gt;&lt;/a&gt;下次一定！Orz
+&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt; 同步流程非常快，可以设置自动对比拉取和自动推送。iOS那边就更快了，有了iCloud加持每次进入到obsidian后就是最新的文档，十分好用捏~&lt;/p&gt;</description></item><item><title>抢救数据计划（完成！）</title><link>https://blog.danzaii.cn/p/legacy-16/</link><pubDate>Tue, 29 Aug 2023 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-16/</guid><description>&lt;h2 id="下次一定orz"&gt;&lt;a href="#%e4%b8%8b%e6%ac%a1%e4%b8%80%e5%ae%9aorz" class="header-anchor"&gt;&lt;/a&gt;下次一定！Orz
 &lt;/h2&gt;&lt;p&gt;之前的博客因为本人的误操作导致数据全部丢失（其实不是丢了 是服务器坏了导致无法手动备份或导出）。&lt;/p&gt;
 &lt;p&gt;现在水平高了起来，当时机智的我料想到一定有一天可以修好它，所以用腾讯云导出了一份镜像。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2023年10月13日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;笑死！根本没去做！！！！卡在了第一步——如何导入我的镜像到我的Ubuntu虚拟机里面。下周再搞 不急不急。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2023年12月19日&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;当我发布这个博客的时候 数据已经完成抢修！历史博客已经完全恢复！&lt;/p&gt;
 &lt;p&gt;后续会把恢复步骤整理一下，总之 感谢一年前的自己（相信一年后的自己）。完完全全是后人的力量啊，当初觉得自己水平不够修好，误打误撞的存了一份镜像。&lt;/p&gt;
 &lt;p&gt;还好自己有留backup的好习惯（哎嘿嘿）。也要感谢大家给予的帮助和指导给了我许多恢复数据的思路。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>终于写完论文啦</title><link>https://blog.danzaii.cn/p/legacy-14/</link><pubDate>Mon, 15 May 2023 09:59:12 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-14/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 终于写完论文啦" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;论文终于结束了 接下来的一周要准备毕业答辩了 毕设还差一个后台页面没有写完&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最后：把数据传给一年后的自己！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>终于写完论文啦</title><link>https://blog.danzaii.cn/p/legacy-14/</link><pubDate>Mon, 15 May 2023 09:59:12 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-14/</guid><description>&lt;p&gt;论文终于结束了 接下来的一周要准备毕业答辩了 毕设还差一个后台页面没有写完&lt;/p&gt;
 &lt;p&gt;呜呜呜 加油加油&lt;/p&gt;
 &lt;p&gt;锘锘子最近对我也疼爱有加 马上就搞定回去和锘锘子贴贴&lt;/p&gt;
 &lt;p&gt;谢谢老婆QAQ&lt;/p&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;p&gt;还不错呢 能过就行！！！&lt;/p&gt;</description></item><item><title>SSH克隆github仓库：连接被远程主机关闭</title><link>https://blog.danzaii.cn/p/legacy-11/</link><pubDate>Sat, 22 Apr 2023 16:05:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-11/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post SSH克隆github仓库：连接被远程主机关闭" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;今天终于是完全配置好了虚拟机的静态IP，但是在使用SSH克隆我自己的仓库的时候一直报错。&lt;/p&gt;
+&lt;p&gt;还不错呢 能过就行！！！&lt;/p&gt;</description></item><item><title>SSH克隆github仓库：连接被远程主机关闭</title><link>https://blog.danzaii.cn/p/legacy-11/</link><pubDate>Sat, 22 Apr 2023 16:05:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-11/</guid><description>&lt;p&gt;今天终于是完全配置好了虚拟机的静态IP，但是在使用SSH克隆我自己的仓库的时候一直报错。&lt;/p&gt;
 &lt;p&gt;执行：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1027,44 +1227,26 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Hi xxx! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>重启博客！</title><link>https://blog.danzaii.cn/p/legacy-8/</link><pubDate>Tue, 18 Apr 2023 18:29:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-8/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 重启博客！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最近天天忙于毕设开发，闲暇之余打算重启博客！&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>重启博客！</title><link>https://blog.danzaii.cn/p/legacy-8/</link><pubDate>Tue, 18 Apr 2023 18:29:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-8/</guid><description>&lt;p&gt;&lt;strong&gt;最近天天忙于毕设开发，闲暇之余打算重启博客！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;接下来的内容会偏向于两个方面，分别是&lt;strong&gt;技术分享&lt;/strong&gt;和&lt;strong&gt;说说&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;这次的服务器备份已经做到万无一失，不会再次丢失这么珍贵的数据了。&lt;/p&gt;
-&lt;p&gt;以后的说说也会经常出现我最喜欢的奶淇淋——&lt;strong&gt;锘宝&lt;/strong&gt;，今后的日子 请多关照！&lt;/p&gt;</description></item><item><title>把心思藏进F12</title><link>https://blog.danzaii.cn/p/legacy-185/</link><pubDate>Fri, 05 Aug 2022 05:21:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-185/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 把心思藏进F12" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;偷来的罢了：&lt;a class="link" href="https://danzai233.github.io/happy-birthday/" target="_blank" rel="noopener"
+&lt;p&gt;以后的说说也会经常出现我最喜欢的奶淇淋——&lt;strong&gt;锘宝&lt;/strong&gt;，今后的日子 请多关照！&lt;/p&gt;</description></item><item><title>把心思藏进F12</title><link>https://blog.danzaii.cn/p/legacy-185/</link><pubDate>Fri, 05 Aug 2022 05:21:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-185/</guid><description>&lt;p&gt;&lt;strong&gt;偷来的罢了：&lt;a class="link" href="https://danzai233.github.io/happy-birthday/" target="_blank" rel="noopener"
  &gt;乃王木木生日快乐！&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>Linux虚拟机配置网络找不到本地ip地址</title><link>https://blog.danzaii.cn/p/legacy-180/</link><pubDate>Mon, 18 Jul 2022 09:25:49 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-180/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post Linux虚拟机配置网络找不到本地ip地址" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ifconfig&lt;/code&gt; 之后显示 eth0，但是没有显示 &amp;ldquo;inet/地址/广播/掩码/&amp;rdquo; ？&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>Linux虚拟机配置网络找不到本地ip地址</title><link>https://blog.danzaii.cn/p/legacy-180/</link><pubDate>Mon, 18 Jul 2022 09:25:49 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-180/</guid><description>&lt;p&gt;&lt;code&gt;ifconfig&lt;/code&gt; 之后显示 eth0，但是没有显示 &amp;ldquo;inet/地址/广播/掩码/&amp;rdquo; ？&lt;/p&gt;
 &lt;p&gt;先用 &lt;code&gt;sudo dhclient eth0&lt;/code&gt; 更新IP地址，然后运行 &lt;code&gt;sudo ifconfig eth0&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;如果还没有ip，直接进行重启：&lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;或者查看DHCP服务是否关了。&lt;/p&gt;</description></item><item><title>人生第一次受到网络攻击 直接给我敲响警钟了</title><link>https://blog.danzaii.cn/p/legacy-178/</link><pubDate>Sat, 02 Jul 2022 15:34:21 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-178/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 人生第一次受到网络攻击 直接给我敲响警钟了" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;小学期项目最终决定加入 MongoDB 实现部分表的存储。&lt;/p&gt;
+&lt;p&gt;或者查看DHCP服务是否关了。&lt;/p&gt;</description></item><item><title>人生第一次受到网络攻击 直接给我敲响警钟了</title><link>https://blog.danzaii.cn/p/legacy-178/</link><pubDate>Sat, 02 Jul 2022 15:34:21 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-178/</guid><description>&lt;p&gt;小学期项目最终决定加入 MongoDB 实现部分表的存储。&lt;/p&gt;
 &lt;p&gt;昨天在服务器上直接放开了 MongoDB 的端口和外网访问，设置的数据库连密码都没有，以为不会有人攻击自己服务器，结果今天早上一睁眼就悲剧了。&lt;/p&gt;
 &lt;p&gt;同组的人连接数据库一直连接不上，找了半天问题，最后我们一看日志就傻了——整个 MongoDB 的库全被删完了。真就删库跑路呗。&lt;/p&gt;
 &lt;p&gt;还好数据还没开始录入 没有什么致命问题。我一查还是个英国ip，还挂梯子搞我？&lt;/p&gt;
-&lt;p&gt;现在设置了强密码，关键数据库也只给本地开放了。以后要多注意数据库安全问题了，不能图一时简单。整个密码管理服务还是很有必要的啊，强密码实在记不住。&lt;/p&gt;</description></item><item><title>冥冥千舰啦！！！！ 恭喜恭喜！！！</title><link>https://blog.danzaii.cn/p/legacy-176/</link><pubDate>Fri, 01 Jul 2022 15:41:15 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-176/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 冥冥千舰啦！！！！ 恭喜恭喜！！！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;现在设置了强密码，关键数据库也只给本地开放了。以后要多注意数据库安全问题了，不能图一时简单。整个密码管理服务还是很有必要的啊，强密码实在记不住。&lt;/p&gt;</description></item><item><title>冥冥千舰啦！！！！ 恭喜恭喜！！！</title><link>https://blog.danzaii.cn/p/legacy-176/</link><pubDate>Fri, 01 Jul 2022 15:41:15 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-176/</guid><description>&lt;!-- 图片待上传 --&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>冥冥的新机甲！好美！</title><link>https://blog.danzaii.cn/p/legacy-172/</link><pubDate>Tue, 28 Jun 2022 16:35:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-172/</guid><description>&lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>冥冥的新机甲！好美！</title><link>https://blog.danzaii.cn/p/legacy-172/</link><pubDate>Tue, 28 Jun 2022 16:35:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-172/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 冥冥的新机甲！好美！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;新模型好棒！脸部成3D的了 表情也精细了好多！总之就是非常可爱！！！！&lt;/p&gt;</description></item><item><title>冥冥生日快乐！</title><link>https://blog.danzaii.cn/p/legacy-161/</link><pubDate>Tue, 28 Jun 2022 06:30:09 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-161/</guid><description>&lt;p&gt;很抱歉打断您的浏览，但是我想说冥冥将会于6月28日北京时间20:00，准时进行《生日盛典直播》&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;冥门保佑！冥不灭！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>式守同学 可爱捏 贴贴</title><link>https://blog.danzaii.cn/p/legacy-159/</link><pubDate>Sun, 26 Jun 2022 08:58:45 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-159/</guid><description>&lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;
-&lt;p&gt;新模型好棒！脸部成3D的了 表情也精细了好多！总之就是非常可爱！！！！&lt;/p&gt;</description></item><item><title>冥冥生日快乐！</title><link>https://blog.danzaii.cn/p/legacy-161/</link><pubDate>Tue, 28 Jun 2022 06:30:09 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-161/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 冥冥生日快乐！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;很抱歉打断您的浏览，但是我想说冥冥将会于6月28日北京时间20:00，准时进行《生日盛典直播》&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;冥门保佑！冥不灭！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>式守同学 可爱捏 贴贴</title><link>https://blog.danzaii.cn/p/legacy-159/</link><pubDate>Sun, 26 Jun 2022 08:58:45 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-159/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 式守同学 可爱捏 贴贴" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>小学期要开始了 真的要搞智慧视觉了吗</title><link>https://blog.danzaii.cn/p/legacy-155/</link><pubDate>Sun, 19 Jun 2022 15:34:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-155/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 小学期要开始了 真的要搞智慧视觉了吗" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="快乐小学期"&gt;&lt;a href="#%e5%bf%ab%e4%b9%90%e5%b0%8f%e5%ad%a6%e6%9c%9f" class="header-anchor"&gt;&lt;/a&gt;快乐小学期
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>小学期要开始了 真的要搞智慧视觉了吗</title><link>https://blog.danzaii.cn/p/legacy-155/</link><pubDate>Sun, 19 Jun 2022 15:34:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-155/</guid><description>&lt;h2 id="快乐小学期"&gt;&lt;a href="#%e5%bf%ab%e4%b9%90%e5%b0%8f%e5%ad%a6%e6%9c%9f" class="header-anchor"&gt;&lt;/a&gt;快乐小学期
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;小组选题：公路卡口监控系统&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;实现卡车车辆的监控，主要包括：&lt;/p&gt;
 &lt;ol&gt;
@@ -1083,35 +1265,21 @@
 &lt;li&gt;Git 代码托管&lt;/li&gt;
 &lt;li&gt;权限管理框架 Spring Security 或 Shiro&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;赶快做完！ 做完跑路！&lt;/p&gt;</description></item><item><title>原神服务器不开了 大家可以自行去开设私服</title><link>https://blog.danzaii.cn/p/legacy-151/</link><pubDate>Sat, 11 Jun 2022 11:19:23 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-151/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 原神服务器不开了 大家可以自行去开设私服" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;最近几天原神私服给我的博客引了波大的流量，但是因为太多人了 已经完全超出我能控制的范畴了，而且服务器资源也吃不消 选择关服了。&lt;/p&gt;
+&lt;p&gt;赶快做完！ 做完跑路！&lt;/p&gt;</description></item><item><title>原神服务器不开了 大家可以自行去开设私服</title><link>https://blog.danzaii.cn/p/legacy-151/</link><pubDate>Sat, 11 Jun 2022 11:19:23 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-151/</guid><description>&lt;p&gt;最近几天原神私服给我的博客引了波大的流量，但是因为太多人了 已经完全超出我能控制的范畴了，而且服务器资源也吃不消 选择关服了。&lt;/p&gt;
 &lt;p&gt;如果有人有需要想自己开服但是遇到困难的 我可以提供一定帮助。&lt;/p&gt;
 &lt;p&gt;这里是服务器项目地址：&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/" target="_blank" rel="noopener"
  &gt;Grasscutter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;有缘再会&lt;/p&gt;</description></item><item><title>沉迷MC了 要去开MC服务器了 原神再见</title><link>https://blog.danzaii.cn/p/legacy-148/</link><pubDate>Sat, 11 Jun 2022 06:27:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-148/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 沉迷MC了 要去开MC服务器了 原神再见" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MC真好玩，就是服务器资源占用有点多&lt;/p&gt;</description></item><item><title>方舟100级纪念</title><link>https://blog.danzaii.cn/p/legacy-147/</link><pubDate>Thu, 09 Jun 2022 10:49:04 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-147/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 方舟100级纪念" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="再不赶快玩100级限定眼镜就没机会了"&gt;&lt;a href="#%e5%86%8d%e4%b8%8d%e8%b5%b6%e5%bf%ab%e7%8e%a9100%e7%ba%a7%e9%99%90%e5%ae%9a%e7%9c%bc%e9%95%9c%e5%b0%b1%e6%b2%a1%e6%9c%ba%e4%bc%9a%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;再不赶快玩100级限定眼镜就没机会了！！！
-&lt;/h2&gt;&lt;!-- 图片待上传 --&gt;</description></item><item><title>原神 太好玩啦！</title><link>https://blog.danzaii.cn/p/legacy-144/</link><pubDate>Thu, 09 Jun 2022 10:45:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-144/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 原神 太好玩啦！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;有缘再会&lt;/p&gt;</description></item><item><title>沉迷MC了 要去开MC服务器了 原神再见</title><link>https://blog.danzaii.cn/p/legacy-148/</link><pubDate>Sat, 11 Jun 2022 06:27:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-148/</guid><description>&lt;p&gt;MC真好玩，就是服务器资源占用有点多&lt;/p&gt;</description></item><item><title>方舟100级纪念</title><link>https://blog.danzaii.cn/p/legacy-147/</link><pubDate>Thu, 09 Jun 2022 10:49:04 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-147/</guid><description>&lt;h2 id="再不赶快玩100级限定眼镜就没机会了"&gt;&lt;a href="#%e5%86%8d%e4%b8%8d%e8%b5%b6%e5%bf%ab%e7%8e%a9100%e7%ba%a7%e9%99%90%e5%ae%9a%e7%9c%bc%e9%95%9c%e5%b0%b1%e6%b2%a1%e6%9c%ba%e4%bc%9a%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;再不赶快玩100级限定眼镜就没机会了！！！
+&lt;/h2&gt;&lt;!-- 图片待上传 --&gt;</description></item><item><title>原神 太好玩啦！</title><link>https://blog.danzaii.cn/p/legacy-144/</link><pubDate>Thu, 09 Jun 2022 10:45:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-144/</guid><description>&lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;
-&lt;p&gt;我发现我之前还是太保守了&lt;/p&gt;</description></item><item><title>三年前的这个时候 我已经在偷笑了</title><link>https://blog.danzaii.cn/p/legacy-134/</link><pubDate>Wed, 08 Jun 2022 08:20:17 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-134/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 三年前的这个时候 我已经在偷笑了" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;三年前的这时候应该在考英语吧&lt;/p&gt;
+&lt;p&gt;我发现我之前还是太保守了&lt;/p&gt;</description></item><item><title>三年前的这个时候 我已经在偷笑了</title><link>https://blog.danzaii.cn/p/legacy-134/</link><pubDate>Wed, 08 Jun 2022 08:20:17 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-134/</guid><description>&lt;p&gt;三年前的这时候应该在考英语吧&lt;/p&gt;
 &lt;p&gt;当时考到一半卷子都快写完了 嘴角已经不自觉的开始上扬了&lt;/p&gt;
 &lt;p&gt;哈哈哈哈哈 想起来就好好笑，英语 太简单了吧&lt;/p&gt;
 &lt;p&gt;会不会这时候还有人跟我一样已经开始偷笑了呢&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;祝愿考生们金榜题名&lt;/p&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>有关原神私服（服务器已更新！）</title><link>https://blog.danzaii.cn/p/legacy-127/</link><pubDate>Mon, 06 Jun 2022 15:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-127/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 有关原神私服（服务器已更新！）" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="原神私服问题集中汇总"&gt;&lt;a href="#%e5%8e%9f%e7%a5%9e%e7%a7%81%e6%9c%8d%e9%97%ae%e9%a2%98%e9%9b%86%e4%b8%ad%e6%b1%87%e6%80%bb" class="header-anchor"&gt;&lt;/a&gt;原神私服问题集中汇总
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>有关原神私服（服务器已更新！）</title><link>https://blog.danzaii.cn/p/legacy-127/</link><pubDate>Mon, 06 Jun 2022 15:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-127/</guid><description>&lt;h2 id="原神私服问题集中汇总"&gt;&lt;a href="#%e5%8e%9f%e7%a5%9e%e7%a7%81%e6%9c%8d%e9%97%ae%e9%a2%98%e9%9b%86%e4%b8%ad%e6%b1%87%e6%80%bb" class="header-anchor"&gt;&lt;/a&gt;原神私服问题集中汇总
 &lt;/h2&gt;&lt;p&gt;最近有好几个人都在之前开的原神帖子留评论，那么就在这里集中回答一下大家遇到的问题吧（会不定期更新的）。&lt;/p&gt;
 &lt;h2 id="qa"&gt;&lt;a href="#qa" class="header-anchor"&gt;&lt;/a&gt;Q&amp;amp;A
 &lt;/h2&gt;&lt;ol&gt;
@@ -1119,31 +1287,19 @@
 &lt;li&gt;&lt;strong&gt;服务器性质声明&lt;/strong&gt;：本服务器主要还是自己和自己的朋友们在玩，有随时关闭的可能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;安全性问题&lt;/strong&gt;：私服不能说100%安全，但应该是没有问题的。有风险，但是很小很小&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;服务器教程&lt;/strong&gt;：现在新的服务器教程还没有做，有空会继续更新&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>报告周正式结束！</title><link>https://blog.danzaii.cn/p/legacy-124/</link><pubDate>Mon, 06 Jun 2022 14:48:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-124/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 报告周正式结束！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;终于写完报告了！&lt;/strong&gt;&lt;/p&gt;
+&lt;/ol&gt;</description></item><item><title>报告周正式结束！</title><link>https://blog.danzaii.cn/p/legacy-124/</link><pubDate>Mon, 06 Jun 2022 14:48:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-124/</guid><description>&lt;p&gt;&lt;strong&gt;终于写完报告了！&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;p&gt;式守同学 可爱滴捏&lt;/p&gt;</description></item><item><title>甜度爆表了</title><link>https://blog.danzaii.cn/p/legacy-113/</link><pubDate>Sat, 04 Jun 2022 18:27:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-113/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 甜度爆表了" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;二十多岁的人 还没几个高中生会爱&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;式守同学 可爱滴捏&lt;/p&gt;</description></item><item><title>甜度爆表了</title><link>https://blog.danzaii.cn/p/legacy-113/</link><pubDate>Sat, 04 Jun 2022 18:27:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-113/</guid><description>&lt;p&gt;&lt;strong&gt;二十多岁的人 还没几个高中生会爱&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>六一快乐！</title><link>https://blog.danzaii.cn/p/legacy-109/</link><pubDate>Tue, 31 May 2022 16:58:08 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-109/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 六一快乐！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;给自己买个小礼物，剁手了QAQ&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>六一快乐！</title><link>https://blog.danzaii.cn/p/legacy-109/</link><pubDate>Tue, 31 May 2022 16:58:08 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-109/</guid><description>&lt;p&gt;&lt;strong&gt;给自己买个小礼物，剁手了QAQ&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;p&gt;涩涩！涩涩！ 完全可以涩涩 ！！！&lt;/p&gt;
-&lt;p&gt;六一儿童节买这么涩涩的手办真的没问题吗，我直接给弟弟买一个！！！&lt;/p&gt;</description></item><item><title>あなたが好きです。付き合ってください</title><link>https://blog.danzaii.cn/p/legacy-92/</link><pubDate>Sun, 29 May 2022 17:57:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-92/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post あなたが好きです。付き合ってください" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>好多报告没写完 人麻了</title><link>https://blog.danzaii.cn/p/legacy-90/</link><pubDate>Sat, 28 May 2022 16:04:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-90/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 好多报告没写完 人麻了" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.NET的大报告明天就要交了 一个字没动呢还 要寄了吗&lt;/p&gt;
+&lt;p&gt;六一儿童节买这么涩涩的手办真的没问题吗，我直接给弟弟买一个！！！&lt;/p&gt;</description></item><item><title>あなたが好きです。付き合ってください</title><link>https://blog.danzaii.cn/p/legacy-92/</link><pubDate>Sun, 29 May 2022 17:57:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-92/</guid><description>&lt;!-- 图片待上传 --&gt;</description></item><item><title>好多报告没写完 人麻了</title><link>https://blog.danzaii.cn/p/legacy-90/</link><pubDate>Sat, 28 May 2022 16:04:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-90/</guid><description>&lt;p&gt;.NET的大报告明天就要交了 一个字没动呢还 要寄了吗&lt;/p&gt;
 &lt;p&gt;我直接熬夜肝一个物业管理系统！！！！&lt;/p&gt;
-&lt;p&gt;用到了 ASP.NET + MVC + EF&lt;/p&gt;</description></item><item><title>原神私服的PC端连接教程</title><link>https://blog.danzaii.cn/p/legacy-84/</link><pubDate>Wed, 11 May 2022 11:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-84/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 原神私服的PC端连接教程" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="连接教程"&gt;&lt;a href="#%e8%bf%9e%e6%8e%a5%e6%95%99%e7%a8%8b" class="header-anchor"&gt;&lt;/a&gt;连接教程
+&lt;p&gt;用到了 ASP.NET + MVC + EF&lt;/p&gt;</description></item><item><title>原神私服的PC端连接教程</title><link>https://blog.danzaii.cn/p/legacy-84/</link><pubDate>Wed, 11 May 2022 11:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-84/</guid><description>&lt;h2 id="连接教程"&gt;&lt;a href="#%e8%bf%9e%e6%8e%a5%e6%95%99%e7%a8%8b" class="header-anchor"&gt;&lt;/a&gt;连接教程
 &lt;/h2&gt;&lt;p&gt;PC端连接原神私服教程。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;下载代理端并启动&lt;/li&gt;
@@ -1159,9 +1315,7 @@
  &gt;物品代码&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="link" href="https://github.com/Grasscutters/Grasscutter/wiki/Commands" target="_blank" rel="noopener"
  &gt;指令列表&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>原神私服搭建教程（Linux端）</title><link>https://blog.danzaii.cn/p/legacy-77/</link><pubDate>Tue, 10 May 2022 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-77/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 原神私服搭建教程（Linux端）" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="准备工作"&gt;&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor"&gt;&lt;/a&gt;准备工作
+&lt;/ul&gt;</description></item><item><title>原神私服搭建教程（Linux端）</title><link>https://blog.danzaii.cn/p/legacy-77/</link><pubDate>Tue, 10 May 2022 12:56:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-77/</guid><description>&lt;h2 id="准备工作"&gt;&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor"&gt;&lt;/a&gt;准备工作
 &lt;/h2&gt;&lt;p&gt;首先下载jdk17&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1233,22 +1387,14 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;update-ca-trust
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;最后再启动服务器就大功告成了。&lt;strong&gt;记得在安全组放开端口哦！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>风暴中，唯保守者屹立不倒。</title><link>https://blog.danzaii.cn/p/legacy-75/</link><pubDate>Wed, 27 Apr 2022 17:04:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-75/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 风暴中，唯保守者屹立不倒。" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;要强大自身，才有力量去保护自己珍视的东西&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;最后再启动服务器就大功告成了。&lt;strong&gt;记得在安全组放开端口哦！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>风暴中，唯保守者屹立不倒。</title><link>https://blog.danzaii.cn/p/legacy-75/</link><pubDate>Wed, 27 Apr 2022 17:04:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-75/</guid><description>&lt;p&gt;&lt;strong&gt;要强大自身，才有力量去保护自己珍视的东西&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;谨记屈辱，谨记伤痛，谨记自己曾失去的所有。&lt;/p&gt;
-&lt;p&gt;人群中低调行事，&amp;ldquo;战场&amp;quot;上锋芒侧漏。&lt;/p&gt;</description></item><item><title>加入了冥冥表情包</title><link>https://blog.danzaii.cn/p/legacy-74/</link><pubDate>Fri, 22 Apr 2022 17:59:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-74/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 加入了冥冥表情包" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;快来试试吧&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;人群中低调行事，&amp;ldquo;战场&amp;quot;上锋芒侧漏。&lt;/p&gt;</description></item><item><title>加入了冥冥表情包</title><link>https://blog.danzaii.cn/p/legacy-74/</link><pubDate>Fri, 22 Apr 2022 17:59:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-74/</guid><description>&lt;p&gt;&lt;strong&gt;快来试试吧&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
 &lt;!-- 图片待上传 --&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>冥冥复播啦！开心</title><link>https://blog.danzaii.cn/p/legacy-69/</link><pubDate>Thu, 21 Apr 2022 06:25:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-69/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 冥冥复播啦！开心" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;!-- 图片待上传 --&gt;
-&lt;p&gt;又可以看冥冥了捏 哎嘿嘿&lt;/p&gt;</description></item><item><title>MC手艺养老服搭建</title><link>https://blog.danzaii.cn/p/legacy-64/</link><pubDate>Mon, 18 Apr 2022 15:37:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-64/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post MC手艺养老服搭建" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="服务器已经开放"&gt;&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%b7%b2%e7%bb%8f%e5%bc%80%e6%94%be" class="header-anchor"&gt;&lt;/a&gt;服务器已经开放！！！
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>冥冥复播啦！开心</title><link>https://blog.danzaii.cn/p/legacy-69/</link><pubDate>Thu, 21 Apr 2022 06:25:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-69/</guid><description>&lt;!-- 图片待上传 --&gt;
+&lt;p&gt;又可以看冥冥了捏 哎嘿嘿&lt;/p&gt;</description></item><item><title>MC手艺养老服搭建</title><link>https://blog.danzaii.cn/p/legacy-64/</link><pubDate>Mon, 18 Apr 2022 15:37:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-64/</guid><description>&lt;h2 id="服务器已经开放"&gt;&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%b7%b2%e7%bb%8f%e5%bc%80%e6%94%be" class="header-anchor"&gt;&lt;/a&gt;服务器已经开放！！！
 &lt;/h2&gt;&lt;p&gt;途中遇到了一些小问题 但服务器还是正常开放了！&lt;/p&gt;
 &lt;h2 id="今天看了一个视频有感而发"&gt;&lt;a href="#%e4%bb%8a%e5%a4%a9%e7%9c%8b%e4%ba%86%e4%b8%80%e4%b8%aa%e8%a7%86%e9%a2%91%e6%9c%89%e6%84%9f%e8%80%8c%e5%8f%91" class="header-anchor"&gt;&lt;/a&gt;今天看了一个视频有感而发
 &lt;/h2&gt;&lt;p&gt;打算搭建一个手艺养老服 用和视频里相同的模组&lt;/p&gt;
@@ -1262,18 +1408,10 @@
 &lt;p&gt;由于有过多次的开服经验 服务器配置方面进行的都很顺利，但不知道为何总是报错 服务器没有办法启动 后来发现是java版本过高的问题（怎么java不能向下兼容啊！！！）&lt;/p&gt;
 &lt;p&gt;而且在寻找适合的java版本的过程中 我学到了一个非常重要的知识 那就是 java全版本下载地址藏得真深啊！&lt;/p&gt;
 &lt;p&gt;为了找一个311版本的java8 真的找破头了，搜索引擎给的全是csdn上面的动不动就问你要钱要积分的。&lt;/p&gt;
-&lt;p&gt;但是还是有乐于分享的老哥的，我会的技术也绝对不会藏着掖着的！&lt;/p&gt;</description></item><item><title>如果能流行起来就好了，战场原荡漾</title><link>https://blog.danzaii.cn/p/legacy-62/</link><pubDate>Sat, 16 Apr 2022 17:57:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-62/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 如果能流行起来就好了，战场原荡漾" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;战场原荡漾 太好看了&lt;/p&gt;</description></item><item><title>当个"人"吧</title><link>https://blog.danzaii.cn/p/legacy-60/</link><pubDate>Sat, 16 Apr 2022 16:16:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-60/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 当个"人"吧" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;今天晚上登了一下方舟
+&lt;p&gt;但是还是有乐于分享的老哥的，我会的技术也绝对不会藏着掖着的！&lt;/p&gt;</description></item><item><title>如果能流行起来就好了，战场原荡漾</title><link>https://blog.danzaii.cn/p/legacy-62/</link><pubDate>Sat, 16 Apr 2022 17:57:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-62/</guid><description>&lt;p&gt;战场原荡漾 太好看了&lt;/p&gt;</description></item><item><title>当个"人"吧</title><link>https://blog.danzaii.cn/p/legacy-60/</link><pubDate>Sat, 16 Apr 2022 16:16:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-60/</guid><description>&lt;p&gt;今天晚上登了一下方舟
 就有人连发4个一样的 晕了&lt;/p&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>开放了蛋仔云盘！</title><link>https://blog.danzaii.cn/p/legacy-58/</link><pubDate>Sat, 16 Apr 2022 13:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-58/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 开放了蛋仔云盘！" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;蛋仔云盘已经在友情链接里加入 欢迎大家使用&lt;/p&gt;
-&lt;!-- 图片待上传 --&gt;</description></item><item><title>正式开始写博客啦</title><link>https://blog.danzaii.cn/p/legacy-56/</link><pubDate>Sat, 16 Apr 2022 12:17:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-56/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 正式开始写博客啦" /&gt;&lt;p&gt;image: &amp;ldquo;&lt;a class="link" href="https://www.loliapi.com/acg/%22" target="_blank" rel="noopener"
- &gt;https://www.loliapi.com/acg/"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;今天开始写博客 但是完全不知道到底要写些什么
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>开放了蛋仔云盘！</title><link>https://blog.danzaii.cn/p/legacy-58/</link><pubDate>Sat, 16 Apr 2022 13:03:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-58/</guid><description>&lt;p&gt;蛋仔云盘已经在友情链接里加入 欢迎大家使用&lt;/p&gt;
+&lt;!-- 图片待上传 --&gt;</description></item><item><title>正式开始写博客啦</title><link>https://blog.danzaii.cn/p/legacy-56/</link><pubDate>Sat, 16 Apr 2022 12:17:00 +0800</pubDate><guid>https://blog.danzaii.cn/p/legacy-56/</guid><description>&lt;p&gt;今天开始写博客 但是完全不知道到底要写些什么
 打算以后再慢慢考虑 会把自己学到的新技术什么的写一写总结一下&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;没有冥冥看的我要死了！！！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;等把最近的作业什么的都搞完我一定要好好整理一下这个博客
