@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=2936/"
 
 title: "开放了蛋仔云盘！"
 date: 2022-04-16T13:03:00+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 蛋仔云盘已经在友情链接里加入 欢迎大家使用
 

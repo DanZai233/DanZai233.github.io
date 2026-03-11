@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=899/"
 
 title: "冥冥的新机甲！好美！"
 date: 2022-06-28T16:35:00+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 <!-- 图片待上传 -->
 <!-- 图片待上传 -->

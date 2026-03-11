@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=3741/"
 
 title: "原神 太好玩啦！"
 date: 2022-06-09T10:45:00+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 <!-- 图片待上传 -->
 <!-- 图片待上传 -->

@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=7663/"
 
 title: "有关原神私服（服务器已更新！）"
 date: 2022-06-06T15:03:00+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 ## 原神私服问题集中汇总
 

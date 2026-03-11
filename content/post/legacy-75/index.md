@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=2656/"
 
 title: "风暴中，唯保守者屹立不倒。"
 date: 2022-04-27T17:04:00+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 **要强大自身，才有力量去保护自己珍视的东西**
 

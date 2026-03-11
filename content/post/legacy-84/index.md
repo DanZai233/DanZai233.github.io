@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=6632/"
 
 title: "原神私服的PC端连接教程"
 date: 2022-05-11T11:56:00+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 ## 连接教程
 

@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=4569/"
 
 title: "报告周正式结束！"
 date: 2022-06-06T14:48:00+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 **终于写完报告了！**
 

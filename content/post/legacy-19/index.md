@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=9844/"
 
 title: "linux 根目录容量不足问题"
 date: 2023-10-13T08:08:25+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 ## linux 根目录容量不足问题
 

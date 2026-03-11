@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=1098/"
 
 title: "数据库完成抢修 博客复原！"
 date: 2023-12-08T17:09:28+08:00
@@ -9,7 +8,6 @@ categories:
 tags:
     - 旧博客迁移
 ---
-image: "https://www.loliapi.com/acg/"
 
 当我发布这个博客的时候 数据已经完成抢修！
 

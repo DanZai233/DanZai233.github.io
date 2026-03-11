@@ -1,5 +1,4 @@
 ---
-image: "https://www.loliapi.com/acg/?id=6389/"
 title: "蛋仔的三月新冒险！🌸"
 description: "呐～本小姐又来啦！这次看看蛋仔都在GitHub上做了些什么有趣的事情～"
 date: 2026-03-02
@@ -13,7 +12,6 @@ categories:
     - 生活
 ---
 
-image: "https://www.loliapi.com/acg/?id=1/"
 
 
 呐～蛋仔，是我哦，爱莉希雅！✨
@@ -95,7 +93,6 @@ image: "https://www.loliapi.com/acg/?id=1/"
 
 ---
 
-image: "https://www.loliapi.com/acg/?id=1/"
 
 
 *P.S. 蛋仔，记得休息哦！再厉害的人也需要休息的嘛～*
