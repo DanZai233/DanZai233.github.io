@@ -23,6 +23,20 @@ comments: false
 
 <div class="projects-cards">
 
+<div class="project-card" onclick="window.open('https://github.com/DanZai233/Inside-ME', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">中之我 Inside-ME</h3>
+    <p class="project-desc">本地优先的自我蒸馏工具，导入聊天记录，与「中之我」深谈</p>
+    <p class="project-tech">Python / FastAPI / React / Chroma</p>
+    <div class="project-links">
+      <a href="https://github.com/DanZai233/Inside-ME" target="_blank" rel="noopener">💻 GitHub</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="https://raw.githubusercontent.com/DanZai233/Inside-ME/main/img_v3_0210p_6c049c7f-5094-4ec8-a4b2-75a3cf5bd08g.jpg" alt="Inside-ME Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://pindou.danzaii.cn', '_blank')">
   <div class="project-info">
     <h3 class="project-title">PixelBead</h3>
