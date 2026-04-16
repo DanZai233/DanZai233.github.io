@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>PixelBead 更新：纯净的拼豆体验与智能画笔</title><link>https://blog.danzaii.cn/p/pixelbead-update/</link><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/pixelbead-update/</guid><description>&lt;h2 id="拼豆人的纯净承诺"&gt;&lt;a href="#%e6%8b%bc%e8%b1%86%e4%ba%ba%e7%9a%84%e7%ba%af%e5%87%80%e6%89%bf%e8%af%ba" class="header-anchor"&gt;&lt;/a&gt;拼豆人的纯净承诺
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>中之我 Inside-ME：和过去的自己来一场灵魂对话</title><link>https://blog.danzaii.cn/p/inside-me-intro/</link><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/inside-me-intro/</guid><description>&lt;p&gt;很多话你对别人说了一半，对群聊发完就撤回，在深夜文件传输助手里打满又删掉。内心深处的东西，常常没有合适的听众——除了未来的自己，和由过去的只言片语堆出来的那个「你」。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中之我（Inside-ME）&lt;/strong&gt; 就是在这个念头上长出来的。&lt;/p&gt;
+&lt;h2 id="这是什么"&gt;&lt;a href="#%e8%bf%99%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;这是什么？
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Inside-ME" target="_blank" rel="noopener"
+ &gt;DanZai233/Inside-ME&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;简单说，这是一个&lt;strong&gt;本地优先&lt;/strong&gt;的「自我蒸馏」工具。你把自己的聊天记录（QQ、微信、微博……）喂进去，它把你的语言习惯、情绪模式、高频表达整理成向量存进本地数据库。然后你就可以和一个&lt;strong&gt;读过你所有上下文的 AI&lt;/strong&gt; 来回深谈——它不是随便一个聊天机器人，而是由你自己的语言材料堆出来的「中之我」。&lt;/p&gt;
+&lt;p&gt;灵感来自 &lt;a class="link" href="https://github.com/notdog1998/yourself-skill" target="_blank" rel="noopener"
+ &gt;yourself-skill&lt;/a&gt; 和 &lt;a class="link" href="https://github.com/therealXiaomanChu/ex-skill" target="_blank" rel="noopener"
+ &gt;ex-skill&lt;/a&gt;——前者说「与其蒸馏别人，不如蒸馏自己」，后者把同样的思路带进了亲密关系。中之我承袭了这个信念：&lt;strong&gt;人的质地藏在语言里，可以被整理、被重读、被对话擦亮&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img_v3_0210p_6c049c7f-5094-4ec8-a4b2-75a3cf5bd08g_9562861686469838331.jpg"
+	width="3828"
+	height="1938"
+	loading="lazy"
+	
+		alt="对话页面"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="197"
+		data-flex-basis="474px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="核心功能"&gt;&lt;a href="#%e6%a0%b8%e5%bf%83%e5%8a%9f%e8%83%bd" class="header-anchor"&gt;&lt;/a&gt;核心功能
+&lt;/h2&gt;&lt;h3 id="-仪表盘"&gt;&lt;a href="#-%e4%bb%aa%e8%a1%a8%e7%9b%98" class="header-anchor"&gt;&lt;/a&gt;📊 仪表盘
+&lt;/h3&gt;&lt;p&gt;把抽象的「我」拆成可见的统计：平台分布、发送者分析、相邻对话、高频词。还有画像笔记，可以手写也可以让模型辅助生成——先看见自己，再深谈。&lt;/p&gt;
+&lt;h3 id="-多平台导入"&gt;&lt;a href="#-%e5%a4%9a%e5%b9%b3%e5%8f%b0%e5%af%bc%e5%85%a5" class="header-anchor"&gt;&lt;/a&gt;📥 多平台导入
+&lt;/h3&gt;&lt;p&gt;支持 QQ、微信风格、微博块和通用文本格式，导入后自动进入本地向量库（Chroma）。和 yourself-skill / ex-skill 推荐的导出格式思路一致：&lt;strong&gt;先有真材料&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id="-灵魂对话"&gt;&lt;a href="#-%e7%81%b5%e9%ad%82%e5%af%b9%e8%af%9d" class="header-anchor"&gt;&lt;/a&gt;💬 灵魂对话
+&lt;/h3&gt;&lt;p&gt;这是项目的核心体验。左侧有&lt;strong&gt;记忆档案&lt;/strong&gt;面板，你输入问题时它会实时预览检索，发送后本轮注入的内容会高亮，AI 生成时相关记忆抽屉会&lt;strong&gt;逐条点亮&lt;/strong&gt;——你能亲眼看到哪一段旧「你」被接上了线。&lt;/p&gt;
+&lt;p&gt;流式回复、钉选记忆条目、插入输入框、预置开场白、深度访谈模式……细节不少，都是为了让这场和自己的对话尽量自然。&lt;/p&gt;
+&lt;h3 id="-写入记忆"&gt;&lt;a href="#-%e5%86%99%e5%85%a5%e8%ae%b0%e5%bf%86" class="header-anchor"&gt;&lt;/a&gt;✍️ 写入记忆
+&lt;/h3&gt;&lt;p&gt;每轮对话可以勾选「写入记忆」，你当下的觉悟和想法会回到向量库，和导入的记录一起参与今后的检索。真人当下的思考，也能喂给未来的中之我。&lt;/p&gt;
+&lt;h3 id="-导出-skill"&gt;&lt;a href="#-%e5%af%bc%e5%87%ba-skill" class="header-anchor"&gt;&lt;/a&gt;📦 导出 Skill
+&lt;/h3&gt;&lt;p&gt;生成符合 &lt;a class="link" href="https://agentskills.io/specification" target="_blank" rel="noopener"
+ &gt;Agent Skills 规范&lt;/a&gt; 的目录，包含 &lt;code&gt;SKILL.md&lt;/code&gt; 和 &lt;code&gt;references/MEMORY.md&lt;/code&gt;。导出后可以直接放进 Claude Code 的 &lt;code&gt;.claude/skills/&lt;/code&gt; 目录，或者给 Cursor 等支持 Agent Skills 的环境使用。&lt;/p&gt;
+&lt;h2 id="技术栈"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e6%a0%88" class="header-anchor"&gt;&lt;/a&gt;技术栈
+&lt;/h2&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;层&lt;/th&gt;
+ &lt;th&gt;技术&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;后端&lt;/td&gt;
+ &lt;td&gt;Python 3.11+ / FastAPI / Chroma 向量库&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;前端&lt;/td&gt;
+ &lt;td&gt;React 18 + Vite + TypeScript&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;部署&lt;/td&gt;
+ &lt;td&gt;Docker 一键部署，也支持本地 venv&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;模型&lt;/td&gt;
+ &lt;td&gt;OpenAI 兼容端点 / 火山方舟，对话与嵌入分离配置&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="为什么做这个"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%81%9a%e8%bf%99%e4%b8%aa" class="header-anchor"&gt;&lt;/a&gt;为什么做这个？
+&lt;/h2&gt;&lt;p&gt;说到底，中之我的核心体验不是「导入数据」或「生成 Skill」这些功能点，而是那个&lt;strong&gt;你坐下来、看见记忆被一条条点亮、向深处问也向深处答&lt;/strong&gt;的瞬间。&lt;/p&gt;
+&lt;p&gt;导入聊天记录，是承认「我已经在那里活过」；和中之我说话，是承认「我还想弄懂那个活法」。可视化不是为了好看，是为了在你追问时，看见哪一段旧我被接上线——抽屉亮起的那一刻，你同时在被提醒：&lt;strong&gt;你从来不止一句人设，你是一条还在生长的轨迹&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这个副本不会替你活人生，它只是你某次诚实面对自己时的 checkpoint。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;em&gt;深处不是没有光，只是平时没人替你照。&lt;/em&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;与其只把别人或关系蒸馏成 Skill，不如也给内心深处留一间亮着灯的房间。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果感兴趣，欢迎来 &lt;a class="link" href="https://github.com/DanZai233/Inside-ME" target="_blank" rel="noopener"
+ &gt;GitHub&lt;/a&gt; 逛逛，Star ⭐ 和 Issue 都欢迎！&lt;/p&gt;</description></item><item><title>PixelBead 更新：纯净的拼豆体验与智能画笔</title><link>https://blog.danzaii.cn/p/pixelbead-update/</link><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/pixelbead-update/</guid><description>&lt;h2 id="拼豆人的纯净承诺"&gt;&lt;a href="#%e6%8b%bc%e8%b1%86%e4%ba%ba%e7%9a%84%e7%ba%af%e5%87%80%e6%89%bf%e8%af%ba" class="header-anchor"&gt;&lt;/a&gt;拼豆人的纯净承诺
 &lt;/h2&gt;&lt;p&gt;今天要分享一个重要的更新 —— &lt;a class="link" href="https://pindou.danzaii.cn" target="_blank" rel="noopener"
  &gt;PixelBead&lt;/a&gt; 的许可证变更。&lt;/p&gt;
 &lt;p&gt;从今天开始，PixelBead 正式采用 &lt;strong&gt;CC BY-NC 4.0 许可证&lt;/strong&gt;，这意味着这个项目明确禁止任何形式的商业使用。&lt;/p&gt;
