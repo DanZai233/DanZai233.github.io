@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_9844.webp"
+image: "/img/posts/post_1037.webp"
 
 title: "linux 根目录容量不足问题"
 date: 2023-10-13T08:08:25+08:00

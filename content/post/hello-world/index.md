@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_997.webp"
+image: "/img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png"
 title: "你好，世界！"
 description: "这是我的第一篇博客文章，欢迎来到一只小羊羔的窝。"
 date: 2026-02-25

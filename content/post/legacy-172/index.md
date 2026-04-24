@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_8261.webp"
+image: "/img/posts/post_4068.webp"
 
 title: "冥冥的新机甲！好美！"
 date: 2022-06-28T16:35:00+08:00

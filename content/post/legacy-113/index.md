@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_1978.webp"
+image: "/img/posts/post_2902.webp"
 
 title: "甜度爆表了"
 date: 2022-06-04T18:27:00+08:00

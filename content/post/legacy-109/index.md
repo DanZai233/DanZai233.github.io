@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_4628.webp"
+image: "/img/posts/post_8261.webp"
 
 title: "六一快乐！"
 date: 2022-05-31T16:58:08+08:00

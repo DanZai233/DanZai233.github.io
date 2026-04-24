@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_8261.webp"
+image: "/img/posts/post_1098.webp"
 
 title: "MC手艺养老服搭建"
 date: 2022-04-18T15:37:00+08:00

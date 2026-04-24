@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_8877.webp"
+image: "/img/posts/1776997781581_download.png"
 
 title: "终于写完论文啦"
 date: 2023-05-15T09:59:12+08:00

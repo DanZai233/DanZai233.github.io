@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_1907.webp"
+image: "/img/posts/post_3332.webp"
 
 title: "抢救数据计划（完成！）"
 date: 2023-08-29T12:56:00+08:00

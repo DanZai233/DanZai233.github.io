@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_1098.webp"
+image: "/img/posts/1776997781581_download.png"
 
 title: "数据库完成抢修 博客复原！"
 date: 2023-12-08T17:09:28+08:00

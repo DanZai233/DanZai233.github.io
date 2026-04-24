@@ -1,5 +1,5 @@
 ---
-image: "/img/posts/post_8261.webp"
+image: "/img/posts/1776994470940_download.png"
 
 title: "沉迷MC了 要去开MC服务器了 原神再见"
 date: 2022-06-11T06:27:00+08:00

@@ -4,7 +4,7 @@ description: "做了一个本地优先的「自我蒸馏」工具——导入你
 keywords: ["Inside-ME", "中之我", "AI", "自我蒸馏", "Agent Skills", "开源", "Python", "React"]
 date: 2026-04-16
 slug: "inside-me-intro"
-image: "/img/posts/post_1234.webp"
+image: "/img/posts/post_6072.webp"
 tags:
     - 开源
     - AI
