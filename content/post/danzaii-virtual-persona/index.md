@@ -1,10 +1,10 @@
 ---
 image: "/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png"
-title: "给 danzaii.cn 做一个虚拟形象：丹祈 DanQi"
+title: "给 danzaii.cn 做一个虚拟形象：蛋仔"
 description: "从博客、作品集、照片墙和 AI 生图工作室出发，总结 danzaii.cn 的站点气质，并为它设计一个中长发、羊系、温柔技术创作者风格的虚拟形象。"
 date: 2026-04-29
-slug: "danzaii-virtual-persona-danqi"
-keywords: ["danzaii.cn", "虚拟形象", "人设", "AI绘图", "丹祈", "DanQi", "个人网站"]
+slug: "danzaii-virtual-persona-danzai"
+keywords: ["danzaii.cn", "虚拟形象", "人设", "AI绘图", "蛋仔", "Danzai", "个人网站"]
 tags:
     - AI绘图
     - 人设
@@ -20,11 +20,11 @@ categories:
 
 所以这次我试着给 danzaii.cn 做一个虚拟形象。不是那种很商业的品牌吉祥物，而是一个能代表这个网站气质、也能代表站点所有者创作习惯的角色。
 
-她/他叫：**丹祈 DanQi**。
+她/他叫：**蛋仔**。
 
 <!--more-->
 
-<img src="/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="丹祈 DanQi 虚拟形象主视觉设定" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="蛋仔 虚拟形象主视觉设定" loading="lazy">
 
 ## danzaii.cn 是什么？
 
@@ -83,14 +83,14 @@ categories:
 
 这几个关键词组合起来，就不是一个传统「程序员头像」能概括的。它需要一点小羊羔的柔软，一点开源开发者的执行力，一点 AI 工坊主的魔法感，一点摄影记录者的现实感，还有一点二次元角色设定的精致度。
 
-## 虚拟形象：丹祈 DanQi
+## 虚拟形象：蛋仔
 
 ### 基础设定
 
 | 项目 | 设定 |
 |---|---|
-| 名字 | 丹祈 DanQi |
-| 别称 | 小羊工坊主 / Lumina Shepherd |
+| 名字 | 蛋仔 |
+| 别称 | 小羊羔站长 / Lumina Atelier Keeper |
 | 定位 | danzaii.cn 的站点虚拟形象与创作引导者 |
 | 年龄感 | 18-22 岁的青年感 |
 | 性别表达 | 中性偏少年感，可男可女，不做强性别化设定 |
@@ -99,11 +99,11 @@ categories:
 | 代表色 | 羊绒白、樱花粉、夜空紫、湖光蓝、终端黑、暖金 |
 | 代表物 | 小羊角发饰、相机、发光画笔、像素拼豆、三只猫、樱花、终端窗口 |
 
-丹祈不是一个完全脱离现实的角色。她/他更像 danzaii.cn 的拟人化：会写代码，会修部署，会拍照片，会做 AI 生图，也会把很多没用但可爱的东西放进自己的小窝。
+蛋仔不是一个完全脱离现实的角色。她/他更像 danzaii.cn 的拟人化：会写代码，会修部署，会拍照片，会做 AI 生图，也会把很多没用但可爱的东西放进自己的小窝。
 
 ### 性格设定
 
-丹祈的性格关键词是：**温柔、内向、行动力强、审美驱动、技术浪漫主义**。
+蛋仔的性格关键词是：**温柔、内向、行动力强、审美驱动、技术浪漫主义**。
 
 平时看起来有点安静，说话不会很锋利，但一旦有了想法，就会开始搭项目、调接口、写博客、做图、部署上线。她/他相信技术不只是效率工具，也可以是保存记忆、表达情绪、制造美感的方式。
 
@@ -115,7 +115,7 @@ categories:
 
 ## 生成提示词总设定
 
-这是我给丹祈固定下来的核心 prompt：
+这是我给蛋仔固定下来的核心 prompt：
 
 ```text
 original virtual avatar for the owner of danzaii.cn, androgynous gentle anime character, medium-long silver white hair with soft pink gradient tips, slightly wavy hair, soft pink and cyan gradient eyes, tiny sheep horn hair accessories, warm tech creator aura, cherry blossom petals, small camera strap, subtle terminal code motifs, pixel bead charm, three tiny cat silhouettes, luminous digital paintbrush, elegant soft pink white and lavender color palette, clean detailed character design, high quality anime illustration, gentle lighting, refined lineart, no real person, no copyrighted character
@@ -152,9 +152,9 @@ original virtual avatar for the owner of danzaii.cn, androgynous gentle anime ch
 
 ## 01. 主视觉设定
 
-<img src="/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="丹祈 DanQi 主视觉设定" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="蛋仔 主视觉设定" loading="lazy">
 
-这一张最像完整的人设板。中长发、羊角发饰、相机、发光画笔、猫猫、UI 卡片都在里面。它适合作为「丹祈」的第一版主视觉，也适合放在关于页或者角色设定页。
+这一张最像完整的人设板。中长发、羊角发饰、相机、发光画笔、猫猫、UI 卡片都在里面。它适合作为「蛋仔」的第一版主视觉，也适合放在关于页或者角色设定页。
 
 ## 02. 博客页头海报
 
@@ -164,58 +164,58 @@ original virtual avatar for the owner of danzaii.cn, androgynous gentle anime ch
 
 ## 03. 开发者服装
 
-<img src="/img/posts/danzaii-virtual-persona/03-03-developer-outfit.png" alt="丹祈开发者服装" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/03-03-developer-outfit.png" alt="蛋仔开发者服装" loading="lazy">
 
 开发者版本更偏黑色 hoodie 和终端氛围。它代表 danzaii.cn 的代码侧：项目、部署、GitHub、深夜 debug，以及「先做出来看看」的行动力。
 
 ## 04. 摄影服装
 
-<img src="/img/posts/danzaii-virtual-persona/04-04-photographer-outfit.png" alt="丹祈摄影服装" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/04-04-photographer-outfit.png" alt="蛋仔摄影服装" loading="lazy">
 
 摄影版本对应 photo.danzaii.cn，也就是「所见，所闻」。米色风衣、相机和街灯让角色从纯二次元设定里走出来，变成一个会在现实里记录光线的人。
 
 ## 05. AI 工坊服装
 
-<img src="/img/posts/danzaii-virtual-persona/05-ai-atelier-outfit.png" alt="丹祈 AI 工坊服装" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/05-ai-atelier-outfit.png" alt="蛋仔 AI 工坊服装" loading="lazy">
 
 这一版是 LUMINA Atelier 的工坊主。粉白外套、发光画笔、漂浮的人设卡和生图界面，代表 AI-Image-Studio 里那种「把灵感慢慢磨成图」的感觉。
 
 ## 06. 拼豆 Q 版贴纸
 
-<img src="/img/posts/danzaii-virtual-persona/06-pixelbead-chibi.png" alt="丹祈 Q 版贴纸" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/06-pixelbead-chibi.png" alt="蛋仔 Q 版贴纸" loading="lazy">
 
 Q 版贴纸可以拿来做表情包、手账贴纸、亚克力挂件。它对应 PixelBead 和更可爱的周边方向，猫猫、相机、像素爱心都可以拆出来单独做小图标。
 
 ## 07. 天机占卜装
 
-<img src="/img/posts/danzaii-virtual-persona/07-07-tianji-mystic.png" alt="丹祈天机占卜装" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/07-07-tianji-mystic.png" alt="蛋仔天机占卜装" loading="lazy">
 
 这一张对应 Tianji。星夜紫、塔罗、星盘和柔和神秘学，让角色多了一点「会帮你抽一张牌」的气质。它适合用在占卜类项目的介绍图里。
 
 ## 08. 猫猫生活照
 
-<img src="/img/posts/danzaii-virtual-persona/08-cat-life.png" alt="丹祈猫猫生活照" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/08-cat-life.png" alt="蛋仔猫猫生活照" loading="lazy">
 
 生活照版本最接近日常博客。针织衫、猫、电脑、相机和午后光线，像是一篇生活随笔的封面。
 
 ## 09. Logo 徽章
 
-<img src="/img/posts/danzaii-virtual-persona/09-logo-badge.png" alt="丹祈 Logo 徽章" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/09-logo-badge.png" alt="蛋仔 Logo 徽章" loading="lazy">
 
 徽章版适合做头像、站点图标、贴纸、徽章或者页脚小标识。它把羊角、樱花、像素星和相机光圈都压缩进了一个更适合识别的小图形里。
 
 ## 10. 周边海报
 
-<img src="/img/posts/danzaii-virtual-persona/10-merch-poster.png" alt="丹祈周边海报" loading="lazy">
+<img src="/img/posts/danzaii-virtual-persona/10-merch-poster.png" alt="蛋仔周边海报" loading="lazy">
 
 这一张是物料展示：亚克力立牌、贴纸、徽章、明信片、手机壁纸。虽然现在还只是 AI 概念图，但已经能看到这个形象如果继续打磨，可以扩展成一套完整的个人站点周边视觉。
 
 ## 最后
 
-这次做丹祈，其实不是为了给自己强行套一个「人设」。更像是把 danzaii.cn 这几年长出来的东西整理成一个可以被看见的形象。
+这次做蛋仔，其实不是为了给自己强行套一个「人设」。更像是把 danzaii.cn 这几年长出来的东西整理成一个可以被看见的形象。
 
 博客是记忆，作品集是行动，照片墙是现实，AI-Image-Studio 是想象，PixelBead 是手作，Tianji 是一点神秘感，Inside-ME 是向内看的自己。
 
-而丹祈站在这些东西中间，像一只小羊工坊主，手里拿着发光画笔，身边绕着猫，背后是代码、照片、樱花和还没完成的下一个项目。
+而蛋仔站在这些东西中间，像一只小羊羔站长，手里拿着发光画笔，身边绕着猫，背后是代码、照片、樱花和还没完成的下一个项目。
 
 > _如果一个网站会慢慢长出灵魂，那它大概会先长出一个会写代码、会拍照、也会悄悄收集花瓣的人。_

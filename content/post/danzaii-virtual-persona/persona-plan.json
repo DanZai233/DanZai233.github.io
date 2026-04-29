@@ -17,8 +17,8 @@
     "owner_traits": ["热爱技术、生活、二次元", "前端/后端/AI/部署都有涉猎", "喜欢把想法快速做成可访问的网站", "喜欢摄影、Cosplay、调酒、音乐、动漫、球类运动", "猫猫爱好者，拥有三只小猫", "从 2021 年开始持续写博客", "2025 密集输出多个开源项目", "2026 迁移到 Hugo + Stack 重新出发"]
   },
   "virtual_persona": {
-    "name": "丹祈 DanQi",
-    "alias": "小羊工坊主 / Lumina Shepherd",
+    "name": "蛋仔",
+    "alias": "小羊羔站长 / Lumina Atelier Keeper",
     "gender_expression": "中性偏少年感，可男可女，温柔清爽，不做强性别化设定",
     "age_feel": "18-22 岁的青年感",
     "hair": "中长发，银白到浅粉渐变，发尾微卷；可扎低马尾、半扎狼尾、侧编发或松散公主切。",
@@ -37,7 +37,7 @@
     {"id":"06-pixelbead-chibi", "title":"拼豆 Q 版", "prompt_suffix":"super cute chibi mascot version, medium-long fluffy hair, tiny sheep horns, pixel bead accessories, holding a pixel heart, sticker sheet style, white background, multiple expressions"},
     {"id":"07-tianji-mystic", "title":"天机占卜装", "prompt_suffix":"mystic divination outfit, starry navy and lavender robe, tarot cards and astrolabe, glowing constellations, gentle occult aesthetic, elegant pose"},
     {"id":"08-cat-life", "title":"猫猫生活照", "prompt_suffix":"cozy daily life illustration, character wearing soft knit sweater, sitting on floor with three cats, laptop and camera nearby, warm afternoon light, intimate blog diary feeling"},
-    {"id":"09-logo-badge", "title":"Logo / 徽章物料", "prompt_suffix":"brand mascot badge design, circular logo composition, sheep horn silhouette, cherry blossom, pixel star, camera aperture, text 'DanQi' and 'DANZAII', clean vector-like anime logo, merch-ready"},
-    {"id":"10-merch-poster", "title":"周边海报", "prompt_suffix":"merchandise poster layout, acrylic stand, sticker sheet, postcard, badge, phone wallpaper mockups featuring the character, readable title text 'DanQi Virtual Persona', pastel product photography style"}
+    {"id":"09-logo-badge", "title":"Logo / 徽章物料", "prompt_suffix":"brand mascot badge design, circular logo composition, sheep horn silhouette, cherry blossom, pixel star, camera aperture, text 'Danzai' and 'DANZAII', clean vector-like anime logo, merch-ready"},
+    {"id":"10-merch-poster", "title":"周边海报", "prompt_suffix":"merchandise poster layout, acrylic stand, sticker sheet, postcard, badge, phone wallpaper mockups featuring the character, readable title text 'Danzai Virtual Persona', pastel product photography style"}
   ]
 }
