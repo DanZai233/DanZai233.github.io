@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_8090.webp"
+
+image: "img/posts/post_8090.webp"
 
 title: "报告周正式结束！"
 date: 2022-06-06T14:48:00+08:00

@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_5083.webp"
+
+image: "img/posts/post_5083.webp"
 
 title: "原神 太好玩啦！"
 date: 2022-06-09T10:45:00+08:00

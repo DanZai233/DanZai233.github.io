@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_4068.webp"
+
+image: "img/posts/post_4068.webp"
 
 title: "人生第一次受到网络攻击 直接给我敲响警钟了"
 date: 2022-07-02T15:34:21+08:00

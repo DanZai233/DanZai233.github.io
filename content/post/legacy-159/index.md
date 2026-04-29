@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_1978.webp"
+
+image: "img/posts/post_1978.webp"
 
 title: "式守同学 可爱捏 贴贴"
 date: 2022-06-26T08:58:45+08:00

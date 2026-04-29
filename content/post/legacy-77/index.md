@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_6072.webp"
+
+image: "img/posts/post_6072.webp"
 
 title: "原神私服搭建教程（Linux端）"
 date: 2022-05-10T12:56:00+08:00

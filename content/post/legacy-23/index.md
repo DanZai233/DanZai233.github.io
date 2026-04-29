@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_8877.webp"
+
+image: "img/posts/post_8877.webp"
 
 title: "爱莉希雅生日快乐！"
 date: 2023-11-11T07:49:20+08:00

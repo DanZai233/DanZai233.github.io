@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_6634.webp"
+
+image: "img/posts/post_6634.webp"
 
 title: "SSH克隆github仓库：连接被远程主机关闭"
 date: 2023-04-22T16:05:00+08:00

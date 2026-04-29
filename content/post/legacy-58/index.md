@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_4569.webp"
+
+image: "img/posts/post_4569.webp"
 
 title: "开放了蛋仔云盘！"
 date: 2022-04-16T13:03:00+08:00

@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_3957.webp"
+
+image: "img/posts/post_3957.webp"
 
 title: "有关原神私服（服务器已更新！）"
 date: 2022-06-06T15:03:00+08:00

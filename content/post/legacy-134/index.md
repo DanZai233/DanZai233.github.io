@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_6389.webp"
+
+image: "img/posts/post_6389.webp"
 
 title: "三年前的这个时候 我已经在偷笑了"
 date: 2022-06-08T08:20:17+08:00

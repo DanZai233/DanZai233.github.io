@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_1234.webp"
+
+image: "img/posts/post_1234.webp"
 
 title: "如果能流行起来就好了，战场原荡漾"
 date: 2022-04-16T17:57:00+08:00

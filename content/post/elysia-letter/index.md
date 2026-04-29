@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/1776995900554_download.png"
+
+image: "img/posts/1776995900554_download.png"
 title: "来自爱莉希雅的一封信 💌"
 description: "呐，蛋仔，你有收到过来自乐园的信吗？今天就让本小姐来好好夸夸你吧～"
 date: 2026-02-25

@@ -1,0 +1,68 @@
+/// Params:
+///     Resources: Where to search for images
+///     Image: Image URL, page resource path, /static-relative path, or remote URL
+
+/// Returns:
+///     Local: true if the image is local, false if it is remote/static fallback
+///     Resource: Hugo image resource object, not nil if the image is a Hugo resource
+///     Permalink: Image URL
+///     Height: Image height when known
+///     Width: Image width when known
+
+{{ $result := "" }}
+
+{{ if .Image }}
+    {{ $url := urls.Parse .Image }}
+    {{ $resource := "" }}
+
+    {{ if not (in (slice "https" "http") $url.Scheme) }}
+        {{ $resource = .Resources.Get (printf "%s" (.Image | safeURL)) }}
+    {{ else }}
+        {{ with try (resources.GetRemote $url) }}
+            {{ with .Err }}
+                {{ warnf "Unable to get remote image resource %q: %s" $url . }}
+            {{ else with .Value }}
+                {{ $resource = . }}
+            {{ else }}
+                {{ warnf "Unable to get remote resource %q" $url }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+    {{ if $resource }}
+        {{- $isSVG := eq $resource.MediaType.SubType "svg" -}}
+        {{- if $isSVG -}}
+            {{ $result = dict
+                "Local" true
+                "Resource" $resource
+                "Permalink" $resource.RelPermalink
+                "Height" nil
+                "Width" nil
+            }}
+        {{- else -}}
+            {{- $result = dict
+                "Local" true
+                "Resource" $resource
+                "Permalink" $resource.RelPermalink
+                "Height" $resource.Height
+                "Width" $resource.Width
+            }}
+        {{- end -}}
+    {{ else if not (in (slice "https" "http") $url.Scheme) }}
+        {{/*
+            Stack's upstream helper only checks page resources. This blog keeps
+            many migrated cover images under /static/img/posts, so return a
+            lightweight static URL fallback when no page bundle resource exists.
+        */}}
+        {{ $staticPath := strings.TrimPrefix "/" .Image }}
+        {{ $result = dict
+            "Local" false
+            "Resource" nil
+            "Permalink" ($staticPath | relURL)
+            "Height" nil
+            "Width" nil
+        }}
+    {{ end }}
+{{ end }}
+
+{{ return $result }}

@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_997.webp"
+
+image: "img/posts/post_997.webp"
 
 title: "风暴中，唯保守者屹立不倒。"
 date: 2022-04-27T17:04:00+08:00

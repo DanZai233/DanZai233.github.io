@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/1040g2sg31up2fkhniikg5npl3be08ntd7ofplp8.png"
+
+image: "img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png"
 title: "若叶睦：一些安静的切片"
 description: "把几张用 GPT Image-2 生成的若叶睦放在一起，像收集一组沉默又柔软的情绪。"
 date: 2026-04-24

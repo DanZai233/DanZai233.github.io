@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_3741.webp"
+
+image: "img/posts/post_3741.webp"
 
 title: "冥冥千舰啦！！！！ 恭喜恭喜！！！"
 date: 2022-07-01T15:41:15+08:00

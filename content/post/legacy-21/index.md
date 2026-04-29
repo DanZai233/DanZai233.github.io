@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_1761.webp"
+
+image: "img/posts/post_1761.webp"
 
 title: "最近心得"
 date: 2023-10-13T08:28:43+08:00

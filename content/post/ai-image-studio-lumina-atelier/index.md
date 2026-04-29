@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/ai-image-studio-lumina-1.png"
+
+image: "img/posts/ai-image-studio-lumina-1.png"
 title: "AI-Image-Studio：把生图做成一间 LUMINA Atelier"
 description: "记录一下我的 AI 生图小站 AI-Image-Studio：站点部署在 aipic.danzaii.cn，背后调用 GPT Image-2，也承包了最近若叶睦和人设图的生成。"
 date: 2026-04-29

@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/post_1907.webp"
+
+image: "https://raw.githubusercontent.com/DanZai233/AIMBOT/main/docs/screenshots/main-menu.webp"
 
 title: "最近又搞了些什么：Aim Trainer Pro & MYGallery 大更新"
 description: "做了一个高性能瞄准训练器，还给照片墙系统加了一大堆新功能。"

@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/1776996273253_download.png"
+
+image: "img/posts/1776996273253_download.png"
 
 title: "重启博客！"
 date: 2023-04-18T18:29:00+08:00

@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png"
+
+image: "img/posts/danzaii-virtual-persona/01-01-main-key-visual.png"
 title: "给 danzaii.cn 做一个虚拟形象：蛋仔"
 description: "从博客、作品集、照片墙和 AI 生图工作室出发，总结 danzaii.cn 的站点气质，并为它设计一个中长发、羊系、温柔技术创作者风格的虚拟形象。"
 date: 2026-04-29

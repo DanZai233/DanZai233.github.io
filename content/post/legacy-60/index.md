@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/1777000241795_download.png"
+
+image: "img/posts/1777000241795_download.png"
 
 title: "当个\"人\"吧"
 date: 2022-04-16T16:16:00+08:00

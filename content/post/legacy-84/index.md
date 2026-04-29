@@ -1,5 +1,6 @@
 ---
-image: "/img/posts/1776994172558_download.png"
+
+image: "img/posts/1776994172558_download.png"
 
 title: "原神私服的PC端连接教程"
 date: 2022-05-11T11:56:00+08:00

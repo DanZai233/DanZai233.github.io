@@ -1,10 +1,11 @@
 ---
+
 title: "中之我 Inside-ME：和过去的自己来一场灵魂对话"
 description: "做了一个本地优先的「自我蒸馏」工具——导入你的聊天记录，让 AI 读懂你，然后和那个由过去堆叠而成的「你」深谈。"
 keywords: ["Inside-ME", "中之我", "AI", "自我蒸馏", "Agent Skills", "开源", "Python", "React"]
 date: 2026-04-16
 slug: "inside-me-intro"
-image: "/img/posts/post_6072.webp"
+image: "https://raw.githubusercontent.com/DanZai233/Inside-ME/main/img_v3_0210p_6c049c7f-5094-4ec8-a4b2-75a3cf5bd08g.jpg"
 tags:
     - 开源
     - AI
