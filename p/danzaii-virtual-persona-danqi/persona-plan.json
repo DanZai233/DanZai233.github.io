@@ -1,0 +1,43 @@
+{
+  "site_summary": {
+    "domain": "danzaii.cn",
+    "core_identity": "一只小羊羔的窝 / Dan_Zai | 中之我",
+    "positioning": "个人数字宇宙：博客、作品集、照片墙与 AI 创作工具的集合。既记录生活，也展示技术实验、开源项目、二次元审美与个人记忆。",
+    "tone_keywords": ["温柔", "技术宅", "二次元", "开源", "粉白樱花", "摄影", "个人记忆", "AI 创作", "小羊羔", "爱莉希雅", "中之我"],
+    "subsites": [
+      {"name":"博客：一只小羊羔的窝", "url":"https://blog.danzaii.cn", "notes":"Hugo + Stack，记录技术笔记、生活随笔、项目心得、AI 绘图和二次元内容。"},
+      {"name":"所作，所为", "url":"https://works.danzaii.cn", "notes":"作品集导航页，集中展示 MYGallery、AIMBOT、PixelBead、Chromatopoetry、Tianji 等项目。"},
+      {"name":"所见，所闻", "url":"https://photo.danzaii.cn", "notes":"个人照片墙，呈现摄影、旅行、日常观察和视觉记忆。"},
+      {"name":"LUMINA Atelier / AI-Image-Studio", "url":"https://aipic.danzaii.cn", "notes":"AI 生图工作室，支持工作区、参考图、提示词标签、共享模型和连续创作。"},
+      {"name":"PixelBead", "url":"https://pindou.danzaii.cn", "notes":"拼豆像素画设计工具，连接像素、手作和 AI。"},
+      {"name":"Tianji", "url":"https://tianji.danzaii.cn", "notes":"多模型 AI 占卜应用，融合星象、塔罗、周易等神秘学表达。"},
+      {"name":"Chromatopoetry", "url":"https://color.danzaii.cn", "notes":"AI 配色美学应用，把色彩、诗意和生成式工具连接起来。"},
+      {"name":"Aim Trainer / AIMBOT", "url":"https://aim.danzaii.cn", "notes":"网页端瞄准训练器，偏游戏、性能和交互实验。"}
+    ],
+    "owner_traits": ["热爱技术、生活、二次元", "前端/后端/AI/部署都有涉猎", "喜欢把想法快速做成可访问的网站", "喜欢摄影、Cosplay、调酒、音乐、动漫、球类运动", "猫猫爱好者，拥有三只小猫", "从 2021 年开始持续写博客", "2025 密集输出多个开源项目", "2026 迁移到 Hugo + Stack 重新出发"]
+  },
+  "virtual_persona": {
+    "name": "丹祈 DanQi",
+    "alias": "小羊工坊主 / Lumina Shepherd",
+    "gender_expression": "中性偏少年感，可男可女，温柔清爽，不做强性别化设定",
+    "age_feel": "18-22 岁的青年感",
+    "hair": "中长发，银白到浅粉渐变，发尾微卷；可扎低马尾、半扎狼尾、侧编发或松散公主切。",
+    "eyes": "樱粉与湖蓝异色/渐变眼，眼神安静但有灵气。",
+    "signature_symbols": ["小羊角发饰", "樱花", "星星十字", "相机肩带", "终端窗口纹样", "像素拼豆挂件", "三只小猫剪影", "发光画笔"],
+    "personality": "温柔、内向但行动力很强；喜欢把复杂的技术做成漂亮的小工具；说话有点软，但写代码和部署时很认真。会把生活碎片、照片、AI 图、人设和开源项目都收进自己的小窝。",
+    "color_palette": ["羊绒白 #F8F1E8", "樱花粉 #F7B7D2", "夜空紫 #7D6BFF", "终端黑 #17141F", "湖光蓝 #8EDBFF", "暖金 #F7D784"],
+    "core_prompt_base": "original virtual avatar for the owner of danzaii.cn, androgynous gentle anime character, medium-long silver white hair with soft pink gradient tips, slightly wavy hair, soft pink and cyan gradient eyes, tiny sheep horn hair accessories, warm tech creator aura, cherry blossom petals, small camera strap, subtle terminal code motifs, pixel bead charm, three tiny cat silhouettes, luminous digital paintbrush, elegant soft pink white and lavender color palette, clean detailed character design, high quality anime illustration, gentle lighting, refined lineart, no real person, no copyrighted character"
+  },
+  "prompt_presets": [
+    {"id":"01-main-key-visual", "title":"主视觉立绘", "prompt_suffix":"full body key visual, long cream cardigan over black turtleneck, pleated shorts, translucent tech cape, holding a glowing digital brush, white studio background with soft UI cards, character reference sheet quality"},
+    {"id":"02-blog-header", "title":"博客页头海报", "prompt_suffix":"wide blog header poster, the character sitting beside a laptop in a cozy sheep-themed room, Hugo blog cards floating behind, readable large title text 'DANZAII.CN' and subtitle '一只小羊羔的窝', soft cherry blossom window light"},
+    {"id":"03-developer-outfit", "title":"开发者服装", "prompt_suffix":"developer outfit, oversized black hoodie with subtle terminal symbols, white shirt, slim cargo pants, medium-long half-tied hair, multiple monitors showing code, GitHub stars and project cards, cyber cozy desk"},
+    {"id":"04-photographer-outfit", "title":"摄影服装", "prompt_suffix":"photographer outfit, beige trench coat, camera around neck, medium-long low ponytail, photo gallery wall, warm street lights, travel memories, cinematic composition"},
+    {"id":"05-ai-atelier-outfit", "title":"AI 工坊服装", "prompt_suffix":"AI atelier outfit, elegant white pink atelier coat, translucent sleeves, palette-shaped tablet, generated character sheets floating around, LUMINA Atelier interface vibe, magical digital art studio"},
+    {"id":"06-pixelbead-chibi", "title":"拼豆 Q 版", "prompt_suffix":"super cute chibi mascot version, medium-long fluffy hair, tiny sheep horns, pixel bead accessories, holding a pixel heart, sticker sheet style, white background, multiple expressions"},
+    {"id":"07-tianji-mystic", "title":"天机占卜装", "prompt_suffix":"mystic divination outfit, starry navy and lavender robe, tarot cards and astrolabe, glowing constellations, gentle occult aesthetic, elegant pose"},
+    {"id":"08-cat-life", "title":"猫猫生活照", "prompt_suffix":"cozy daily life illustration, character wearing soft knit sweater, sitting on floor with three cats, laptop and camera nearby, warm afternoon light, intimate blog diary feeling"},
+    {"id":"09-logo-badge", "title":"Logo / 徽章物料", "prompt_suffix":"brand mascot badge design, circular logo composition, sheep horn silhouette, cherry blossom, pixel star, camera aperture, text 'DanQi' and 'DANZAII', clean vector-like anime logo, merch-ready"},
+    {"id":"10-merch-poster", "title":"周边海报", "prompt_suffix":"merchandise poster layout, acrylic stand, sticker sheet, postcard, badge, phone wallpaper mockups featuring the character, readable title text 'DanQi Virtual Persona', pastel product photography style"}
+  ]
+}
