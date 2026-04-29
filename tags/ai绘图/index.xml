@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI绘图 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/</link><description>Recent content in AI绘图 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>AI-Image-Studio：把生图做成一间 LUMINA Atelier</title><link>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</guid><description>&lt;p&gt;最近博客里那组若叶睦的图，背后其实不是一次性的随手生成，而是我自己做的一个 AI 生图项目：&lt;strong&gt;AI-Image-Studio&lt;/strong&gt;。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI绘图 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/</link><description>Recent content in AI绘图 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>AI-Image-Studio：把生图做成一间 LUMINA Atelier</title><link>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post AI-Image-Studio：把生图做成一间 LUMINA Atelier" /&gt;&lt;p&gt;最近博客里那组若叶睦的图，背后其实不是一次性的随手生成，而是我自己做的一个 AI 生图项目：&lt;strong&gt;AI-Image-Studio&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;现在它已经部署在 &lt;a class="link" href="https://aipic.danzaii.cn" target="_blank" rel="noopener"
  &gt;aipic.danzaii.cn&lt;/a&gt;，我给它取了一个更像工作室的名字：&lt;strong&gt;LUMINA Atelier&lt;/strong&gt;。比起冷冰冰的「输入 prompt 然后等待图片」，我更希望它像一张干净的创作桌：左边放工作区和灵感画廊，中间写提示词，旁边保留上下文、参考图和已经生成过的版本。你不是在调用一个接口，而是在一间小小的工作室里继续创作。&lt;/p&gt;
 &lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-1.png" alt="LUMINA Atelier AI-Image-Studio 封面图" loading="lazy"&gt;
@@ -126,7 +126,7 @@
  &lt;blockquote&gt;
  &lt;p&gt;&lt;em&gt;不是每一张图都要成为作品。有些图只是把脑海里一瞬间的光，先温柔地接住。&lt;/em&gt;&lt;/p&gt;
 
- &lt;/blockquote&gt;</description></item><item><title>给 danzaii.cn 做一个虚拟形象：蛋仔</title><link>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</guid><description>&lt;p&gt;最近我想认真整理一下 &lt;strong&gt;danzaii.cn&lt;/strong&gt; 这个域名背后到底是什么。&lt;/p&gt;
+ &lt;/blockquote&gt;</description></item><item><title>给 danzaii.cn 做一个虚拟形象：蛋仔</title><link>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 给 danzaii.cn 做一个虚拟形象：蛋仔" /&gt;&lt;p&gt;最近我想认真整理一下 &lt;strong&gt;danzaii.cn&lt;/strong&gt; 这个域名背后到底是什么。&lt;/p&gt;
 &lt;p&gt;它好像已经不只是一个博客入口了。博客、作品集、照片墙、AI 生图工作室、拼豆工具、配色工具、占卜应用、瞄准训练器……这些小站散落在不同的子域名里，但它们其实都指向同一个东西：一个属于我的、不断长出来的个人数字宇宙。&lt;/p&gt;
 &lt;p&gt;所以这次我试着给 danzaii.cn 做一个虚拟形象。不是那种很商业的品牌吉祥物，而是一个能代表这个网站气质、也能代表站点所有者创作习惯的角色。&lt;/p&gt;
 &lt;p&gt;她/他叫：&lt;strong&gt;蛋仔&lt;/strong&gt;。&lt;/p&gt;
@@ -380,7 +380,7 @@
  &lt;blockquote&gt;
  &lt;p&gt;&lt;em&gt;如果一个网站会慢慢长出灵魂，那它大概会先长出一个会写代码、会拍照、也会悄悄收集花瓣的人。&lt;/em&gt;&lt;/p&gt;
 
- &lt;/blockquote&gt;</description></item><item><title>若叶睦：一些安静的切片</title><link>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</guid><description>&lt;p&gt;最近传了几张木子米的AI图，都是我用 GPT Image-2 生成的。
+ &lt;/blockquote&gt;</description></item><item><title>若叶睦：一些安静的切片</title><link>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 若叶睦：一些安静的切片" /&gt;&lt;p&gt;最近传了几张木子米的AI图，都是我用 GPT Image-2 生成的。
 AI 太强大啦
 木子米很适合这种安静的画面：不需要太多动作，也不用太满的表情，光是站在那里，就已经有情绪了。睦头人，降临~&lt;/p&gt;
 &lt;img src="https://blog.danzaii.cn/img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png" alt="若叶睦 AI 图 1" loading="lazy"&gt;
