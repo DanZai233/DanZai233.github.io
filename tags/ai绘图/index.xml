@@ -1,4 +1,132 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI绘图 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/</link><description>Recent content in AI绘图 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>若叶睦：一些安静的切片</title><link>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</guid><description>&lt;p&gt;最近传了几张木子米的AI图，都是我用 GPT Image-2 生成的。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI绘图 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/</link><description>Recent content in AI绘图 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>AI-Image-Studio：把生图做成一间 LUMINA Atelier</title><link>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</guid><description>&lt;p&gt;最近博客里那组若叶睦的图，背后其实不是一次性的随手生成，而是我自己做的一个 AI 生图项目：&lt;strong&gt;AI-Image-Studio&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;现在它已经部署在 &lt;a class="link" href="https://aipic.danzaii.cn" target="_blank" rel="noopener"
+ &gt;aipic.danzaii.cn&lt;/a&gt;，我给它取了一个更像工作室的名字：&lt;strong&gt;LUMINA Atelier&lt;/strong&gt;。比起冷冰冰的「输入 prompt 然后等待图片」，我更希望它像一张干净的创作桌：左边放工作区和灵感画廊，中间写提示词，旁边保留上下文、参考图和已经生成过的版本。你不是在调用一个接口，而是在一间小小的工作室里继续创作。&lt;/p&gt;
+&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-1.png" alt="LUMINA Atelier AI-Image-Studio 封面图" loading="lazy"&gt;
+&lt;h2 id="这是什么"&gt;&lt;a href="#%e8%bf%99%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;这是什么？
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/AI-Image-Studio" target="_blank" rel="noopener"
+ &gt;DanZai233/AI-Image-Studio&lt;/a&gt;&lt;br&gt;
+站点：&lt;a class="link" href="https://aipic.danzaii.cn" target="_blank" rel="noopener"
+ &gt;aipic.danzaii.cn&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;简单说，&lt;strong&gt;AI-Image-Studio&lt;/strong&gt; 是一个基于 OpenAI 兼容接口的 AI 图像创作站点。目前我这边的站点共享模型背后调用的是 &lt;strong&gt;GPT Image-2&lt;/strong&gt;，所以不需要每次都重新搭环境、写脚本、翻接口文档，打开网页就可以直接开始生成。&lt;/p&gt;
+&lt;p&gt;它最开始只是一个「能生图」的小工具，但做着做着就变成了现在这种更完整的工作室形态：有工作区、有历史上下文、有参考图、有提示词标签库，也有一套更适合连续创作的视觉流程。&lt;/p&gt;
+&lt;h2 id="为什么又做一个生图网站"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%8f%88%e5%81%9a%e4%b8%80%e4%b8%aa%e7%94%9f%e5%9b%be%e7%bd%91%e7%ab%99" class="header-anchor"&gt;&lt;/a&gt;为什么又做一个生图网站？
+&lt;/h2&gt;&lt;p&gt;因为我发现自己真正需要的不是「一个按钮」，而是「一个上下文」。&lt;/p&gt;
+&lt;p&gt;比如生成若叶睦的时候，我会不断调整她的表情、构图、光线和氛围。某一张图里安静的眼神很好，另一张图里衣服和背景更舒服，再下一次我希望模型记住这些倾向，而不是每次都从零开始。&lt;/p&gt;
+&lt;p&gt;所以这个项目里我做了几个对我很重要的点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;工作区隔离&lt;/strong&gt;：每个工作区保存自己的聊天、参考图和生成结果，不会互相串台。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵感画廊&lt;/strong&gt;：生成过的图会留在侧边，像把草稿贴在墙上。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;上下文延续&lt;/strong&gt;：系统会带上最近关键消息和图像线索，继续沿用视觉方向。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;参考图优先&lt;/strong&gt;：有参考图时优先尝试走 &lt;code&gt;/images/edits&lt;/code&gt;，更接近 Cherry Studio 那种把参考图真正送进模型的用法。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文本兜底&lt;/strong&gt;：如果上游不接受图片输入，就自动退回到高信号文本上下文，不让创作流程直接断掉。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;共享模型密码&lt;/strong&gt;：朋友来玩的时候可以用站点共享模型，不用自己填 API Key。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这几个功能听上去很工程，但落到体验上其实就是一句话：&lt;strong&gt;让一次次生成变成同一段创作，而不是一堆互不认识的请求。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="lumina-atelier-的气质"&gt;&lt;a href="#lumina-atelier-%e7%9a%84%e6%b0%94%e8%b4%a8" class="header-anchor"&gt;&lt;/a&gt;LUMINA Atelier 的气质
+&lt;/h2&gt;&lt;p&gt;我把界面做成了偏粉白、玻璃质感、文艺工作室的样子。它不是那种控制台式的工具，也不想装成很严肃的企业后台。它更像一个安静的小房间：你可以上传参考图，可以从标签商店里挑一些画面词，也可以直接用中文描述「我想要什么感觉」。&lt;/p&gt;
+&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-2.png" alt="LUMINA Atelier 创作工作室概念图" loading="lazy"&gt;
+&lt;p&gt;站点里目前有：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;功能&lt;/th&gt;
+ &lt;th&gt;用途&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;图像生成&lt;/td&gt;
+ &lt;td&gt;输入提示词，调用 GPT Image-2 出图&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;AI 对话与识图&lt;/td&gt;
+ &lt;td&gt;和模型聊画面、分析参考图、整理提示词&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;工作区&lt;/td&gt;
+ &lt;td&gt;把不同角色、不同主题的创作分开保存&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;灵感标签商店&lt;/td&gt;
+ &lt;td&gt;用预设和标签快速拼出更稳定的提示词&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;参考图上传&lt;/td&gt;
+ &lt;td&gt;支持上传、粘贴图片或图片 URL&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;中英双语 UI&lt;/td&gt;
+ &lt;td&gt;中文 / English 可以直接切换&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我很喜欢「Atelier」这个词。它不是 factory，不是 pipeline，而是一间有人味的工坊。AI 当然很强，但我还是希望最终留下来的不是「机器替我画了什么」，而是「我和模型一起把脑内的东西慢慢磨出来了」。&lt;/p&gt;
+&lt;h2 id="若叶睦人设图还有我的小小偏心"&gt;&lt;a href="#%e8%8b%a5%e5%8f%b6%e7%9d%a6%e4%ba%ba%e8%ae%be%e5%9b%be%e8%bf%98%e6%9c%89%e6%88%91%e7%9a%84%e5%b0%8f%e5%b0%8f%e5%81%8f%e5%bf%83" class="header-anchor"&gt;&lt;/a&gt;若叶睦、人设图，还有我的小小偏心
+&lt;/h2&gt;&lt;p&gt;之前博客里的若叶睦图片，都是用这个项目生成的。&lt;/p&gt;
+&lt;p&gt;睦很适合 GPT Image-2 那种细腻、柔和、略带沉默感的画面：不用很夸张的表情，也不用很满的动作，只要光线对了、眼神对了，她站在那里就有故事。那篇图集里几张我比较喜欢的版本，其实就是在 LUMINA Atelier 里反复试 prompt、保留图像线索、再继续生成出来的。&lt;/p&gt;
+&lt;p&gt;这次我也顺手用站点共享模型生成了两张给这篇文章用的配图。它们不算是严格的产品截图，更像是我心里对这个网站的想象：一张桌子、几张角色设定卡、一块发光的界面，还有一些还没完全说出口的人设灵感。&lt;/p&gt;
+&lt;p&gt;人设图这件事对我来说有点特别。它不是单纯「画一个好看的头像」，而是把一个人的语气、偏好、情绪、角色感慢慢折成视觉符号。AI-Image-Studio 做的事情也差不多：把一句句提示词、一张张参考图、一次次失败和微调，最后折成一张能留下来的图。&lt;/p&gt;
+&lt;h2 id="技术上它怎么跑"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e4%b8%8a%e5%ae%83%e6%80%8e%e4%b9%88%e8%b7%91" class="header-anchor"&gt;&lt;/a&gt;技术上它怎么跑？
+&lt;/h2&gt;&lt;p&gt;项目本身是一个前端 + Vercel Serverless API 的结构：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;层&lt;/th&gt;
+ &lt;th&gt;技术 / 设计&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;前端&lt;/td&gt;
+ &lt;td&gt;React + Vite + Tailwind 风格界面&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;存储&lt;/td&gt;
+ &lt;td&gt;localStorage 保存工作区、消息、图片上下文&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;部署&lt;/td&gt;
+ &lt;td&gt;Vercel Serverless Route&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;绘图&lt;/td&gt;
+ &lt;td&gt;OpenAI 兼容图像接口，当前站点共享模型为 GPT Image-2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;参考图&lt;/td&gt;
+ &lt;td&gt;优先 multipart 上传到 &lt;code&gt;/images/edits&lt;/code&gt;，失败时走文本上下文 fallback&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;上下文&lt;/td&gt;
+ &lt;td&gt;只截取最近高信号消息和图像线索，避免把整个工作区原样塞给模型&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我之前还专门参考了 Cherry Studio 对自定义 OpenAI 图像模型和参考图上传的处理方式。重点不是「能不能把图片塞进 prompt」，而是要判断上游到底支持哪种调用：纯文本生成、图片编辑、还是只接受文本但可以吃描述。这个判断如果做不好，前端看起来像支持参考图，实际生成时模型却完全没收到图，那体验就会很割裂。&lt;/p&gt;
+&lt;p&gt;所以现在的策略是：能传图就真传图，不能传图就把视觉线索压缩成文本上下文继续创作。虽然不完美，但至少不会让一次失败把整个创作流打断。&lt;/p&gt;
+&lt;h2 id="下一步想做什么"&gt;&lt;a href="#%e4%b8%8b%e4%b8%80%e6%ad%a5%e6%83%b3%e5%81%9a%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;下一步想做什么？
+&lt;/h2&gt;&lt;p&gt;现在的 LUMINA Atelier 已经能承担我的日常生图需求，但我还想继续把它做得更像「我的创作台」：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更好的人物设定卡管理，把同一个角色的服装、眼神、色板都沉淀下来；&lt;/li&gt;
+&lt;li&gt;更清晰的图像版本树，记录一张图是从哪张参考图、哪段 prompt 长出来的；&lt;/li&gt;
+&lt;li&gt;更稳定的移动端体验，随手记灵感、随手生成；&lt;/li&gt;
+&lt;li&gt;更多适合二次元角色、头像、人设图和博客封面的提示词预设。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;说到底，这个项目不是为了证明「AI 可以代替画师」之类的大命题。它只是我给自己搭的一张小桌子：想到一个画面，就坐下来写两句；看到一个喜欢的方向，就把它贴在墙上；如果哪张图真的有点意思，就放进博客里，给它留一个位置。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;如果你也想试试，可以打开 &lt;a class="link" href="https://aipic.danzaii.cn" target="_blank" rel="noopener"
+ &gt;aipic.danzaii.cn&lt;/a&gt;。&lt;br&gt;
+如果你对代码感兴趣，也欢迎来 &lt;a class="link" href="https://github.com/DanZai233/AI-Image-Studio" target="_blank" rel="noopener"
+ &gt;GitHub 仓库&lt;/a&gt; 看看。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;em&gt;不是每一张图都要成为作品。有些图只是把脑海里一瞬间的光，先温柔地接住。&lt;/em&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;</description></item><item><title>若叶睦：一些安静的切片</title><link>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</guid><description>&lt;p&gt;最近传了几张木子米的AI图，都是我用 GPT Image-2 生成的。
 AI 太强大啦
 木子米很适合这种安静的画面：不需要太多动作，也不用太满的表情，光是站在那里，就已经有情绪了。睦头人，降临~&lt;/p&gt;
 &lt;img src="https://blog.danzaii.cn/img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png" alt="若叶睦 AI 图 1" loading="lazy"&gt;
