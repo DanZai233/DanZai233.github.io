@@ -206,11 +206,6 @@
 &lt;p class="nav-kicker"&gt;Dan_Zai's Little Universe&lt;/p&gt;
 &lt;h2&gt;小窝地图&lt;/h2&gt;
 &lt;p&gt;博客、作品、画廊、项目和一些通往别处的门，都收在这里。&lt;/p&gt;
-&lt;div class="nav-elysia-strip" aria-hidden="true"&gt;
-&lt;span style="--nav-thumb: url('/img/nav/elysia-card-1.jpg')"&gt;&lt;/span&gt;
-&lt;span style="--nav-thumb: url('/img/nav/elysia-card-2.jpg')"&gt;&lt;/span&gt;
-&lt;span style="--nav-thumb: url('/img/nav/elysia-card-3.jpg')"&gt;&lt;/span&gt;
-&lt;/div&gt;
 &lt;div class="nav-hero-actions"&gt;
 &lt;a class="nav-scroll-cue" href="#nav-map" aria-label="向下查看导航"&gt;&lt;span&gt;进入导航&lt;/span&gt;&lt;b&gt;⌄&lt;/b&gt;&lt;/a&gt;
 &lt;a class="nav-ghost-cue" href="https://blog.danzaii.cn/post/"&gt;先看文章&lt;/a&gt;
