@@ -34,7 +34,9 @@ h1 { margin: 0; font-size: clamp(34px, 6vw, 58px); letter-spacing: -.04em; }
 .hud-left strong { color: var(--pink); font-size: 18px; }
 .hud-right span { padding: 7px 10px; border-radius: 999px; background: rgba(255,255,255,.08); }
 .hud-right b { color: var(--mint); }
-#quest-panel { position: fixed; right: 24px; top: 88px; bottom: 24px; width: 300px; z-index: 4; padding: 20px; border-radius: 26px; background: rgba(255, 246, 251, .9); color: var(--ink); border: 1px solid rgba(255,255,255,.75); box-shadow: var(--shadow); backdrop-filter: blur(18px); overflow: auto; }
+#quest-panel { position: fixed; right: 24px; top: 88px; bottom: 24px; width: 300px; z-index: 4; padding: 20px; border-radius: 26px; background: rgba(255, 246, 251, .9); color: var(--ink); border: 1px solid rgba(255,255,255,.75); box-shadow: var(--shadow); backdrop-filter: blur(18px); overflow: auto; transition: transform .22s ease, opacity .22s ease; }
+#quest-panel.quest-collapsed { transform: translateX(calc(100% + 34px)); opacity: 0; pointer-events: none; }
+#quest-toggle { position: fixed; z-index: 13; right: 24px; top: 88px; padding: 10px 14px; border-radius: 999px; color: white; background: linear-gradient(135deg, var(--pink-strong), var(--lavender)); box-shadow: 0 12px 30px rgba(0,0,0,.24); font-weight: 900; }
 #quest-panel h2 { margin: 0 0 14px; font-size: 20px; }
 #quest-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
 #quest-list li { padding: 12px; border-radius: 16px; background: rgba(255,255,255,.62); color: var(--soft); border: 1px solid rgba(255,159,207,.18); }
@@ -73,7 +75,9 @@ h1 { margin: 0; font-size: clamp(34px, 6vw, 58px); letter-spacing: -.04em; }
   body { overflow: auto; }
   #game-shell { min-height: 100vh; align-content: start; padding-top: 92px; }
   #game { width: calc(100vw - 32px); max-width: none; max-height: none; }
-  #quest-panel { position: static; width: calc(100vw - 32px); margin-top: 16px; }
+  #quest-panel { position: fixed; left: 12px; right: 12px; top: auto; bottom: 126px; width: auto; max-height: min(42vh, 340px); padding: 16px; z-index: 11; }
+  #quest-panel.quest-collapsed { transform: translateY(calc(100% + 156px)); opacity: 0; pointer-events: none; }
+  #quest-toggle { right: 16px; top: auto; bottom: 118px; z-index: 14; padding: 9px 13px; }
   #hud { left: 12px; right: 12px; top: 10px; font-size: 13px; }
   #dialogue { bottom: 142px; width: calc(100vw - 28px); padding: 16px 18px 12px; }
   #mobile-controls:not(.hidden) { display: flex; }
