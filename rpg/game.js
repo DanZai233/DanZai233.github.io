@@ -1,5 +1,6 @@
 /* 一只小羊羔的都市小窝 RPG
  * A tiny canvas RPG inspired by blog.danzaii.cn.
+ * 支持多地图、后日谈支线、移动端虚拟按键。
  */
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
@@ -30,6 +31,7 @@ const ui = {
   ending: document.getElementById('ending'),
   endingText: document.getElementById('ending-text'),
   restartBtn: document.getElementById('restart-btn'),
+  mobileControls: document.getElementById('mobile-controls'),
 };
 
 const baseMemories = [
@@ -75,28 +77,60 @@ const baseNpcs = [
 
 const extraStory = window.RPG_EXTRA || { memories: [], npcs: [], chapters: [], codex: [] };
 const memories = [...baseMemories, ...extraStory.memories];
-const npcs = [...baseNpcs, ...extraStory.npcs];
+const npcs = [...baseNpcs.map(n => ({ map: 'city', ...n })), ...extraStory.npcs.map(n => ({ map: 'city', ...n }))];
 
-const mapObjects = [
-  { x: 1, y: 1, w: 28, h: 1, type: 'wall' }, { x: 1, y: 18, w: 28, h: 1, type: 'wall' },
-  { x: 1, y: 1, w: 1, h: 18, type: 'wall' }, { x: 28, y: 1, w: 1, h: 18, type: 'wall' },
-  { x: 7, y: 3, w: 1, h: 5, type: 'building', label: 'BLOG' }, { x: 18, y: 3, w: 1, h: 4, type: 'building', label: 'ATELIER' },
-  { x: 2, y: 9, w: 7, h: 1, type: 'road' }, { x: 11, y: 9, w: 17, h: 1, type: 'road' },
-  { x: 15, y: 10, w: 1, h: 8, type: 'road' }, { x: 20, y: 2, w: 1, h: 15, type: 'road' },
-  { x: 4, y: 13, w: 4, h: 1, type: 'building', label: 'DB' }, { x: 23, y: 11, w: 3, h: 1, type: 'building', label: '站台' }
-];
+const maps = {
+  city: {
+    id: 'city', name: '小窝都市', chapter: '主线：晚风把灯吹亮', theme: ['#2b2740', '#303856', '#43304a'], accent: '#ffd5ec', start: { x: 3, y: 3 },
+    objects: [
+      { x: 1, y: 1, w: 28, h: 1, type: 'wall' }, { x: 1, y: 18, w: 28, h: 1, type: 'wall' },
+      { x: 1, y: 1, w: 1, h: 18, type: 'wall' }, { x: 28, y: 1, w: 1, h: 18, type: 'wall' },
+      { x: 7, y: 3, w: 1, h: 5, type: 'building', label: 'BLOG' }, { x: 18, y: 3, w: 1, h: 4, type: 'building', label: 'ATELIER' },
+      { x: 2, y: 9, w: 7, h: 1, type: 'road' }, { x: 11, y: 9, w: 17, h: 1, type: 'road' },
+      { x: 15, y: 10, w: 1, h: 8, type: 'road' }, { x: 20, y: 2, w: 1, h: 15, type: 'road' },
+      { x: 4, y: 13, w: 4, h: 1, type: 'building', label: 'DB' }, { x: 23, y: 11, w: 3, h: 1, type: 'building', label: '站台' },
+      { x: 27, y: 2, w: 1, h: 1, type: 'portal', label: '后日谈', to: 'afterglow', spawn: { x: 3, y: 16 } },
+      { x: 2, y: 2, w: 1, h: 1, type: 'portal', label: '屋顶', to: 'rooftop', spawn: { x: 26, y: 15 } },
+    ]
+  },
+  afterglow: {
+    id: 'afterglow', name: '后日谈：灯会之后', chapter: '后日谈：把日常写成续章', theme: ['#23243e', '#35405e', '#4c3654'], accent: '#ffe1a8', start: { x: 3, y: 16 },
+    objects: [
+      { x: 1, y: 1, w: 28, h: 1, type: 'wall' }, { x: 1, y: 18, w: 28, h: 1, type: 'wall' },
+      { x: 1, y: 1, w: 1, h: 18, type: 'wall' }, { x: 28, y: 1, w: 1, h: 18, type: 'wall' },
+      { x: 3, y: 4, w: 23, h: 1, type: 'road' }, { x: 6, y: 4, w: 1, h: 11, type: 'road' }, { x: 14, y: 3, w: 1, h: 14, type: 'road' }, { x: 22, y: 4, w: 1, h: 11, type: 'road' },
+      { x: 8, y: 7, w: 4, h: 1, type: 'building', label: '信局' }, { x: 16, y: 7, w: 4, h: 1, type: 'building', label: '编辑部' },
+      { x: 4, y: 12, w: 6, h: 1, type: 'building', label: '茶铺' }, { x: 18, y: 12, w: 6, h: 1, type: 'building', label: '工坊' },
+      { x: 2, y: 16, w: 1, h: 1, type: 'portal', label: '回城', to: 'city', spawn: { x: 26, y: 3 } },
+      { x: 27, y: 16, w: 1, h: 1, type: 'portal', label: '屋顶', to: 'rooftop', spawn: { x: 25, y: 15 } },
+    ]
+  },
+  rooftop: {
+    id: 'rooftop', name: '猫猫屋顶', chapter: '支线：休息也是主线', theme: ['#1b2038', '#2d3858', '#463657'], accent: '#d5f6ff', start: { x: 25, y: 15 },
+    objects: [
+      { x: 1, y: 1, w: 28, h: 1, type: 'wall' }, { x: 1, y: 18, w: 28, h: 1, type: 'wall' },
+      { x: 1, y: 1, w: 1, h: 18, type: 'wall' }, { x: 28, y: 1, w: 1, h: 18, type: 'wall' },
+      { x: 3, y: 5, w: 24, h: 1, type: 'road' }, { x: 5, y: 5, w: 1, h: 11, type: 'road' }, { x: 24, y: 5, w: 1, h: 11, type: 'road' },
+      { x: 8, y: 9, w: 5, h: 1, type: 'building', label: '猫窝' }, { x: 16, y: 11, w: 5, h: 1, type: 'building', label: '风口' },
+      { x: 26, y: 16, w: 1, h: 1, type: 'portal', label: '回城', to: 'city', spawn: { x: 3, y: 3 } },
+    ]
+  }
+};
 
-const player = { x: 3, y: 3, px: 3 * TILE, py: 3 * TILE, color: '#fff4f9', dir: 'down' };
-const state = { running: false, dialogue: null, dialogueIndex: 0, keys: new Set(), collected: new Set(), warmth: 0, inspiration: 0, tick: 0 };
-
+const player = { x: 3, y: 3, color: '#fff4f9', dir: 'down' };
+const state = { running: false, dialogue: null, dialogueIndex: 0, keys: new Set(), collected: new Set(), warmth: 0, inspiration: 0, tick: 0, map: 'city' };
 ui.memoryTotal.textContent = memories.length;
 
+function currentMap() { return maps[state.map] || maps.city; }
+function currentObjects() { return currentMap().objects || []; }
+function currentNpcs() { return npcs.filter(n => (n.map || 'city') === state.map); }
 function rectsOverlap(a, b) { return a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y; }
 function isBlocked(x, y) {
   if (x < 1 || y < 1 || x >= COLS - 1 || y >= ROWS - 1) return true;
-  return mapObjects.some(o => ['wall', 'building'].includes(o.type) && rectsOverlap({ x, y, w: 1, h: 1 }, o));
+  return currentObjects().some(o => ['wall', 'building'].includes(o.type) && rectsOverlap({ x, y, w: 1, h: 1 }, o));
 }
-function getNpcAt(x, y) { return npcs.find(n => n.x === x && n.y === y); }
+function getNpcAt(x, y) { return currentNpcs().find(n => n.x === x && n.y === y); }
+function getObjectAt(x, y, type) { return currentObjects().find(o => (!type || o.type === type) && rectsOverlap({ x, y, w: 1, h: 1 }, o)); }
 function getFacingTile() {
   const delta = { up: [0, -1], down: [0, 1], left: [-1, 0], right: [1, 0] }[player.dir];
   return { x: player.x + delta[0], y: player.y + delta[1] };
@@ -105,19 +139,33 @@ function updateHud() {
   ui.warmth.textContent = state.warmth;
   ui.inspiration.textContent = state.inspiration;
   ui.memoryCount.textContent = state.collected.size;
-  if (state.collected.size >= 9) ui.chapter.textContent = '终章：把城市折成一盏灯';
-  else if (state.collected.size >= 5) ui.chapter.textContent = '第 2 章：记忆在夜里接上线';
+  const map = currentMap();
+  if (state.collected.size === memories.length) ui.chapter.textContent = '终章：把城市折成一盏灯';
+  else if (state.map === 'afterglow') ui.chapter.textContent = map.chapter;
+  else if (state.collected.size >= 18) ui.chapter.textContent = '第 3 章：项目们把夜晚连成线';
+  else if (state.collected.size >= 9) ui.chapter.textContent = '第 2 章：记忆在夜里接上线';
+  else ui.chapter.textContent = map.chapter;
   renderQuests();
   renderMemoryGrid();
 }
 function renderQuests() {
-  ui.questList.innerHTML = memories.map(m => `<li class="${state.collected.has(m.id) ? 'done' : ''}">${state.collected.has(m.id) ? '✓' : '○'} ${m.quest}</li>`).join('');
+  const mapName = currentMap().name;
+  const visible = memories.filter(m => {
+    const npc = npcs.find(n => n.memory === m.id);
+    return !npc || (npc.map || 'city') === state.map || state.collected.has(m.id);
+  });
+  ui.questList.innerHTML = `<li class="map-tag">📍 当前地图：${mapName}</li>` + visible.map(m => `<li class="${state.collected.has(m.id) ? 'done' : ''}">${state.collected.has(m.id) ? '✓' : '○'} ${m.quest}</li>`).join('');
 }
 function renderMemoryGrid() {
-  ui.memoryGrid.innerHTML = memories.map(m => {
+  const mapButtons = Object.values(maps).map(m => `<button class="map-jump" data-map="${m.id}">${m.id === state.map ? '✓ ' : ''}${m.name}</button>`).join('');
+  const cards = memories.map(m => {
     const unlocked = state.collected.has(m.id);
-    return `<article class="memory-card ${unlocked ? '' : 'locked'}"><h3>${m.icon} ${m.title}</h3><p>${unlocked ? m.summary : '还没有点亮。去城市里和相关的人或物互动吧。'}</p></article>`;
-  }).join('') + (extraStory.chapters?.length ? `<article class="memory-card"><h3>📖 长篇脚本</h3><p>已内置 ${extraStory.chapters.length} 幕主线梗概、${extraStory.codex?.length || 0} 条人物/城市札记；全部 NPC 对话与札记合计 1 万字以上，会随着探索逐步展开。</p></article>` : '');
+    const npc = npcs.find(n => n.memory === m.id);
+    const where = npc ? `<small>${maps[npc.map || 'city']?.name || '小窝都市'}</small>` : '';
+    return `<article class="memory-card ${unlocked ? '' : 'locked'}"><h3>${m.icon} ${m.title}</h3>${where}<p>${unlocked ? m.summary : '还没有点亮。去城市里和相关的人或物互动吧。'}</p></article>`;
+  }).join('');
+  const longTextCard = extraStory.chapters?.length ? `<article class="memory-card"><h3>📖 长篇脚本</h3><p>已内置 ${extraStory.chapters.length} 幕主线/后日谈梗概、${extraStory.codex?.length || 0} 条人物/城市札记；全部 NPC 对话与札记合计 1 万字以上，会随着探索逐步展开。</p></article>` : '';
+  ui.memoryGrid.innerHTML = `<div class="map-switcher">${mapButtons}</div>${cards}${longTextCard}`;
 }
 function openDialogue(speaker, lines, onDone) {
   state.dialogue = { speaker, lines, onDone };
@@ -129,9 +177,8 @@ function openDialogue(speaker, lines, onDone) {
 function advanceDialogue() {
   if (!state.dialogue) return false;
   state.dialogueIndex++;
-  if (state.dialogueIndex < state.dialogue.lines.length) {
-    ui.dialogueText.textContent = state.dialogue.lines[state.dialogueIndex];
-  } else {
+  if (state.dialogueIndex < state.dialogue.lines.length) ui.dialogueText.textContent = state.dialogue.lines[state.dialogueIndex];
+  else {
     const done = state.dialogue.onDone;
     state.dialogue = null;
     ui.dialogue.classList.add('hidden');
@@ -146,11 +193,18 @@ function collectNpc(npc) {
     state.inspiration += npc.gain.inspiration;
     updateHud();
     const chapter = extraStory.chapters?.[Math.min(extraStory.chapters.length - 1, Math.floor(state.collected.size / 5))];
-    if (chapter && state.collected.size % 5 === 0) {
-      openDialogue('章节札记', [chapter]);
-    }
+    if (chapter && state.collected.size % 5 === 0) openDialogue('章节札记', [chapter]);
     if (state.collected.size === memories.length) showEnding();
   }
+}
+function travelTo(mapId, spawn) {
+  const next = maps[mapId];
+  if (!next) return;
+  state.map = mapId;
+  const start = spawn || next.start || { x: 3, y: 3 };
+  player.x = start.x; player.y = start.y; player.dir = 'down';
+  updateHud();
+  openDialogue('地图跃迁', [`你来到「${next.name}」。${next.chapter}。`, '城市不是只有一张地图：主线、屋顶、后日谈会在不同街区慢慢展开。']);
 }
 function interact() {
   const tile = getFacingTile();
@@ -159,13 +213,15 @@ function interact() {
     const already = state.collected.has(npc.memory);
     const lines = already ? [`${npc.name}朝你挥挥手：“这盏灯已经亮着啦。继续往城市别处看看吧。”`] : npc.lines;
     openDialogue(npc.name, lines, () => !already && collectNpc(npc));
-  } else {
-    openDialogue('蛋仔', ['这里有晚风、路灯和一点点粉色霓虹。也许再往前走走，会遇到新的记忆碎片。']);
+    return;
   }
+  const portal = getObjectAt(tile.x, tile.y, 'portal') || getObjectAt(player.x, player.y, 'portal');
+  if (portal) { travelTo(portal.to, portal.spawn); return; }
+  openDialogue('蛋仔', ['这里有晚风、路灯和一点点粉色霓虹。也许再往前走走，会遇到新的记忆碎片。']);
 }
 function showEnding() {
   setTimeout(() => {
-    ui.endingText.innerHTML = `蛋仔把最后一枚记忆碎片放回博客入口。<br><br>城市没有变得喧闹，它只是更完整了：代码继续运行，照片继续发光，AI 工坊保留想象，旧备份守着过去，来自爱莉希雅的信贴在屋顶咖啡馆门口。<br><br><b>一只小羊羔的窝</b>不是终点，而是一间永远能回来坐坐的房间。`;
+    ui.endingText.innerHTML = `蛋仔把最后一枚记忆碎片放回博客入口。<br><br>城市没有变得喧闹，它只是更完整了：代码继续运行，照片继续发光，AI 工坊保留想象，旧备份守着过去，后日谈也在屋顶和街角继续生长。<br><br><b>一只小羊羔的窝</b>不是终点，而是一间永远能回来坐坐的房间。`;
     ui.ending.classList.remove('hidden');
   }, 350);
 }
@@ -173,21 +229,23 @@ function showEnding() {
 function drawTile(x, y, color) { ctx.fillStyle = color; ctx.fillRect(x * TILE, y * TILE, TILE, TILE); }
 function drawText(text, x, y, color = '#fff') { ctx.fillStyle = color; ctx.font = '13px system-ui, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(text, x, y); }
 function drawMap() {
+  const map = currentMap();
   const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-  grad.addColorStop(0, '#2b2740'); grad.addColorStop(0.55, '#303856'); grad.addColorStop(1, '#43304a');
+  grad.addColorStop(0, map.theme[0]); grad.addColorStop(0.55, map.theme[1]); grad.addColorStop(1, map.theme[2]);
   ctx.fillStyle = grad; ctx.fillRect(0, 0, canvas.width, canvas.height);
   for (let y = 0; y < ROWS; y++) for (let x = 0; x < COLS; x++) {
     if ((x + y) % 2 === 0) { ctx.fillStyle = 'rgba(255,255,255,.025)'; ctx.fillRect(x*TILE, y*TILE, TILE, TILE); }
   }
-  mapObjects.forEach(o => {
-    const colors = { wall: '#1b1b2b', building: '#4b4267', road: '#545f7d' };
+  currentObjects().forEach(o => {
+    const colors = { wall: '#1b1b2b', building: '#4b4267', road: '#545f7d', portal: '#f5b4ff' };
     ctx.fillStyle = colors[o.type] || '#333';
-    ctx.fillRect(o.x*TILE, o.y*TILE, o.w*TILE, o.h*TILE);
+    if (o.type === 'portal') {
+      ctx.beginPath(); ctx.arc((o.x+.5)*TILE, (o.y+.5)*TILE, 14 + Math.sin(state.tick/10)*3, 0, Math.PI*2); ctx.fill();
+    } else ctx.fillRect(o.x*TILE, o.y*TILE, o.w*TILE, o.h*TILE);
     ctx.strokeStyle = 'rgba(255,255,255,.12)'; ctx.strokeRect(o.x*TILE+.5, o.y*TILE+.5, o.w*TILE-1, o.h*TILE-1);
-    if (o.label) drawText(o.label, (o.x+o.w/2)*TILE, (o.y+0.72)*TILE, '#ffd5ec');
+    if (o.label) drawText(o.label, (o.x+o.w/2)*TILE, (o.y+0.72)*TILE, map.accent);
   });
-  // lamps
-  for (const n of npcs) {
+  for (const n of currentNpcs()) {
     const lit = state.collected.has(n.memory);
     ctx.beginPath();
     ctx.fillStyle = lit ? 'rgba(255, 226, 150, .34)' : 'rgba(255,255,255,.07)';
@@ -196,19 +254,16 @@ function drawMap() {
 }
 function drawNpc(n) {
   const lit = state.collected.has(n.memory);
-  ctx.save();
-  ctx.translate(n.x*TILE + TILE/2, n.y*TILE + TILE/2);
-  ctx.fillStyle = n.color;
-  ctx.beginPath(); ctx.arc(0, 0, 11, 0, Math.PI*2); ctx.fill();
-  ctx.fillStyle = lit ? '#fff4a8' : '#fff';
-  ctx.font = '17px serif'; ctx.textAlign = 'center'; ctx.fillText(memories.find(m=>m.id===n.memory).icon, 0, 6);
+  const memory = memories.find(m => m.id === n.memory);
+  ctx.save(); ctx.translate(n.x*TILE + TILE/2, n.y*TILE + TILE/2);
+  ctx.fillStyle = n.color; ctx.beginPath(); ctx.arc(0, 0, 11, 0, Math.PI*2); ctx.fill();
+  ctx.fillStyle = lit ? '#fff4a8' : '#fff'; ctx.font = '17px serif'; ctx.textAlign = 'center'; ctx.fillText(memory?.icon || '✦', 0, 6);
   if (!lit) { ctx.strokeStyle = '#fff'; ctx.lineWidth = 2; ctx.strokeRect(-15, -15, 30, 30); }
   ctx.restore();
 }
 function drawPlayer() {
   const bob = Math.sin(state.tick / 12) * 2;
-  ctx.save();
-  ctx.translate(player.x*TILE + TILE/2, player.y*TILE + TILE/2 + bob);
+  ctx.save(); ctx.translate(player.x*TILE + TILE/2, player.y*TILE + TILE/2 + bob);
   ctx.fillStyle = 'rgba(0,0,0,.22)'; ctx.beginPath(); ctx.ellipse(0, 13, 12, 5, 0, 0, Math.PI*2); ctx.fill();
   ctx.fillStyle = '#fff7fb'; ctx.beginPath(); ctx.arc(0, -2, 12, 0, Math.PI*2); ctx.fill();
   ctx.fillStyle = '#ff9fcf'; ctx.beginPath(); ctx.arc(-5, -5, 2, 0, Math.PI*2); ctx.arc(5, -5, 2, 0, Math.PI*2); ctx.fill();
@@ -218,17 +273,23 @@ function drawPlayer() {
 }
 function draw() {
   state.tick++;
-  drawMap();
-  npcs.forEach(drawNpc);
-  drawPlayer();
+  drawMap(); currentNpcs().forEach(drawNpc); drawPlayer();
   const tile = getFacingTile();
-  const npc = getNpcAt(tile.x, tile.y);
-  if (npc && !state.dialogue) {
-    ctx.fillStyle = 'rgba(255,255,255,.92)'; ctx.fillRect(tile.x*TILE-12, tile.y*TILE-22, TILE+24, 18);
-    drawText('按 Enter 互动', tile.x*TILE+TILE/2, tile.y*TILE-8, '#4b315f');
+  const targetNpc = getNpcAt(tile.x, tile.y);
+  const targetPortal = getObjectAt(tile.x, tile.y, 'portal');
+  if ((targetNpc || targetPortal) && !state.dialogue) {
+    ctx.fillStyle = 'rgba(255,255,255,.92)'; ctx.fillRect(tile.x*TILE-18, tile.y*TILE-24, TILE+36, 20);
+    drawText(targetPortal ? '互动传送' : '按 Enter 互动', tile.x*TILE+TILE/2, tile.y*TILE-9, '#4b315f');
   }
 }
 let lastMove = 0;
+function move(dx, dy, now = performance.now()) {
+  if (!state.running || state.dialogue || now - lastMove <= 120) return;
+  player.dir = dx > 0 ? 'right' : dx < 0 ? 'left' : dy > 0 ? 'down' : 'up';
+  const nx = player.x + dx, ny = player.y + dy;
+  if (!isBlocked(nx, ny)) { player.x = nx; player.y = ny; }
+  lastMove = now;
+}
 function update(now) {
   if (state.running && !state.dialogue && now - lastMove > 120) {
     let dx = 0, dy = 0;
@@ -236,12 +297,7 @@ function update(now) {
     else if (state.keys.has('ArrowDown') || state.keys.has('s')) dy = 1;
     else if (state.keys.has('ArrowLeft') || state.keys.has('a')) dx = -1;
     else if (state.keys.has('ArrowRight') || state.keys.has('d')) dx = 1;
-    if (dx || dy) {
-      player.dir = dx > 0 ? 'right' : dx < 0 ? 'left' : dy > 0 ? 'down' : 'up';
-      const nx = player.x + dx, ny = player.y + dy;
-      if (!isBlocked(nx, ny)) { player.x = nx; player.y = ny; }
-      lastMove = now;
-    }
+    if (dx || dy) move(dx, dy, now);
   }
   draw(); requestAnimationFrame(update);
 }
@@ -249,6 +305,7 @@ function update(now) {
 function startGame() {
   state.running = true;
   ui.start.classList.add('hidden'); ui.hud.classList.remove('hidden'); ui.questPanel.classList.remove('hidden');
+  if (ui.mobileControls) ui.mobileControls.classList.remove('hidden');
   updateHud();
   openDialogue(storyNodes[0].speaker, storyNodes[0].lines);
 }
@@ -271,5 +328,21 @@ ui.aboutBtn.addEventListener('click', () => { ui.aboutPanel.classList.remove('hi
 ui.closeAbout.addEventListener('click', () => { ui.aboutPanel.classList.add('hidden'); ui.aboutPanel.setAttribute('aria-hidden', 'true'); });
 ui.closeMenu.addEventListener('click', () => toggleMenu(false));
 ui.restartBtn.addEventListener('click', resetGame);
+ui.memoryGrid.addEventListener('click', e => {
+  const button = e.target.closest('[data-map]');
+  if (!button) return;
+  toggleMenu(false); travelTo(button.dataset.map);
+});
+if (ui.mobileControls) {
+  ui.mobileControls.addEventListener('click', e => {
+    const btn = e.target.closest('[data-action], [data-dir]');
+    if (!btn) return;
+    if (btn.dataset.action === 'interact') { if (!advanceDialogue()) interact(); return; }
+    if (btn.dataset.action === 'menu') { toggleMenu(true); return; }
+    const dirs = { up: [0, -1], down: [0, 1], left: [-1, 0], right: [1, 0] };
+    const [dx, dy] = dirs[btn.dataset.dir] || [0, 0];
+    if (dx || dy) move(dx, dy, performance.now() + 121);
+  });
+}
 
 renderQuests(); renderMemoryGrid(); requestAnimationFrame(update);
