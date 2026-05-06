@@ -32,7 +32,7 @@ const ui = {
   restartBtn: document.getElementById('restart-btn'),
 };
 
-const memories = [
+const baseMemories = [
   { id: 'blog', title: '一只小羊羔的窝', icon: '🐑', summary: '博客不是冷冰冰的技术档案，而是技术、生活、二次元审美和柔软情绪一起住着的小窝。', quest: '读完博客门口的欢迎牌' },
   { id: 'works', title: '所作，所为', icon: '🧭', summary: '十五个以上的小项目汇成行动力：MYGallery、AIMBOT、MoodCard、Chromatopoetry、PixelBead、Record-ME……所作，皆为热爱。', quest: '点亮作品集路灯' },
   { id: 'photo', title: '所见，所闻', icon: '📷', summary: '照片墙把开发者从代码里拉回真实生活：街景、光线、旅途、相机和猫猫都在这里留下呼吸。', quest: '修好照片墙的迷你地图' },
@@ -58,7 +58,7 @@ const storyNodes = [
   }
 ];
 
-const npcs = [
+const baseNpcs = [
   { x: 4, y: 4, color: '#ffb7dd', name: '博客门口的小羊', memory: 'blog', lines: ['欢迎来到一只小羊羔的窝。这里不只收技术笔记，也收下班路上的风、项目上线后的开心、以及偶尔冒出来的二次元心动。', '小羊把一枚首页铃铛交给你：记录不是为了显得厉害，是为了让以后回头时还能找到自己。'], gain: { warmth: 2, inspiration: 1 } },
   { x: 9, y: 5, color: '#a8d8ff', name: '作品集路牌', memory: 'works', lines: ['“所作，所为”路牌上贴满了项目卡片：MYGallery、AIMBOT、MoodCard、Chromatopoetry、Toiletime、NewsChronicle-AI、PixelBead、Record-ME……', '它们像一排小店，不一定都很大，但每一家都亮着“我试过了”的灯。'], gain: { warmth: 1, inspiration: 3 } },
   { x: 15, y: 4, color: '#ffe59f', name: '摄影猫猫', memory: 'photo', lines: ['摄影猫猫蹲在照片墙旁边，爪子按着一张带 GPS 的街景。', '“代码能证明你做了什么，照片会提醒你去过哪里。”它把迷你地图重新点亮，城市多了一点真实的呼吸。'], gain: { warmth: 2, inspiration: 1 } },
@@ -72,6 +72,10 @@ const npcs = [
   { x: 10, y: 17, color: '#fff0a6', name: 'F12 小巷彩蛋', memory: 'f12', lines: ['你在小巷墙角按下 F12，发现一行藏起来的注释：<!-- 今天也有认真喜欢这个世界。 -->', '有些心思不必贴在首页。能被发现的人，自然会笑一下。'], gain: { warmth: 3, inspiration: 3 } },
   { x: 27, y: 18, color: '#ffd4a6', name: '屋顶咖啡馆', memory: 'rest', lines: ['屋顶咖啡馆能看见整座城市：博客、作品集、照片墙、AI 工坊、拼豆店和深夜便利店都亮着。', '咖啡师把杯子推过来：“项目制作机也要休息。今天你已经把灯点亮得很好了。”'], gain: { warmth: 5, inspiration: 1 } },
 ];
+
+const extraStory = window.RPG_EXTRA || { memories: [], npcs: [], chapters: [], codex: [] };
+const memories = [...baseMemories, ...extraStory.memories];
+const npcs = [...baseNpcs, ...extraStory.npcs];
 
 const mapObjects = [
   { x: 1, y: 1, w: 28, h: 1, type: 'wall' }, { x: 1, y: 18, w: 28, h: 1, type: 'wall' },
@@ -113,7 +117,7 @@ function renderMemoryGrid() {
   ui.memoryGrid.innerHTML = memories.map(m => {
     const unlocked = state.collected.has(m.id);
     return `<article class="memory-card ${unlocked ? '' : 'locked'}"><h3>${m.icon} ${m.title}</h3><p>${unlocked ? m.summary : '还没有点亮。去城市里和相关的人或物互动吧。'}</p></article>`;
-  }).join('');
+  }).join('') + (extraStory.chapters?.length ? `<article class="memory-card"><h3>📖 长篇脚本</h3><p>已内置 ${extraStory.chapters.length} 幕主线梗概、${extraStory.codex?.length || 0} 条人物/城市札记；全部 NPC 对话与札记合计 1 万字以上，会随着探索逐步展开。</p></article>` : '');
 }
 function openDialogue(speaker, lines, onDone) {
   state.dialogue = { speaker, lines, onDone };
@@ -141,6 +145,10 @@ function collectNpc(npc) {
     state.warmth += npc.gain.warmth;
     state.inspiration += npc.gain.inspiration;
     updateHud();
+    const chapter = extraStory.chapters?.[Math.min(extraStory.chapters.length - 1, Math.floor(state.collected.size / 5))];
+    if (chapter && state.collected.size % 5 === 0) {
+      openDialogue('章节札记', [chapter]);
+    }
     if (state.collected.size === memories.length) showEnding();
   }
 }
