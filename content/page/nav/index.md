@@ -30,11 +30,6 @@ toc: false
 <p class="nav-kicker">Dan_Zai's Little Universe</p>
 <h2>小窝地图</h2>
 <p>博客、作品、画廊、项目和一些通往别处的门，都收在这里。</p>
-<div class="nav-elysia-strip" aria-hidden="true">
-<span style="--nav-thumb: url('/img/nav/elysia-card-1.jpg')"></span>
-<span style="--nav-thumb: url('/img/nav/elysia-card-2.jpg')"></span>
-<span style="--nav-thumb: url('/img/nav/elysia-card-3.jpg')"></span>
-</div>
 <div class="nav-hero-actions">
 <a class="nav-scroll-cue" href="#nav-map" aria-label="向下查看导航"><span>进入导航</span><b>⌄</b></a>
 <a class="nav-ghost-cue" href="/post/">先看文章</a>

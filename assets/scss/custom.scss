@@ -624,7 +624,7 @@ body.template-nav .main {
     position: absolute;
     inset: 0;
     z-index: -3;
-    background-image: url('/img/nav/elysia-hero.jpg');
+    background-image: url('/img/background.jpg');
     background-size: cover;
     background-position: center top;
     transform: scale(1.08);
@@ -707,37 +707,6 @@ body.template-nav .main {
     line-height: 1.8;
 }
 
-.nav-elysia-strip {
-    display: grid;
-    grid-template-columns: repeat(3, 72px);
-    gap: 10px;
-    margin-top: 20px;
-
-    span {
-        display: block;
-        height: 52px;
-        border-radius: 14px;
-        border: 1px solid rgba(255, 255, 255, .44);
-        background: var(--nav-thumb) center / cover;
-        box-shadow: 0 10px 24px rgba(74, 52, 72, .14);
-        transform: rotate(-2deg);
-        transition: transform .25s ease, box-shadow .25s ease;
-
-        &:nth-child(2) {
-            transform: translateY(7px) rotate(2deg);
-        }
-
-        &:nth-child(3) {
-            transform: rotate(-1deg);
-        }
-    }
-}
-
-.nav-landing__content:hover .nav-elysia-strip span {
-    transform: translateY(-2px) rotate(0deg);
-    box-shadow: 0 14px 30px rgba(212, 97, 155, .22);
-}
-
 .nav-hero-actions {
     display: flex;
     flex-wrap: wrap;
@@ -749,42 +718,28 @@ body.template-nav .main {
 .nav-scroll-cue {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-    min-height: 44px;
-    padding: 0 18px;
+    padding: 10px 16px;
     border-radius: 999px;
-    background: linear-gradient(135deg, var(--accent-color), var(--accent-color-darker));
+    background: var(--accent-color);
     color: var(--accent-color-text) !important;
     text-decoration: none !important;
-    line-height: 1;
-    font-weight: 700;
     box-shadow: 0 12px 28px var(--nav-glow);
-    transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
-
-    span {
-        display: inline-flex;
-        align-items: center;
-        line-height: 1;
-    }
+    transition: transform .25s ease, box-shadow .25s ease;
 
     b {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 20px;
-        height: 20px;
-        padding-bottom: 2px;
+        width: 22px;
+        height: 22px;
         border-radius: 50%;
         background: rgba(255,255,255,.22);
-        font-size: 1.25rem;
-        line-height: 1;
         animation: navCue 1.4s ease-in-out infinite;
     }
 
     &:hover {
         transform: translateY(-2px);
-        filter: saturate(1.08);
         box-shadow: 0 16px 34px var(--nav-glow-strong);
     }
 }
@@ -890,8 +845,8 @@ body.template-nav .main {
 
 .nav-feature-card--blog {
     background:
-        linear-gradient(135deg, rgba(255,255,255,.58), rgba(252,228,236,.78)),
-        url('/img/nav/elysia-card-3.jpg') center / cover;
+        linear-gradient(135deg, rgba(255,255,255,.62), rgba(252,228,236,.78)),
+        url('/img/background.jpg') center / cover;
 }
 
 .nav-card-emoji {
@@ -1027,8 +982,8 @@ body.template-nav .main {
 
     .nav-feature-card--blog {
         background:
-            linear-gradient(135deg, rgba(61,43,61,.66), rgba(45,31,45,.82)),
-            url('/img/nav/elysia-card-3.jpg') center / cover;
+            linear-gradient(135deg, rgba(61,43,61,.72), rgba(45,31,45,.82)),
+            url('/img/background.jpg') center / cover;
     }
 }
 
@@ -1107,14 +1062,6 @@ body.template-nav .main {
         min-height: 62vh;
         padding: 18px;
         border-radius: var(--card-border-radius);
-    }
-
-    .nav-elysia-strip {
-        grid-template-columns: repeat(3, 1fr);
-
-        span {
-            height: 46px;
-        }
     }
 
     .nav-landing__content {
