@@ -16,6 +16,7 @@ const ui = {
   closeAbout: document.getElementById('close-about'),
   hud: document.getElementById('hud'),
   questPanel: document.getElementById('quest-panel'),
+  questToggle: document.getElementById('quest-toggle'),
   questList: document.getElementById('quest-list'),
   warmth: document.getElementById('warmth'),
   inspiration: document.getElementById('inspiration'),
@@ -124,6 +125,12 @@ ui.memoryTotal.textContent = memories.length;
 function currentMap() { return maps[state.map] || maps.city; }
 function currentObjects() { return currentMap().objects || []; }
 function currentNpcs() { return npcs.filter(n => (n.map || 'city') === state.map); }
+function isMobileViewport() { return window.matchMedia?.('(max-width: 980px)').matches; }
+function toggleQuestPanel(collapsed = ui.questPanel.classList.contains('quest-collapsed')) {
+  ui.questPanel.classList.toggle('quest-collapsed', collapsed);
+  ui.questToggle?.setAttribute('aria-expanded', String(!collapsed));
+  if (ui.questToggle) ui.questToggle.textContent = collapsed ? '任务簿' : '收起任务';
+}
 function rectsOverlap(a, b) { return a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y; }
 function isBlocked(x, y) {
   if (x < 1 || y < 1 || x >= COLS - 1 || y >= ROWS - 1) return true;
@@ -306,7 +313,9 @@ function update(now) {
 function startGame() {
   state.running = true;
   ui.start.classList.add('hidden'); ui.hud.classList.remove('hidden'); ui.questPanel.classList.remove('hidden');
+  ui.questToggle?.classList.remove('hidden');
   if (ui.mobileControls) ui.mobileControls.classList.remove('hidden');
+  toggleQuestPanel(isMobileViewport());
   updateHud();
   openDialogue(storyNodes[0].speaker, storyNodes[0].lines);
 }
@@ -343,6 +352,10 @@ ui.aboutBtn.addEventListener('click', () => { ui.aboutPanel.classList.remove('hi
 ui.closeAbout.addEventListener('click', () => { ui.aboutPanel.classList.add('hidden'); ui.aboutPanel.setAttribute('aria-hidden', 'true'); });
 ui.closeMenu.addEventListener('click', () => toggleMenu(false));
 ui.restartBtn.addEventListener('click', resetGame);
+ui.questToggle?.addEventListener('click', () => toggleQuestPanel(!ui.questPanel.classList.contains('quest-collapsed')));
+window.matchMedia?.('(max-width: 980px)').addEventListener?.('change', e => {
+  if (state.running) toggleQuestPanel(e.matches);
+});
 ui.memoryGrid.addEventListener('click', e => {
   const actionButton = e.target.closest('[data-action="script"]');
   if (actionButton) { openLongScriptReader(); return; }
