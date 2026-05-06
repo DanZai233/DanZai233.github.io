@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>一只小羊羔的都市小窝 RPG</title>
+  <meta name="description" content="根据 blog.danzaii.cn 与蛋仔个人数字宇宙制作的现代都市温馨治愈 Web RPG。" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main id="game-shell" aria-label="一只小羊羔的都市小窝 RPG">
+    <section id="start-screen" class="overlay-screen">
+      <div class="start-card">
+        <p class="eyebrow">blog.danzaii.cn inspired web RPG</p>
+        <h1>一只小羊羔的都市小窝</h1>
+        <p class="subtitle">现代都市 · 温馨治愈 · 蛋仔的个人数字宇宙</p>
+        <p class="intro">
+          某个下班后的粉色黄昏，城市里的子域名灯牌忽然一盏盏暗下去。
+          为了把散落在博客、作品集、照片墙和创作工具里的记忆重新点亮，蛋仔背上小包，走进了一座由文章和项目长成的城市。
+        </p>
+        <div class="start-actions">
+          <button id="start-btn">开始小冒险</button>
+          <button id="about-btn" class="ghost">游戏设定</button>
+        </div>
+        <p class="hint">移动：WASD / 方向键　互动：Enter / 空格　菜单：M</p>
+      </div>
+    </section>
+
+    <section id="about-panel" class="modal hidden" aria-hidden="true">
+      <div class="modal-card">
+        <button id="close-about" class="close" aria-label="关闭">×</button>
+        <h2>设定来源</h2>
+        <p>这个 RPG 参考了博客「一只小羊羔的窝」中的核心气质：技术创作者、生活记录者、二次元审美、AI 工具搭建、照片与猫猫、温柔但能折腾。</p>
+        <p>游戏内会出现 LUMINA Atelier、Inside-ME、PixelBead、MYGallery、所作所为、云盘备份、F12 彩蛋、爱莉希雅来信、若叶睦的安静切片等博客元素，并串成一个新的治愈故事。</p>
+      </div>
+    </section>
+
+    <section id="hud" class="hidden">
+      <div class="hud-left">
+        <strong>蛋仔</strong>
+        <span id="chapter-label">第 1 章：晚风把灯吹亮</span>
+      </div>
+      <div class="hud-right">
+        <span>温柔 <b id="warmth">0</b></span>
+        <span>灵感 <b id="inspiration">0</b></span>
+        <span>记忆碎片 <b id="memory-count">0</b>/<b id="memory-total">0</b></span>
+      </div>
+    </section>
+
+    <canvas id="game" width="960" height="640"></canvas>
+
+    <aside id="quest-panel" class="hidden">
+      <h2>小窝任务簿</h2>
+      <ul id="quest-list"></ul>
+      <div class="controls">
+        <p><b>移动</b> WASD / 方向键</p>
+        <p><b>互动</b> Enter / 空格</p>
+        <p><b>地图菜单</b> M</p>
+      </div>
+    </aside>
+
+    <section id="dialogue" class="hidden" aria-live="polite">
+      <div class="speaker" id="speaker"></div>
+      <div class="dialogue-text" id="dialogue-text"></div>
+      <div class="dialogue-footer">Enter / 空格继续</div>
+    </section>
+
+    <section id="map-menu" class="modal hidden" aria-hidden="true">
+      <div class="modal-card large">
+        <button id="close-menu" class="close" aria-label="关闭">×</button>
+        <h2>蛋仔的数字宇宙地图</h2>
+        <div id="memory-grid"></div>
+      </div>
+    </section>
+
+    <section id="ending" class="overlay-screen hidden">
+      <div class="start-card ending-card">
+        <p class="eyebrow">Chapter Clear</p>
+        <h1>灯都亮起来了</h1>
+        <p id="ending-text"></p>
+        <button id="restart-btn">再走一遍小窝</button>
+      </div>
+    </section>
+  </main>
+  <script src="./game.js"></script>
+</body>
+</html>
