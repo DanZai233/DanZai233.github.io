@@ -32,6 +32,13 @@ social:
       newTab: true
 
 main:
+  - identifier: nav
+    name: 导航
+    url: /nav/
+    weight: -60
+    params:
+      icon: compass
+
   - identifier: works
     name: 所作，所为
     url: "https://works.danzaii.cn"

@@ -1,0 +1,9 @@
+{{ define "body-class" }}template-nav{{ end }}
+
+{{ define "main" }}
+<main class="nav-standalone" aria-label="小窝地图">
+    {{ .Content }}
+</main>
+
+{{ partialCached "footer/footer" . }}
+{{ end }}
