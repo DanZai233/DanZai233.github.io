@@ -39,6 +39,13 @@ main:
     params:
       icon: compass
 
+  - identifier: rpg
+    name: 小窝RPG
+    url: /rpg/
+    weight: -50
+    params:
+      icon: compass
+
   - identifier: works
     name: 所作，所为
     url: "https://works.danzaii.cn"

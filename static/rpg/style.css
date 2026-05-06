@@ -1,0 +1,64 @@
+:root {
+  --bg: #15131f;
+  --panel: rgba(255, 246, 251, 0.92);
+  --panel-dark: rgba(35, 29, 48, 0.92);
+  --pink: #ff9fcf;
+  --pink-strong: #ff6fad;
+  --lavender: #b8a4ff;
+  --mint: #9ff0dc;
+  --cream: #fff6e8;
+  --ink: #342739;
+  --soft: #76677c;
+  --shadow: 0 24px 80px rgba(26, 16, 38, 0.45);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: radial-gradient(circle at 20% 10%, #4b315f 0, transparent 26%), radial-gradient(circle at 78% 18%, #66364d 0, transparent 28%), linear-gradient(135deg, #11121d, #26182d 50%, #171a2e); color: var(--cream); font-family: "Lato", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; overflow: hidden; }
+body::before { content: ""; position: fixed; inset: 0; pointer-events: none; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 32px 32px; mask-image: radial-gradient(circle at center, black, transparent 78%); }
+button { font: inherit; border: 0; cursor: pointer; }
+#game-shell { position: relative; width: 100vw; height: 100vh; display: grid; place-items: center; padding: 24px; }
+#game { width: min(960px, calc(100vw - 380px)); max-width: calc(100vw - 360px); height: auto; max-height: calc(100vh - 130px); aspect-ratio: 3 / 2; border-radius: 28px; box-shadow: var(--shadow), inset 0 0 0 1px rgba(255,255,255,.16); background: #24253a; image-rendering: pixelated; }
+.hidden { display: none !important; }
+.overlay-screen { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 24px; background: radial-gradient(circle at 50% 28%, rgba(255,159,207,.22), transparent 38%), rgba(14, 11, 22, .78); backdrop-filter: blur(16px); }
+.start-card { width: min(760px, 92vw); padding: 42px; border-radius: 32px; color: var(--ink); background: linear-gradient(145deg, rgba(255,250,253,.96), rgba(255,236,247,.92)); box-shadow: var(--shadow); border: 1px solid rgba(255,255,255,.72); }
+.eyebrow { margin: 0 0 10px; color: var(--pink-strong); text-transform: uppercase; letter-spacing: .16em; font-weight: 800; font-size: 12px; }
+h1 { margin: 0; font-size: clamp(34px, 6vw, 58px); letter-spacing: -.04em; }
+.subtitle { margin: 12px 0 22px; color: #77576d; font-size: 18px; }
+.intro { line-height: 1.9; color: #57415a; font-size: 16px; }
+.start-actions { display: flex; gap: 14px; margin: 30px 0 18px; flex-wrap: wrap; }
+.start-actions button, #restart-btn { padding: 13px 22px; border-radius: 999px; color: white; background: linear-gradient(135deg, var(--pink-strong), var(--lavender)); box-shadow: 0 10px 28px rgba(255, 111, 173, .32); font-weight: 800; }
+.start-actions .ghost { color: var(--ink); background: rgba(255,255,255,.66); box-shadow: inset 0 0 0 1px rgba(255,111,173,.24); }
+.hint { color: #856d82; font-size: 13px; }
+#hud { position: fixed; z-index: 5; left: 24px; right: 24px; top: 18px; display: flex; justify-content: space-between; align-items: center; padding: 14px 18px; border-radius: 20px; background: rgba(26, 22, 38, .72); border: 1px solid rgba(255,255,255,.14); backdrop-filter: blur(16px); box-shadow: 0 14px 34px rgba(0,0,0,.22); }
+.hud-left, .hud-right { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.hud-left strong { color: var(--pink); font-size: 18px; }
+.hud-right span { padding: 7px 10px; border-radius: 999px; background: rgba(255,255,255,.08); }
+.hud-right b { color: var(--mint); }
+#quest-panel { position: fixed; right: 24px; top: 88px; bottom: 24px; width: 300px; z-index: 4; padding: 20px; border-radius: 26px; background: rgba(255, 246, 251, .9); color: var(--ink); border: 1px solid rgba(255,255,255,.75); box-shadow: var(--shadow); backdrop-filter: blur(18px); overflow: auto; }
+#quest-panel h2 { margin: 0 0 14px; font-size: 20px; }
+#quest-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+#quest-list li { padding: 12px; border-radius: 16px; background: rgba(255,255,255,.62); color: var(--soft); border: 1px solid rgba(255,159,207,.18); }
+#quest-list li.done { color: #397267; background: rgba(159,240,220,.28); text-decoration: line-through; }
+.controls { margin-top: 18px; padding-top: 14px; border-top: 1px dashed rgba(255,111,173,.34); color: #7b697d; font-size: 13px; }
+#dialogue { position: fixed; z-index: 10; left: 50%; bottom: 28px; transform: translateX(-50%); width: min(880px, calc(100vw - 56px)); padding: 20px 24px 16px; border-radius: 26px; color: var(--ink); background: linear-gradient(145deg, rgba(255,255,255,.96), rgba(255,239,248,.94)); border: 1px solid rgba(255,255,255,.8); box-shadow: var(--shadow); }
+.speaker { color: var(--pink-strong); font-weight: 900; margin-bottom: 8px; }
+.dialogue-text { line-height: 1.85; min-height: 58px; }
+.dialogue-footer { text-align: right; color: #9b8599; font-size: 12px; margin-top: 8px; }
+.modal { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; padding: 24px; background: rgba(13, 10, 20, .62); backdrop-filter: blur(14px); }
+.modal-card { position: relative; width: min(680px, 92vw); max-height: 86vh; overflow: auto; border-radius: 30px; padding: 34px; background: var(--panel); color: var(--ink); box-shadow: var(--shadow); border: 1px solid rgba(255,255,255,.72); }
+.modal-card.large { width: min(980px, 94vw); }
+.close { position: absolute; right: 18px; top: 14px; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,111,173,.14); color: var(--pink-strong); font-size: 24px; }
+#memory-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 18px; }
+.memory-card { padding: 16px; border-radius: 18px; background: rgba(255,255,255,.64); border: 1px solid rgba(255,159,207,.24); min-height: 120px; }
+.memory-card.locked { filter: grayscale(1); opacity: .5; }
+.memory-card h3 { margin: 0 0 8px; font-size: 16px; color: #44314a; }
+.memory-card p { margin: 0; color: #6d5c6f; line-height: 1.6; font-size: 13px; }
+.ending-card { text-align: center; }
+.ending-card p { line-height: 1.9; color: #57415a; }
+@media (max-width: 980px) {
+  body { overflow: auto; }
+  #game-shell { min-height: 100vh; align-content: start; padding-top: 92px; }
+  #game { width: calc(100vw - 32px); max-width: none; max-height: none; }
+  #quest-panel { position: static; width: calc(100vw - 32px); margin-top: 16px; }
+  #hud { left: 12px; right: 12px; top: 10px; font-size: 13px; }
+}
