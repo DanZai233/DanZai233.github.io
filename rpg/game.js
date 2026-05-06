@@ -164,8 +164,9 @@ function renderMemoryGrid() {
     const where = npc ? `<small>${maps[npc.map || 'city']?.name || '小窝都市'}</small>` : '';
     return `<article class="memory-card ${unlocked ? '' : 'locked'}"><h3>${m.icon} ${m.title}</h3>${where}<p>${unlocked ? m.summary : '还没有点亮。去城市里和相关的人或物互动吧。'}</p></article>`;
   }).join('');
-  const longTextCard = extraStory.chapters?.length ? `<article class="memory-card"><h3>📖 长篇脚本</h3><p>已内置 ${extraStory.chapters.length} 幕主线/后日谈梗概、${extraStory.codex?.length || 0} 条人物/城市札记；全部 NPC 对话与札记合计 1 万字以上，会随着探索逐步展开。</p></article>` : '';
-  ui.memoryGrid.innerHTML = `<div class="map-switcher">${mapButtons}</div>${cards}${longTextCard}`;
+  const longScript = window.RPG_LONG_SCRIPT || { targetChars: 100000, currentChars: 0, arcs: [], scenes: [], notes: [] };
+  const longTextCard = longScript.scenes?.length ? `<article class="memory-card long-script-card"><h3>📚 10w+ 长篇脚本工程</h3><p>目标 ${longScript.targetChars?.toLocaleString?.() || longScript.targetChars} 字；当前已接入约 ${longScript.currentChars?.toLocaleString?.() || longScript.currentChars} 字正文，${longScript.arcs?.length || 0} 个篇章、${longScript.scenes?.length || 0} 个场景。点击“长篇”按钮可阅读已解锁正文。</p></article>` : (extraStory.chapters?.length ? `<article class="memory-card"><h3>📖 长篇脚本</h3><p>已内置 ${extraStory.chapters.length} 幕主线/后日谈梗概、${extraStory.codex?.length || 0} 条人物/城市札记；全部 NPC 对话与札记会随着探索逐步展开。</p></article>` : '');
+  ui.memoryGrid.innerHTML = `<div class="map-switcher">${mapButtons}<button class="map-jump" data-action="script">长篇脚本</button></div>${cards}${longTextCard}`;
 }
 function openDialogue(speaker, lines, onDone) {
   state.dialogue = { speaker, lines, onDone };
@@ -313,6 +314,20 @@ function toggleMenu(show = !ui.mapMenu.classList.contains('hidden')) {
   if (show) { renderMemoryGrid(); ui.mapMenu.classList.remove('hidden'); ui.mapMenu.setAttribute('aria-hidden', 'false'); }
   else { ui.mapMenu.classList.add('hidden'); ui.mapMenu.setAttribute('aria-hidden', 'true'); }
 }
+function openLongScriptReader() {
+  const script = window.RPG_LONG_SCRIPT;
+  if (!script?.scenes?.length) {
+    openDialogue('长篇脚本', ['10w+ 长篇脚本库正在搭建中。先去城市里点亮更多记忆，后续章节会继续接入。']);
+    toggleMenu(false);
+    return;
+  }
+  const unlockedIds = new Set([...state.collected]);
+  const unlockedScenes = script.scenes.filter(scene => !scene.unlock || unlockedIds.has(scene.unlock) || scene.always);
+  const scenes = unlockedScenes.length ? unlockedScenes : script.scenes.filter(scene => scene.always).slice(0, 2);
+  const lines = scenes.flatMap(scene => [`【${scene.arc}｜${scene.title}】`, ...scene.lines]);
+  toggleMenu(false);
+  openDialogue('长篇脚本', lines.slice(0, 80));
+}
 function resetGame() { location.reload(); }
 
 window.addEventListener('keydown', e => {
@@ -329,6 +344,8 @@ ui.closeAbout.addEventListener('click', () => { ui.aboutPanel.classList.add('hid
 ui.closeMenu.addEventListener('click', () => toggleMenu(false));
 ui.restartBtn.addEventListener('click', resetGame);
 ui.memoryGrid.addEventListener('click', e => {
+  const actionButton = e.target.closest('[data-action="script"]');
+  if (actionButton) { openLongScriptReader(); return; }
   const button = e.target.closest('[data-map]');
   if (!button) return;
   toggleMenu(false); travelTo(button.dataset.map);
