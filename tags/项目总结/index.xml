@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目总结 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/</link><description>Recent content in 项目总结 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml"/><item><title>给 danzaii.cn 做一个虚拟形象：蛋仔</title><link>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 给 danzaii.cn 做一个虚拟形象：蛋仔" /&gt;&lt;p&gt;最近我想认真整理一下 &lt;strong&gt;danzaii.cn&lt;/strong&gt; 这个域名背后到底是什么。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目总结 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/</link><description>Recent content in 项目总结 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml"/><item><title>不是拯救世界，只是把自己的小窝点亮</title><link>https://blog.danzaii.cn/p/danzaii-web-rpg-little-home/</link><pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/danzaii-web-rpg-little-home/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 不是拯救世界，只是把自己的小窝点亮" /&gt;&lt;p&gt;一开始，我只是想让自己的博客变得更有趣一点。&lt;/p&gt;
+&lt;p&gt;不是再加一个更复杂的导航页，也不是把项目列表排得更整齐，而是想做一个可以真正「走进去」的入口：打开网页之后，玩家不只是看见博客、作品集、照片墙和 AI 工坊这些链接，而是能操控一个小小的蛋仔，在一座由文章和项目长出来的城市里移动、对话、收集记忆碎片。&lt;/p&gt;
+&lt;p&gt;于是就有了这个小东西：&lt;strong&gt;《一只小羊羔的都市小窝 RPG》&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;它不是那种要拯救世界、打倒魔王、刷装备升级的 RPG。更准确地说，它像一篇可以走动的博客，一封写给自己过去与未来的长信，也像 danzaii.cn 这个个人数字宇宙里突然亮起来的一条小街。&lt;/p&gt;
+&lt;h2 id="一开始只是想让博客有趣一点"&gt;&lt;a href="#%e4%b8%80%e5%bc%80%e5%a7%8b%e5%8f%aa%e6%98%af%e6%83%b3%e8%ae%a9%e5%8d%9a%e5%ae%a2%e6%9c%89%e8%b6%a3%e4%b8%80%e7%82%b9" class="header-anchor"&gt;&lt;/a&gt;一开始只是想让博客有趣一点
+&lt;/h2&gt;&lt;p&gt;个人网站有时候会给我一种很微妙的感觉。&lt;/p&gt;
+&lt;p&gt;它明明是自己做的，也明明放着很多真正属于自己的东西：文章、项目、照片、工具、记录、脑洞、旧情绪。可是当它们被压缩成导航栏、卡片和链接之后，又很容易变得像一份静态简历。&lt;/p&gt;
+&lt;p&gt;博客是博客，作品集是作品集，照片墙是照片墙，AI 生图工具是 AI 生图工具。它们各自成立，但彼此之间好像隔着几条看不见的路。&lt;/p&gt;
+&lt;p&gt;我想做的，是把这些路接起来。&lt;/p&gt;
+&lt;p&gt;所以这个 RPG 的设定很简单：某个下班后的粉色黄昏，城市里的子域名灯牌一盏盏暗下去。为了把散落在博客、作品集、照片墙和创作工具里的记忆重新点亮，蛋仔背上小包，走进了一座由文章和项目长成的城市。&lt;/p&gt;
+&lt;p&gt;这听起来有点中二，但也很适合我。&lt;/p&gt;
+&lt;p&gt;因为 danzaii.cn 本来就不只是一个域名。它更像一个不断长出来的小窝：有技术，有生活，有二次元，有 AI，有照片，有猫猫，也有很多还没来得及好好命名的小项目。&lt;/p&gt;
+&lt;h2 id="把真实生活翻译成游戏地图"&gt;&lt;a href="#%e6%8a%8a%e7%9c%9f%e5%ae%9e%e7%94%9f%e6%b4%bb%e7%bf%bb%e8%af%91%e6%88%90%e6%b8%b8%e6%88%8f%e5%9c%b0%e5%9b%be" class="header-anchor"&gt;&lt;/a&gt;把真实生活翻译成游戏地图
+&lt;/h2&gt;&lt;p&gt;做这个 RPG 的时候，我最喜欢的部分不是写代码，而是把真实站点里的内容重新翻译成游戏地图。&lt;/p&gt;
+&lt;p&gt;比如：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;现实里的站点 / 内容&lt;/th&gt;
+ &lt;th&gt;RPG 里的形态&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;博客「一只小羊羔的窝」&lt;/td&gt;
+ &lt;td&gt;城市入口、欢迎牌和第一张地图&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;作品集「所作，所为」&lt;/td&gt;
+ &lt;td&gt;一条亮着招牌的作品街&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;照片墙「所见，所闻」&lt;/td&gt;
+ &lt;td&gt;会漂移 GPS 标记的照片展馆&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;LUMINA Atelier&lt;/td&gt;
+ &lt;td&gt;想象力工坊，负责参考图、提示词和灵感延续&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Inside-ME / 旧聊天记录&lt;/td&gt;
+ &lt;td&gt;深夜便利店与冰柜里的旧日期&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;PixelBead、MoodCard、Tianji、AIMBOT 等小项目&lt;/td&gt;
+ &lt;td&gt;夜市、小店、巴士、街机和占卜摊&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这样的转换让我觉得很开心。&lt;/p&gt;
+&lt;p&gt;因为很多项目平时如果直接介绍，会显得有点像 README：用了什么技术、实现了什么功能、部署在哪里、还有哪些待优化。但一旦把它们放进 RPG 里，它们就不只是功能，而是变成了性格。&lt;/p&gt;
+&lt;p&gt;作品街的路牌会提醒我：小项目也值得被认真命名。&lt;/p&gt;
+&lt;p&gt;照片墙会提醒我：人不应该只活在代码和屏幕里，现实里的光线、街景、旅途和猫猫也是真实经验的一部分。&lt;/p&gt;
+&lt;p&gt;LUMINA 工坊会提醒我：生成不是孤岛，创作需要连续上下文。失败图不是垃圾，而是下一次灵感的地基。&lt;/p&gt;
+&lt;p&gt;深夜便利店会提醒我：过去那个乱七八糟但没有放弃的自己，也应该被谢谢一下。&lt;/p&gt;
+&lt;p&gt;这些其实都不是标准游戏机制，但它们很适合被做成 RPG。因为 RPG 本来就是一种「把抽象成长变成可探索地图」的形式。&lt;/p&gt;
+&lt;h2 id="这个故事真正想讲的东西"&gt;&lt;a href="#%e8%bf%99%e4%b8%aa%e6%95%85%e4%ba%8b%e7%9c%9f%e6%ad%a3%e6%83%b3%e8%ae%b2%e7%9a%84%e4%b8%9c%e8%a5%bf" class="header-anchor"&gt;&lt;/a&gt;这个故事真正想讲的东西
+&lt;/h2&gt;&lt;p&gt;如果只看玩法，这个 RPG 很轻：移动、互动、对话、打开地图、收集记忆碎片、阅读长篇脚本。&lt;/p&gt;
+&lt;p&gt;但如果看故事，它真正想讲的东西其实是：&lt;strong&gt;不要太快否定自己做过的那些小东西。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;很多时候，我会习惯性地把自己的项目说成「随便做做」。&lt;/p&gt;
+&lt;p&gt;好像只要先把它说轻一点，就不用承担别人期待它很厉害的压力。好像只要自己先开玩笑，就不会被认真评价。可是做这个 RPG 的过程中，我反而一次次被里面的设定提醒：小不等于不重要，未商业化不等于没有价值，不完美也不等于不该被展示。&lt;/p&gt;
+&lt;p&gt;所以故事里有很多这样的主题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;记录不是炫耀，而是给未来的自己留路。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小项目也要被认真命名。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;照片提醒自己真实地去过哪里。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;创作不是一次性抽卡，而是一段连续上下文。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;沉默也有故事，休息也有意义。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;个人网站是允许复杂自我共存的小窝。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;它不是拯救世界的冒险。&lt;/p&gt;
+&lt;p&gt;它更像是把已经走过的路重新接上线，把散落的灯一盏一盏点亮，然后承认：这些东西虽然不完美，但它们确实组成了我。&lt;/p&gt;
+&lt;h2 id="几个我很喜欢的设定"&gt;&lt;a href="#%e5%87%a0%e4%b8%aa%e6%88%91%e5%be%88%e5%96%9c%e6%ac%a2%e7%9a%84%e8%ae%be%e5%ae%9a" class="header-anchor"&gt;&lt;/a&gt;几个我很喜欢的设定
+&lt;/h2&gt;&lt;h3 id="小羊地图"&gt;&lt;a href="#%e5%b0%8f%e7%be%8a%e5%9c%b0%e5%9b%be" class="header-anchor"&gt;&lt;/a&gt;小羊地图
+&lt;/h3&gt;&lt;p&gt;游戏开头，蛋仔会拿到一张地图。&lt;/p&gt;
+&lt;p&gt;但这张地图不画山川河流，而是画子域名、项目名、旧文章标题和一些奇怪但温柔的地标：深夜便利店、旧书店、LUMINA 工坊、猫猫屋顶、旧服务器机房。&lt;/p&gt;
+&lt;p&gt;我很喜欢这个设定，因为它很像个人网站本身。&lt;/p&gt;
+&lt;p&gt;普通地图告诉你去哪里；个人网站的地图则告诉你：这些年你把时间花在了哪里。&lt;/p&gt;
+&lt;h3 id="作品街"&gt;&lt;a href="#%e4%bd%9c%e5%93%81%e8%a1%97" class="header-anchor"&gt;&lt;/a&gt;作品街
+&lt;/h3&gt;&lt;p&gt;作品街对应的是「所作，所为」。&lt;/p&gt;
+&lt;p&gt;这里没有把项目做成奖杯墙，而是做成一间间小店。PixelBead 像手作店，MoodCard 像心情巴士，AIMBOT 像街机厅，LUMINA 像玻璃工坊。&lt;/p&gt;
+&lt;p&gt;这个设定对我来说很重要。因为项目不是简历上的项目名，它们更像一个个生活问题的回答：想记录、想创作、想陪伴、想练习、想分享，于是就做了出来。&lt;/p&gt;
+&lt;h3 id="lumina-想象力工坊"&gt;&lt;a href="#lumina-%e6%83%b3%e8%b1%a1%e5%8a%9b%e5%b7%a5%e5%9d%8a" class="header-anchor"&gt;&lt;/a&gt;LUMINA 想象力工坊
+&lt;/h3&gt;&lt;p&gt;LUMINA Atelier 在 RPG 里是一个很核心的区域。&lt;/p&gt;
+&lt;p&gt;它不只是「AI 生图工具」的拟人化，而是整个站点的想象力接口。参考图、提示词、失败草稿、上下文延续，都被放进了这个工坊里。&lt;/p&gt;
+&lt;p&gt;我尤其喜欢其中一句设定：&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;参考图不是命令，是记忆；提示词不是咒语，是沟通；失败图不是垃圾，是下一轮的地基。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;这句话也很像我最近使用 AI 工具的感受。AI 不是替我拥有灵感，而是在我已经有一点模糊感觉的时候，帮我把它接住、展开、试错，然后继续往前推。&lt;/p&gt;
+&lt;h3 id="猫猫屋顶"&gt;&lt;a href="#%e7%8c%ab%e7%8c%ab%e5%b1%8b%e9%a1%b6" class="header-anchor"&gt;&lt;/a&gt;猫猫屋顶
+&lt;/h3&gt;&lt;p&gt;猫猫屋顶是一个比较轻的设定，但我很喜欢它。&lt;/p&gt;
+&lt;p&gt;因为个人网站如果只有技术和项目，会有一点太紧绷。猫猫、休息、屋顶、风和月光这些东西，会让整个城市有生活感。&lt;/p&gt;
+&lt;p&gt;它提醒我：休息不是暂停人生，也不是拖延进度。很多时候，认真休息本身就是下一章发生的条件。&lt;/p&gt;
+&lt;h3 id="小窝灯会"&gt;&lt;a href="#%e5%b0%8f%e7%aa%9d%e7%81%af%e4%bc%9a" class="header-anchor"&gt;&lt;/a&gt;小窝灯会
+&lt;/h3&gt;&lt;p&gt;最后的「小窝灯会」是所有角色和项目回到广场的地方。&lt;/p&gt;
+&lt;p&gt;这不是一个盛大的终局，更像是给自己办的一场小小庆祝。博客、照片、项目、AI 工坊、旧文章、旧情绪，都不需要互相证明谁更重要。它们只要一起亮着，就已经很好了。&lt;/p&gt;
+&lt;h2 id="这一次ai-也参与了整个创作"&gt;&lt;a href="#%e8%bf%99%e4%b8%80%e6%ac%a1ai-%e4%b9%9f%e5%8f%82%e4%b8%8e%e4%ba%86%e6%95%b4%e4%b8%aa%e5%88%9b%e4%bd%9c" class="header-anchor"&gt;&lt;/a&gt;这一次，AI 也参与了整个创作
+&lt;/h2&gt;&lt;p&gt;这里也想认真说一下：这个 RPG 的完成，很大一部分功劳要给 AI 协作。&lt;/p&gt;
+&lt;p&gt;从一开始的想法整理，到世界观设定、角色口吻、章节大纲、长篇脚本，再到前端实现、移动端适配、任务列表折叠、Hugo 构建验证和 GitHub 推送，基本都是我和 AI 一起完成的。&lt;/p&gt;
+&lt;p&gt;更准确地说，是我给出方向、偏好和站点气质，AI 负责把它们不断落成具体文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据 danzaii.cn 的博客、作品集、照片墙和 AI 工坊，整理出 RPG 世界观；&lt;/li&gt;
+&lt;li&gt;把真实项目改写成地图区域、NPC、任务和记忆碎片；&lt;/li&gt;
+&lt;li&gt;生成并接入超过 &lt;code&gt;10w+&lt;/code&gt; 体量的长篇剧情脚本；&lt;/li&gt;
+&lt;li&gt;实现浏览器可直接运行的 Web RPG；&lt;/li&gt;
+&lt;li&gt;修复移动端任务列表遮挡虚拟按键的问题；&lt;/li&gt;
+&lt;li&gt;添加可折叠任务面板，让手机上也能正常玩；&lt;/li&gt;
+&lt;li&gt;写测试脚本，检查任务按钮、折叠样式和移动端布局；&lt;/li&gt;
+&lt;li&gt;最后完成构建验证并推送到仓库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以这不是一篇「我独自完成了一个小游戏」的记录。&lt;/p&gt;
+&lt;p&gt;它更像是一次很典型的 AI 协作创作：我提供审美、生活经验和判断，AI 提供执行力、扩写能力和工程落地速度。最后长出来的东西，既不是单纯由 AI 随机生成的，也不是传统意义上一个人一点点手写出来的，而是两者来回对齐之后产生的作品。&lt;/p&gt;
+&lt;p&gt;我觉得这点很有意思。&lt;/p&gt;
+&lt;p&gt;以前个人网站可能代表「我会写什么」；现在它也开始代表「我如何和 AI 一起创作」。&lt;/p&gt;
+&lt;h2 id="做完之后的感受"&gt;&lt;a href="#%e5%81%9a%e5%ae%8c%e4%b9%8b%e5%90%8e%e7%9a%84%e6%84%9f%e5%8f%97" class="header-anchor"&gt;&lt;/a&gt;做完之后的感受
+&lt;/h2&gt;&lt;p&gt;做完这个 RPG 之后，我最强烈的感受不是「终于完成了一个游戏」。&lt;/p&gt;
+&lt;p&gt;而是：原来自己的个人网站真的可以有另一种形态。&lt;/p&gt;
+&lt;p&gt;它可以不是一排链接，不是一份静态简历，也不是一叠按时间排序的文章。它可以是一座小城，一条作品街，一个照片展馆，一间深夜便利店，一个想象力工坊，一场只属于自己的灯会。&lt;/p&gt;
+&lt;p&gt;当然，它现在还很轻量。&lt;/p&gt;
+&lt;p&gt;它没有复杂战斗系统，没有装备数值，没有存档大地图，也没有商业游戏那种完整制作规格。但它已经有了我很在意的东西：可以直接在浏览器里打开，可以移动，可以对话，可以阅读，可以收集，也可以把 danzaii.cn 这几年长出来的内容，用一种更柔软的方式串起来。&lt;/p&gt;
+&lt;p&gt;这就够让我喜欢它了。&lt;/p&gt;
+&lt;h2 id="最后"&gt;&lt;a href="#%e6%9c%80%e5%90%8e" class="header-anchor"&gt;&lt;/a&gt;最后
+&lt;/h2&gt;&lt;p&gt;如果你也有一个个人网站，也许可以试着把它想象成一座城市。&lt;/p&gt;
+&lt;p&gt;你的文章可能是一座旧书店，你的项目可能是一条夜市，你的照片可能是一面会发光的墙，你的失败草稿可能是一间还没打烊的便利店。那些看起来零散的东西，也许只是还没有被一张地图连接起来。&lt;/p&gt;
+&lt;p&gt;而对我来说，&lt;strong&gt;《一只小羊羔的都市小窝 RPG》&lt;/strong&gt; 就是这样一张地图。&lt;/p&gt;
+&lt;p&gt;它不是拯救世界，只是把自己的小窝点亮。&lt;/p&gt;
+&lt;p&gt;但有时候，能把自己的小窝点亮，已经是一件很了不起的事了。&lt;/p&gt;
+&lt;p&gt;你可以在这里打开它：&lt;a class="link" href="https://blog.danzaii.cn/rpg/" &gt;/rpg/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>给 danzaii.cn 做一个虚拟形象：蛋仔</title><link>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/danzaii-virtual-persona-danzai/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 给 danzaii.cn 做一个虚拟形象：蛋仔" /&gt;&lt;p&gt;最近我想认真整理一下 &lt;strong&gt;danzaii.cn&lt;/strong&gt; 这个域名背后到底是什么。&lt;/p&gt;
 &lt;p&gt;它好像已经不只是一个博客入口了。博客、作品集、照片墙、AI 生图工作室、拼豆工具、配色工具、占卜应用、瞄准训练器……这些小站散落在不同的子域名里，但它们其实都指向同一个东西：一个属于我的、不断长出来的个人数字宇宙。&lt;/p&gt;
 &lt;p&gt;所以这次我试着给 danzaii.cn 做一个虚拟形象。不是那种很商业的品牌吉祥物，而是一个能代表这个网站气质、也能代表站点所有者创作习惯的角色。&lt;/p&gt;
 &lt;p&gt;她/他叫：&lt;strong&gt;蛋仔&lt;/strong&gt;。&lt;/p&gt;
