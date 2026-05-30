@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/post/</link><description>Recent content in Posts on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>制表符的前世今生：从打字机到代码缩进</title><link>https://blog.danzaii.cn/p/history-of-tab-character/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/history-of-tab-character/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 制表符的前世今生：从打字机到代码缩进" /&gt;&lt;p&gt;键盘左上角有一个很不起眼的键：&lt;strong&gt;Tab&lt;/strong&gt;。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/post/</link><description>Recent content in Posts on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>最近我在做什么：面了么，把面试邀约塞进一个小小 App</title><link>https://blog.danzaii.cn/p/mianleme-interview-tracker/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/mianleme-interview-tracker/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近我在做什么：面了么，把面试邀约塞进一个小小 App" /&gt;&lt;p&gt;这几天又开了一个新坑，名字叫 &lt;strong&gt;面了么&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;听起来有点像一句灵魂拷问：今天面了吗？结果怎么样？下一场几点？会议号在哪？要不要提前十分钟进去试麦？&lt;/p&gt;
+&lt;p&gt;做着做着我发现，这个小问题其实还挺真实的。面试邀请经常散落在邮件、微信、飞书、日历、截图和聊天记录里。每一条信息单独看都不复杂，但到了真正要面试前五分钟，人就会突然开始翻：公司名在哪，岗位是什么，Zoom 链接在哪，腾讯会议号是不是这串数字，时区有没有看错。&lt;/p&gt;
+&lt;p&gt;所以我做了一个把这些东西收拢起来的小工具。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/mianleme-interview-tracker/cover.png"
+	width="647"
+	height="1400"
+	loading="lazy"
+	
+		alt="面了么待进行列表"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="46"
+		data-flex-basis="110px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="面了么是什么"&gt;&lt;a href="#%e9%9d%a2%e4%ba%86%e4%b9%88%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;面了么是什么
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/mianleme" target="_blank" rel="noopener"
+ &gt;DanZai233/mianleme&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;面了么&lt;/strong&gt; 是一个面试日程管理工具。它可以作为 Web 应用部署，也可以通过 Capacitor 打包成 iOS App。&lt;/p&gt;
+&lt;p&gt;核心想法很简单：把面试邀请粘进去，或者选一张截图，让 AI 自动提取这些信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;公司&lt;/li&gt;
+&lt;li&gt;岗位&lt;/li&gt;
+&lt;li&gt;面试时间&lt;/li&gt;
+&lt;li&gt;面试平台&lt;/li&gt;
+&lt;li&gt;会议链接&lt;/li&gt;
+&lt;li&gt;会议号&lt;/li&gt;
+&lt;li&gt;备注和密码&lt;/li&gt;
+&lt;li&gt;预计时长&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后这些信息会变成一条可以管理的面试记录。你可以看待进行列表、切到日历视图、归档历史面试，也可以把它加进系统日历。&lt;/p&gt;
+&lt;p&gt;最开始我只是想做一个“别再找不到会议号”的小工具。结果最近几天一路加功能，慢慢变成了一个比较完整的求职面试小管家。&lt;/p&gt;
+&lt;h2 id="先把面试邀请读懂"&gt;&lt;a href="#%e5%85%88%e6%8a%8a%e9%9d%a2%e8%af%95%e9%82%80%e8%af%b7%e8%af%bb%e6%87%82" class="header-anchor"&gt;&lt;/a&gt;先把面试邀请读懂
+&lt;/h2&gt;&lt;p&gt;这个项目最核心的功能是 &lt;strong&gt;智能识别面试邀请&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;收到一封邮件，或者聊天里 HR 发来一段面试通知，里面可能混着公司、岗位、时间、会议平台、会议链接、会议号、密码和一些注意事项。手动填当然也可以，但体验就很像在做表格。&lt;/p&gt;
+&lt;p&gt;所以我把 AI 识别放在了新增面试的入口里：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以粘贴面试邀请全文；&lt;/li&gt;
+&lt;li&gt;可以上传截图或照片；&lt;/li&gt;
+&lt;li&gt;服务端统一调用自研 AI 服务；&lt;/li&gt;
+&lt;li&gt;前端只拿结构化结果，不暴露模型厂商和 API Key；&lt;/li&gt;
+&lt;li&gt;支持 Google、OpenAI、Anthropic、火山方舟等后端配置；&lt;/li&gt;
+&lt;li&gt;会按用户时区解析时间，避免跨时区面试看错。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这里有个小细节我还挺在意：会议链接和会议号要分开。&lt;/p&gt;
+&lt;p&gt;有些邀请里只有一串会议号，AI 如果把它塞进 link 字段，后面打开会议、生成日历、复制会议号都会变得别扭。所以服务端做了一层结果归一化：像 URL 的放链接，不像 URL 的会议数字就放会议号。&lt;/p&gt;
+&lt;p&gt;这种东西看起来很小，但真用起来会影响安心程度。&lt;/p&gt;
+&lt;h2 id="不只是记录还要帮我准备"&gt;&lt;a href="#%e4%b8%8d%e5%8f%aa%e6%98%af%e8%ae%b0%e5%bd%95%e8%bf%98%e8%a6%81%e5%b8%ae%e6%88%91%e5%87%86%e5%a4%87" class="header-anchor"&gt;&lt;/a&gt;不只是记录，还要帮我准备
+&lt;/h2&gt;&lt;p&gt;做完日程以后，我又往里面塞了一层面试准备流程。&lt;/p&gt;
+&lt;p&gt;每条面试记录现在都有准备清单，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;确认面试时间、平台、会议号和备用联系方式；&lt;/li&gt;
+&lt;li&gt;准备 60 秒自我介绍；&lt;/li&gt;
+&lt;li&gt;挑 2 个最能匹配岗位的项目案例；&lt;/li&gt;
+&lt;li&gt;整理 STAR 故事；&lt;/li&gt;
+&lt;li&gt;准备反问面试官的问题；&lt;/li&gt;
+&lt;li&gt;提前打开会议链接测试麦克风和摄像头。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这部分不是炫技，更多是给自己降噪。面试前真正让人紧张的，经常不是“我完全不会”，而是“我忘了自己该先准备什么”。&lt;/p&gt;
+&lt;p&gt;后来我又加了 AI 面试准备包和跟进模板：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据公司、岗位、阶段、备注生成 Markdown 准备包；&lt;/li&gt;
+&lt;li&gt;生成可能被问的问题、STAR 案例、反问问题和风险补救话术；&lt;/li&gt;
+&lt;li&gt;面试后可以记录结果、复盘和跟进时间；&lt;/li&gt;
+&lt;li&gt;生成感谢信、进度询问和补充说明模板；&lt;/li&gt;
+&lt;li&gt;文档可以继续对话修改，也可以导出 Markdown。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样它就不只是一个“日程表”，而是从收到邀约、准备面试、参加面试，到面后复盘和跟进，都能串起来。&lt;/p&gt;
+&lt;h2 id="web-版跑通再往-ios-里塞"&gt;&lt;a href="#web-%e7%89%88%e8%b7%91%e9%80%9a%e5%86%8d%e5%be%80-ios-%e9%87%8c%e5%a1%9e" class="header-anchor"&gt;&lt;/a&gt;Web 版跑通，再往 iOS 里塞
+&lt;/h2&gt;&lt;p&gt;技术栈这次还是熟悉的那套：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React 19 + TypeScript&lt;/li&gt;
+&lt;li&gt;Vite 6&lt;/li&gt;
+&lt;li&gt;Tailwind CSS v4&lt;/li&gt;
+&lt;li&gt;Express / Vercel Serverless Functions&lt;/li&gt;
+&lt;li&gt;Capacitor iOS&lt;/li&gt;
+&lt;li&gt;Swift 原生插件和 WidgetKit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Web 端先把主要流程跑通：新增面试、AI 识别、列表/日历/历史视图、搜索、提醒、冲突检测、备份导入导出、Google 日历和 &lt;code&gt;.ics&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;然后我开始把它往 iOS 里塞。&lt;/p&gt;
+&lt;p&gt;这一步比普通 PWA 麻烦得多，但也更有意思。最近几次提交基本都在围着 iOS 原生能力打转：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;能力&lt;/th&gt;
+ &lt;th&gt;做了什么&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;原生日历&lt;/td&gt;
+ &lt;td&gt;iOS 内打开系统日历编辑器，不只是下载 &lt;code&gt;.ics&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;本地提醒&lt;/td&gt;
+ &lt;td&gt;根据面试时间和跟进时间同步原生通知&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;分享导入&lt;/td&gt;
+ &lt;td&gt;从系统分享面板把文字/图片丢进 App，再直接识别&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;锁屏小组件&lt;/td&gt;
+ &lt;td&gt;展示下一场面试和待进行面试列表&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Live Activity&lt;/td&gt;
+ &lt;td&gt;在灵动岛/锁屏上同步下一场面试状态&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;通知扩展&lt;/td&gt;
+ &lt;td&gt;通知里显示面试摘要&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;App Store 素材&lt;/td&gt;
+ &lt;td&gt;做了 6.5/6.9 英寸截图、隐私政策、支持页、条款页和上架文案&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这里最有“真的在做 App”感觉的，是小组件和 Live Activity。&lt;/p&gt;
+&lt;p&gt;网页工具做到这一步以后，就不只是浏览器里打开一下的东西了。它开始出现在锁屏、通知、系统分享、日历这些更靠近真实生活的地方。对面试这种强时间敏感的场景来说，这种存在感很重要。&lt;/p&gt;
+&lt;h2 id="为-app-store-审核补上该补的东西"&gt;&lt;a href="#%e4%b8%ba-app-store-%e5%ae%a1%e6%a0%b8%e8%a1%a5%e4%b8%8a%e8%af%a5%e8%a1%a5%e7%9a%84%e4%b8%9c%e8%a5%bf" class="header-anchor"&gt;&lt;/a&gt;为 App Store 审核补上该补的东西
+&lt;/h2&gt;&lt;p&gt;这次我还顺手补了一些以前做个人项目时容易忽略的部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;隐私政策页面；&lt;/li&gt;
+&lt;li&gt;使用条款页面；&lt;/li&gt;
+&lt;li&gt;支持页面；&lt;/li&gt;
+&lt;li&gt;营销落地页；&lt;/li&gt;
+&lt;li&gt;App Store 中文元数据草稿；&lt;/li&gt;
+&lt;li&gt;隐私标签说明；&lt;/li&gt;
+&lt;li&gt;AI 数据共享同意提示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;尤其是 AI 识别这块，我没有让用户在 App 里填 OpenAI、Gemini 之类的第三方 Key，而是统一描述为“面了么自研 AI 服务”。用户只需要知道：他们主动提交的面试文本或图片会发送到服务端用于识别，面试记录默认保存在本地。&lt;/p&gt;
+&lt;p&gt;这算是这次做项目时比较明显的变化。&lt;/p&gt;
+&lt;p&gt;以前我经常会先把功能做爽，至于隐私、说明、审核文案、支持页面这些东西以后再说。但如果真的想把一个工具推到手机上，让别人放心使用，这些“边角料”其实不是边角料。它们是产品能不能被信任的一部分。&lt;/p&gt;
+&lt;h2 id="这几天到底干了什么"&gt;&lt;a href="#%e8%bf%99%e5%87%a0%e5%a4%a9%e5%88%b0%e5%ba%95%e5%b9%b2%e4%ba%86%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;这几天到底干了什么
+&lt;/h2&gt;&lt;p&gt;如果按时间线看，最近几天大概是这样：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先搭了 &lt;strong&gt;面了么&lt;/strong&gt; 的基础应用：React 前端、Express API、本地存储、面试记录模型；&lt;/li&gt;
+&lt;li&gt;接入多模型 AI 服务，让面试邀请可以从文字和截图里自动结构化；&lt;/li&gt;
+&lt;li&gt;适配 Vercel Serverless Functions，修构建、Node 版本和部署细节；&lt;/li&gt;
+&lt;li&gt;补移动端体验：视口、日期解析、会议链接、会议号、时区；&lt;/li&gt;
+&lt;li&gt;加面试复盘、面试准备包、跟进模板和 Markdown 文档编辑；&lt;/li&gt;
+&lt;li&gt;用 Capacitor 配 iOS 工程、图标、启动图和线上 API；&lt;/li&gt;
+&lt;li&gt;写 Swift 原生插件，把日历、提醒、分享、小组件、Live Activity 接起来；&lt;/li&gt;
+&lt;li&gt;做 App Store 截图、隐私政策、条款、支持页和上架信息；&lt;/li&gt;
+&lt;li&gt;最后又补了一层 AI 共享同意、小组件刷新和审核风险处理。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;从提交记录看，5 月 26 日初始化，到 5 月 29 日已经冲到了 iOS 小组件和 Live Activity。这个节奏有点熟悉：一开始只是“做个小工具吧”，三天后已经在处理 App Store 截图和隐私文案了。&lt;/p&gt;
+&lt;p&gt;嗯，很我。&lt;/p&gt;
+&lt;h2 id="做完之后的感受"&gt;&lt;a href="#%e5%81%9a%e5%ae%8c%e4%b9%8b%e5%90%8e%e7%9a%84%e6%84%9f%e5%8f%97" class="header-anchor"&gt;&lt;/a&gt;做完之后的感受
+&lt;/h2&gt;&lt;p&gt;面了么和我之前做的一些工具不太一样。&lt;/p&gt;
+&lt;p&gt;PixelBead 更偏创作，AIMBOT 更偏游戏化训练，LUMINA 更偏想象力和审美。而面了么非常具体：它面对的是一个很现实、很容易焦虑的时刻。&lt;/p&gt;
+&lt;p&gt;求职面试本身已经够消耗人了。工具不应该再制造新的负担。&lt;/p&gt;
+&lt;p&gt;所以我希望它最后呈现出来的感觉是：打开以后不用想太多，把邀请丢进去，确认一下信息，然后知道“下一场面试在哪里、什么时候、要准备什么”。&lt;/p&gt;
+&lt;p&gt;这就够了。&lt;/p&gt;
+&lt;p&gt;也许它不会是我做过最炫的项目，但它是一个很明确地在解决生活问题的小东西。对我来说，这种项目反而很有成就感。&lt;/p&gt;
+&lt;p&gt;项目地址在这里：&lt;a class="link" href="https://github.com/DanZai233/mianleme" target="_blank" rel="noopener"
+ &gt;github.com/DanZai233/mianleme&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如果你也正好在找工作，祝你每一场面试都不再手忙脚乱。更重要的是，祝你拿到想去的 offer。&lt;/p&gt;</description></item><item><title>制表符的前世今生：从打字机到代码缩进</title><link>https://blog.danzaii.cn/p/history-of-tab-character/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/history-of-tab-character/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 制表符的前世今生：从打字机到代码缩进" /&gt;&lt;p&gt;键盘左上角有一个很不起眼的键：&lt;strong&gt;Tab&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;它不像 Enter 那样有仪式感，也不像 Ctrl / Cmd 那样经常参与快捷键组合。很多时候，我们只是用它缩进代码、跳到下一个输入框，或者在终端里补全命令。&lt;/p&gt;
 &lt;p&gt;但这个小小的键，其实有一段很长的历史。它从打字机时代的「制表」需求出发，进入电传打字机和 ASCII 编码，又在终端、编辑器、编程语言和代码风格争论里活到了今天。&lt;/p&gt;
 &lt;p&gt;今天就来聊聊：&lt;strong&gt;制表符的前世今生&lt;/strong&gt;。&lt;/p&gt;
