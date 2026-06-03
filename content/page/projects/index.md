@@ -23,6 +23,22 @@ comments: false
 
 <div class="projects-cards">
 
+<div class="project-card" onclick="window.open('https://genso-geo.danzaii.cn', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">GENSO-GEO 幻想霊脈帖</h3>
+    <p class="project-desc">东方 Project 风格的地缘幻想命名工具，把现实地名与角色设定生成三语名帖、二つ名和符卡式由来。</p>
+    <p class="project-tech">React / Vite / MapLibre / Vercel / AI</p>
+    <div class="project-links">
+      <a href="https://genso-geo.danzaii.cn" target="_blank" rel="noopener">🌐 网站</a>
+      <a href="https://github.com/DanZai233/GENSO-GEO" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="/p/genso-geo-hakurei-leyline/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="/img/posts/genso-geo-preview.svg" alt="GENSO-GEO Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://github.com/DanZai233/Inside-ME', '_blank')">
   <div class="project-info">
     <h3 class="project-title">中之我 Inside-ME</h3>
