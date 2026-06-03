@@ -1,4 +1,185 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>React on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/react/</link><description>Recent content in React on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/react/index.xml" rel="self" type="application/rss+xml"/><item><title>最近我在做什么：面了么，把面试邀约塞进一个小小 App</title><link>https://blog.danzaii.cn/p/mianleme-interview-tracker/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/mianleme-interview-tracker/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近我在做什么：面了么，把面试邀约塞进一个小小 App" /&gt;&lt;p&gt;这几天又开了一个新坑，名字叫 &lt;strong&gt;面了么&lt;/strong&gt;。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>React on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/react/</link><description>Recent content in React on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/react/index.xml" rel="self" type="application/rss+xml"/><item><title>GENSO-GEO：在博丽神社门口，把现实地名折成幻想名帖</title><link>https://blog.danzaii.cn/p/genso-geo-hakurei-leyline/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/genso-geo-hakurei-leyline/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post GENSO-GEO：在博丽神社门口，把现实地名折成幻想名帖" /&gt;&lt;p&gt;最近又做了一个小站，名字叫 &lt;strong&gt;GENSO-GEO / 幻想霊脈帖&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;如果用一句“博丽神社门口的说明”来讲，它大概是这样的：&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;你把现实里的地名或者角色设定交过来，我把它往结界里晃一晃，最后还你一张带着幻想乡味道的名帖。别一直戳按钮，名字总会出来的。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;当然，灵梦真要坐在神社门口收费，可能会先问一句香火钱。不过这个项目是开源的。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/genso-geo-hakurei-leyline/cover.png"
+	width="1200"
+	height="1200"
+	loading="lazy"
+	
+		alt="GENSO-GEO 幻想霊脈帖"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="这是什么"&gt;&lt;a href="#%e8%bf%99%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;这是什么
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;网站：&lt;a class="link" href="https://genso-geo.danzaii.cn" target="_blank" rel="noopener"
+ &gt;genso-geo.danzaii.cn&lt;/a&gt;&lt;br&gt;
+仓库：&lt;a class="link" href="https://github.com/DanZai233/GENSO-GEO" target="_blank" rel="noopener"
+ &gt;DanZai233/GENSO-GEO&lt;/a&gt;&lt;br&gt;
+作品集：&lt;a class="link" href="https://works.danzaii.cn" target="_blank" rel="noopener"
+ &gt;works.danzaii.cn&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;GENSO-GEO&lt;/strong&gt; 是一个东方 Project 风格的地缘幻想命名工具。&lt;/p&gt;
+&lt;p&gt;它有两种主要用法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在地图上点一个现实地点，或者搜索一个地名；&lt;/li&gt;
+&lt;li&gt;输入角色的外貌、性格、背景，让它和一个地理锚点产生“描述共鸣”。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;然后它会生成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中文名；&lt;/li&gt;
+&lt;li&gt;英文名；&lt;/li&gt;
+&lt;li&gt;日文汉字名；&lt;/li&gt;
+&lt;li&gt;罗马音；&lt;/li&gt;
+&lt;li&gt;二つ名 / 角色定位；&lt;/li&gt;
+&lt;li&gt;命名由来；&lt;/li&gt;
+&lt;li&gt;可以收藏和导出的符卡式设定卡。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;它不是为了“替创作者决定角色最终叫什么”，而是给创作一个可以继续打磨的第一稿。很多时候起名最难的不是最后一锤，而是从完全空白走到“好像有点方向”。这个小站想做的就是把这一步变轻一点。&lt;/p&gt;
+&lt;h2 id="为什么是地名"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e6%98%af%e5%9c%b0%e5%90%8d" class="header-anchor"&gt;&lt;/a&gt;为什么是地名
+&lt;/h2&gt;&lt;p&gt;我一直觉得地名很适合拿来做角色设定的起点。&lt;/p&gt;
+&lt;p&gt;一个地方会天然带着很多东西：气候、地貌、历史、语言、建筑、传说、颜色、声音。比如京都和黄山给人的感觉完全不一样，西湖和大峡谷也不可能长出同一种角色气质。&lt;/p&gt;
+&lt;p&gt;所以 GENSO-GEO 没有只做“随机名字生成器”，而是让现实地图成为入口：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击京都，可以往神社、古都、竹林、町屋、山路的方向走；&lt;/li&gt;
+&lt;li&gt;点击西湖，可能会有水、雾、桥、月色和文人气；&lt;/li&gt;
+&lt;li&gt;点击欧洲古堡，气质自然会偏向雾、塔楼、长廊、红茶和旧书；&lt;/li&gt;
+&lt;li&gt;点击北美旷野，名字会带一点外界灵脉和异乡感。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这其实是把“地点”当成创作上下文。AI 生成只是其中一层，真正有趣的是：一个现实坐标会把想象力拉到某个方向上。&lt;/p&gt;
+&lt;h2 id="博丽灵梦式新手引导"&gt;&lt;a href="#%e5%8d%9a%e4%b8%bd%e7%81%b5%e6%a2%a6%e5%bc%8f%e6%96%b0%e6%89%8b%e5%bc%95%e5%af%bc" class="header-anchor"&gt;&lt;/a&gt;博丽灵梦式新手引导
+&lt;/h2&gt;&lt;p&gt;这次我给网站加了一个新手引导。&lt;/p&gt;
+&lt;p&gt;第一次进入时，它会先问你使用什么语言。选完之后，再用一种偏“博丽神社临时说明”的口吻告诉你：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这个网站是做什么的；&lt;/li&gt;
+&lt;li&gt;怎么用地图模式；&lt;/li&gt;
+&lt;li&gt;怎么用描述共鸣；&lt;/li&gt;
+&lt;li&gt;怎么收藏和导出；&lt;/li&gt;
+&lt;li&gt;GitHub、博客、作品集在哪里。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我没有直接使用官方对白，也没有使用官方图片。语气上只是借了神社、结界、巫女、名帖这些意象，让网站的第一眼更像它自己的世界观，而不是普通工具站的“欢迎使用，请阅读说明”。&lt;/p&gt;
+&lt;p&gt;对我来说，这种引导不只是帮助用户知道按钮在哪里。它也是网站气质的一部分。&lt;/p&gt;
+&lt;h2 id="两种生成方式"&gt;&lt;a href="#%e4%b8%a4%e7%a7%8d%e7%94%9f%e6%88%90%e6%96%b9%e5%bc%8f" class="header-anchor"&gt;&lt;/a&gt;两种生成方式
+&lt;/h2&gt;&lt;h3 id="地图灵脉定位"&gt;&lt;a href="#%e5%9c%b0%e5%9b%be%e7%81%b5%e8%84%89%e5%ae%9a%e4%bd%8d" class="header-anchor"&gt;&lt;/a&gt;地图灵脉定位
+&lt;/h3&gt;&lt;p&gt;这是最直觉的模式。&lt;/p&gt;
+&lt;p&gt;你可以在地图上直接点击，也可以用搜索框搜索现实地名。地图会放置一个红色灵脉标记，服务端会根据地名、国家、地理类型和角色风格生成名字。&lt;/p&gt;
+&lt;p&gt;这个模式适合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;想从某个真实地点获得角色灵感；&lt;/li&gt;
+&lt;li&gt;给城市、景点、山水、建筑做拟人化；&lt;/li&gt;
+&lt;li&gt;快速随机探索一组地缘角色。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="描述宿命之契"&gt;&lt;a href="#%e6%8f%8f%e8%bf%b0%e5%ae%bf%e5%91%bd%e4%b9%8b%e5%a5%91" class="header-anchor"&gt;&lt;/a&gt;描述宿命之契
+&lt;/h3&gt;&lt;p&gt;如果你已经有角色设定，就可以切到描述共鸣。&lt;/p&gt;
+&lt;p&gt;比如写：&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;一个住在深山神社、喜欢读古籍、能操纵金色落叶的角色。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;然后再选择一个地理依附范围，比如日本、华夏古原、欧洲古堡、北美旷野。网站会把角色描述和地理气质揉在一起，生成更贴近设定的名字。&lt;/p&gt;
+&lt;p&gt;这个模式适合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;已经有 OC 设定，但名字还没定；&lt;/li&gt;
+&lt;li&gt;想把角色设定本地化到某个地区；&lt;/li&gt;
+&lt;li&gt;想快速得到中文、英文、日文、罗马音四套可参考文本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="少女祈祷中和防连点"&gt;&lt;a href="#%e5%b0%91%e5%a5%b3%e7%a5%88%e7%a5%b7%e4%b8%ad%e5%92%8c%e9%98%b2%e8%bf%9e%e7%82%b9" class="header-anchor"&gt;&lt;/a&gt;“少女祈祷中～”和防连点
+&lt;/h2&gt;&lt;p&gt;AI 生成不是瞬间完成的，尤其是多语言字段比较多、模型偶尔慢的时候。&lt;/p&gt;
+&lt;p&gt;所以我加了一个请求锁：当用户已经选定地点并开始生成后，地图点击、随机生成、搜索结果点选、描述生成都会暂时锁住。界面上会出现一个“少女祈祷中～”的过场，不再让用户误以为没点上，然后连续触发多次请求。&lt;/p&gt;
+&lt;p&gt;这个细节很实用。它既保护后端，也让用户知道结界还在工作。&lt;/p&gt;
+&lt;p&gt;灵梦的提醒大概就是：别连点，结界不是赛马券出票机。&lt;/p&gt;
+&lt;h2 id="后端模型对用户无感"&gt;&lt;a href="#%e5%90%8e%e7%ab%af%e6%a8%a1%e5%9e%8b%e5%af%b9%e7%94%a8%e6%88%b7%e6%97%a0%e6%84%9f" class="header-anchor"&gt;&lt;/a&gt;后端模型对用户无感
+&lt;/h2&gt;&lt;p&gt;这个项目后端支持多种模型供应商：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gemini；&lt;/li&gt;
+&lt;li&gt;火山引擎方舟；&lt;/li&gt;
+&lt;li&gt;其他 OpenAI-compatible 服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但是用户侧完全不显示模型名，也不显示供应商。前端只关心两个 API：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/api/generate-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/api/generate-description-name&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;服务端根据 Vercel 环境变量选择供应商和模型。这样做的好处是：用户体验是稳定的，后端以后换模型、换供应商、调参数，都不需要把这些技术细节丢给用户。&lt;/p&gt;
+&lt;p&gt;我更喜欢这种方式。一个创作工具应该让人感觉自己在调灵感，而不是在调控制台。&lt;/p&gt;
+&lt;h2 id="技术栈"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e6%a0%88" class="header-anchor"&gt;&lt;/a&gt;技术栈
+&lt;/h2&gt;&lt;p&gt;项目结构不复杂：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;层&lt;/th&gt;
+ &lt;th&gt;技术&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;前端&lt;/td&gt;
+ &lt;td&gt;React 19 + TypeScript + Vite&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;样式&lt;/td&gt;
+ &lt;td&gt;Tailwind CSS v4&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;地图&lt;/td&gt;
+ &lt;td&gt;MapLibre + OpenStreetMap / Carto tiles&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;地理搜索&lt;/td&gt;
+ &lt;td&gt;Nominatim&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;后端&lt;/td&gt;
+ &lt;td&gt;Vercel Serverless Functions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;AI 接入&lt;/td&gt;
+ &lt;td&gt;Gemini / Volcengine Ark / OpenAI-compatible&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;收藏&lt;/td&gt;
+ &lt;td&gt;localStorage&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;导出&lt;/td&gt;
+ &lt;td&gt;html2canvas 生成 PNG&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;部署在 Vercel 上，函数执行时间配置到了 300 秒。这样模型慢一点也不至于过早超时。&lt;/p&gt;
+&lt;h2 id="开源以后想怎么继续做"&gt;&lt;a href="#%e5%bc%80%e6%ba%90%e4%bb%a5%e5%90%8e%e6%83%b3%e6%80%8e%e4%b9%88%e7%bb%a7%e7%bb%ad%e5%81%9a" class="header-anchor"&gt;&lt;/a&gt;开源以后想怎么继续做
+&lt;/h2&gt;&lt;p&gt;目前 GENSO-GEO 已经能承担基础的地缘命名和设定卡生成，但我还想继续补几件事：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更完整的地区预设，比如幻想乡风的“地脉语义标签”；&lt;/li&gt;
+&lt;li&gt;更漂亮的导出卡片模板；&lt;/li&gt;
+&lt;li&gt;更细的角色风格控制；&lt;/li&gt;
+&lt;li&gt;一键生成角色小传；&lt;/li&gt;
+&lt;li&gt;更适合手机端的地图和收藏交互；&lt;/li&gt;
+&lt;li&gt;把生成历史做成可分享的名帖页面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个项目最有意思的地方，是它可以继续往“创作辅助工具”和“世界观小玩具”两个方向长。&lt;/p&gt;
+&lt;p&gt;它可以很实用：帮人起名、翻译、生成设定卡。&lt;br&gt;
+它也可以很没用但很好玩：在地图上乱点，看现实世界被结界重新命名。&lt;/p&gt;
+&lt;p&gt;这两种感觉我都喜欢。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;你可以在这里试用：&lt;a class="link" href="https://genso-geo.danzaii.cn" target="_blank" rel="noopener"
+ &gt;genso-geo.danzaii.cn&lt;/a&gt;。&lt;br&gt;
+代码在这里：&lt;a class="link" href="https://github.com/DanZai233/GENSO-GEO" target="_blank" rel="noopener"
+ &gt;github.com/DanZai233/GENSO-GEO&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如果你已经走到神社门口了，就随便点一个地方吧。名字这种东西，有时候真的要从一条路、一片水、一座山开始。&lt;/p&gt;</description></item><item><title>最近我在做什么：面了么，把面试邀约塞进一个小小 App</title><link>https://blog.danzaii.cn/p/mianleme-interview-tracker/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/mianleme-interview-tracker/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近我在做什么：面了么，把面试邀约塞进一个小小 App" /&gt;&lt;p&gt;这几天又开了一个新坑，名字叫 &lt;strong&gt;面了么&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;听起来有点像一句灵魂拷问：今天面了吗？结果怎么样？下一场几点？会议号在哪？要不要提前十分钟进去试麦？&lt;/p&gt;
 &lt;p&gt;做着做着我发现，这个小问题其实还挺真实的。面试邀请经常散落在邮件、微信、飞书、日历、截图和聊天记录里。每一条信息单独看都不复杂，但到了真正要面试前五分钟，人就会突然开始翻：公司名在哪，岗位是什么，Zoom 链接在哪，腾讯会议号是不是这串数字，时区有没有看错。&lt;/p&gt;
 &lt;p&gt;所以我做了一个把这些东西收拢起来的小工具。&lt;/p&gt;
