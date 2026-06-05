@@ -39,6 +39,22 @@ comments: false
   </div>
 </div>
 
+<div class="project-card" onclick="window.open('https://mianleme.vercel.app', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">面了么 Mianleme</h3>
+    <p class="project-desc">面试日程管理工具，支持 AI 识别邀约、日历导入、冲突提醒、准备清单、iOS 小组件和 Live Activity。</p>
+    <p class="project-tech">React / Express / Capacitor / Vercel / AI</p>
+    <div class="project-links">
+      <a href="https://mianleme.vercel.app" target="_blank" rel="noopener">🌐 网站</a>
+      <a href="https://github.com/DanZai233/mianleme" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="/p/mianleme-interview-tracker/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="/img/posts/mianleme-preview.svg" alt="面了么 Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://github.com/DanZai233/Inside-ME', '_blank')">
   <div class="project-info">
     <h3 class="project-title">中之我 Inside-ME</h3>
