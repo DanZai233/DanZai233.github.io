@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Next.js on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/next.js/</link><description>Recent content in Next.js on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/next.js/index.xml" rel="self" type="application/rss+xml"/><item><title>AniDeck：给追番做一个 Apple TV 风格的信息甲板</title><link>https://blog.danzaii.cn/p/anideck-anime-info-deck/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/anideck-anime-info-deck/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post AniDeck：给追番做一个 Apple TV 风格的信息甲板" /&gt;&lt;p&gt;最近又做了一个新项目：&lt;strong&gt;AniDeck&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;它是一个 Apple TV 风格的番剧信息聚合站。简单说，就是把热门番剧、连载中番剧、季度新番、待播作品、角色信息、新闻动态和官方观看入口放进一个海报优先的浏览界面里。&lt;/p&gt;
+&lt;p&gt;线上地址：&lt;a class="link" href="https://anime.danzaii.cn" target="_blank" rel="noopener"
+ &gt;anime.danzaii.cn&lt;/a&gt;&lt;br&gt;
+GitHub：&lt;a class="link" href="https://github.com/DanZai233/AniDeck" target="_blank" rel="noopener"
+ &gt;DanZai233/AniDeck&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/anideck-anime-info-deck/home.jpg"
+	width="1280"
+	height="720"
+	loading="lazy"
+	
+		alt="AniDeck 首页截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="为什么想做-anideck"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e6%83%b3%e5%81%9a-anideck" class="header-anchor"&gt;&lt;/a&gt;为什么想做 AniDeck
+&lt;/h2&gt;&lt;p&gt;我一直觉得追番这件事，其实不只是“找一部动画点进去看”。&lt;/p&gt;
+&lt;p&gt;很多时候，我们会先被一张海报吸引，然后想知道它是什么类型、现在播到哪里、评分怎么样、角色是谁、有没有中文标题、能不能找到官方观看入口，甚至还会顺手去萌娘百科看看角色条目。&lt;/p&gt;
+&lt;p&gt;这些信息分散在不同网站上当然也能查，但体验上总有一点割裂。&lt;/p&gt;
+&lt;p&gt;所以 AniDeck 想做的是一个自己的番剧入口：打开之后先看到一组很有视觉冲击力的海报和横向卡片，再慢慢点进详情页，把作品信息、角色、来源和新闻串起来。&lt;/p&gt;
+&lt;p&gt;不是做一个“资源站”，而是做一个干净的 &lt;strong&gt;Anime information deck&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id="海报优先的浏览体验"&gt;&lt;a href="#%e6%b5%b7%e6%8a%a5%e4%bc%98%e5%85%88%e7%9a%84%e6%b5%8f%e8%a7%88%e4%bd%93%e9%aa%8c" class="header-anchor"&gt;&lt;/a&gt;海报优先的浏览体验
+&lt;/h2&gt;&lt;p&gt;AniDeck 的第一眼是很重要的。&lt;/p&gt;
+&lt;p&gt;这次我没有做传统的表格或列表，而是用了更接近 Apple TV 的视觉语言：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;大幅 hero 轮播；&lt;/li&gt;
+&lt;li&gt;深色背景和海报焦点；&lt;/li&gt;
+&lt;li&gt;横向滚动 rails；&lt;/li&gt;
+&lt;li&gt;评分、年份、状态直接叠在卡片上；&lt;/li&gt;
+&lt;li&gt;详情页用 banner + cover 的电影海报式布局。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;首页现在分了几组：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;分区&lt;/th&gt;
+ &lt;th&gt;内容&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Trending&lt;/td&gt;
+ &lt;td&gt;热门趋势&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;On Air&lt;/td&gt;
+ &lt;td&gt;正在播出&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Season&lt;/td&gt;
+ &lt;td&gt;当季番剧&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Coming&lt;/td&gt;
+ &lt;td&gt;即将开播&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;News&lt;/td&gt;
+ &lt;td&gt;动漫新闻 RSS 聚合&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;最近还加了旋转 hero carousel，让首页不只是静态展示一部作品，而是能在热门作品之间切换。这个改动让站点一下子更像一个真正的“番剧客厅”。&lt;/p&gt;
+&lt;h2 id="详情页不只是一张海报"&gt;&lt;a href="#%e8%af%a6%e6%83%85%e9%a1%b5%e4%b8%8d%e5%8f%aa%e6%98%af%e4%b8%80%e5%bc%a0%e6%b5%b7%e6%8a%a5" class="header-anchor"&gt;&lt;/a&gt;详情页：不只是一张海报
+&lt;/h2&gt;&lt;p&gt;点进详情页之后，AniDeck 会把作品信息展开：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/anideck-anime-info-deck/detail.jpg"
+	width="1280"
+	height="720"
+	loading="lazy"
+	
+		alt="AniDeck 详情页截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这里主要包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中文 / 日文 / 英文三语标题；&lt;/li&gt;
+&lt;li&gt;简介、类型、季度、状态；&lt;/li&gt;
+&lt;li&gt;评分、集数、单集时长、下一集播出时间；&lt;/li&gt;
+&lt;li&gt;角色卡片、声优、AniList 详情链接；&lt;/li&gt;
+&lt;li&gt;萌娘百科搜索入口；&lt;/li&gt;
+&lt;li&gt;官方来源和平台搜索入口；&lt;/li&gt;
+&lt;li&gt;可用时展示逐集 streaming episode 链接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我很喜欢“三语标题”这个设计。&lt;/p&gt;
+&lt;p&gt;因为番剧经常有中文译名、日文原名、英文标题，单独看一个有时会对不上。把三种标题并排放出来之后，查作品时会顺很多，也更适合中文用户浏览海外数据源。&lt;/p&gt;
+&lt;h2 id="数据源拼起来"&gt;&lt;a href="#%e6%95%b0%e6%8d%ae%e6%ba%90%e6%8b%bc%e8%b5%b7%e6%9d%a5" class="header-anchor"&gt;&lt;/a&gt;数据源拼起来
+&lt;/h2&gt;&lt;p&gt;AniDeck 现在主要接了这些公开数据源：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;数据源&lt;/th&gt;
+ &lt;th&gt;用途&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;AniList GraphQL&lt;/td&gt;
+ &lt;td&gt;热门番剧、详情、角色、外部链接、部分播放入口&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Bangumi API&lt;/td&gt;
+ &lt;td&gt;中文标题和中文简介补全&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Moegirl MediaWiki API&lt;/td&gt;
+ &lt;td&gt;作品页和角色条目搜索&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Anime News Network RSS&lt;/td&gt;
+ &lt;td&gt;动漫新闻&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MyAnimeList RSS&lt;/td&gt;
+ &lt;td&gt;动漫新闻&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Jikan / MAL public data&lt;/td&gt;
+ &lt;td&gt;补充外部链接&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这个项目有意思的地方在于：单个数据源都不完美，但拼起来之后体验就完整很多。&lt;/p&gt;
+&lt;p&gt;AniList 的结构化数据很强，适合做主干；Bangumi 对中文标题和中文简介很有帮助；萌娘百科适合查中文社区里的角色条目；RSS 则给首页补了一点“正在发生”的动态。&lt;/p&gt;
+&lt;h2 id="合法来源边界"&gt;&lt;a href="#%e5%90%88%e6%b3%95%e6%9d%a5%e6%ba%90%e8%be%b9%e7%95%8c" class="header-anchor"&gt;&lt;/a&gt;合法来源边界
+&lt;/h2&gt;&lt;p&gt;这个项目我特意把边界写得很清楚：&lt;strong&gt;AniDeck 不做盗版播放，不抓盗版站，不绕登录，不破 DRM，不存视频，也不代理视频文件。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这里所谓的“播放来源”，指的是官方平台页面、公开元数据返回的 source link，或者官方平台搜索页。&lt;/p&gt;
+&lt;p&gt;换句话说，它更像一个入口和索引，而不是播放器。&lt;/p&gt;
+&lt;p&gt;这点对我来说挺重要的。动漫站如果一不小心就很容易滑向“资源聚合”，但 AniDeck 的定位不是这个。它只聚合公开元数据、新闻、百科搜索和官方 / 授权入口。&lt;/p&gt;
+&lt;p&gt;干净一点，也更能长期放着。&lt;/p&gt;
+&lt;h2 id="技术栈"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e6%a0%88" class="header-anchor"&gt;&lt;/a&gt;技术栈
+&lt;/h2&gt;&lt;p&gt;这次技术栈是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Next.js 16 App Router&lt;/li&gt;
+&lt;li&gt;React 19&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Tailwind CSS v4&lt;/li&gt;
+&lt;li&gt;Vercel&lt;/li&gt;
+&lt;li&gt;RSS parser / AniList GraphQL / MediaWiki API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;项目也内置了几个 API route：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;路由&lt;/th&gt;
+ &lt;th&gt;用途&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;/api/anime&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;首页番剧数据和搜索&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;/api/anime/[id]&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;番剧详情&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;/api/news&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;RSS 新闻聚合&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;/api/refresh&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;缓存预热&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;/api/health&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;上游健康检查&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;code&gt;vercel.json&lt;/code&gt; 里也配了每日 refresh cron，用来预热常用数据路径。自己部署的话，也可以用普通 server + PM2 + Nginx，README 里已经写了部署方式。&lt;/p&gt;
+&lt;h2 id="最近这波更新"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e8%bf%99%e6%b3%a2%e6%9b%b4%e6%96%b0" class="header-anchor"&gt;&lt;/a&gt;最近这波更新
+&lt;/h2&gt;&lt;p&gt;从提交记录看，AniDeck 是 6 月 9 日一口气搭起来并打磨了一轮：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;初始化 Next.js 应用；&lt;/li&gt;
+&lt;li&gt;改进角色详情数据源；&lt;/li&gt;
+&lt;li&gt;增加生产健康检查和 SEO 保护；&lt;/li&gt;
+&lt;li&gt;加入旋转 hero carousel；&lt;/li&gt;
+&lt;li&gt;添加站点图标和项目 credits；&lt;/li&gt;
+&lt;li&gt;优化移动端响应式布局；&lt;/li&gt;
+&lt;li&gt;最后完善 README 和仓库元信息。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这很像我最近做项目的节奏：先把 MVP 跑通，然后快速补齐“像一个真实项目”的部分，比如图标、README、健康检查、移动端、部署说明、法律边界。&lt;/p&gt;
+&lt;p&gt;以前可能会觉得这些是边角料，但现在越来越觉得，这些东西其实是在告诉别人：这个项目是可以被认真打开、认真部署、认真继续改的。&lt;/p&gt;
+&lt;h2 id="做完之后"&gt;&lt;a href="#%e5%81%9a%e5%ae%8c%e4%b9%8b%e5%90%8e" class="header-anchor"&gt;&lt;/a&gt;做完之后
+&lt;/h2&gt;&lt;p&gt;AniDeck 目前还很轻，但方向我挺喜欢。&lt;/p&gt;
+&lt;p&gt;它不是一个复杂的社区，也不是要替代任何番剧数据库。它更像一个我自己的追番入口：打开之后先看见漂亮海报，再顺着兴趣点进详情，看看角色，看看新闻，最后去官方入口继续往下走。&lt;/p&gt;
+&lt;p&gt;接下来可以继续加：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户 watchlist；&lt;/li&gt;
+&lt;li&gt;更多地区的官方来源模板；&lt;/li&gt;
+&lt;li&gt;更稳定的缓存层；&lt;/li&gt;
+&lt;li&gt;更完整的 README 截图；&lt;/li&gt;
+&lt;li&gt;甚至做一个轻量配置后台。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不过现在这个版本已经有雏形了。&lt;/p&gt;
+&lt;p&gt;如果你也想自部署一个干净的番剧信息首页，可以看看这个项目：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/DanZai233/AniDeck" target="_blank" rel="noopener"
+ &gt;github.com/DanZai233/AniDeck&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;也可以直接打开在线站点逛一圈：&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://anime.danzaii.cn" target="_blank" rel="noopener"
+ &gt;anime.danzaii.cn&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
