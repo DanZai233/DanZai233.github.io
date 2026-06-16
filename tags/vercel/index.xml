@@ -1,4 +1,204 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/vercel/</link><description>Recent content in Vercel on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>从灵感到上线：我的个人网站部署工作流</title><link>https://blog.danzaii.cn/p/deploy-workflow/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/deploy-workflow/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 从灵感到上线：我的个人网站部署工作流" /&gt;&lt;h2 id="前言"&gt;&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor"&gt;&lt;/a&gt;前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/vercel/</link><description>Recent content in Vercel on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>一言 PRO：把一句话做成一个安静的小站</title><link>https://blog.danzaii.cn/p/hitokoto-vercel/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/hitokoto-vercel/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 一言 PRO：把一句话做成一个安静的小站" /&gt;&lt;p&gt;最近又搞了一个小项目：&lt;strong&gt;一言 PRO&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;它是一个部署在 Vercel 上的随机短句站点，也可以叫 Hitokoto。打开页面，会随机出现一句话，有时是动漫台词，有时是文学摘句，有时是很网生、很日常的一小段话。&lt;/p&gt;
+&lt;p&gt;线上地址：&lt;a class="link" href="https://hitokoto-omega.vercel.app" target="_blank" rel="noopener"
+ &gt;hitokoto-omega.vercel.app&lt;/a&gt;&lt;br&gt;
+GitHub：&lt;a class="link" href="https://github.com/DanZai233/Hitokoto" target="_blank" rel="noopener"
+ &gt;DanZai233/Hitokoto&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/hitokoto-vercel/home.jpg"
+	width="1280"
+	height="720"
+	loading="lazy"
+	
+		alt="一言 PRO 首页截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="它是什么"&gt;&lt;a href="#%e5%ae%83%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;它是什么
+&lt;/h2&gt;&lt;p&gt;一言 PRO 的核心很简单：给你一句话。&lt;/p&gt;
+&lt;p&gt;但我没有把它做成一个只返回 JSON 的接口，而是顺手做成了一个有完整浏览体验的小站。页面里可以切换分类、切换横排和竖排、收藏喜欢的句子、复制和分享、朗读句子，还可以生成适合保存的句子海报。&lt;/p&gt;
+&lt;p&gt;它有一点像一个小小的情绪抽屉。&lt;/p&gt;
+&lt;p&gt;有时候打开网页不是为了查资料，也不是为了完成什么任务，只是想看见一句刚好能落到心里的话。这个项目就是围绕这个瞬间做的：不要太吵，不要太重，最好像一张安静的纸。&lt;/p&gt;
+&lt;h2 id="不是只有随机"&gt;&lt;a href="#%e4%b8%8d%e6%98%af%e5%8f%aa%e6%9c%89%e9%9a%8f%e6%9c%ba" class="header-anchor"&gt;&lt;/a&gt;不是只有随机
+&lt;/h2&gt;&lt;p&gt;这次我给它塞了一些偏审美和日常使用的小功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分类筛选：全部、二次元、文学、哲思、影视、游戏、音乐、网生；&lt;/li&gt;
+&lt;li&gt;横排 / 竖排阅读模式；&lt;/li&gt;
+&lt;li&gt;明暗主题和不同氛围背景；&lt;/li&gt;
+&lt;li&gt;显示时钟，像桌面上的一句话屏保；&lt;/li&gt;
+&lt;li&gt;收藏喜欢的句子；&lt;/li&gt;
+&lt;li&gt;一键复制、分享和朗读；&lt;/li&gt;
+&lt;li&gt;生成不同风格的句子海报；&lt;/li&gt;
+&lt;li&gt;Zen mode，用更沉浸的方式自动播放句子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些功能单独看都不复杂，但放在一起之后，它就不只是一个“一言 API 示例页面”了。&lt;/p&gt;
+&lt;p&gt;我很喜欢现在首页的感觉：中间只有一句话，周围留了很多空白，按钮也尽量收起来。它不是那种信息密度很高的工具，而是一个可以短暂停一下的页面。&lt;/p&gt;
+&lt;h2 id="句库怎么来"&gt;&lt;a href="#%e5%8f%a5%e5%ba%93%e6%80%8e%e4%b9%88%e6%9d%a5" class="header-anchor"&gt;&lt;/a&gt;句库怎么来
+&lt;/h2&gt;&lt;p&gt;这次句库不是空手写几条糊弄过去。&lt;/p&gt;
+&lt;p&gt;项目里现在一共有 &lt;strong&gt;8012&lt;/strong&gt; 条短句，来源分成两部分：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;来源&lt;/th&gt;
+ &lt;th&gt;用途&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;站内原创和手动维护短句&lt;/td&gt;
+ &lt;td&gt;保留自己的句子和整理过的内容&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;hitokoto-osc/sentences-bundle&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;导入公开句子包，过滤为短句并映射到现有分类&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;导入时做了一个长度限制，只保留 &lt;code&gt;length &amp;lt;= 40&lt;/code&gt; 的短句。&lt;/p&gt;
+&lt;p&gt;这个限制挺重要的。因为一言这种东西，太长就不像“一言”了。短一点，反而更像一句突然出现的旁白，适合放在首页、API、签名档、海报或者桌面小组件里。&lt;/p&gt;
+&lt;p&gt;现在分类数量大概是这样：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;分类&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;数量&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;网生&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;2919&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;文学&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;2252&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;二次元&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;1352&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;游戏&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;944&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;哲思&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;261&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;影视&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;168&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;音乐&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;116&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;因为用了第三方句子包，项目里也补了 &lt;code&gt;THIRD_PARTY_NOTICES.md&lt;/code&gt; 和 AGPL-3.0 许可证副本，把来源、commit 和 bundle 版本写清楚。&lt;/p&gt;
+&lt;p&gt;这点我觉得还挺有必要的。小项目也可以随手做得规矩一点，尤其是数据来源和开源许可这种东西，不应该靠“应该没事吧”混过去。&lt;/p&gt;
+&lt;h2 id="开放接口"&gt;&lt;a href="#%e5%bc%80%e6%94%be%e6%8e%a5%e5%8f%a3" class="header-anchor"&gt;&lt;/a&gt;开放接口
+&lt;/h2&gt;&lt;p&gt;除了网页本身，一言 PRO 也提供了公开 API。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/hitokoto-vercel/api-docs.jpg"
+	width="1280"
+	height="720"
+	loading="lazy"
+	
+		alt="一言 PRO 开放接口截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;现在主要是两个用法：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-txt" data-lang="txt"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;GET /api/random
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;GET /api/random?category=literature
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;返回的数据结构大概是：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;local-123&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;text&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;万物皆有裂痕，那是光照进来的地方。&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;author&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;莱昂纳德·科恩&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;category&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;literature&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;createdAt&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1704067200000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这个接口没有鉴权，也加了 CORS，可以直接给别的小项目接。&lt;/p&gt;
+&lt;p&gt;比如之后想给博客页脚、个人主页、浏览器起始页、桌面小组件或者某个 Discord / Telegram Bot 接一句随机短句，都可以直接用这个接口。&lt;/p&gt;
+&lt;h2 id="技术结构"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e7%bb%93%e6%9e%84" class="header-anchor"&gt;&lt;/a&gt;技术结构
+&lt;/h2&gt;&lt;p&gt;这次技术栈是很轻的一套：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React 19&lt;/li&gt;
+&lt;li&gt;Vite 6&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Tailwind CSS v4&lt;/li&gt;
+&lt;li&gt;Vercel Functions&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;api/random.ts&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;静态句库 &lt;code&gt;src/data/corpus.json&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最核心的取舍是：&lt;strong&gt;生产环境不依赖数据库&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;以前项目里还保留了从旧 Firestore 导出句子的脚本，但现在真正部署时，只依赖一份静态句库和一个 Vercel Function。Vercel 构建前端，&lt;code&gt;/api/random&lt;/code&gt; 负责从本地 corpus 里按分类随机抽一句。&lt;/p&gt;
+&lt;p&gt;这个结构很适合一言站。&lt;/p&gt;
+&lt;p&gt;它不需要登录，不需要后台，不需要在线投稿审核，也不需要数据库查询。访问量小的时候省心，访问量大一点也比较容易撑住。句库更新时重新导入、重新部署就行。&lt;/p&gt;
+&lt;p&gt;本地开发时，Vite 里也写了 &lt;code&gt;/api/random&lt;/code&gt; 的中间件，所以本地页面和 Vercel 线上行为基本一致，不用为了调接口单独起一套服务。&lt;/p&gt;
+&lt;h2 id="最近这波做了什么"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e8%bf%99%e6%b3%a2%e5%81%9a%e4%ba%86%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;最近这波做了什么
+&lt;/h2&gt;&lt;p&gt;从提交记录看，这个项目是 6 月 16 日集中推进了一轮：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初始化 Hitokoto 应用结构；&lt;/li&gt;
+&lt;li&gt;移除投稿和管理模块，把项目收敛成更轻的随机短句站；&lt;/li&gt;
+&lt;li&gt;增加 Zen mode 和更多句子展示定制；&lt;/li&gt;
+&lt;li&gt;把随机接口迁移到 Vercel Function；&lt;/li&gt;
+&lt;li&gt;改进 &lt;code&gt;URLSearchParams&lt;/code&gt; 解析，让分类参数更稳；&lt;/li&gt;
+&lt;li&gt;扩充句库并导入 &lt;code&gt;hitokoto-osc/sentences-bundle&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;在首页补 GitHub 和来源链接。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这条路线其实很清楚：先从一个更“全”的产品形态里退一步，拿掉暂时不必要的复杂度，然后把真正想保留的部分做好。&lt;/p&gt;
+&lt;p&gt;我觉得这挺像最近做项目时慢慢形成的习惯。&lt;/p&gt;
+&lt;p&gt;不一定每个项目都要有账号、后台、数据库、审核流和复杂权限。有时候项目最舒服的状态，就是它只做一件事，然后把这件事做得干净一点。&lt;/p&gt;
+&lt;h2 id="做完之后"&gt;&lt;a href="#%e5%81%9a%e5%ae%8c%e4%b9%8b%e5%90%8e" class="header-anchor"&gt;&lt;/a&gt;做完之后
+&lt;/h2&gt;&lt;p&gt;一言 PRO 对我来说不是一个很大的项目，但它很适合长期放着。&lt;/p&gt;
+&lt;p&gt;它可以作为一个独立小站，也可以作为别的项目的内容组件。今天可能只是随机看一句话，以后也许可以继续扩展成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;博客侧边栏的一言组件；&lt;/li&gt;
+&lt;li&gt;浏览器新标签页；&lt;/li&gt;
+&lt;li&gt;手机桌面小组件；&lt;/li&gt;
+&lt;li&gt;每日句子订阅；&lt;/li&gt;
+&lt;li&gt;更漂亮的句子海报生成器；&lt;/li&gt;
+&lt;li&gt;给其他应用提供公共短句 API。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种项目有一种很轻的陪伴感。&lt;/p&gt;
+&lt;p&gt;它不是为了催你完成什么，也不是为了把你留在页面里很久。它只是安静地给你一句话，然后让你自己决定要不要继续往下走。&lt;/p&gt;
+&lt;p&gt;我还挺喜欢这种感觉的。&lt;/p&gt;
+&lt;p&gt;项目地址在这里：&lt;a class="link" href="https://github.com/DanZai233/Hitokoto" target="_blank" rel="noopener"
+ &gt;github.com/DanZai233/Hitokoto&lt;/a&gt;。&lt;br&gt;
+也可以直接打开线上站点：&lt;a class="link" href="https://hitokoto-omega.vercel.app" target="_blank" rel="noopener"
+ &gt;hitokoto-omega.vercel.app&lt;/a&gt;。&lt;/p&gt;</description></item><item><title>从灵感到上线：我的个人网站部署工作流</title><link>https://blog.danzaii.cn/p/deploy-workflow/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/deploy-workflow/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 从灵感到上线：我的个人网站部署工作流" /&gt;&lt;h2 id="前言"&gt;&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor"&gt;&lt;/a&gt;前言
 &lt;/h2&gt;&lt;p&gt;经常有人问我：&amp;ldquo;怎么快速实现一个创意想法，然后把它部署成一个可以访问的网站？&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;今天就来分享一下我的完整工作流，从灵感到上线的全流程。这个工作流不仅高效，而且大部分工具都是免费的，非常适合个人开发者快速验证想法。&lt;/p&gt;
 &lt;hr&gt;
