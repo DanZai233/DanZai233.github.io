@@ -23,6 +23,22 @@ comments: false
 
 <div class="projects-cards">
 
+<div class="project-card" onclick="window.open('https://hitokoto-omega.vercel.app', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">一言 PRO (Hitokoto)</h3>
+    <p class="project-desc">极简随机短句站点，把 8000+ 条短句、分类句库、开放 API、海报生成和沉浸式阅读收进一张安静的纸。</p>
+    <p class="project-tech">React / Vite / Vercel Functions / API</p>
+    <div class="project-links">
+      <a href="https://hitokoto-omega.vercel.app" target="_blank" rel="noopener">🌐 网站</a>
+      <a href="https://github.com/DanZai233/Hitokoto" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="/p/hitokoto-vercel/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="/p/hitokoto-vercel/home.jpg" alt="一言 PRO Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://genso-geo.danzaii.cn', '_blank')">
   <div class="project-info">
     <h3 class="project-title">GENSO-GEO 幻想霊脈帖</h3>
