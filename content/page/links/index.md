@@ -11,6 +11,10 @@ links:
     description: 一个喜欢乱搞却啥也不精通的人
     website: https://blog.drxian.cn
     image: http://q.qlogo.cn/headimg_dl?dst_uin=3233353454&spec=640&img_type=jpg
+  - title: 云灿の随笔小站
+    description: 浮云一别后，流水十年间
+    website: https://blog.yuncan.xyz
+    image: https://blog.yuncan.xyz/assets/logo-yuncan.png
 menu:
     main:
         weight: -40
