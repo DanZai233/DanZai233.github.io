@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SSH on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ssh/</link><description>Recent content in SSH on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ssh/index.xml" rel="self" type="application/rss+xml"/><item><title>一次云服务器失联：不是 SSH 坏了，是 UEFI 忘了 Debian</title><link>https://blog.danzaii.cn/p/cloud-server-uefi-bootorder-incident/</link><pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/cloud-server-uefi-bootorder-incident/</guid><description>&lt;p&gt;今天遇到了一次挺有意思，也挺吓人的云服务器事故。&lt;/p&gt;
+&lt;p&gt;前一段时间我在服务器上部署一个 AI 客服系统。这个系统本身比较吃资源，大模型、向量库、后台服务、数据库、反向代理，几个东西叠在一起之后，内存压力一下就上来了。后来服务器疑似因为 OOM 卡死，我在火山引擎控制台里强制重启了一次。&lt;/p&gt;
+&lt;p&gt;结果重启之后，SSH 怎么都连不上。&lt;/p&gt;
+&lt;p&gt;一开始我以为是普通的网络问题，或者 sshd 没起来。真正排完之后才发现，事情比“SSH 挂了”更底层一点：系统盘和 EFI 分区都还在，Debian 的引导文件也还在，但 UEFI 固件的启动顺序里没有 Debian 启动项了。机器启动时找不到默认系统，于是直接掉进了 UEFI Boot Manager。&lt;/p&gt;
+&lt;h2 id="事故经过"&gt;&lt;a href="#%e4%ba%8b%e6%95%85%e7%bb%8f%e8%bf%87" class="header-anchor"&gt;&lt;/a&gt;事故经过
+&lt;/h2&gt;&lt;p&gt;这次事故的时间线大概是这样：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;时间&lt;/th&gt;
+ &lt;th&gt;发生了什么&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;之前&lt;/td&gt;
+ &lt;td&gt;在服务器上部署 AI 客服系统，资源占用变高，疑似触发 OOM&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;之后&lt;/td&gt;
+ &lt;td&gt;服务器无响应，于是在控制台强制重启&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;重启后&lt;/td&gt;
+ &lt;td&gt;SSH 一直连接不上&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;提交工单后&lt;/td&gt;
+ &lt;td&gt;技术支持询问 VNC 是否能登录&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;VNC 进入后&lt;/td&gt;
+ &lt;td&gt;看到的不是正常系统登录界面，而是 UEFI / OpenStack 相关启动界面&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;工程师排查后&lt;/td&gt;
+ &lt;td&gt;发现 UEFI BootOrder 没有 Debian 启动项&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;修复后&lt;/td&gt;
+ &lt;td&gt;手动进入 EFI 引导，并把 Debian 的 &lt;code&gt;shimx64.efi&lt;/code&gt; 恢复为首选启动项，服务器恢复正常&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;最开始我在 VNC 里看到 OpenStack / UEFI 的界面时其实有点懵。&lt;/p&gt;
+&lt;p&gt;平时连服务器都是直接 SSH，最多也就是看一下控制台监控，很少真的通过 VNC 面对一台云主机的“屏幕”。云服务器一旦掉到这个层面，就很像你远程摸到了一台没有键盘的电脑：系统明明可能还在盘里，但它就是不知道该从哪里启动。&lt;/p&gt;
+&lt;h2 id="最终原因"&gt;&lt;a href="#%e6%9c%80%e7%bb%88%e5%8e%9f%e5%9b%a0" class="header-anchor"&gt;&lt;/a&gt;最终原因
+&lt;/h2&gt;&lt;p&gt;火山引擎技术支持给出的结论是：&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;云主机 UEFI 启动项异常。系统盘及 EFI 分区本身正常，Debian 的引导文件仍存在，例如 &lt;code&gt;/EFI/debian/shimx64.efi&lt;/code&gt;、&lt;code&gt;/EFI/debian/grubx64.efi&lt;/code&gt; 等，但 UEFI 固件的 &lt;code&gt;BootOrder&lt;/code&gt; 中未包含 Debian 启动项，导致实例启动时无法自动加载系统，而是进入 UEFI Boot Manager。通过手动进入 EFI 引导并恢复启动项，将 Debian &lt;code&gt;shimx64.efi&lt;/code&gt; 调整为首选启动项后，实例恢复正常启动。&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;换句话说，这不是磁盘被删了，也不是 Debian 系统文件没了，更不是单纯的 SSH 配置坏了。&lt;/p&gt;
+&lt;p&gt;真正的问题在启动链路：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;云主机开机
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; -&amp;gt; UEFI 固件读取 BootOrder
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; -&amp;gt; 找不到 Debian 启动项
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; -&amp;gt; 进入 UEFI Boot Manager
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; -&amp;gt; 系统没有正常启动
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; -&amp;gt; sshd 自然也不会起来
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; -&amp;gt; SSH 连接失败
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这里有个容易误判的点：我前面确实怀疑过 OOM，但 OOM 更像是这次事故的前因，或者说是让我去强制重启服务器的诱因。最终导致 SSH 连不上的直接原因，是 UEFI 启动项异常。&lt;/p&gt;
+&lt;p&gt;这两个事情不能简单画等号。&lt;/p&gt;
+&lt;p&gt;OOM 可能让系统卡死，也可能让服务被杀掉，还可能导致应用数据来不及落盘。但“UEFI BootOrder 里 Debian 启动项丢失”属于更底层的启动配置问题，不能只靠一句“内存爆了”解释完。真实的事故往往就是这样：你看到的是 A，动手处理了 B，最后坏在 C。&lt;/p&gt;
+&lt;h2 id="为什么-ssh-排不上用场"&gt;&lt;a href="#%e4%b8%ba%e4%bb%80%e4%b9%88-ssh-%e6%8e%92%e4%b8%8d%e4%b8%8a%e7%94%a8%e5%9c%ba" class="header-anchor"&gt;&lt;/a&gt;为什么 SSH 排不上用场
+&lt;/h2&gt;&lt;p&gt;这次最有教育意义的一点是：当系统没有真正启动时，SSH 是没有意义的。&lt;/p&gt;
+&lt;p&gt;平时 SSH 连不上，我们很容易从这些方向想：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安全组是不是没放行 22 端口；&lt;/li&gt;
+&lt;li&gt;公网 IP 是不是变了；&lt;/li&gt;
+&lt;li&gt;密钥是不是错了；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sshd&lt;/code&gt; 服务是不是挂了；&lt;/li&gt;
+&lt;li&gt;防火墙是不是把自己锁外面了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些排查都没错，但它们默认有一个前提：操作系统已经启动，并且网络栈和服务管理器至少跑起来了。&lt;/p&gt;
+&lt;p&gt;而我这次的问题在这个前提之前。&lt;/p&gt;
+&lt;p&gt;机器连 Debian 都没进入，当然不会有 &lt;code&gt;systemd&lt;/code&gt;，不会有网卡初始化，也不会有 sshd。这个时候继续纠结 SSH 报错，意义就不大了，必须去看云厂商控制台里的 VNC、串口日志、启动截图或者救援模式。&lt;/p&gt;
+&lt;h2 id="如果自己排查我会先看什么"&gt;&lt;a href="#%e5%a6%82%e6%9e%9c%e8%87%aa%e5%b7%b1%e6%8e%92%e6%9f%a5%e6%88%91%e4%bc%9a%e5%85%88%e7%9c%8b%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;如果自己排查，我会先看什么
+&lt;/h2&gt;&lt;p&gt;这次是技术支持帮我恢复了启动项。如果下次需要自己判断，我会按这个顺序看。&lt;/p&gt;
+&lt;h3 id="1-先确认系统有没有真的启动"&gt;&lt;a href="#1-%e5%85%88%e7%a1%ae%e8%ae%a4%e7%b3%bb%e7%bb%9f%e6%9c%89%e6%b2%a1%e6%9c%89%e7%9c%9f%e7%9a%84%e5%90%af%e5%8a%a8" class="header-anchor"&gt;&lt;/a&gt;1. 先确认系统有没有真的启动
+&lt;/h3&gt;&lt;p&gt;如果 SSH 失败，先不要急着改安全组，可以先看：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;云监控里 CPU、内存、磁盘 IO 有没有启动后的波动；&lt;/li&gt;
+&lt;li&gt;控制台 VNC 里是不是登录界面；&lt;/li&gt;
+&lt;li&gt;串口日志里有没有 Linux kernel、systemd、network 相关输出；&lt;/li&gt;
+&lt;li&gt;是否直接进入了 BIOS、UEFI Boot Manager、PXE、grub rescue 之类的界面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果 VNC 里已经是 UEFI Boot Manager，那 SSH 这一层基本可以先放下。&lt;/p&gt;
+&lt;h3 id="2-进入系统后检查启动项"&gt;&lt;a href="#2-%e8%bf%9b%e5%85%a5%e7%b3%bb%e7%bb%9f%e5%90%8e%e6%a3%80%e6%9f%a5%e5%90%af%e5%8a%a8%e9%a1%b9" class="header-anchor"&gt;&lt;/a&gt;2. 进入系统后检查启动项
+&lt;/h3&gt;&lt;p&gt;恢复进入系统之后，可以用 &lt;code&gt;efibootmgr&lt;/code&gt; 看 UEFI 启动项：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo efibootmgr -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;正常情况下，应该能看到类似 Debian 的启动项，并且 &lt;code&gt;BootOrder&lt;/code&gt; 里包含它：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;BootCurrent: 0003
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;BootOrder: 0003,0001,0000
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Boot0003* debian HD(...) File(\EFI\debian\shimx64.efi)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;还可以看 EFI 分区里的文件是否存在：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ls -R /boot/efi/EFI/debian
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果 Debian 引导文件还在，但启动项没了，就可以考虑重新创建启动项。不过这一步要非常小心，因为磁盘名和 EFI 分区编号每台机器都可能不一样。&lt;/p&gt;
+&lt;p&gt;示例命令大概长这样：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo efibootmgr -c -d /dev/vda -p &lt;span class="m"&gt;1&lt;/span&gt; -L &lt;span class="s2"&gt;&amp;#34;debian&amp;#34;&lt;/span&gt; -l &lt;span class="s1"&gt;&amp;#39;\EFI\debian\shimx64.efi&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这里的 &lt;code&gt;/dev/vda&lt;/code&gt; 和 &lt;code&gt;-p 1&lt;/code&gt; 只是示例，真正执行前一定要用 &lt;code&gt;lsblk -f&lt;/code&gt;、&lt;code&gt;blkid&lt;/code&gt; 或云厂商文档确认 EFI 分区是哪一个。设置错了，可能会让启动问题变得更麻烦。&lt;/p&gt;
+&lt;h3 id="3-再回头查-oom"&gt;&lt;a href="#3-%e5%86%8d%e5%9b%9e%e5%a4%b4%e6%9f%a5-oom" class="header-anchor"&gt;&lt;/a&gt;3. 再回头查 OOM
+&lt;/h3&gt;&lt;p&gt;系统恢复之后，再查疑似 OOM 的证据：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;free -h
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;journalctl -k -b -1 &lt;span class="p"&gt;|&lt;/span&gt; grep -i -E &lt;span class="s2"&gt;&amp;#34;out of memory|oom|killed process&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;journalctl -p warning..alert -b -1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;last -x &lt;span class="p"&gt;|&lt;/span&gt; head
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果是 Docker 或者 Docker Compose 部署的 AI 服务，还应该看容器日志和退出原因：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;docker ps -a
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;docker inspect &amp;lt;container&amp;gt; --format &lt;span class="s1"&gt;&amp;#39;{{.State.OOMKilled}}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;docker logs --tail&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;200&lt;/span&gt; &amp;lt;container&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;有了这些证据，才能判断到底是整个系统内存耗尽，还是某个容器被 cgroup 限制杀掉，或者只是应用自己崩了。&lt;/p&gt;
+&lt;h2 id="这次给我的提醒"&gt;&lt;a href="#%e8%bf%99%e6%ac%a1%e7%bb%99%e6%88%91%e7%9a%84%e6%8f%90%e9%86%92" class="header-anchor"&gt;&lt;/a&gt;这次给我的提醒
+&lt;/h2&gt;&lt;p&gt;这次恢复得还算顺利，但也提醒了我几件事。&lt;/p&gt;
+&lt;p&gt;第一，云服务器也要当成真实机器看待。&lt;/p&gt;
+&lt;p&gt;平时我们会觉得云主机就是一个 IP、一个 SSH、几个面板按钮。但它底层依然有启动固件、系统盘、EFI 分区、引导文件、启动顺序。出问题时，不一定都发生在 Linux 里面，有时候问题发生在 Linux 启动之前。&lt;/p&gt;
+&lt;p&gt;第二，强制重启不是没有代价。&lt;/p&gt;
+&lt;p&gt;服务器卡死时，强制重启确实是最直接的办法。但如果机器正在写盘、正在更新内核、正在改引导、正在调整系统包，就可能留下更奇怪的状态。下次遇到类似情况，我会先看控制台监控、尝试软重启、确认是否能通过 VNC 看到系统状态，再决定是否强制操作。&lt;/p&gt;
+&lt;p&gt;第三，快照真的要提前做。&lt;/p&gt;
+&lt;p&gt;技术支持在申请授权前也提醒了：排查前最好先对云盘做快照。这个提醒很重要。因为启动项问题本身可能不难修，但只要涉及系统盘、EFI、引导修复，就应该先有回滚点。&lt;/p&gt;
+&lt;p&gt;第四，AI 服务部署要给内存留余量。&lt;/p&gt;
+&lt;p&gt;AI 客服这类系统很容易不知不觉吃掉很多资源。模型服务、Node / Python 后端、数据库、向量检索、浏览器自动化、日志系统，每个看起来都不夸张，叠起来就很可观。&lt;/p&gt;
+&lt;p&gt;后面我会更倾向于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;给机器加 swap，至少避免瞬间内存压力直接把系统打死；&lt;/li&gt;
+&lt;li&gt;给 Docker 容器设置合理的内存上限；&lt;/li&gt;
+&lt;li&gt;把数据库、向量库、模型服务分开观察；&lt;/li&gt;
+&lt;li&gt;部署前用 &lt;code&gt;htop&lt;/code&gt;、&lt;code&gt;docker stats&lt;/code&gt;、云监控看一轮资源曲线；&lt;/li&gt;
+&lt;li&gt;对关键服务加自动重启，但不要让它无限重启制造更高压力；&lt;/li&gt;
+&lt;li&gt;在上线前先准备好快照和回滚方案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="可以沉淀成一张检查表"&gt;&lt;a href="#%e5%8f%af%e4%bb%a5%e6%b2%89%e6%b7%80%e6%88%90%e4%b8%80%e5%bc%a0%e6%a3%80%e6%9f%a5%e8%a1%a8" class="header-anchor"&gt;&lt;/a&gt;可以沉淀成一张检查表
+&lt;/h2&gt;&lt;p&gt;以后如果再遇到“云服务器强制重启后 SSH 连不上”，我会按这个检查表走：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. 看云控制台实例状态：是否运行中，是否有异常事件
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. 看安全组和公网 IP：确认 SSH 入口没被改掉
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. 打开 VNC / 串口：确认是不是进入系统登录界面
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. 如果进入 UEFI / BIOS：优先检查启动项和 EFI 引导
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. 如果进入 grub rescue：检查 grub 配置、分区 UUID、内核文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. 如果系统启动但 SSH 不通：再查 sshd、防火墙、网络配置
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;7. 恢复后立刻补快照，查 OOM、磁盘、日志和应用资源占用
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这张表的关键点只有一个：先判断问题发生在哪一层。&lt;/p&gt;
+&lt;p&gt;不要一上来就把所有 SSH 失败都当成网络问题。也不要看到 OOM，就默认后面的所有异常都是 OOM 直接造成的。排障最怕的是把相关性当成因果关系，然后一路查偏。&lt;/p&gt;
+&lt;h2 id="最后"&gt;&lt;a href="#%e6%9c%80%e5%90%8e" class="header-anchor"&gt;&lt;/a&gt;最后
+&lt;/h2&gt;&lt;p&gt;这次事故最后的结论很朴素：&lt;/p&gt;
+&lt;p&gt;服务器不是没了，系统盘也没坏，只是 UEFI 启动顺序里没有 Debian 了。&lt;/p&gt;
+&lt;p&gt;但它带来的提醒一点也不小。对个人开发者来说，部署一个 AI 应用已经越来越容易，几个命令、一个 Docker Compose、一个反向代理，很快就能把东西跑起来。可是当它真正跑在一台云服务器上时，系统资源、启动链路、快照、救援入口、日志证据，这些基础设施层面的东西还是绕不开。&lt;/p&gt;
+&lt;p&gt;以后再部署吃资源的服务，我大概会先多做一步：别只想着“跑起来”，也要想想“挂了以后怎么救回来”。&lt;/p&gt;
+&lt;p&gt;这次算是被云服务器认真上了一课。&lt;/p&gt;</description></item></channel></rss>
