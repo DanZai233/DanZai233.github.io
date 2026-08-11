@@ -23,6 +23,38 @@ comments: false
 
 <div class="projects-cards">
 
+
+<div class="project-card" onclick="window.open('https://muse.danzaii.cn', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">声创 Aicho Muse</h3>
+    <p class="project-desc">AI 创作伴侣，通过语音或打字与自定义人设的 AI 缪斯对话，在聊天中完成小说、散文、诗歌等文学创作，支持多人协作、角色关系图和 Fish Audio 语音。</p>
+    <p class="project-tech">React / Express / Docker / MySQL / AI / Web Speech</p>
+    <div class="project-links">
+      <a href="https://muse.danzaii.cn" target="_blank" rel="noopener">🌐 网站</a>
+      <a href="https://github.com/DanZai233/aicho-muse" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="/p/recent-projects-aug-2026/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="https://raw.githubusercontent.com/DanZai233/aicho-muse/main/docs/promotion/screenshots/10-home.png" alt="Aicho Muse Preview" />
+  </div>
+</div>
+
+<div class="project-card" onclick="window.open('https://github.com/DanZai233/tiny-farm', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">小小山谷农场 (Tiny Valley Farm)</h3>
+    <p class="project-desc">纯 Canvas 2D 种田游戏，零依赖即开即玩。包含 NPC 托管、四季天气、周末集市、果酱工坊、年末评价等完整经营循环，支持 Chrome 扩展和离线结算。</p>
+    <p class="project-tech">JavaScript / Canvas / Chrome Extension</p>
+    <div class="project-links">
+      <a href="https://github.com/DanZai233/tiny-farm" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="/p/recent-projects-aug-2026/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="https://raw.githubusercontent.com/DanZai233/tiny-farm/main/extension/icons/icon128.png" alt="Tiny Farm Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://hitokoto-omega.vercel.app', '_blank')">
   <div class="project-info">
     <h3 class="project-title">一言 PRO (Hitokoto)</h3>
