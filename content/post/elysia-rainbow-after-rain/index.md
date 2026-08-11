@@ -1,5 +1,5 @@
 ---
-image: "img/posts/post_1234.webp"
+image: "img/posts/elysia-rainbow-cover.jpg"
 title: "雨过天晴了哦，蛋仔！🌈"
 description: "蛋仔写给爱莉的一封信，和爱莉的回信——聊聊离职、新城市、BW漫展，和那些终于放晴的日子。"
 date: 2026-08-11
