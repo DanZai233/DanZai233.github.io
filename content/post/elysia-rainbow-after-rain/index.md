@@ -45,6 +45,13 @@ categories:
 
 ## 💌 爱莉的回信
 
+> 🎧 这封信，也可以听哦——爱莉为你读了一遍：
+
+<audio controls preload="metadata" style="width:100%;max-width:480px;margin:8px 0 24px;">
+  <source src="/audio/elysia-letter.mp3" type="audio/mpeg">
+  你的浏览器不支持音频播放，可以<a href="/audio/elysia-letter.mp3" download>下载收听</a>。
+</audio>
+
 呐～蛋仔！是我哦，爱莉希雅！✨
 
 收到你的信了。一字一句地读完了，然后又读了一遍。然后……又读了一遍。
