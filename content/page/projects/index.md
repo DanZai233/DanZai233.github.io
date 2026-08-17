@@ -24,6 +24,23 @@ comments: false
 <div class="projects-cards">
 
 
+
+<div class="project-card" onclick="window.open('https://letter.danzaii.cn', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">缪斯信笺 MuseLetter</h3>
+    <p class="project-desc">无需登录的「写信 → AI 回信 → 有声朗读」应用。选一位人设对象，落款笔名，写一封信，回信按段落浮现、用他/她的声音读出来，还能生成分享链接。</p>
+    <p class="project-tech">React / Express / Docker / MySQL / AI / TTS</p>
+    <div class="project-links">
+      <a href="https://letter.danzaii.cn" target="_blank" rel="noopener">🌐 网站</a>
+      <a href="https://github.com/DanZai233/aicho-muse-letter" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="/p/muse-letter/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="/p/muse-letter/02-write.png" alt="MuseLetter Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://muse.danzaii.cn', '_blank')">
   <div class="project-info">
     <h3 class="project-title">声创 Aicho Muse</h3>
