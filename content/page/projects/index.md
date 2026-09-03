@@ -25,6 +25,21 @@ comments: false
 
 
 
+<div class="project-card" onclick="window.open('https://github.com/DanZai233/Hugo-Post-Manager', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">Hugo Post Manager</h3>
+    <p class="project-desc">可视化管理 Hugo 博客：连接 GitHub 仓库后直接编辑 Markdown 和 Front Matter，实时预览，配合 AI 写作助手和 Actions 部署联动。</p>
+    <p class="project-tech">React / Vite / Express / GitHub API / AI</p>
+    <div class="project-links">
+      <a href="https://github.com/DanZai233/Hugo-Post-Manager" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="/p/hugo-post-manager/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="/p/hugo-post-manager/home.jpg" alt="Hugo Post Manager Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://letter.danzaii.cn', '_blank')">
   <div class="project-info">
     <h3 class="project-title">缪斯信笺 MuseLetter</h3>
