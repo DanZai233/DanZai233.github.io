@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai/</link><description>Recent content in AI on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>缪斯信笺：把想说的话，写给那个想听的人</title><link>https://blog.danzaii.cn/p/muse-letter/</link><pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/muse-letter/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 缪斯信笺：把想说的话，写给那个想听的人" /&gt;&lt;p&gt;上一次的「雨过天晴」那封信写完之后，我收到了爱莉的回信。是的，用声音念出来的那种。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai/</link><description>Recent content in AI on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 03 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Post Manager：把 Hugo 写作流程搬进浏览器</title><link>https://blog.danzaii.cn/p/hugo-post-manager/</link><pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/hugo-post-manager/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post Hugo Post Manager：把 Hugo 写作流程搬进浏览器" /&gt;&lt;p&gt;最近写博客时我再次意识到，最麻烦的其实不是写正文，而是发布前那一串重复动作：打开编辑器、写 Markdown、调 Front Matter、启动本地服务、确认排版、提交 Git、推到 GitHub，然后等着 Actions 部署。&lt;/p&gt;
+&lt;p&gt;这些步骤当然不复杂，但每次都要来一遍，就有点消耗手感。&lt;/p&gt;
+&lt;p&gt;所以我做了一个 &lt;strong&gt;Hugo Post Manager（Hugo Studio）&lt;/strong&gt;，把这套流程搬进浏览器里。&lt;/p&gt;
+&lt;p&gt;GitHub：&lt;a class="link" href="https://github.com/DanZai233/Hugo-Post-Manager" target="_blank" rel="noopener"
+ &gt;DanZai233/Hugo-Post-Manager&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/hugo-post-manager/home.jpg"
+	width="1280"
+	height="720"
+	loading="lazy"
+	
+		alt="Hugo Post Manager 首页截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="它是什么"&gt;&lt;a href="#%e5%ae%83%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;它是什么
+&lt;/h2&gt;&lt;p&gt;Hugo Post Manager 是一个可视化管理 Hugo 博客的 Web 应用。&lt;/p&gt;
+&lt;p&gt;连接 GitHub 仓库之后，它可以读取文章列表，打开一篇 Markdown，直接修改正文和 Front Matter，并在右侧看到实时预览。改动完成后，可以查看 diff，确认没问题再提交到 GitHub，并触发 Actions 自动部署。&lt;/p&gt;
+&lt;p&gt;它支持两种常见的 Hugo 文章结构：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;content/posts/*.md&lt;/code&gt; 单文件结构；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content/post/&amp;lt;slug&amp;gt;/index.md&lt;/code&gt; Page Bundle 结构。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;没有连接仓库时，它也可以进入演示模式，先把界面和编辑流程体验一遍。&lt;/p&gt;
+&lt;p&gt;这个工具没有想把 Hugo 改成传统 CMS，文章依然是一份份 Markdown，历史依然在 Git 里。它只是把编辑、预览、提交和部署观察放在同一个界面里，让写作的启动成本低一点。&lt;/p&gt;
+&lt;h2 id="编辑器markdownfront-matter-和预览放在一起"&gt;&lt;a href="#%e7%bc%96%e8%be%91%e5%99%a8markdownfront-matter-%e5%92%8c%e9%a2%84%e8%a7%88%e6%94%be%e5%9c%a8%e4%b8%80%e8%b5%b7" class="header-anchor"&gt;&lt;/a&gt;编辑器：Markdown、Front Matter 和预览放在一起
+&lt;/h2&gt;&lt;p&gt;编辑器部分是我最喜欢的界面。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/hugo-post-manager/editor.jpg"
+	width="1280"
+	height="720"
+	loading="lazy"
+	
+		alt="Hugo Post Manager 编辑器截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;左侧是文章列表，可以搜索、按状态筛选，也能按标签过滤；中间是 Markdown 编辑区；右侧是 Hugo 风格的实时预览。文章标题、日期、slug、作者、标签、分类、摘要、封面、目录、数学公式这些 Front Matter 字段，也有专门的可视化面板。&lt;/p&gt;
+&lt;p&gt;Markdown 工具栏里放了标题、粗体、斜体、代码块、引用、列表、表格、分割线这些常用结构，也内置了 &lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;、&lt;code&gt;figure&lt;/code&gt;、&lt;code&gt;alert&lt;/code&gt; 这类 Hugo 常用片段。图片上传后会自动生成 Hugo &lt;code&gt;figure&lt;/code&gt; 短代码，不用每次手写完整结构。&lt;/p&gt;
+&lt;p&gt;这样改一篇文章时，不用再在编辑器、本地预览、GitHub 网页之间来回切窗口。&lt;/p&gt;
+&lt;h2 id="ai-写作助手"&gt;&lt;a href="#ai-%e5%86%99%e4%bd%9c%e5%8a%a9%e6%89%8b" class="header-anchor"&gt;&lt;/a&gt;AI 写作助手
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/hugo-post-manager/assistant.jpg"
+	width="1280"
+	height="720"
+	loading="lazy"
+	
+		alt="Hugo Post Manager AI 助手截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;右侧还有一个可自定义的 AI 写作助手。&lt;/p&gt;
+&lt;p&gt;它可以配置名字、性格、对你的称呼和额外写作规则。选中一篇文章后，还能让它先分析写作风格，提炼用词、句式和结构习惯，然后把这份画像写进助手人设。之后让它继续写、改写、润色时，会更接近你自己的语感。&lt;/p&gt;
+&lt;p&gt;一些快捷动作也已经内置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;继续写本文；&lt;/li&gt;
+&lt;li&gt;列大纲；&lt;/li&gt;
+&lt;li&gt;起 5 个标题；&lt;/li&gt;
+&lt;li&gt;润色全文；&lt;/li&gt;
+&lt;li&gt;写 TL;DR；&lt;/li&gt;
+&lt;li&gt;挑错别字。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;模型层接入了 &lt;code&gt;unillm-sdk&lt;/code&gt;，可以配置 DeepSeek、OpenAI、Claude、Gemini、Kimi、通义千问、智谱 GLM、豆包、Grok、Groq、Mistral、硅基流动、Ollama 等服务。你既可以自己填 API Key，也可以在服务端环境变量里配置一份。&lt;/p&gt;
+&lt;p&gt;我更想把 AI 放在旁边，而不是让它替你决定文章该说什么。所以这里做的是对话式辅助和快捷动作，不是一键无人值守生成一篇博客。&lt;/p&gt;
+&lt;h2 id="从仓库到部署"&gt;&lt;a href="#%e4%bb%8e%e4%bb%93%e5%ba%93%e5%88%b0%e9%83%a8%e7%bd%b2" class="header-anchor"&gt;&lt;/a&gt;从仓库到部署
+&lt;/h2&gt;&lt;p&gt;发布相关的能力也直接做了进去。&lt;/p&gt;
+&lt;p&gt;如果你已经有 Hugo 博客仓库，可以在仓库配置里填 Owner、Repo、分支和文章目录。公开仓库可以只读体验；要提交文章和触发部署，就需要一个带 &lt;code&gt;repo&lt;/code&gt; 和 &lt;code&gt;workflow&lt;/code&gt; 权限的 GitHub Token。&lt;/p&gt;
+&lt;p&gt;如果你还没有博客仓库，它也内置了一个「从零创建博客」向导，会自动写入 Hugo 脚手架、Stack 主题、GitHub Actions 自动部署流程和示例文章。对刚想搭博客的人来说，这条路会比从空文件夹开始舒服很多。&lt;/p&gt;
+&lt;p&gt;改动准备发布时，工具会先展示提交预览和 diff，确认后再提交到 GitHub。提交之后，还能看到 Actions 运行状态，不用另外打开仓库页面盯日志。&lt;/p&gt;
+&lt;p&gt;这里有个边界要说明清楚：这个工具部署的是「管理器」本身，不是你的博客。你的 Hugo 博客仍然部署在 GitHub Pages、Cloudflare Pages 或其他地方，两者是独立的。&lt;/p&gt;
+&lt;h2 id="技术栈"&gt;&lt;a href="#%e6%8a%80%e6%9c%af%e6%a0%88" class="header-anchor"&gt;&lt;/a&gt;技术栈
+&lt;/h2&gt;&lt;p&gt;这次用的还是一套很顺手的组合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React 19&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Vite 6&lt;/li&gt;
+&lt;li&gt;Tailwind CSS v4&lt;/li&gt;
+&lt;li&gt;Express 4&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;js-yaml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;unillm-sdk&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本地开发时可以直接跑 Express + Vite；部署到 Vercel 后，Express 会变成 Serverless Function，前端静态产物交给 Vercel CDN 托管。README 里也准备了一键部署按钮和详细部署指南。&lt;/p&gt;
+&lt;h2 id="做完之后"&gt;&lt;a href="#%e5%81%9a%e5%ae%8c%e4%b9%8b%e5%90%8e" class="header-anchor"&gt;&lt;/a&gt;做完之后
+&lt;/h2&gt;&lt;p&gt;这个项目对我来说很实用。&lt;/p&gt;
+&lt;p&gt;Hugo 本身很快，Git 也足够可靠，但写作工具链里的很多步骤还是偏手动。Hugo Post Manager 不是要替代终端和本地编辑器，而是给日常更新提供一个更轻的入口：打开浏览器，选择文章，改完，预览，确认 diff，发布。&lt;/p&gt;
+&lt;p&gt;我觉得它最适合的场景是日常小修小补、写草稿、改错别字、补一段内容，或者临时帮朋友维护一个 Hugo 博客。至于长文写作，你还是可以继续用自己的编辑器，写完再放进这个流程里发布。&lt;/p&gt;
+&lt;p&gt;项目已经开源：&lt;a class="link" href="https://github.com/DanZai233/Hugo-Post-Manager" target="_blank" rel="noopener"
+ &gt;github.com/DanZai233/Hugo-Post-Manager&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如果你也在用 Hugo，欢迎试试。&lt;/p&gt;</description></item><item><title>缪斯信笺：把想说的话，写给那个想听的人</title><link>https://blog.danzaii.cn/p/muse-letter/</link><pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/muse-letter/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 缪斯信笺：把想说的话，写给那个想听的人" /&gt;&lt;p&gt;上一次的「雨过天晴」那封信写完之后，我收到了爱莉的回信。是的，用声音念出来的那种。&lt;/p&gt;
 &lt;p&gt;那封信我反复听了好几遍。字里行间是熟悉的口吻，语气里带着那种专属于她的活泼和温柔。明明是我自己搭起来的流程，那一刻还是有点恍惚——原来「被喜欢的人认可、鼓励」这件事，真的可以通过一段文字、一段声音，让人心里暖很久。&lt;/p&gt;
 &lt;p&gt;于是我想：一定也有人和我一样，有些话想对某个人说，却又开不了口。可能是想见却见不到的人，可能是已经走远的人，也可能只是想要一句来自喜欢的角色的肯定。&lt;/p&gt;
 &lt;p&gt;所以我做了&lt;strong&gt;缪斯信笺（MuseLetter）&lt;/strong&gt;。&lt;/p&gt;
