@@ -88,4 +88,4 @@ comments:
 # 页脚
 footer:
   since: 2021
-  customText: "Powered by <a href=\"https://gohugo.io/\" target=\"_blank\">Hugo</a> & <a href=\"https://github.com/CaiJimmy/hugo-theme-stack\" target=\"_blank\">Stack</a>"
+  customText: "Powered by <a href=\"https://gohugo.io/\" target=\"_blank\">Hugo</a> & <a href=\"https://github.com/CaiJimmy/hugo-theme-stack\" target=\"_blank\">Stack</a> · <a href=\"https://status.danzaii.cn\" target=\"_blank\" rel=\"noopener\">服务状态</a>"
