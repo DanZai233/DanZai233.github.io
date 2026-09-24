@@ -87,6 +87,21 @@ comments: false
   </div>
 </div>
 
+<div class="project-card" onclick="window.open('https://game.danzaii.cn', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">BLOCK / OPS · 方寸城市</h3>
+    <p class="project-desc">用 Astra 协作开发的原创微缩城市 FPS 原型，包含单人机器人训练、2–8 人联机对战、四类武器、配件工坊、可破坏木箱与施工升降梯。</p>
+    <p class="project-tech">Three.js / TypeScript / Node.js / WebSocket / Blender</p>
+    <div class="project-links">
+      <a href="https://game.danzaii.cn" target="_blank" rel="noopener">🌐 在线游玩</a>
+      <a href="/p/block-ops-voxel-city/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="/p/block-ops-voxel-city/cover.png" alt="BLOCK / OPS Preview" />
+  </div>
+</div>
+
 <div class="project-card" onclick="window.open('https://hitokoto-omega.vercel.app', '_blank')">
   <div class="project-info">
     <h3 class="project-title">一言 PRO (Hitokoto)</h3>
