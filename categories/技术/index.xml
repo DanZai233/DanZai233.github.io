@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>最近又做了些什么：WebAsk、Hugo Studio 与服务状态页</title><link>https://blog.danzaii.cn/p/recent-projects-sep-2026/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-sep-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又做了些什么：WebAsk、Hugo Studio 与服务状态页" /&gt;&lt;p&gt;距离上一篇项目回顾过去了一个多月。原本以为这段时间会稍微歇一下，结果 GitHub 并没有安静下来。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>BLOCK / OPS · 方寸城市：我用 Astra 做了一款微型城市 FPS</title><link>https://blog.danzaii.cn/p/block-ops-voxel-city/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/block-ops-voxel-city/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post BLOCK / OPS · 方寸城市：我用 Astra 做了一款微型城市 FPS" /&gt;&lt;p&gt;9 月项目回顾里没有把这款游戏写进去，因为它已经不只是“顺手做了一个小东西”，值得单独留一篇。&lt;/p&gt;
+&lt;p&gt;游戏叫 &lt;strong&gt;BLOCK / OPS · 方寸城市&lt;/strong&gt;，现在可以直接在线玩：&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;&lt;a class="link" href="https://game.danzaii.cn" target="_blank" rel="noopener"
+ &gt;https://game.danzaii.cn&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;它是一个原创微缩城市 FPS 原型。地图不大，但能从街角一路打到施工楼层；核心不是堆资产，而是尝试把移动、射击、命中、计分、房间和服务器校正这条完整链路真正跑起来。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/block-ops-voxel-city/cover.png"
+	width="1600"
+	height="900"
+	loading="lazy"
+	
+		alt="BLOCK / OPS 城市街区入口"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="把战场缩进一座微缩城市"&gt;&lt;a href="#%e6%8a%8a%e6%88%98%e5%9c%ba%e7%bc%a9%e8%bf%9b%e4%b8%80%e5%ba%a7%e5%be%ae%e7%bc%a9%e5%9f%8e%e5%b8%82" class="header-anchor"&gt;&lt;/a&gt;把战场缩进一座微缩城市
+&lt;/h2&gt;&lt;p&gt;我不想从一张无边无际的大地图开始。对独立原型来说，地图越大，越容易把时间和性能浪费在玩家根本不会注意的地方。&lt;/p&gt;
+&lt;p&gt;所以这次选择了一座可以一眼看懂的小城：砖红、米白和青绿色住宅楼，临街店铺、屋顶机组、空调外机、道路和斑马线；街道上有车辆、长椅、消防栓、围挡、托盘、砖堆和施工设备。住宅楼主要以完整外观建模，可上到二层的施工平台则做成了真正能行走、交战的空间。&lt;/p&gt;
+&lt;p&gt;城市和 M4 风格步枪来自 Blender 原创资产。P15、S5、五类近战以及人物关节模型则在运行时程序化生成，没有直接拿现成游戏资源来拼。这种做法保住了原型的一致性，也方便后续继续改结构、配件和涂装。&lt;/p&gt;
+&lt;p&gt;地图里还有一台能在地面和二层之间运行的工业升降梯。玩家可以呼叫、进入和切换楼层；木箱能被打碎，原本的遮挡与碰撞也会一起消失。东西不算多，但每一个都要能和射击、碰撞与服务器状态对齐。&lt;/p&gt;
+&lt;h2 id="枪不能只是换一个模型"&gt;&lt;a href="#%e6%9e%aa%e4%b8%8d%e8%83%bd%e5%8f%aa%e6%98%af%e6%8d%a2%e4%b8%80%e4%b8%aa%e6%a8%a1%e5%9e%8b" class="header-anchor"&gt;&lt;/a&gt;枪不能只是换一个模型
+&lt;/h2&gt;&lt;p&gt;目前有四个武器槽：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;M4 自动步枪&lt;/strong&gt;：按住左键连射，可以更换瞄具、握把、弹匣、枪口和激光五个配件位。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;P15 半自动手枪&lt;/strong&gt;：15 发弹匣，作为切枪后继续作战的副武器。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S5 栓动狙击枪&lt;/strong&gt;：5 发弹匣、25 发备弹、5× 瞄具，身体基础伤害 90，爆头可以击杀满血目标。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;近战收藏&lt;/strong&gt;：战术短刀、爪子刀、蝴蝶刀、战术手斧和胁差，每种六套涂装，共 30 种组合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;三种枪械各自维护弹匣和备弹，切枪不会凭空补满子弹，也不会跳过拉栓、换弹或攻击冷却。近战分成不同伤害、距离和攻击间隔，但皮肤只改变外观，不改变数值。&lt;/p&gt;
+&lt;p&gt;命中反馈也单独做了一套：准星命中标记、伤害数字、命中与爆头音效、人物受击闪光，以及击杀横幅和连续击杀提示。多人模式只在服务器确认伤害后显示命中，不把客户端的开枪动画直接当成结果。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/block-ops-voxel-city/training.png"
+	width="1600"
+	height="757"
+	loading="lazy"
+	
+		alt="单人训练场实机画面"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="211"
+		data-flex-basis="507px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="联机才是最麻烦的部分"&gt;&lt;a href="#%e8%81%94%e6%9c%ba%e6%89%8d%e6%98%af%e6%9c%80%e9%ba%bb%e7%83%a6%e7%9a%84%e9%83%a8%e5%88%86" class="header-anchor"&gt;&lt;/a&gt;联机才是最麻烦的部分
+&lt;/h2&gt;&lt;p&gt;如果只是让几个模型在浏览器里移动，这个项目会轻松很多。但真正开始做多人之后，每个动作都要重新回答一次：以谁的结果为准？&lt;/p&gt;
+&lt;p&gt;现在支持两种模式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;团队死斗&lt;/strong&gt;：最多 4v4，50 分或 6 分钟结算，自动分队并关闭队友伤害。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自由混战&lt;/strong&gt;：最多 8 人，20 次击倒或 6 分钟结算。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;移动、碰撞、弹药、伤害、计分、木箱破坏和电梯状态都由 Node 权威服务器确认。客户端做本地预测，收到服务器校正后平滑回正；其他玩家的位置则通过插值显示。房间之间彼此隔离，每台服务器最多保留 4 个房间，无人房间会自动删除。&lt;/p&gt;
+&lt;p&gt;为了不把首屏资源做成一团，这轮也压缩了 GLB、JavaScript、CSS 和 WebSocket 快照。初始资源从约 10.1 MiB 降到了约 1.7 MiB。对于一个浏览器 FPS 来说，能否快速进入场景，本身就是体验的一部分。&lt;/p&gt;
+&lt;h2 id="astra-在这款游戏里做了什么"&gt;&lt;a href="#astra-%e5%9c%a8%e8%bf%99%e6%ac%be%e6%b8%b8%e6%88%8f%e9%87%8c%e5%81%9a%e4%ba%86%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;Astra 在这款游戏里做了什么
+&lt;/h2&gt;&lt;p&gt;这里要先说清楚：&lt;strong&gt;Astra 是开发协作工具，游戏引擎是 Three.js。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这次主要是我负责方向、玩法取舍、审美判断和不断试玩，Astra 负责把大量想法落成代码与资产。具体包括城市和 M4 的 Blender 生成脚本、Three.js 场景、程序化武器与人物模型、TypeScript 构建、Node 权威服务器、WebSocket 协议、客户端预测，以及覆盖弹药守恒、伤害遮挡、房间隔离和双客户端同步的测试。&lt;/p&gt;
+&lt;p&gt;武器工作坊也是这种协作方式的一部分。四种武器可以在线旋转、缩放和切换配件，步枪五类配件会同时改变模型与射击参数，配置保存在浏览器里。它不是只给截图看的展示页，而是一套真的会影响下一局手感的装备系统。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/block-ops-voxel-city/armory.png"
+	width="1600"
+	height="757"
+	loading="lazy"
+	
+		alt="武器工坊中的 M4 配件配置"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="211"
+		data-flex-basis="507px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="它现在真实的样子"&gt;&lt;a href="#%e5%ae%83%e7%8e%b0%e5%9c%a8%e7%9c%9f%e5%ae%9e%e7%9a%84%e6%a0%b7%e5%ad%90" class="header-anchor"&gt;&lt;/a&gt;它现在真实的样子
+&lt;/h2&gt;&lt;p&gt;这是一款能玩的原型，不是一款已经达到商业质量的 FPS。&lt;/p&gt;
+&lt;p&gt;机器人只会简单的视线检测、追击和重生，不具备完整寻路与楼层战术；多人有预测、校正和插值，但还没有历史命中回溯、掉线身份恢复、账户系统、完整反作弊和匹配系统。高延迟下的命中与位置回正仍然需要继续优化。目前也只做过双人公网功能验证，不能据此声称已经扛得住长期满载对战。&lt;/p&gt;
+&lt;p&gt;但这些限制并不妨碍它先成为一个完整的作品。它已经有地图、武器、配件、机器人、计分、房间、部署和明确的技术边界，而不是停留在“以后有空再做”的技术演示。&lt;/p&gt;
+&lt;p&gt;如果你用桌面浏览器，可以打开 &lt;a class="link" href="https://game.danzaii.cn" target="_blank" rel="noopener"
+ &gt;game.danzaii.cn&lt;/a&gt; 进入训练场试试。它会继续更新，但这一次，我想先让它真正站到线上。&lt;/p&gt;</description></item><item><title>最近又做了些什么：WebAsk、Hugo Studio 与服务状态页</title><link>https://blog.danzaii.cn/p/recent-projects-sep-2026/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-sep-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又做了些什么：WebAsk、Hugo Studio 与服务状态页" /&gt;&lt;p&gt;距离上一篇项目回顾过去了一个多月。原本以为这段时间会稍微歇一下，结果 GitHub 并没有安静下来。&lt;/p&gt;
 &lt;p&gt;从 9 月 3 日的 Hugo Post Manager，到今天刚推上去的 DSH WebAsk，中间还穿插了服务状态页、UniLLM SDK，以及 Muse、MuseLetter 和 Hitokoto 的持续迭代。更明显的变化是，这些项目开始互相连接了，不再只是一张张彼此独立的作品卡片。&lt;/p&gt;
 &lt;p&gt;这篇文章的封面就是我现在正在用的 &lt;strong&gt;DeepSeek Harness&lt;/strong&gt;。最近主力开发环境换成了它，越用越觉得不赖。它给自定义留的空间很大，界面、工作区、智能体、工具和插件都能按自己的习惯重新组合。我还把主题换成了粉粉嫩嫩的一套。&lt;/p&gt;
 &lt;p&gt;对，粉色全肯定。&lt;/p&gt;
