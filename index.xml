@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>一只小羊羔的窝</title><link>https://blog.danzaii.cn/</link><description>Recent content on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 03 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Post Manager：把 Hugo 写作流程搬进浏览器</title><link>https://blog.danzaii.cn/p/hugo-post-manager/</link><pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/hugo-post-manager/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post Hugo Post Manager：把 Hugo 写作流程搬进浏览器" /&gt;&lt;p&gt;最近写博客时我再次意识到，最麻烦的其实不是写正文，而是发布前那一串重复动作：打开编辑器、写 Markdown、调 Front Matter、启动本地服务、确认排版、提交 Git、推到 GitHub，然后等着 Actions 部署。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>一只小羊羔的窝</title><link>https://blog.danzaii.cn/</link><description>Recent content on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>最近又做了些什么：WebAsk、Hugo Studio 与服务状态页</title><link>https://blog.danzaii.cn/p/recent-projects-sep-2026/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-sep-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又做了些什么：WebAsk、Hugo Studio 与服务状态页" /&gt;&lt;p&gt;距离上一篇项目回顾过去了一个多月。原本以为这段时间会稍微歇一下，结果 GitHub 并没有安静下来。&lt;/p&gt;
+&lt;p&gt;从 9 月 3 日的 Hugo Post Manager，到今天刚推上去的 DSH WebAsk，中间还穿插了服务状态页、UniLLM SDK，以及 Muse、MuseLetter 和 Hitokoto 的持续迭代。更明显的变化是，这些项目开始互相连接了，不再只是一张张彼此独立的作品卡片。&lt;/p&gt;
+&lt;p&gt;这篇文章的封面就是我现在正在用的 &lt;strong&gt;DeepSeek Harness&lt;/strong&gt;。最近主力开发环境换成了它，越用越觉得不赖。它给自定义留的空间很大，界面、工作区、智能体、工具和插件都能按自己的习惯重新组合。我还把主题换成了粉粉嫩嫩的一套。&lt;/p&gt;
+&lt;p&gt;对，粉色全肯定。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/recent-projects-sep-2026/cover.png"
+	width="3018"
+	height="1582"
+	loading="lazy"
+	
+		alt="DeepSeek Harness 粉色主题截图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="190"
+		data-flex-basis="457px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="webask把一句话问题请出上下文"&gt;&lt;a href="#webask%e6%8a%8a%e4%b8%80%e5%8f%a5%e8%af%9d%e9%97%ae%e9%a2%98%e8%af%b7%e5%87%ba%e4%b8%8a%e4%b8%8b%e6%96%87" class="header-anchor"&gt;&lt;/a&gt;WebAsk：把一句话问题请出上下文
+&lt;/h2&gt;&lt;p&gt;先说今天刚做完的 &lt;strong&gt;WebAsk&lt;/strong&gt;，这也是我给 DSH 写的一个插件。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/dsh-webask" target="_blank" rel="noopener"
+ &gt;DanZai233/dsh-webask&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;它的出发点很具体：DeepSeek Harness 每一轮都会重新发送整段对话。所以当你只是在聊天上下文里顺口问一个 20 token 的小问题时，它实际消耗的不是 20 token，而是这段短问题搭乘的整个上下文窗口。&lt;/p&gt;
+&lt;p&gt;WebAsk 做的就是把这些“明知道一句话就能问完”的问题送去网页版，而不是塞进当前会话。&lt;/p&gt;
+&lt;p&gt;我越来越觉得，插件生态会是这类 harness 真正有意思的地方。一个高度可定制的宿主，如果能开放稳定的槽位、状态和 action 接口，就可以让每个人把工作流改成最适合自己的样子。WebAsk 也是基于这一点做出来的，它有三个入口：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DSH 输入框旁边的 WebAsk 按钮；&lt;/li&gt;
+&lt;li&gt;全局快捷键 &lt;code&gt;mod+shift+k&lt;/code&gt; 呼出的浮动输入框；&lt;/li&gt;
+&lt;li&gt;插件设置页里的目标站点、URL 模板、快捷键和历史配置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;输入框里有草稿时，点击按钮会把问题从草稿里抽走、复制到剪贴板，并在新标签页打开对应网页版。浮层里还保留了本地历史，可以重新打开、再次复制，或者把问题回填到 DSH 输入框。最后这个回填动作挺重要，因为有些问题一开始看起来很短，但答案值得继续在真正的会话里追问。&lt;/p&gt;
+&lt;p&gt;目前内置了 DeepSeek、Kimi、Qwen、豆包、腾讯元宝、智谱 GLM 和 Gemini 七套站点模板，也可以自己替换 URL。这里还有一个很诚实的处理：&lt;code&gt;?q=&lt;/code&gt; 并不是这些网站统一支持的原生能力，所以 WebAsk 每次都会同时复制问题到剪贴板。装了相应脚本就是全自动，没有装也能手动粘贴一次。&lt;/p&gt;
+&lt;p&gt;实现上它刻意没有引入构建链。一个大约 40 行的 &lt;code&gt;build.mjs&lt;/code&gt; 把 CSS 内联，再把客户端代码包进 DSH 需要的模块结构；没有 bundler、没有 TypeScript、没有 JSX 转换。项目还写了 37 项离线验证，把槽位接线、点击路径和持久化都跑一遍，免得插件最后变成一个“按钮点了没反应”的黑盒。&lt;/p&gt;
+&lt;h2 id="hugo-post-manager博客后台搬进浏览器"&gt;&lt;a href="#hugo-post-manager%e5%8d%9a%e5%ae%a2%e5%90%8e%e5%8f%b0%e6%90%ac%e8%bf%9b%e6%b5%8f%e8%a7%88%e5%99%a8" class="header-anchor"&gt;&lt;/a&gt;Hugo Post Manager：博客后台搬进浏览器
+&lt;/h2&gt;&lt;p&gt;9 月 3 日做的 &lt;strong&gt;Hugo Post Manager&lt;/strong&gt;，我在&lt;a class="link" href="https://blog.danzaii.cn/p/hugo-post-manager/" &gt;单独的札记&lt;/a&gt;里已经写过一次。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Hugo-Post-Manager" target="_blank" rel="noopener"
+ &gt;DanZai233/Hugo-Post-Manager&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;它把 Hugo 的文章列表、Markdown 编辑、Front Matter 配置、实时预览、图片上传、Git diff、GitHub 提交和 Actions 部署状态放进了一个界面里。没有仓库的人还可以用向导从零创建一套带 Stack 主题和自动部署流程的博客。&lt;/p&gt;
+&lt;p&gt;这个项目最近也已经加到了博客作品页和 &lt;code&gt;works.danzaii.cn&lt;/code&gt;。它不是要替代本地编辑器和 Git，而是给日常改文章、修错字、补内容留一条更轻的路。&lt;/p&gt;
+&lt;h2 id="status-danzaii给自己的服务装一块仪表盘"&gt;&lt;a href="#status-danzaii%e7%bb%99%e8%87%aa%e5%b7%b1%e7%9a%84%e6%9c%8d%e5%8a%a1%e8%a3%85%e4%b8%80%e5%9d%97%e4%bb%aa%e8%a1%a8%e7%9b%98" class="header-anchor"&gt;&lt;/a&gt;status-danzaii：给自己的服务装一块仪表盘
+&lt;/h2&gt;&lt;p&gt;9 月 7 日之后，我做了 &lt;strong&gt;status-danzaii&lt;/strong&gt;。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/status-danzaii" target="_blank" rel="noopener"
+ &gt;DanZai233/status-danzaii&lt;/a&gt;&lt;br&gt;
+站点：&lt;a class="link" href="https://status.danzaii.cn" target="_blank" rel="noopener"
+ &gt;status.danzaii.cn&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;以前我的服务散在好几个域名里，Aicho、Muse、Letter、博客、AniDeck、一言、相册、小工具和作品导航各跑各的。平时不出问题时一切正常，但想统一看一眼“现在到底哪些还活着”，就要一个个打开。&lt;/p&gt;
+&lt;p&gt;所以这个状态页做的是很直接的事：通过 Vercel Functions 从公网探测各个服务的健康检查端点，把结果缓存约一小时，并在页面上按照生态、博客、作品与工具分组展示。手动刷新接口加了限流，另外还提供了状态 badge 和详情接口，之后可以放到博客页脚、README 或项目首页里。&lt;/p&gt;
+&lt;p&gt;现在服务清单已经收进了独立配置文件，状态页也不再只是几个 HTTP 200 的列表，而是慢慢变成了整个 danzaii 生态的目录。&lt;/p&gt;
+&lt;h2 id="unillm-sdk不再给每个项目写一遍模型适配器"&gt;&lt;a href="#unillm-sdk%e4%b8%8d%e5%86%8d%e7%bb%99%e6%af%8f%e4%b8%aa%e9%a1%b9%e7%9b%ae%e5%86%99%e4%b8%80%e9%81%8d%e6%a8%a1%e5%9e%8b%e9%80%82%e9%85%8d%e5%99%a8" class="header-anchor"&gt;&lt;/a&gt;UniLLM SDK：不再给每个项目写一遍模型适配器
+&lt;/h2&gt;&lt;p&gt;9 月 14 日更新的 &lt;strong&gt;UniLLM SDK&lt;/strong&gt;，属于那种不直接面向用户、但会持续影响其他项目的基础设施。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/unillm-sdk" target="_blank" rel="noopener"
+ &gt;DanZai233/unillm-sdk&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;最初做它的原因很简单：每做一个 AI 项目，就要重新写一次 OpenAI、Gemini、Claude、豆包、DeepSeek 等厂商的请求格式、错误处理、重试、超时和模型列表。代码重复还只是表面问题，更难维护的是每个项目对“配置供应商”这件事的理解都不一样。&lt;/p&gt;
+&lt;p&gt;UniLLM SDK 把这些收进了一个零依赖包：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chat&lt;/code&gt; / &lt;code&gt;chatStream&lt;/code&gt; / &lt;code&gt;generateText&lt;/code&gt; / &lt;code&gt;generateJson&lt;/code&gt; 统一调用；&lt;/li&gt;
+&lt;li&gt;支持 OpenAI、Claude、Gemini、豆包、DeepSeek、Kimi、通义、智谱、Grok、Groq、Mistral、Ollama、硅基流动和任意兼容端点；&lt;/li&gt;
+&lt;li&gt;自动重试、超时、&lt;code&gt;LLMError&lt;/code&gt; 统一错误；&lt;/li&gt;
+&lt;li&gt;代码传参、环境变量、&lt;code&gt;unillm.config.json&lt;/code&gt; 三种配置方式；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;listModels()&lt;/code&gt; 拉取真实模型列表；&lt;/li&gt;
+&lt;li&gt;自带 CLI 和可视化 Dashboard；&lt;/li&gt;
+&lt;li&gt;兼容旧项目里的 &lt;code&gt;AI_*&lt;/code&gt; 变量，已有项目不用大规模改名。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最近这次更新还加了浏览器专用入口，把 Node 内置模块从浏览器构建里彻底分出去，并支持向请求体追加厂商专用字段，例如控制 DeepSeek 的思考模式。&lt;/p&gt;
+&lt;p&gt;现在 Hugo Post Manager、Muse 和其他几个项目都开始共用这一层。它让我终于不用在每个项目里重复回答同一个问题：这次到底该怎么接模型。&lt;/p&gt;
+&lt;h2 id="muse-和-museletter继续往生态里长"&gt;&lt;a href="#muse-%e5%92%8c-museletter%e7%bb%a7%e7%bb%ad%e5%be%80%e7%94%9f%e6%80%81%e9%87%8c%e9%95%bf" class="header-anchor"&gt;&lt;/a&gt;Muse 和 MuseLetter：继续往生态里长
+&lt;/h2&gt;&lt;p&gt;9 月 16 日和 23 日，&lt;strong&gt;Aicho Muse&lt;/strong&gt; 与 &lt;strong&gt;MuseLetter&lt;/strong&gt; 又推进了一轮。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;Muse：&lt;a class="link" href="https://github.com/DanZai233/aicho-muse" target="_blank" rel="noopener"
+ &gt;DanZai233/aicho-muse&lt;/a&gt;&lt;br&gt;
+MuseLetter：&lt;a class="link" href="https://github.com/DanZai233/aicho-muse-letter" target="_blank" rel="noopener"
+ &gt;DanZai233/aicho-muse-letter&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;Muse 的官方预设新增了《鸣潮》26 名角色和《原神》30 名角色，并为每套人设绑定 Fish Audio 官方音色。管理后台也接入了 MuseLetter 的信件管理页面，可以直接查看信件内容和分享链接；写信量统计、反馈管理和 14 天柱状图也已经串了起来。&lt;/p&gt;
+&lt;p&gt;MuseLetter 这边补齐了信件管理接口、写信量统计和反馈接口，还把服务接进了 Muse 的网络，修复写信页偶尔拉不到预设角色的问题。Muse 的写作台也修了一个很影响手感的问题：自动保存后整章重载，会让光标突然跳到末尾。&lt;/p&gt;
+&lt;p&gt;这两个项目放在一起看，已经不是“写一封信”和“写一本书”两个孤立工具，而是一套从人设、创作、语音、分享到后台管理的完整链路。&lt;/p&gt;
+&lt;h2 id="hitokoto从网页走到浏览器扩展"&gt;&lt;a href="#hitokoto%e4%bb%8e%e7%bd%91%e9%a1%b5%e8%b5%b0%e5%88%b0%e6%b5%8f%e8%a7%88%e5%99%a8%e6%89%a9%e5%b1%95" class="header-anchor"&gt;&lt;/a&gt;Hitokoto：从网页走到浏览器扩展
+&lt;/h2&gt;&lt;p&gt;一言 PRO 在 9 月 18 日也发布了浏览器扩展下载流程。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Hitokoto" target="_blank" rel="noopener"
+ &gt;DanZai233/Hitokoto&lt;/a&gt;&lt;br&gt;
+站点：&lt;a class="link" href="https://hitokoto.danzaii.cn" target="_blank" rel="noopener"
+ &gt;hitokoto.danzaii.cn&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;现在站点里可以直接看到扩展介绍、安装方式和预览图，仓库里也补了 Edge 商店所需的截图、宣传图和文案。之前 9 月 3 日还优化了首页动画和重渲染性能，让随机句子、氛围背景和 Zen mode 切起来更轻。&lt;/p&gt;
+&lt;p&gt;一言还是那个很小的项目，但它慢慢从“一个随机句子网站”长成了网页、API、海报和浏览器扩展并存的小工具。&lt;/p&gt;
+&lt;h2 id="最近的主线"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e7%9a%84%e4%b8%bb%e7%ba%bf" class="header-anchor"&gt;&lt;/a&gt;最近的主线
+&lt;/h2&gt;&lt;p&gt;把这几个项目放在一起，最近做的事情大致有三条线：&lt;/p&gt;
+&lt;p&gt;第一是把分散的手工操作收进一个更顺的入口。Hugo Post Manager 解决博客发布，WebAsk 解决短问题不该进入上下文的问题。&lt;/p&gt;
+&lt;p&gt;第二是把重复的基础能力往下沉。UniLLM SDK 统一模型接入，status-danzaii 统一服务可见性，Muse 和 MuseLetter 则共用管理、统计和反馈能力。&lt;/p&gt;
+&lt;p&gt;第三是让项目之间真正连起来。状态页知道有哪些服务，博客知道有哪些项目，Muse 后台能看到 MuseLetter 的数据，Hugo Post Manager 也开始使用同一套模型接入层。&lt;/p&gt;
+&lt;p&gt;以前我做项目更像是在一张桌子上摆小模型，现在它们开始彼此接线了。&lt;/p&gt;
+&lt;p&gt;这大概就是这段时间最有意思的变化。&lt;/p&gt;
+
+ &lt;blockquote&gt;
+ &lt;p&gt;所作，皆为热爱；所为，皆有所成。&lt;/p&gt;
+
+ &lt;/blockquote&gt;</description></item><item><title>Hugo Post Manager：把 Hugo 写作流程搬进浏览器</title><link>https://blog.danzaii.cn/p/hugo-post-manager/</link><pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/hugo-post-manager/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post Hugo Post Manager：把 Hugo 写作流程搬进浏览器" /&gt;&lt;p&gt;最近写博客时我再次意识到，最麻烦的其实不是写正文，而是发布前那一串重复动作：打开编辑器、写 Markdown、调 Front Matter、启动本地服务、确认排版、提交 Git、推到 GitHub，然后等着 Actions 部署。&lt;/p&gt;
 &lt;p&gt;这些步骤当然不复杂，但每次都要来一遍，就有点消耗手感。&lt;/p&gt;
 &lt;p&gt;所以我做了一个 &lt;strong&gt;Hugo Post Manager（Hugo Studio）&lt;/strong&gt;，把这套流程搬进浏览器里。&lt;/p&gt;
 &lt;p&gt;GitHub：&lt;a class="link" href="https://github.com/DanZai233/Hugo-Post-Manager" target="_blank" rel="noopener"
