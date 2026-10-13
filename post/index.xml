@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/post/</link><description>Recent content in Posts on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>BLOCK / OPS · 方寸城市：我用 Astra 做了一款微型城市 FPS</title><link>https://blog.danzaii.cn/p/block-ops-voxel-city/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/block-ops-voxel-city/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post BLOCK / OPS · 方寸城市：我用 Astra 做了一款微型城市 FPS" /&gt;&lt;p&gt;9 月项目回顾里没有把这款游戏写进去，因为它已经不只是“顺手做了一个小东西”，值得单独留一篇。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/post/</link><description>Recent content in Posts on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>九月末的更新：拼豆糕手，还有两个老项目的翻新</title><link>https://blog.danzaii.cn/p/september-2026-project-polish/</link><pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/september-2026-project-polish/</guid><description>&lt;p&gt;回头看九月，感觉主要精力都花在拼豆糕手上了。&lt;/p&gt;
+&lt;p&gt;尤其是月底那几天，作品中心、采购清单、色板映射、拼豆进度、图纸导出，接连补了一轮。看提交记录的时候才发现，自己已经从琢磨“怎么把图画出来”，走到了“画完以后，怎么真的把它拼出来”。&lt;/p&gt;
+&lt;p&gt;9 月 24 日已经写过一篇&lt;a class="link" href="https://blog.danzaii.cn/p/recent-projects-sep-2026/" &gt;项目回顾&lt;/a&gt;，这次接着记录后面的更新。除了拼豆糕手，还有 9 月 30 日翻新的 MoodCard 和灵韵配色。&lt;/p&gt;
+&lt;h2 id="拼豆糕手画完以后还能接着做"&gt;&lt;a href="#%e6%8b%bc%e8%b1%86%e7%b3%95%e6%89%8b%e7%94%bb%e5%ae%8c%e4%bb%a5%e5%90%8e%e8%bf%98%e8%83%bd%e6%8e%a5%e7%9d%80%e5%81%9a" class="header-anchor"&gt;&lt;/a&gt;拼豆糕手：画完以后，还能接着做
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;在线使用：&lt;a class="link" href="https://pindou.danzaii.cn" target="_blank" rel="noopener"
+ &gt;pindou.danzaii.cn&lt;/a&gt;&lt;br&gt;
+仓库：&lt;a class="link" href="https://github.com/DanZai233/PixelBead" target="_blank" rel="noopener"
+ &gt;DanZai233/PixelBead&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;以前介绍拼豆糕手时，写得最多的是画布、图片转换、AI 生成和导出。三月那篇&lt;a class="link" href="https://blog.danzaii.cn/p/pixelbead-update/" &gt;更新记录&lt;/a&gt;也主要围绕参考线、智能画笔和调色盘。&lt;/p&gt;
+&lt;p&gt;这些当然重要。但一张图纸画出来，后面还有不少事情：这张存在哪了？下次怎么继续？该买哪些颜色的豆？今天拼到哪一块了？&lt;/p&gt;
+&lt;p&gt;九月底补的功能，大多就在回答这些问题。&lt;/p&gt;
+&lt;h3 id="给作品一个能回来的地方"&gt;&lt;a href="#%e7%bb%99%e4%bd%9c%e5%93%81%e4%b8%80%e4%b8%aa%e8%83%bd%e5%9b%9e%e6%9d%a5%e7%9a%84%e5%9c%b0%e6%96%b9" class="header-anchor"&gt;&lt;/a&gt;给作品一个能回来的地方
+&lt;/h3&gt;&lt;p&gt;9 月 28 日加了作品中心。可以保存、打开、重命名、建立副本，也能分享作品文件，再把文件导入回来。&lt;/p&gt;
+&lt;p&gt;作品多起来之后，只靠文件名找图还是麻烦，所以又补了搜索、排序、标签和收藏。比如给作品标上“挂件”“未完成”，下次打开时就更容易找到。列表里也能看到尺寸、用豆数量和更新时间。&lt;/p&gt;
+&lt;p&gt;我还给缩略图加了缓存，删除作品后留了 7 秒撤销时间。这些不算显眼的大功能，但作品中心是一个会反复打开的地方，少等一下、少担心一次误删，日常用起来就舒服一些。&lt;/p&gt;
+&lt;p&gt;编辑这边，9 月 24 日先补了框选后拖动内容。月底又加入旋转、水平和垂直翻转、缩放，以及自动添加外围黑色描边。图案已经画得差不多，只想挪个位置、换个方向或者补一圈轮廓时，可以直接继续调整。&lt;/p&gt;
+&lt;h3 id="从用量统计到买豆清单"&gt;&lt;a href="#%e4%bb%8e%e7%94%a8%e9%87%8f%e7%bb%9f%e8%ae%a1%e5%88%b0%e4%b9%b0%e8%b1%86%e6%b8%85%e5%8d%95" class="header-anchor"&gt;&lt;/a&gt;从用量统计到买豆清单
+&lt;/h3&gt;&lt;p&gt;拼豆糕手原本就能统计每种颜色需要多少豆。九月把这份统计往前推进了一步，做成了采购清单。&lt;/p&gt;
+&lt;p&gt;现在可以按色号看用量和占比，并按包装规格估算要准备多少；清单能复制成文本，也能导出 CSV。这样拿着图纸准备材料时，不用再自己把颜色统计抄一遍。&lt;/p&gt;
+&lt;p&gt;同时补了色板映射对照表：可以看到原色被映射到哪个新色号，差异较大的颜色会有提示，也能手动调整映射结果。&lt;/p&gt;
+&lt;p&gt;这部分我觉得很有必要。照片里的颜色和手头实际能买到的豆，并不总能一一对应。让工具给一个结果是一回事，把这个结果摊开、允许继续修改，又是另一回事。&lt;/p&gt;
+&lt;p&gt;采购数量仍然是估算，颜色映射也需要结合实际材料判断。但至少这些信息现在能放在一起看了。&lt;/p&gt;
+&lt;h3 id="记录真正的拼豆进度"&gt;&lt;a href="#%e8%ae%b0%e5%bd%95%e7%9c%9f%e6%ad%a3%e7%9a%84%e6%8b%bc%e8%b1%86%e8%bf%9b%e5%ba%a6" class="header-anchor"&gt;&lt;/a&gt;记录真正的拼豆进度
+&lt;/h3&gt;&lt;p&gt;这轮还补了制作时的进度记录。&lt;/p&gt;
+&lt;p&gt;可以标记已经完成的格子，查看整体和各颜色的进度，并把进度保存到作品里。拼到一半暂时停下来，下次打开还能知道之前做到了哪里。完成以后，也可以生成打卡分享图。&lt;/p&gt;
+&lt;p&gt;我挺喜欢这个方向。工具能陪着一个作品从画布走到桌上的豆板，使用过程就比单纯生成一张图纸长了很多。&lt;/p&gt;
+&lt;p&gt;导出也新增了 PDF 和 SVG，方便后续打印或处理图纸；界面补了暗色模式和一些空状态反馈。&lt;/p&gt;
+&lt;p&gt;成品预览中间还试过俯视的立体豆粒效果，随后又调整回平面像素。还是要看这个画面究竟是用来欣赏效果，还是方便核对图案，后面可以继续磨。&lt;/p&gt;
+&lt;h3 id="顺手修掉的几个问题"&gt;&lt;a href="#%e9%a1%ba%e6%89%8b%e4%bf%ae%e6%8e%89%e7%9a%84%e5%87%a0%e4%b8%aa%e9%97%ae%e9%a2%98" class="header-anchor"&gt;&lt;/a&gt;顺手修掉的几个问题
+&lt;/h3&gt;&lt;p&gt;功能之外，也修了 AI 接口构建和 iOS 原生参考图上传，调整了 iOS 的生命周期与权限配置。&lt;/p&gt;
+&lt;p&gt;这些适合和新增功能一起记下来。选好参考图却传不上去，再多的生成选项也派不上用场。月底这轮更新，既是在往里添东西，也是在把已有的流程接顺。&lt;/p&gt;
+&lt;h2 id="moodcard重新整理卡片工作台"&gt;&lt;a href="#moodcard%e9%87%8d%e6%96%b0%e6%95%b4%e7%90%86%e5%8d%a1%e7%89%87%e5%b7%a5%e4%bd%9c%e5%8f%b0" class="header-anchor"&gt;&lt;/a&gt;MoodCard：重新整理卡片工作台
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/MoodCard" target="_blank" rel="noopener"
+ &gt;DanZai233/MoodCard&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;9 月 30 日还回头改了 MoodCard。&lt;/p&gt;
+&lt;p&gt;早些时候写过它的想法，这次主要重做编辑体验：工作台换成深色画布和朱砂红主色，卡片根据视口调整大小，同时保持比例；模板列表也改成真正的卡片缩略图，选之前就能看见效果。&lt;/p&gt;
+&lt;p&gt;贴纸可以选中、缩放、旋转和删除，拖动时移出预览区域也能继续操作。补了草稿自动保存、重置，以及行高、字重、边框和遮罩颜色这些编辑入口。&lt;/p&gt;
+&lt;p&gt;还有一个很实际的修复：导出 PNG 前隐藏辅助框，等待字体加载，避免把选中框和多余阴影一起带进成品。编辑的时候需要辅助信息，导出的卡片应该干干净净。&lt;/p&gt;
+&lt;p&gt;移动端布局、点击区域和操作反馈也一起整理了。这个老项目，又往可以舒服地做完一张卡片的方向走了一点。&lt;/p&gt;
+&lt;h2 id="灵韵配色让预览生成更顺一些"&gt;&lt;a href="#%e7%81%b5%e9%9f%b5%e9%85%8d%e8%89%b2%e8%ae%a9%e9%a2%84%e8%a7%88%e7%94%9f%e6%88%90%e6%9b%b4%e9%a1%ba%e4%b8%80%e4%ba%9b" class="header-anchor"&gt;&lt;/a&gt;灵韵配色：让预览生成更顺一些
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;仓库：&lt;a class="link" href="https://github.com/DanZai233/Chromatopoetry" target="_blank" rel="noopener"
+ &gt;DanZai233/Chromatopoetry&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;同一天也更新了灵韵配色。&lt;/p&gt;
+&lt;p&gt;文字生成配色、从图片提取颜色这些基础功能以前介绍过了。九月这轮主要接入 UniLLM，统一模型调用和配置，同时整理图片上传、请求取消、预览缓存和错误提示。&lt;/p&gt;
+&lt;p&gt;配色生成出来之后，还能看它用在网页里的效果。不过模型返回的内容并不总是整整齐齐：有时是 HTML，有时包着代码块或 JSON，有时输出到一半就被截断。&lt;/p&gt;
+&lt;p&gt;所以又补了一轮解析处理，修复重复请求，并让失败时能看见更具体的原因、重新尝试。切换预览时也会处理旧请求，减少前一次结果干扰当前页面的情况。&lt;/p&gt;
+&lt;p&gt;这次没有给它加很多新的概念，主要是让原有的“生成配色 → 看应用效果”更顺一点。&lt;/p&gt;
+&lt;h2 id="九月底主要在把老项目继续做下去"&gt;&lt;a href="#%e4%b9%9d%e6%9c%88%e5%ba%95%e4%b8%bb%e8%a6%81%e5%9c%a8%e6%8a%8a%e8%80%81%e9%a1%b9%e7%9b%ae%e7%bb%a7%e7%bb%ad%e5%81%9a%e4%b8%8b%e5%8e%bb" class="header-anchor"&gt;&lt;/a&gt;九月底，主要在把老项目继续做下去
+&lt;/h2&gt;&lt;p&gt;这几项放在一起看，九月底的重心其实很清楚。&lt;/p&gt;
+&lt;p&gt;拼豆糕手补上了作品管理、准备材料和实际制作；MoodCard 整理了编辑到导出的过程；灵韵配色继续处理模型调用和预览生成里的小问题。&lt;/p&gt;
+&lt;p&gt;以前写项目总结，经常是一串新名字。这次大部分时间花在已经有名字的项目上，想办法让它们更好用一点。&lt;/p&gt;
+&lt;p&gt;对我来说，九月末最值得记住的还是拼豆糕手。保存一张未完成的图，准备好需要的颜色，今天拼一些，下次接着拼。现在它能照顾到更多这样的日常了。&lt;/p&gt;</description></item><item><title>BLOCK / OPS · 方寸城市：我用 Astra 做了一款微型城市 FPS</title><link>https://blog.danzaii.cn/p/block-ops-voxel-city/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/block-ops-voxel-city/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post BLOCK / OPS · 方寸城市：我用 Astra 做了一款微型城市 FPS" /&gt;&lt;p&gt;9 月项目回顾里没有把这款游戏写进去，因为它已经不只是“顺手做了一个小东西”，值得单独留一篇。&lt;/p&gt;
 &lt;p&gt;游戏叫 &lt;strong&gt;BLOCK / OPS · 方寸城市&lt;/strong&gt;，现在可以直接在线玩：&lt;/p&gt;
 
  &lt;blockquote&gt;
