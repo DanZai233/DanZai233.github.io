@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI绘图 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/</link><description>Recent content in AI绘图 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai%E7%BB%98%E5%9B%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>AI-Image-Studio：把生图做成一间 LUMINA Atelier</title><link>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post AI-Image-Studio：把生图做成一间 LUMINA Atelier" /&gt;&lt;p&gt;最近博客里那组若叶睦的图，背后其实不是一次性的随手生成，而是我自己做的一个 AI 生图项目：&lt;strong&gt;AI-Image-Studio&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;现在它已经部署在 &lt;a class="link" href="https://aipic.danzaii.cn" target="_blank" rel="noopener"
  &gt;aipic.danzaii.cn&lt;/a&gt;，我给它取了一个更像工作室的名字：&lt;strong&gt;LUMINA Atelier&lt;/strong&gt;。比起冷冰冰的「输入 prompt 然后等待图片」，我更希望它像一张干净的创作桌：左边放工作区和灵感画廊，中间写提示词，旁边保留上下文、参考图和已经生成过的版本。你不是在调用一个接口，而是在一间小小的工作室里继续创作。&lt;/p&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-1.png" alt="LUMINA Atelier AI-Image-Studio 封面图" loading="lazy"&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-1.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="LUMINA Atelier AI-Image-Studio 封面图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;h2 id="这是什么"&gt;&lt;a href="#%e8%bf%99%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;这是什么？
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -28,7 +41,20 @@
 &lt;p&gt;这几个功能听上去很工程，但落到体验上其实就是一句话：&lt;strong&gt;让一次次生成变成同一段创作，而不是一堆互不认识的请求。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id="lumina-atelier-的气质"&gt;&lt;a href="#lumina-atelier-%e7%9a%84%e6%b0%94%e8%b4%a8" class="header-anchor"&gt;&lt;/a&gt;LUMINA Atelier 的气质
 &lt;/h2&gt;&lt;p&gt;我把界面做成了偏粉白、玻璃质感、文艺工作室的样子。它不是那种控制台式的工具，也不想装成很严肃的企业后台。它更像一个安静的小房间：你可以上传参考图，可以从标签商店里挑一些画面词，也可以直接用中文描述「我想要什么感觉」。&lt;/p&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-2.png" alt="LUMINA Atelier 创作工作室概念图" loading="lazy"&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-2.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="LUMINA Atelier 创作工作室概念图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;站点里目前有：&lt;/p&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -130,7 +156,20 @@
 &lt;p&gt;它好像已经不只是一个博客入口了。博客、作品集、照片墙、AI 生图工作室、拼豆工具、配色工具、占卜应用、瞄准训练器……这些小站散落在不同的子域名里，但它们其实都指向同一个东西：一个属于我的、不断长出来的个人数字宇宙。&lt;/p&gt;
 &lt;p&gt;所以这次我试着给 danzaii.cn 做一个虚拟形象。不是那种很商业的品牌吉祥物，而是一个能代表这个网站气质、也能代表站点所有者创作习惯的角色。&lt;/p&gt;
 &lt;p&gt;她/他叫：&lt;strong&gt;蛋仔&lt;/strong&gt;。&lt;/p&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="蛋仔 虚拟形象主视觉设定" loading="lazy"&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔 虚拟形象主视觉设定"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;h2 id="danzaiicn-是什么"&gt;&lt;a href="#danzaiicn-%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;danzaii.cn 是什么？
 &lt;/h2&gt;&lt;p&gt;如果只看域名，danzaii.cn 像是一个个人主页。但实际打开之后，会发现它更像一张地图。&lt;/p&gt;
 &lt;h3 id="1-博客一只小羊羔的窝"&gt;&lt;a href="#1-%e5%8d%9a%e5%ae%a2%e4%b8%80%e5%8f%aa%e5%b0%8f%e7%be%8a%e7%be%94%e7%9a%84%e7%aa%9d" class="header-anchor"&gt;&lt;/a&gt;1. 博客：一只小羊羔的窝
@@ -343,34 +382,164 @@
 &lt;/table&gt;
 &lt;p&gt;下面是这次用 AI-Image-Studio 生成出来的一组物料。&lt;/p&gt;
 &lt;h2 id="01-主视觉设定"&gt;&lt;a href="#01-%e4%b8%bb%e8%a7%86%e8%a7%89%e8%ae%be%e5%ae%9a" class="header-anchor"&gt;&lt;/a&gt;01. 主视觉设定
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="蛋仔 主视觉设定" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔 主视觉设定"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;这一张最像完整的人设板。中长发、羊角发饰、相机、发光画笔、猫猫、UI 卡片都在里面。它适合作为「蛋仔」的第一版主视觉，也适合放在关于页或者角色设定页。&lt;/p&gt;
 &lt;h2 id="02-博客页头海报"&gt;&lt;a href="#02-%e5%8d%9a%e5%ae%a2%e9%a1%b5%e5%a4%b4%e6%b5%b7%e6%8a%a5" class="header-anchor"&gt;&lt;/a&gt;02. 博客页头海报
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/02-blog-header.png" alt="danzaii.cn 博客页头海报" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/02-blog-header.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="danzaii.cn 博客页头海报"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;这一张直接把「DANZAII.CN」和「一只小羊羔的窝」放进了画面里。它更像博客首页横幅：有电脑、有猫、有樱花窗、有悬浮网页卡片，整体非常贴合个人博客的温暖感。&lt;/p&gt;
 &lt;h2 id="03-开发者服装"&gt;&lt;a href="#03-%e5%bc%80%e5%8f%91%e8%80%85%e6%9c%8d%e8%a3%85" class="header-anchor"&gt;&lt;/a&gt;03. 开发者服装
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/03-03-developer-outfit.png" alt="蛋仔开发者服装" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/03-03-developer-outfit.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔开发者服装"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;开发者版本更偏黑色 hoodie 和终端氛围。它代表 danzaii.cn 的代码侧：项目、部署、GitHub、深夜 debug，以及「先做出来看看」的行动力。&lt;/p&gt;
 &lt;h2 id="04-摄影服装"&gt;&lt;a href="#04-%e6%91%84%e5%bd%b1%e6%9c%8d%e8%a3%85" class="header-anchor"&gt;&lt;/a&gt;04. 摄影服装
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/04-04-photographer-outfit.png" alt="蛋仔摄影服装" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/04-04-photographer-outfit.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔摄影服装"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;摄影版本对应 photo.danzaii.cn，也就是「所见，所闻」。米色风衣、相机和街灯让角色从纯二次元设定里走出来，变成一个会在现实里记录光线的人。&lt;/p&gt;
 &lt;h2 id="05-ai-工坊服装"&gt;&lt;a href="#05-ai-%e5%b7%a5%e5%9d%8a%e6%9c%8d%e8%a3%85" class="header-anchor"&gt;&lt;/a&gt;05. AI 工坊服装
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/05-ai-atelier-outfit.png" alt="蛋仔 AI 工坊服装" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/05-ai-atelier-outfit.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔 AI 工坊服装"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;这一版是 LUMINA Atelier 的工坊主。粉白外套、发光画笔、漂浮的人设卡和生图界面，代表 AI-Image-Studio 里那种「把灵感慢慢磨成图」的感觉。&lt;/p&gt;
 &lt;h2 id="06-拼豆-q-版贴纸"&gt;&lt;a href="#06-%e6%8b%bc%e8%b1%86-q-%e7%89%88%e8%b4%b4%e7%ba%b8" class="header-anchor"&gt;&lt;/a&gt;06. 拼豆 Q 版贴纸
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/06-pixelbead-chibi.png" alt="蛋仔 Q 版贴纸" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/06-pixelbead-chibi.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔 Q 版贴纸"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;Q 版贴纸可以拿来做表情包、手账贴纸、亚克力挂件。它对应 PixelBead 和更可爱的周边方向，猫猫、相机、像素爱心都可以拆出来单独做小图标。&lt;/p&gt;
 &lt;h2 id="07-天机占卜装"&gt;&lt;a href="#07-%e5%a4%a9%e6%9c%ba%e5%8d%a0%e5%8d%9c%e8%a3%85" class="header-anchor"&gt;&lt;/a&gt;07. 天机占卜装
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/07-07-tianji-mystic.png" alt="蛋仔天机占卜装" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/07-07-tianji-mystic.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔天机占卜装"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;这一张对应 Tianji。星夜紫、塔罗、星盘和柔和神秘学，让角色多了一点「会帮你抽一张牌」的气质。它适合用在占卜类项目的介绍图里。&lt;/p&gt;
 &lt;h2 id="08-猫猫生活照"&gt;&lt;a href="#08-%e7%8c%ab%e7%8c%ab%e7%94%9f%e6%b4%bb%e7%85%a7" class="header-anchor"&gt;&lt;/a&gt;08. 猫猫生活照
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/08-cat-life.png" alt="蛋仔猫猫生活照" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/08-cat-life.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔猫猫生活照"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;生活照版本最接近日常博客。针织衫、猫、电脑、相机和午后光线，像是一篇生活随笔的封面。&lt;/p&gt;
 &lt;h2 id="09-logo-徽章"&gt;&lt;a href="#09-logo-%e5%be%bd%e7%ab%a0" class="header-anchor"&gt;&lt;/a&gt;09. Logo 徽章
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/09-logo-badge.png" alt="蛋仔 Logo 徽章" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/09-logo-badge.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔 Logo 徽章"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;徽章版适合做头像、站点图标、贴纸、徽章或者页脚小标识。它把羊角、樱花、像素星和相机光圈都压缩进了一个更适合识别的小图形里。&lt;/p&gt;
 &lt;h2 id="10-周边海报"&gt;&lt;a href="#10-%e5%91%a8%e8%be%b9%e6%b5%b7%e6%8a%a5" class="header-anchor"&gt;&lt;/a&gt;10. 周边海报
-&lt;/h2&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/10-merch-poster.png" alt="蛋仔周边海报" loading="lazy"&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/danzaii-virtual-persona/10-merch-poster.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="蛋仔周边海报"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;这一张是物料展示：亚克力立牌、贴纸、徽章、明信片、手机壁纸。虽然现在还只是 AI 概念图，但已经能看到这个形象如果继续打磨，可以扩展成一套完整的个人站点周边视觉。&lt;/p&gt;
 &lt;h2 id="最后"&gt;&lt;a href="#%e6%9c%80%e5%90%8e" class="header-anchor"&gt;&lt;/a&gt;最后
 &lt;/h2&gt;&lt;p&gt;这次做蛋仔，其实不是为了给自己强行套一个「人设」。更像是把 danzaii.cn 这几年长出来的东西整理成一个可以被看见的形象。&lt;/p&gt;
@@ -383,12 +552,116 @@
  &lt;/blockquote&gt;</description></item><item><title>若叶睦：一些安静的切片</title><link>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/wakaba-mutsumi-gpt-image-2/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 若叶睦：一些安静的切片" /&gt;&lt;p&gt;最近传了几张木子米的AI图，都是我用 GPT Image-2 生成的。
 AI 太强大啦
 木子米很适合这种安静的画面：不需要太多动作，也不用太满的表情，光是站在那里，就已经有情绪了。睦头人，降临~&lt;/p&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png" alt="若叶睦 AI 图 1" loading="lazy"&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1040g2sg31up2fkhniikg5npl3be08ntd7ofplp8.png" alt="若叶睦 AI 图 2" loading="lazy"&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1776994172558_download.png" alt="若叶睦 AI 图 3" loading="lazy"&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1776994470940_download.png" alt="若叶睦 AI 图 4" loading="lazy"&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1776995900554_download.png" alt="若叶睦 AI 图 5" loading="lazy"&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1776996273253_download.png" alt="若叶睦 AI 图 6" loading="lazy"&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1776997781581_download.png" alt="若叶睦 AI 图 7" loading="lazy"&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/1777000241795_download.png" alt="若叶睦 AI 图 8" loading="lazy"&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png"
+	width="832"
+	height="1216"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 1"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="68"
+		data-flex-basis="164px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1040g2sg31up2fkhniikg5npl3be08ntd7ofplp8.png"
+	width="832"
+	height="1216"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 2"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="68"
+		data-flex-basis="164px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1776994172558_download.png"
+	width="1024"
+	height="1536"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 3"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="66"
+		data-flex-basis="160px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1776994470940_download.png"
+	width="1024"
+	height="1536"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 4"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="66"
+		data-flex-basis="160px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1776995900554_download.png"
+	width="1024"
+	height="1536"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 5"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="66"
+		data-flex-basis="160px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1776996273253_download.png"
+	width="1024"
+	height="1536"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 6"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="66"
+		data-flex-basis="160px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1776997781581_download.png"
+	width="925"
+	height="1700"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 7"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="54"
+		data-flex-basis="130px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/1777000241795_download.png"
+	width="862"
+	height="1824"
+	loading="lazy"
+	
+		alt="若叶睦 AI 图 8"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="47"
+		data-flex-basis="113px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;这一组先放在这里，之后如果再生成到喜欢的版本，也继续往下补。&lt;/p&gt;</description></item></channel></rss>

@@ -1998,7 +1998,20 @@ GitHub：&lt;a class="link" href="https://github.com/DanZai233/AniDeck" target="
 &lt;p&gt;然后把它写进配置里，让工具去执行。这样 Tab 和空格都能安静下来，代码也能少一点无意义的争吵。&lt;/p&gt;</description></item><item><title>AI-Image-Studio：把生图做成一间 LUMINA Atelier</title><link>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/ai-image-studio-lumina-atelier/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post AI-Image-Studio：把生图做成一间 LUMINA Atelier" /&gt;&lt;p&gt;最近博客里那组若叶睦的图，背后其实不是一次性的随手生成，而是我自己做的一个 AI 生图项目：&lt;strong&gt;AI-Image-Studio&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;现在它已经部署在 &lt;a class="link" href="https://aipic.danzaii.cn" target="_blank" rel="noopener"
  &gt;aipic.danzaii.cn&lt;/a&gt;，我给它取了一个更像工作室的名字：&lt;strong&gt;LUMINA Atelier&lt;/strong&gt;。比起冷冰冰的「输入 prompt 然后等待图片」，我更希望它像一张干净的创作桌：左边放工作区和灵感画廊，中间写提示词，旁边保留上下文、参考图和已经生成过的版本。你不是在调用一个接口，而是在一间小小的工作室里继续创作。&lt;/p&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-1.png" alt="LUMINA Atelier AI-Image-Studio 封面图" loading="lazy"&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-1.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="LUMINA Atelier AI-Image-Studio 封面图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;h2 id="这是什么"&gt;&lt;a href="#%e8%bf%99%e6%98%af%e4%bb%80%e4%b9%88" class="header-anchor"&gt;&lt;/a&gt;这是什么？
 &lt;/h2&gt;
  &lt;blockquote&gt;
@@ -2025,7 +2038,20 @@ GitHub：&lt;a class="link" href="https://github.com/DanZai233/AniDeck" target="
 &lt;p&gt;这几个功能听上去很工程，但落到体验上其实就是一句话：&lt;strong&gt;让一次次生成变成同一段创作，而不是一堆互不认识的请求。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id="lumina-atelier-的气质"&gt;&lt;a href="#lumina-atelier-%e7%9a%84%e6%b0%94%e8%b4%a8" class="header-anchor"&gt;&lt;/a&gt;LUMINA Atelier 的气质
 &lt;/h2&gt;&lt;p&gt;我把界面做成了偏粉白、玻璃质感、文艺工作室的样子。它不是那种控制台式的工具，也不想装成很严肃的企业后台。它更像一个安静的小房间：你可以上传参考图，可以从标签商店里挑一些画面词，也可以直接用中文描述「我想要什么感觉」。&lt;/p&gt;
-&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-2.png" alt="LUMINA Atelier 创作工作室概念图" loading="lazy"&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/img/posts/ai-image-studio-lumina-2.png"
+	width="1024"
+	height="1024"
+	loading="lazy"
+	
+		alt="LUMINA Atelier 创作工作室概念图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;站点里目前有：&lt;/p&gt;
 &lt;table&gt;
  &lt;thead&gt;
