@@ -40,12 +40,23 @@
                 "Width" nil
             }}
         {{- else -}}
+            {{ $width := $resource.Width }}
+            {{ $height := $resource.Height }}
+            {{/* Browsers apply EXIF rotation; PhotoSwipe dimensions must match it. */}}
+            {{ if in (slice "jpeg" "tiff") $resource.MediaType.SubType }}
+                {{ with $resource.Exif }}
+                    {{ if in (slice 5 6 7 8) (int (.Tags.Orientation | default 1)) }}
+                        {{ $width = $resource.Height }}
+                        {{ $height = $resource.Width }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
             {{- $result = dict
                 "Local" true
                 "Resource" $resource
                 "Permalink" $resource.RelPermalink
-                "Height" $resource.Height
-                "Width" $resource.Width
+                "Height" $height
+                "Width" $width
             }}
         {{- end -}}
     {{ else if not (in (slice "https" "http") $url.Scheme) }}
@@ -59,6 +70,16 @@
                 {{ with .Value }}
                     {{ $width = .Width }}
                     {{ $height = .Height }}
+                {{ end }}
+            {{ end }}
+            {{ if in (slice ".jpg" ".jpeg" ".tif" ".tiff") (lower (path.Ext $staticPath)) }}
+                {{ $staticResource := resources.FromString (printf "image-metadata/%s" $staticPath) (readFile $filePath) }}
+                {{ with $staticResource.Exif }}
+                    {{ if in (slice 5 6 7 8) (int (.Tags.Orientation | default 1)) }}
+                        {{ $originalWidth := $width }}
+                        {{ $width = $height }}
+                        {{ $height = $originalWidth }}
+                    {{ end }}
                 {{ end }}
             {{ end }}
         {{ end }}
