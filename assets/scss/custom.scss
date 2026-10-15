@@ -134,6 +134,31 @@ a {
 }
 
 .article-content {
+    .gallery {
+        margin-inline: 0;
+        width: 100%;
+        flex-wrap: wrap;
+
+        figure {
+            min-width: 0;
+        }
+    }
+
+    img {
+        max-width: 100%;
+        max-height: unquote("min(480px, 70vh)");
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .gallery figure a.image-link {
+        display: flex;
+        justify-content: center;
+        border-bottom: 0;
+        cursor: zoom-in;
+    }
+
     a {
         color: var(--accent-color);
         border-bottom-color: rgba(212, 97, 155, 0.3);

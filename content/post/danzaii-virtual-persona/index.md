@@ -25,7 +25,7 @@ categories:
 
 <!--more-->
 
-<img src="/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="蛋仔 虚拟形象主视觉设定" loading="lazy">
+![蛋仔 虚拟形象主视觉设定](/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png)
 
 ## danzaii.cn 是什么？
 
@@ -153,61 +153,61 @@ original virtual avatar for the owner of danzaii.cn, androgynous gentle anime ch
 
 ## 01. 主视觉设定
 
-<img src="/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png" alt="蛋仔 主视觉设定" loading="lazy">
+![蛋仔 主视觉设定](/img/posts/danzaii-virtual-persona/01-01-main-key-visual.png)
 
 这一张最像完整的人设板。中长发、羊角发饰、相机、发光画笔、猫猫、UI 卡片都在里面。它适合作为「蛋仔」的第一版主视觉，也适合放在关于页或者角色设定页。
 
 ## 02. 博客页头海报
 
-<img src="/img/posts/danzaii-virtual-persona/02-blog-header.png" alt="danzaii.cn 博客页头海报" loading="lazy">
+![danzaii.cn 博客页头海报](/img/posts/danzaii-virtual-persona/02-blog-header.png)
 
 这一张直接把「DANZAII.CN」和「一只小羊羔的窝」放进了画面里。它更像博客首页横幅：有电脑、有猫、有樱花窗、有悬浮网页卡片，整体非常贴合个人博客的温暖感。
 
 ## 03. 开发者服装
 
-<img src="/img/posts/danzaii-virtual-persona/03-03-developer-outfit.png" alt="蛋仔开发者服装" loading="lazy">
+![蛋仔开发者服装](/img/posts/danzaii-virtual-persona/03-03-developer-outfit.png)
 
 开发者版本更偏黑色 hoodie 和终端氛围。它代表 danzaii.cn 的代码侧：项目、部署、GitHub、深夜 debug，以及「先做出来看看」的行动力。
 
 ## 04. 摄影服装
 
-<img src="/img/posts/danzaii-virtual-persona/04-04-photographer-outfit.png" alt="蛋仔摄影服装" loading="lazy">
+![蛋仔摄影服装](/img/posts/danzaii-virtual-persona/04-04-photographer-outfit.png)
 
 摄影版本对应 photo.danzaii.cn，也就是「所见，所闻」。米色风衣、相机和街灯让角色从纯二次元设定里走出来，变成一个会在现实里记录光线的人。
 
 ## 05. AI 工坊服装
 
-<img src="/img/posts/danzaii-virtual-persona/05-ai-atelier-outfit.png" alt="蛋仔 AI 工坊服装" loading="lazy">
+![蛋仔 AI 工坊服装](/img/posts/danzaii-virtual-persona/05-ai-atelier-outfit.png)
 
 这一版是 LUMINA Atelier 的工坊主。粉白外套、发光画笔、漂浮的人设卡和生图界面，代表 AI-Image-Studio 里那种「把灵感慢慢磨成图」的感觉。
 
 ## 06. 拼豆 Q 版贴纸
 
-<img src="/img/posts/danzaii-virtual-persona/06-pixelbead-chibi.png" alt="蛋仔 Q 版贴纸" loading="lazy">
+![蛋仔 Q 版贴纸](/img/posts/danzaii-virtual-persona/06-pixelbead-chibi.png)
 
 Q 版贴纸可以拿来做表情包、手账贴纸、亚克力挂件。它对应 PixelBead 和更可爱的周边方向，猫猫、相机、像素爱心都可以拆出来单独做小图标。
 
 ## 07. 天机占卜装
 
-<img src="/img/posts/danzaii-virtual-persona/07-07-tianji-mystic.png" alt="蛋仔天机占卜装" loading="lazy">
+![蛋仔天机占卜装](/img/posts/danzaii-virtual-persona/07-07-tianji-mystic.png)
 
 这一张对应 Tianji。星夜紫、塔罗、星盘和柔和神秘学，让角色多了一点「会帮你抽一张牌」的气质。它适合用在占卜类项目的介绍图里。
 
 ## 08. 猫猫生活照
 
-<img src="/img/posts/danzaii-virtual-persona/08-cat-life.png" alt="蛋仔猫猫生活照" loading="lazy">
+![蛋仔猫猫生活照](/img/posts/danzaii-virtual-persona/08-cat-life.png)
 
 生活照版本最接近日常博客。针织衫、猫、电脑、相机和午后光线，像是一篇生活随笔的封面。
 
 ## 09. Logo 徽章
 
-<img src="/img/posts/danzaii-virtual-persona/09-logo-badge.png" alt="蛋仔 Logo 徽章" loading="lazy">
+![蛋仔 Logo 徽章](/img/posts/danzaii-virtual-persona/09-logo-badge.png)
 
 徽章版适合做头像、站点图标、贴纸、徽章或者页脚小标识。它把羊角、樱花、像素星和相机光圈都压缩进了一个更适合识别的小图形里。
 
 ## 10. 周边海报
 
-<img src="/img/posts/danzaii-virtual-persona/10-merch-poster.png" alt="蛋仔周边海报" loading="lazy">
+![蛋仔周边海报](/img/posts/danzaii-virtual-persona/10-merch-poster.png)
 
 这一张是物料展示：亚克力立牌、贴纸、徽章、明信片、手机壁纸。虽然现在还只是 AI 概念图，但已经能看到这个形象如果继续打磨，可以扩展成一套完整的个人站点周边视觉。
 

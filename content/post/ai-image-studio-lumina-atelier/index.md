@@ -21,7 +21,7 @@ categories:
 
 <!--more-->
 
-<img src="/img/posts/ai-image-studio-lumina-1.png" alt="LUMINA Atelier AI-Image-Studio 封面图" loading="lazy">
+![LUMINA Atelier AI-Image-Studio 封面图](/img/posts/ai-image-studio-lumina-1.png)
 
 ## 这是什么？
 
@@ -53,7 +53,7 @@ categories:
 
 我把界面做成了偏粉白、玻璃质感、文艺工作室的样子。它不是那种控制台式的工具，也不想装成很严肃的企业后台。它更像一个安静的小房间：你可以上传参考图，可以从标签商店里挑一些画面词，也可以直接用中文描述「我想要什么感觉」。
 
-<img src="/img/posts/ai-image-studio-lumina-2.png" alt="LUMINA Atelier 创作工作室概念图" loading="lazy">
+![LUMINA Atelier 创作工作室概念图](/img/posts/ai-image-studio-lumina-2.png)
 
 站点里目前有：
 

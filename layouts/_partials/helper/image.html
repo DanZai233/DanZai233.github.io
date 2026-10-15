@@ -49,18 +49,25 @@
             }}
         {{- end -}}
     {{ else if not (in (slice "https" "http") $url.Scheme) }}
-        {{/*
-            Stack's upstream helper only checks page resources. This blog keeps
-            many migrated cover images under /static/img/posts, so return a
-            lightweight static URL fallback when no page bundle resource exists.
-        */}}
+        {{/* Static images need dimensions to participate in Stack's native gallery. */}}
         {{ $staticPath := strings.TrimPrefix "/" .Image }}
+        {{ $width := 0 }}
+        {{ $height := 0 }}
+        {{ $filePath := path.Join "static" $staticPath }}
+        {{ if and (fileExists $filePath) (ne (lower (path.Ext $staticPath)) ".svg") }}
+            {{ with try (images.Config $filePath) }}
+                {{ with .Value }}
+                    {{ $width = .Width }}
+                    {{ $height = .Height }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
         {{ $result = dict
             "Local" false
             "Resource" nil
             "Permalink" ($staticPath | relURL)
-            "Height" nil
-            "Width" nil
+            "Height" $height
+            "Width" $width
         }}
     {{ end }}
 {{ end }}

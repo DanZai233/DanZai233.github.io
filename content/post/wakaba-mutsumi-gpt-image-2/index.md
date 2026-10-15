@@ -20,20 +20,20 @@ AI 太强大啦
 
 <!--more-->
 
-<img src="/img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png" alt="若叶睦 AI 图 1" loading="lazy">
+![若叶睦 AI 图 1](/img/posts/1040g00831uvi31qtjq405npl3be08ntdtpf5tl8.png)
 
-<img src="/img/posts/1040g2sg31up2fkhniikg5npl3be08ntd7ofplp8.png" alt="若叶睦 AI 图 2" loading="lazy">
+![若叶睦 AI 图 2](/img/posts/1040g2sg31up2fkhniikg5npl3be08ntd7ofplp8.png)
 
-<img src="/img/posts/1776994172558_download.png" alt="若叶睦 AI 图 3" loading="lazy">
+![若叶睦 AI 图 3](/img/posts/1776994172558_download.png)
 
-<img src="/img/posts/1776994470940_download.png" alt="若叶睦 AI 图 4" loading="lazy">
+![若叶睦 AI 图 4](/img/posts/1776994470940_download.png)
 
-<img src="/img/posts/1776995900554_download.png" alt="若叶睦 AI 图 5" loading="lazy">
+![若叶睦 AI 图 5](/img/posts/1776995900554_download.png)
 
-<img src="/img/posts/1776996273253_download.png" alt="若叶睦 AI 图 6" loading="lazy">
+![若叶睦 AI 图 6](/img/posts/1776996273253_download.png)
 
-<img src="/img/posts/1776997781581_download.png" alt="若叶睦 AI 图 7" loading="lazy">
+![若叶睦 AI 图 7](/img/posts/1776997781581_download.png)
 
-<img src="/img/posts/1777000241795_download.png" alt="若叶睦 AI 图 8" loading="lazy">
+![若叶睦 AI 图 8](/img/posts/1777000241795_download.png)
 
 这一组先放在这里，之后如果再生成到喜欢的版本，也继续往下补。
