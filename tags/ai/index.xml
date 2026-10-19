@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai/</link><description>Recent content in AI on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>最近又做了些什么：WebAsk、Hugo Studio 与服务状态页</title><link>https://blog.danzaii.cn/p/recent-projects-sep-2026/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-sep-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又做了些什么：WebAsk、Hugo Studio 与服务状态页" /&gt;&lt;p&gt;距离上一篇项目回顾过去了一个多月。原本以为这段时间会稍微歇一下，结果 GitHub 并没有安静下来。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/ai/</link><description>Recent content in AI on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>最近在折腾什么：光影相框、Muse 和纸上逢</title><link>https://blog.danzaii.cn/p/recent-projects-oct-2026/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-oct-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近在折腾什么：光影相框、Muse 和纸上逢" /&gt;&lt;p&gt;最近做了一个给照片加相框的小工具，叫 &lt;strong&gt;LuminaFrame，光影相框&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;打开网页，放进一张照片，裁一下画幅，试试颜色，再把相机参数和签名排在边框上，就能导出。下面是用项目内置样片做出来的效果。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/recent-projects-oct-2026/lumina-result.jpg"
+	width="1504"
+	height="830"
+	loading="lazy"
+	
+		alt="LuminaFrame 导出的 XPAN 宽幅相框，照片和拍摄参数均来自项目内置演示样例"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="181"
+		data-flex-basis="434px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;另外，Muse 和缪斯信笺也继续更新了一轮。一个补了从大纲到正文、再到翻页阅读的流程；另一个新开了真人通信的入口，叫「纸上逢」。之前已经介绍过它们，这次就只记新做的部分。&lt;/p&gt;
+&lt;h2 id="luminaframe给照片装个框"&gt;&lt;a href="#luminaframe%e7%bb%99%e7%85%a7%e7%89%87%e8%a3%85%e4%b8%aa%e6%a1%86" class="header-anchor"&gt;&lt;/a&gt;LuminaFrame：给照片装个框
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;体验：&lt;a class="link" href="https://lumina-frame-mu.vercel.app/" target="_blank" rel="noopener"
+ &gt;光影相框&lt;/a&gt; · 仓库：&lt;a class="link" href="https://github.com/DanZai233/LuminaFrame" target="_blank" rel="noopener"
+ &gt;DanZai233/LuminaFrame&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;这个工具的事情很具体：&lt;strong&gt;裁切、调色、加框、导出&lt;/strong&gt;。都在浏览器里完成，照片不用传到服务器，也不用配置模型接口。选中本地文件后，就可以开始调整。&lt;/p&gt;
+&lt;h3 id="先重新取个景"&gt;&lt;a href="#%e5%85%88%e9%87%8d%e6%96%b0%e5%8f%96%e4%b8%aa%e6%99%af" class="header-anchor"&gt;&lt;/a&gt;先重新取个景
+&lt;/h3&gt;&lt;p&gt;我给它放了十二种画幅比例，包括常见的 3:2、4:3、1:1、竖版的 4:5，以及 XPAN 的 65:24 宽幅，也可以保留原图比例。&lt;/p&gt;
+&lt;p&gt;宽幅很容易让人玩上头。同一张街景，上下裁掉一些，街道、行人和两侧的灯牌就换了一种关系。只是裁一下，又愿意多看几眼。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/recent-projects-oct-2026/lumina-crop.jpg"
+	width="1440"
+	height="1050"
+	loading="lazy"
+	
+		alt="裁切工作台：保留完整原图作为参考，拖动取景框和边角调整构图"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="329px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最初的裁切交互没那么顺手，后来改成了现在这样：完整原图留在画面里，取景框可以拖动，边缘和四角也能拉。框外的东西仍然看得见，比较容易判断自己到底裁掉了什么。&lt;/p&gt;
+&lt;p&gt;还加了小角度旋转，可以扶正拍歪的地平线。旋转后会自动补足画面，避免四角露空，也不让照片盖到相框上。这些都是小地方，但鼠标拖起来的时候，很容易察觉好不好用。&lt;/p&gt;
+&lt;h3 id="再试试颜色和相框"&gt;&lt;a href="#%e5%86%8d%e8%af%95%e8%af%95%e9%a2%9c%e8%89%b2%e5%92%8c%e7%9b%b8%e6%a1%86" class="header-anchor"&gt;&lt;/a&gt;再试试颜色和相框
+&lt;/h3&gt;&lt;p&gt;胶片预设里放了 Portra、Classic Chrome、Velvia、Tri-X、CineStill 等几种方向，可以调强度和颗粒，也能直接保留原片。&lt;/p&gt;
+&lt;p&gt;这里做的是滤镜参数和颗粒效果，给照片试一种颜色。名字取自熟悉的胶卷和机身风格，实际效果还是看照片本身，不能当成真实胶片的严格还原。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/recent-projects-oct-2026/lumina-film.jpg"
+	width="1440"
+	height="1050"
+	loading="lazy"
+	
+		alt="胶片预设面板：这里选用了 Fuji Classic Chrome，强度和颗粒可以单独调整"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="329px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;相框也准备了几种：带齿孔的 XPAN 底片、白卡装裱、暗色边框、拍立得，以及只在底部保留参数的样式。留白、底色、圆角、签名都可以改。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/recent-projects-oct-2026/lumina-frame.jpg"
+	width="1440"
+	height="1050"
+	loading="lazy"
+	
+		alt="切换到白卡装裱，使用项目内置的山景样片预览边框和参数排版"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="329px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;照片里的 EXIF 会自动读取，包括机身、镜头、焦段、光圈、快门和 ISO。读取不到或者想补充时，也能手动填写。底下那排色块则是从照片里提取的主色。&lt;/p&gt;
+&lt;p&gt;做相框有一点像给照片挑衣服。换一个底色，多留一点空白，感觉就不一样了。选来选去，时间也就过去了。&lt;/p&gt;
+&lt;h3 id="最后把它导出来"&gt;&lt;a href="#%e6%9c%80%e5%90%8e%e6%8a%8a%e5%ae%83%e5%af%bc%e5%87%ba%e6%9d%a5" class="header-anchor"&gt;&lt;/a&gt;最后把它导出来
+&lt;/h3&gt;&lt;p&gt;导出支持 PNG 和 JPG，也可以选择不同倍率。相框和文字由 Canvas 重新绘制，输出的是一张完整图片。&lt;/p&gt;
+&lt;p&gt;这部分也修过一些很具体的问题，比如镜头名称太长时和机身名称撞在一起；还有照片旋转后，预览看着正常，导出的画面却越过边框。最后把预览和导出的裁切、旋转逻辑对齐，才算把这个流程接好。&lt;/p&gt;
+&lt;p&gt;技术上用的是 React、TypeScript、Vite，EXIF 交给 &lt;code&gt;exifr&lt;/code&gt; 读取，成品用 Canvas 2D 渲染。整个项目是纯静态的，部署起来也省心。&lt;/p&gt;
+&lt;p&gt;文章里的截图都用了项目自带的演示样片，里面的拍摄参数和署名也是示例。打开网站可以直接拿它们试，不用先翻自己的相册。&lt;/p&gt;
+&lt;h2 id="muse从大纲写到正文也能翻着读"&gt;&lt;a href="#muse%e4%bb%8e%e5%a4%a7%e7%ba%b2%e5%86%99%e5%88%b0%e6%ad%a3%e6%96%87%e4%b9%9f%e8%83%bd%e7%bf%bb%e7%9d%80%e8%af%bb" class="header-anchor"&gt;&lt;/a&gt;Muse：从大纲写到正文，也能翻着读
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;体验：&lt;a class="link" href="https://imuse.chat/" target="_blank" rel="noopener"
+ &gt;Muse&lt;/a&gt; · 仓库：&lt;a class="link" href="https://github.com/DanZai233/aicho-muse" target="_blank" rel="noopener"
+ &gt;DanZai233/aicho-muse&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;Muse 这次主要补了两件事：怎么把一本书开始写下来，以及写完以后怎么读。&lt;/p&gt;
+&lt;p&gt;现在规划大纲前，可以先交代目标、读者、口吻、希望覆盖的内容，以及不想写的东西。生成后先看预览，修改章节标题和说明，再选择要采用的部分。这些写作约定会跟着作品保存，后面写正文时继续使用。&lt;/p&gt;
+&lt;p&gt;选中一个大纲节点，可以让它结合全书目录、人物设定和前章结尾写正文。生成的内容仍然要先预览、再确认，采用后保存成新章节，已有的文字留着。&lt;/p&gt;
+&lt;p&gt;这一轮也补了草稿保存和改写采纳的保护。写作工具可以慢一点给出建议，自己写下来的东西得先保住。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/recent-projects-oct-2026/muse-workspace.jpg"
+	width="1432"
+	height="895"
+	loading="lazy"
+	
+		alt="Muse 仓库中已有的写作台截图，用于展示工作区布局；本轮大纲策划和阅读器更新以文中说明为准"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="384px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;另一个更新是公开书籍页的分页阅读器。可以单页、双页阅读，换字号、行距、字体和纸张主题，也支持目录跳章和记住阅读位置。手机上会自动用单页。&lt;/p&gt;
+&lt;p&gt;写的时候盯着编辑框，读的时候翻一翻书页，两种感觉还是有差别。能把内容安静地看完，也是创作工具该照顾到的事。&lt;/p&gt;
+&lt;h2 id="缪斯信笺这次可以写给真人了"&gt;&lt;a href="#%e7%bc%aa%e6%96%af%e4%bf%a1%e7%ac%ba%e8%bf%99%e6%ac%a1%e5%8f%af%e4%bb%a5%e5%86%99%e7%bb%99%e7%9c%9f%e4%ba%ba%e4%ba%86" class="header-anchor"&gt;&lt;/a&gt;缪斯信笺：这次可以写给真人了
+&lt;/h2&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;体验：&lt;a class="link" href="https://letter.imuse.chat/" target="_blank" rel="noopener"
+ &gt;缪斯信笺&lt;/a&gt; · 真人慢信：&lt;a class="link" href="https://letter.imuse.chat/paper" target="_blank" rel="noopener"
+ &gt;纸上逢&lt;/a&gt; · 仓库：&lt;a class="link" href="https://github.com/DanZai233/aicho-muse-letter" target="_blank" rel="noopener"
+ &gt;DanZai233/aicho-muse-letter&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;p&gt;之前的信笺，是给喜欢的角色写信，再听一封 AI 回信。这个入口还在；新加的「纸上逢」，则是和真人交换慢信。&lt;/p&gt;
+&lt;p&gt;它和 Muse 共用账号。填一张寄信名片，写下笔名、城市、语言和兴趣，就可以寄出一封信等待相遇，也可以先检查信箱，看看有没有合适的来信。没有信的时候就等一等，不会用 AI 生成一个假笔友来填空。&lt;/p&gt;
+&lt;p&gt;邮程按城市之间的距离计算，大约八到四十八小时；城市默认不向笔友公开，也不需要精确定位。同一邮路里，收信人的第一次回信即时到达，之后再按距离慢慢寄。&lt;/p&gt;
+&lt;p&gt;我还给它加了信封、邮票、祝福卡和明信片。可以选预设插画，也能上传自己的图片做明信片。信到了以后，要拆开才能看到正文和附件。&lt;/p&gt;
+&lt;p&gt;每天可以领取第一封匿名来信，回复这一封以后，才能再领取第二封，一天最多两封。已有笔友之间的正常通信不占这个新相遇的额度。希望每一封拿到手里的信，都能有机会被认真读一读。&lt;/p&gt;
+&lt;p&gt;AI 仍然能帮忙，不过真人通信里的辅助改成了起草、润色和续写。先给出一份可编辑的草稿，自己确认后才寄出，并标注 AI 辅助。这里也专门把“帮我写信”和“扮演对方回信”分开了，免得写着写着，把寄信人和收信人的位置搞反。&lt;/p&gt;
+&lt;p&gt;原来的 AI 信笺也补了信箱分页、按对象查看往来、接着写信，以及整封朗读的播放控制。账号打通以后，登录状态下的信可以跨浏览器查看；原先匿名写的信仍保留在旧信箱入口里。&lt;/p&gt;
+&lt;h2 id="最近大概就是这些"&gt;&lt;a href="#%e6%9c%80%e8%bf%91%e5%a4%a7%e6%a6%82%e5%b0%b1%e6%98%af%e8%bf%99%e4%ba%9b" class="header-anchor"&gt;&lt;/a&gt;最近大概就是这些
+&lt;/h2&gt;&lt;p&gt;十月这段时间，一边修老项目，一边又开了一个照片工具。Muse 用来写东西，信笺用来通信，LuminaFrame 用来整理照片，倒是都和日常想留下来的东西有关。&lt;/p&gt;
+&lt;p&gt;相框可以反复换，草稿也可以慢慢改。先把它们做得顺手一点，自己也能多用几次。&lt;/p&gt;</description></item><item><title>最近又做了些什么：WebAsk、Hugo Studio 与服务状态页</title><link>https://blog.danzaii.cn/p/recent-projects-sep-2026/</link><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-sep-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近又做了些什么：WebAsk、Hugo Studio 与服务状态页" /&gt;&lt;p&gt;距离上一篇项目回顾过去了一个多月。原本以为这段时间会稍微歇一下，结果 GitHub 并没有安静下来。&lt;/p&gt;
 &lt;p&gt;从 9 月 3 日的 Hugo Post Manager，到今天刚推上去的 DSH WebAsk，中间还穿插了服务状态页、UniLLM SDK，以及 Muse、MuseLetter 和 Hitokoto 的持续迭代。更明显的变化是，这些项目开始互相连接了，不再只是一张张彼此独立的作品卡片。&lt;/p&gt;
 &lt;p&gt;这篇文章的封面就是我现在正在用的 &lt;strong&gt;DeepSeek Harness&lt;/strong&gt;。最近主力开发环境换成了它，越用越觉得不赖。它给自定义留的空间很大，界面、工作区、智能体、工具和插件都能按自己的习惯重新组合。我还把主题换成了粉粉嫩嫩的一套。&lt;/p&gt;
 &lt;p&gt;对，粉色全肯定。&lt;/p&gt;
