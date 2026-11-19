@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目总结 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/</link><description>Recent content in 项目总结 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml"/><item><title>最近在折腾什么：光影相框、Muse 和纸上逢</title><link>https://blog.danzaii.cn/p/recent-projects-oct-2026/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-oct-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近在折腾什么：光影相框、Muse 和纸上逢" /&gt;&lt;p&gt;最近做了一个给照片加相框的小工具，叫 &lt;strong&gt;LuminaFrame，光影相框&lt;/strong&gt;。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>项目总结 on 一只小羊羔的窝</title><link>https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/</link><description>Recent content in 项目总结 on 一只小羊羔的窝</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.danzaii.cn/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml"/><item><title>表情仓 StickerVault：把散落在聊天软件里的表情收在一起</title><link>https://blog.danzaii.cn/p/sticker-vault/</link><pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/sticker-vault/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 表情仓 StickerVault：把散落在聊天软件里的表情收在一起" /&gt;&lt;p&gt;最近又做了一个小工具，叫 &lt;strong&gt;表情仓，StickerVault&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;名字已经把用途说得差不多了：给表情包找一个能放在一起、也能随手拿出来的地方。&lt;/p&gt;
+&lt;p&gt;聊天时偶尔会遇到这种情况：明明记得自己存过一张特别合适的图，但它到底在微信收藏、QQ 收藏，还是电脑某个文件夹里？等翻出来，话题可能都已经过去了。&lt;/p&gt;
+&lt;p&gt;于是我给这些散落的表情做了一个本地素材库。把原文件收进来，按名称、标签或来源搜索，找到以后复制或者拖出去继续用。动图也要好好留着，不能收藏的时候还在动，拿出来就只剩一张静态图。&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;a class="link" href="https://github.com/DanZai233/sticker-vault" target="_blank" rel="noopener"
+ &gt;DanZai233/sticker-vault&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/sticker-vault/library.png"
+	width="2480"
+	height="1660"
+	loading="lazy"
+	
+		alt="表情仓素材库：左侧按使用方式和来源分类，右侧用卡片浏览表情"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="149"
+		data-flex-basis="358px"
+	
+&gt;&lt;/p&gt;
+&lt;h2 id="先给表情找个家"&gt;&lt;a href="#%e5%85%88%e7%bb%99%e8%a1%a8%e6%83%85%e6%89%be%e4%b8%aa%e5%ae%b6" class="header-anchor"&gt;&lt;/a&gt;先给表情找个家
+&lt;/h2&gt;&lt;p&gt;表情仓是一个基于 Electron 的桌面应用，提供 macOS、Windows 和 Linux 安装包。&lt;/p&gt;
+&lt;p&gt;打开主窗口，左边是全部表情、最近使用、我的常用、动态表情，以及按来源划分的入口；右边是搜索框和表情卡片。整体用了偏浅的底色和绿色，想让它看起来像一个安安静静待在电脑里的小收纳柜。&lt;/p&gt;
+&lt;p&gt;截图时，库里已经有 &lt;strong&gt;1775 个表情，其中 585 个动图&lt;/strong&gt;。到这个数量，靠滚动一张张找就有点考验耐心了，所以搜索、常用和最近使用都很实际。&lt;/p&gt;
+&lt;p&gt;导入的方式也尽量直接：点「导入表情」选择图片，或者把文件、文件夹拖进窗口。如果平时有固定存表情的目录，也可以关联成收集文件夹，在应用运行时定期检查新增内容。&lt;/p&gt;
+&lt;p&gt;同一张图从不同地方收进来，会按文件内容的 SHA-256 去重。文件名变了，也不用再占一个位置。&lt;/p&gt;
+&lt;h2 id="动图要留下原来的样子"&gt;&lt;a href="#%e5%8a%a8%e5%9b%be%e8%a6%81%e7%95%99%e4%b8%8b%e5%8e%9f%e6%9d%a5%e7%9a%84%e6%a0%b7%e5%ad%90" class="header-anchor"&gt;&lt;/a&gt;动图要留下原来的样子
+&lt;/h2&gt;&lt;p&gt;这次很在意的一件事，是 &lt;strong&gt;保留原件&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;表情仓支持 GIF、PNG/APNG、JPG 和 WebP，识别时会检查文件内容。保存、复制、拖出和导出都不重新编码、不压缩，动态预览也直接读取原件。&lt;/p&gt;
+&lt;p&gt;这听起来像一个实现细节，但对表情包来说很重要。有些图的笑点就在那几帧停顿和动作里，换成缩略图，味道就没了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/sticker-vault/detail.png"
+	width="2480"
+	height="1660"
+	loading="lazy"
+	
+		alt="动图详情：查看格式、大小和来源，也可以修改名称、标签，或复制、导出原文件"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="149"
+		data-flex-basis="358px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;双击卡片可以打开详情，改名称、补标签、设为常用，也能导出原文件或在文件夹里找到它。&lt;/p&gt;
+&lt;p&gt;不过，保留动画原件和聊天软件最终怎么显示，是两件事。接收软件可能把拖进去的内容当图片，也可能当文件附件；动态 WebP、APNG 也未必都能直接播放。目前表情仓不会把它们统一转成 GIF，接收端不支持时，可以导出原件再选择文件发送。&lt;/p&gt;
+&lt;p&gt;至少在收进仓库的这一步，先把完整的东西留住。&lt;/p&gt;
+&lt;h2 id="把几个来源接起来"&gt;&lt;a href="#%e6%8a%8a%e5%87%a0%e4%b8%aa%e6%9d%a5%e6%ba%90%e6%8e%a5%e8%b5%b7%e6%9d%a5" class="header-anchor"&gt;&lt;/a&gt;把几个来源接起来
+&lt;/h2&gt;&lt;p&gt;除了手动导入，我也做了 QQ、微信和抖音的收藏接入。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/sticker-vault/collection.png"
+	width="2480"
+	height="1660"
+	loading="lazy"
+	
+		alt="自动收集设置：各来源分别显示连接状态，微信的部分失败也会明确展示"
+	
+ 
+	
+		class="gallery-image" 
+		data-flex-grow="149"
+		data-flex-basis="358px"
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这部分实际做下来，最麻烦的是几个平台的收藏存储方式完全不同。&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;来源&lt;/th&gt;
+ &lt;th&gt;怎么收集&lt;/th&gt;
+ &lt;th&gt;目前需要注意的地方&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;QQ&lt;/td&gt;
+ &lt;td&gt;定位个人收藏缓存中的 &lt;code&gt;Ori&lt;/code&gt; 原件，定期增量检查&lt;/td&gt;
+ &lt;td&gt;Mac 个人收藏已实测；未缓存的表情需要先在 QQ 收藏面板打开，Windows/Linux 路径适配仍属实验性&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;微信&lt;/td&gt;
+ &lt;td&gt;macOS / Windows 使用随包附带的第三方助手读取收藏&lt;/td&gt;
+ &lt;td&gt;首次流程随系统不同；macOS 需要退出原微信、登录助手准备的副本，Windows 需保持微信 4.x 登录；Linux 可手动导入&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;抖音&lt;/td&gt;
+ &lt;td&gt;在独立官方网页窗口登录，收集已加载的收藏列表&lt;/td&gt;
+ &lt;td&gt;需要打开私信收藏表情面板并向下滚动，不是后台无人值守的全量同步&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;本地文件夹&lt;/td&gt;
+ &lt;td&gt;关联目录，定期扫描新增图片&lt;/td&gt;
+ &lt;td&gt;应用运行期间有效&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;QQ 这边只取个人收藏原件，跳过缩略图；抖音的动态表情只下载动画地址，失败了就显示失败，不拿静态预览凑数。&lt;/p&gt;
+&lt;p&gt;微信接入依赖第三方助手，并非官方开放接口。macOS 流程会在本机复制、重签名并运行微信副本，不修改原微信安装，但后续客户端更新仍可能让这套流程失效。具体操作和权限说明放在了仓库 README 里。&lt;/p&gt;
+&lt;p&gt;截图里的微信状态就是「部分完成」：有重复项被跳过，也有下载失败和不可识别的资源。能导入多少、哪里没成功，应该直接告诉使用的人，之后才知道该不该重试。&lt;/p&gt;
+&lt;h2 id="用的时候最好不用找窗口"&gt;&lt;a href="#%e7%94%a8%e7%9a%84%e6%97%b6%e5%80%99%e6%9c%80%e5%a5%bd%e4%b8%8d%e7%94%a8%e6%89%be%e7%aa%97%e5%8f%a3" class="header-anchor"&gt;&lt;/a&gt;用的时候，最好不用找窗口
+&lt;/h2&gt;&lt;p&gt;把表情存好以后，下一件事就是让它容易拿出来。&lt;/p&gt;
+&lt;p&gt;主窗口里单击表情会复制原文件，也可以直接拖动卡片到聊天窗口。但每次都切回主窗口，还是多了一步，所以我又做了菜单栏 / 系统托盘快捷面板。&lt;/p&gt;
+&lt;p&gt;点菜单栏图标，或者按 &lt;strong&gt;⌘ / Ctrl + Shift + E&lt;/strong&gt;，就能叫出一个带搜索和缩略图的小面板，切换最近使用、常用或全部表情。搜索覆盖整个素材库，列表也可以继续加载。&lt;/p&gt;
+&lt;p&gt;我更希望它成为这样一个动作：聊到一半，按快捷键，找张图，用完就继续聊天。&lt;/p&gt;
+&lt;p&gt;macOS 还支持在授予辅助功能权限后，记住打开面板前的应用，选中表情后恢复那个应用并执行粘贴。它不会自动按回车发送消息，最后发不发仍然自己决定。&lt;/p&gt;
+&lt;p&gt;没有授权也能复制原文件，再回聊天窗口手动粘贴。Windows 和 Linux 目前主要提供复制和拖出，自动恢复应用并粘贴的能力还没有实现。&lt;/p&gt;
+&lt;p&gt;「最近使用」记录的也是在表情仓里的使用操作，不读取聊天软件的发送历史，更不能判断一次拖拽最后有没有成功发出去。&lt;/p&gt;
+&lt;h2 id="文件名记不住让图片里的字帮忙"&gt;&lt;a href="#%e6%96%87%e4%bb%b6%e5%90%8d%e8%ae%b0%e4%b8%8d%e4%bd%8f%e8%ae%a9%e5%9b%be%e7%89%87%e9%87%8c%e7%9a%84%e5%ad%97%e5%b8%ae%e5%bf%99" class="header-anchor"&gt;&lt;/a&gt;文件名记不住，让图片里的字帮忙
+&lt;/h2&gt;&lt;p&gt;很多表情导入以后，名字都是一长串字符。像截图里的文件名，光看名字几乎猜不出是什么。&lt;/p&gt;
+&lt;p&gt;新版里加了 &lt;strong&gt;后台 OCR 自动标签&lt;/strong&gt;：用随安装包附带的本地简体中文和英文模型识别图片文字，提取标签，识别全文也可以参与搜索。这样找带字的表情时，就多了一个入口，不用每张都手动起名。&lt;/p&gt;
+&lt;p&gt;模型在本地运行，识别不上传图片。后台一张张慢慢处理，可以暂停，下次启动接着处理剩余内容；处理记录按原件内容哈希保存，避免反复折腾同一张图。&lt;/p&gt;
+&lt;p&gt;它也有很明确的局限：小字、花字、模糊背景可能认不准，动图只取一帧，后面几帧出现的字可能漏掉。它做的是文字检索，不会自动理解一张猫猫图到底是开心、委屈还是阴阳怪气。&lt;/p&gt;
+&lt;p&gt;所以名称、标签仍然可以自己修改。机器先帮忙做一点，人再补上自己会怎么找这张图。&lt;/p&gt;
+&lt;h2 id="桌面工具里那些看不见的小事"&gt;&lt;a href="#%e6%a1%8c%e9%9d%a2%e5%b7%a5%e5%85%b7%e9%87%8c%e9%82%a3%e4%ba%9b%e7%9c%8b%e4%b8%8d%e8%a7%81%e7%9a%84%e5%b0%8f%e4%ba%8b" class="header-anchor"&gt;&lt;/a&gt;桌面工具里那些看不见的小事
+&lt;/h2&gt;&lt;p&gt;技术上，主干是 Electron 和本地文件存储：窗口、托盘、全局快捷键、原生文件拖拽，以及各来源的导入适配。macOS 额外做了原生剪贴板和粘贴助手，OCR 则放在隔离的识别进程里。&lt;/p&gt;
+&lt;p&gt;表情原件和元数据都保存在本机，没有云同步、广告或统计服务。连接平台来源时，仍会访问相应的官方网站或图片 CDN；「本地保存」不等于所有功能都不联网。&lt;/p&gt;
+&lt;p&gt;备份也需要留意：只导出图片，带不走标签和常用状态。如果想完整备份，需要退出应用后复制整个 &lt;code&gt;vault/&lt;/code&gt; 目录，把原件和元数据一起留住。&lt;/p&gt;
+&lt;p&gt;关闭主窗口以后，应用可以继续待在菜单栏或系统托盘里收集；真正退出要从托盘菜单操作。新版也补了可选的登录后自动启动，默认关闭，开启后在后台待着，需要时再叫出来。&lt;/p&gt;
+&lt;p&gt;这些地方没有表情卡片那么显眼，但一个工具能不能长期放在电脑里，往往就取决于它平时是否省心。&lt;/p&gt;
+&lt;h2 id="给自己的表情包留个位置"&gt;&lt;a href="#%e7%bb%99%e8%87%aa%e5%b7%b1%e7%9a%84%e8%a1%a8%e6%83%85%e5%8c%85%e7%95%99%e4%b8%aa%e4%bd%8d%e7%bd%ae" class="header-anchor"&gt;&lt;/a&gt;给自己的表情包留个位置
+&lt;/h2&gt;&lt;p&gt;做这种小工具的乐趣，是需求特别具体。&lt;/p&gt;
+&lt;p&gt;看到一张图想存下来，存完以后想找得到，找到以后想顺手发出去。一路做下去，就会碰到格式、缓存、系统权限、剪贴板和接收软件兼容性这些问题。每解决一点，日常使用就顺一点。&lt;/p&gt;
+&lt;p&gt;现在的表情仓已经可以把这条流程串起来了。跨平台安装包也配了构建，不过各聊天软件的真实账号和权限环境仍需要继续验证，具体支持范围以仓库说明为准。&lt;/p&gt;
+&lt;p&gt;如果你也有一堆散落在不同地方的表情，可以来看看：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;源码：&lt;a class="link" href="https://github.com/DanZai233/sticker-vault" target="_blank" rel="noopener"
+ &gt;DanZai233/sticker-vault&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装包：&lt;a class="link" href="https://github.com/DanZai233/sticker-vault/releases" target="_blank" rel="noopener"
+ &gt;GitHub Releases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望下次聊天时，脑海里闪过的那张图，真的能及时找到。&lt;/p&gt;</description></item><item><title>最近在折腾什么：光影相框、Muse 和纸上逢</title><link>https://blog.danzaii.cn/p/recent-projects-oct-2026/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.danzaii.cn/p/recent-projects-oct-2026/</guid><description>&lt;img src="https://blog.danzaii.cn/" alt="Featured image of post 最近在折腾什么：光影相框、Muse 和纸上逢" /&gt;&lt;p&gt;最近做了一个给照片加相框的小工具，叫 &lt;strong&gt;LuminaFrame，光影相框&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;打开网页，放进一张照片，裁一下画幅，试试颜色，再把相机参数和签名排在边框上，就能导出。下面是用项目内置样片做出来的效果。&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://blog.danzaii.cn/p/recent-projects-oct-2026/lumina-result.jpg"
 	width="1504"
