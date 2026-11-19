@@ -23,6 +23,22 @@ comments: false
 
 <div class="projects-cards">
 
+<div class="project-card" onclick="window.open('https://github.com/DanZai233/sticker-vault', '_blank')">
+  <div class="project-info">
+    <h3 class="project-title">表情仓 StickerVault</h3>
+    <p class="project-desc">本地跨平台表情管理器，收集 QQ、微信、本地文件夹等来源的表情，保留动图原件，支持离线 OCR 标签、搜索、拖拽和菜单栏快捷面板。各平台接入范围以仓库说明为准。</p>
+    <p class="project-tech">Electron / JavaScript / OCR / macOS / Windows / Linux</p>
+    <div class="project-links">
+      <a href="https://github.com/DanZai233/sticker-vault" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="https://github.com/DanZai233/sticker-vault/releases" target="_blank" rel="noopener">📦 下载</a>
+      <a href="/p/sticker-vault/" target="_blank" rel="noopener">📝 札记</a>
+    </div>
+  </div>
+  <div class="project-thumb">
+    <img src="/p/sticker-vault/library.png" alt="表情仓 StickerVault 本地表情素材库" />
+  </div>
+</div>
+
 
 
 <div class="project-card" onclick="window.open('https://github.com/DanZai233/Hugo-Post-Manager', '_blank')">
